@@ -3,19 +3,19 @@
 \contentsline {chapter}{\chapternumberline {1}Background}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Anatomy and Physiology}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Knee}{1}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Pain}{1}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Pattern recognition}{1}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Machine learning}{1}{subsection.1.2.1}
-\contentsline {subsubsection}{Deep Learning}{1}{section*.3}
-\contentsline {chapter}{\chapternumberline {2}Aim of the project}{2}{chapter.2}
-\contentsline {chapter}{\chapternumberline {3}Materials}{3}{chapter.3}
-\contentsline {section}{\numberline {3.1}Pain mapping}{3}{section.3.1}
-\contentsline {section}{\numberline {3.2}Data}{3}{section.3.2}
-\contentsline {section}{\numberline {3.3}Program}{3}{section.3.3}
-\contentsline {chapter}{\chapternumberline {4}Methodology}{4}{chapter.4}
-\contentsline {section}{\numberline {4.1}Subject}{4}{section.4.1}
-\contentsline {section}{\numberline {4.2}Literature Searching}{4}{section.4.2}
-\contentsline {chapter}{\chapternumberline {5}Data Processing and results}{5}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data}{5}{section.5.1}
-\contentsline {chapter}{Bibliography}{6}{section*.5}
-\contentsline {appendix}{\chapternumberline {A}Appendix}{7}{appendix.A}
+\contentsline {subsection}{\numberline {1.1.2}Pain}{2}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Pattern recognition}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Machine learning}{2}{subsection.1.2.1}
+\contentsline {subsubsection}{Deep Learning}{2}{section*.4}
+\contentsline {chapter}{\chapternumberline {2}Aim of the project}{3}{chapter.2}
+\contentsline {chapter}{\chapternumberline {3}Materials}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pain mapping}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}Data}{4}{section.3.2}
+\contentsline {section}{\numberline {3.3}Program}{4}{section.3.3}
+\contentsline {chapter}{\chapternumberline {4}Methodology}{5}{chapter.4}
+\contentsline {section}{\numberline {4.1}Subject}{5}{section.4.1}
+\contentsline {section}{\numberline {4.2}Literature Searching}{5}{section.4.2}
+\contentsline {chapter}{\chapternumberline {5}Data Processing and results}{6}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data}{6}{section.5.1}
+\contentsline {chapter}{Bibliography}{7}{section*.6}
+\contentsline {appendix}{\chapternumberline {A}Appendix}{8}{appendix.A}
