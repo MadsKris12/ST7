@@ -17,4 +17,5 @@
 \contentsline {section}{\numberline {4.2}Literature Searching}{4}{section.4.2}
 \contentsline {chapter}{\chapternumberline {5}Data Processing and results}{5}{chapter.5}
 \contentsline {section}{\numberline {5.1}Data}{5}{section.5.1}
-\contentsline {appendix}{\chapternumberline {A}Appendix}{6}{appendix.A}
+\contentsline {chapter}{Bibliography}{6}{section*.5}
+\contentsline {appendix}{\chapternumberline {A}Appendix}{7}{appendix.A}
