@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  25 SEP 2017 15:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  4 OCT 2017 15:13
 entering extended mode
 **main.tex
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.tex"
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\preambleNy.tex"
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\preambleNy.tex
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
 Document Class: memoir 2011/03/06 v3.6j configurable book, report, article docu
 ment class
@@ -1755,8 +1755,8 @@ Package caption Info: rotating package is loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 ))
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\macros.tex")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.aux")
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\macros.tex)
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -1822,8 +1822,8 @@ Package hyperref Info: Link coloring ON on input line 5.
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
- ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.out")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.out")
+ (C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.out)
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.out)
 \@outlinefile=\write4
 LaTeX Info: Redefining \Ref on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1844,14 +1844,14 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
 \c__siunitx_mathtt_int=\count352
 
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/xFormality/Frontpag
-e.tex") [1
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/xFormality/Frontpage.tex)
+[1
 
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/xFormality/titleShe
-et.tex" <figures/aaulogo-en.png, id=87, 293.095pt x 195.73125pt>
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/xFormality/titleSheet.tex
+<figures/aaulogo-en.png, id=87, 293.095pt x 195.73125pt>
 File: figures/aaulogo-en.png Graphic file (type png)
 
 <use figures/aaulogo-en.png>
@@ -1892,22 +1892,20 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 60--60
 []$[]$ 
  []
 
-
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/xFormality/abstract
-.tex")) [2 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/aaulogo-
-en.png>]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/xFormality/Preface.
-tex"
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/xFormality/abstract.tex))
+[2 <C:/Users/passw/OneDrive/Documents/GitHub/ST7/figures/aaulogo-en.png>]
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/xFormality/Preface.tex
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 2.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )) [3
 
 
 ]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.toc") [4]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/Anatomy.
-tex" <figures/knee.png, id=134, 879.285pt x 433.62pt>
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.toc) [4]
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Background/Anatomy.tex
+<figures/knee.png, id=134, 879.285pt x 433.62pt>
 File: figures/knee.png Graphic file (type png)
  <use figures/knee.png>
 Package pdftex.def Info: figures/knee.png used on input line 19.
@@ -1917,29 +1915,24 @@ Package pdftex.def Info: figures/knee.png used on input line 19.
 
 
 ])
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/Patternr
-e.tex") [2 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/knee.png
->]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/aim.tex"
-) [3
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Background/Patternre.tex)
+[2 <C:/Users/passw/OneDrive/Documents/GitHub/ST7/figures/knee.png>]
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Background/aim.tex)
+[3
 
 ]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Materials/painmappi
-ng.tex")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Materials/Data.tex"
-)
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Materials/Program.t
-ex") [4
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Materials/painmapping.tex)
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Materials/Data.tex)
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Materials/Program.tex)
+[4
 
 ]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Methodology/Subject
-.tex")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Methodology/Literat
-ure.tex") [5
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Methodology/Subject.tex)
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Methodology/Literature.tex
+) [5
 
-]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Data/Data.tex")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.bbl" [6
+] (C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Data/Data.tex)
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.bbl [6
 
 ]) [7
 
@@ -1956,20 +1949,16 @@ See the caption package documentation for explanation.
 \tf@toc=\write5
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.aux")
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E72D4E453842BDF90DA9EB96AF5428D7;1071.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
  26081 strings out of 493921
- 456334 string characters out of 3144831
+ 456034 string characters out of 3144876
  765155 words of memory out of 3000000
  28860 multiletter control sequences out of 15000+200000
  26777 words of font info for 76 fonts, out of 3000000 for 9000
