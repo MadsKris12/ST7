@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  12 OCT 2017 15:34
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  13 OCT 2017 09:31
 entering extended mode
 **main.tex
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.tex"
@@ -1916,14 +1916,14 @@ Package pdftex.def Info: figures/bonestruc.png used on input line 9.
  [1
 
 
- <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/bonestruc.png>] <f
-igures/knee.png, id=148, 879.285pt x 433.62pt>
+ <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/bonestruc.png>]
+<figures/knee.png, id=148, 885.3075pt x 429.85594pt>
 File: figures/knee.png Graphic file (type png)
-
-<use figures/knee.png>
+ <use figures/knee.png>
 Package pdftex.def Info: figures/knee.png used on input line 23.
-(pdftex.def)             Requested size: 441.0pt x 217.47774pt.
- [2 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/knee.png>]
+(pdftex.def)             Requested size: 441.0pt x 214.12723pt.
+
+[2 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/knee.png>]
 
 Package natbib Warning: Citation `Grunnesjo2006' on page 3 undefined on input l
 ine 41.
@@ -1943,7 +1943,7 @@ File: figures/atlas.png Graphic file (type png)
 
 <use figures/atlas.png>
 Package pdftex.def Info: figures/atlas.png used on input line 59.
-(pdftex.def)             Requested size: 308.69865pt x 147.79057pt.
+(pdftex.def)             Requested size: 264.60269pt x 126.681pt.
 )
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/Patternr
 e.tex") [4 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/atlas.pn
@@ -1988,9 +1988,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0F01B1D9CEC196D02215DBD42F7EC5E0;1010.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 0F01B1D9CEC196D02215DBD42F7EC5E0;1010
+(rerunfilecheck)             After:  5D524233183F53441638755E903EC037;1003.
 
 LaTeX Warning: There were undefined references.
 
@@ -2004,22 +2010,25 @@ Here is how much of TeX's memory you used:
  26436 words of font info for 75 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  57i,22n,92p,788b,781s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi1095.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/cm-super/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (14 pages, 2483360 bytes).
+pdfTeX warning (dest): name{section*.10} has been referenced but does not exi
+st, replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi1095.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/cm-super/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/cm-super/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/cm-super/sfti1095.pfb>
+Output written on main.pdf (14 pages, 2416888 bytes).
 PDF statistics:
  287 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 500000)
