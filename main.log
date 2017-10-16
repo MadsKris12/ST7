@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  16 OCT 2017 09:30
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  16 OCT 2017 11:50
 entering extended mode
 **main.tex
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.tex"
@@ -1851,7 +1851,7 @@ e.tex") [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/xFormality/titleShe
-et.tex" <figures/aaulogo-en.png, id=83, 293.095pt x 195.73125pt>
+et.tex" <figures/aaulogo-en.png, id=87, 293.095pt x 195.73125pt>
 File: figures/aaulogo-en.png Graphic file (type png)
 
 <use figures/aaulogo-en.png>
@@ -1906,81 +1906,104 @@ File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 
 ]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.toc") [4]
+("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Methodology/Literat
+ure.tex") [1
+
+
+]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/Anatomy.
-tex" <figures/bonestruc.png, id=128, 492.33937pt x 437.38406pt>
+tex"
+Underfull \hbox (badness 1902) in paragraph at lines 1--2
+\T1/cmr/m/n/10.95 This chapter contains the background knowledge to optimise th
+e understanding of
+ []
+
+<figures/bonestruc.png, id=140, 492.33937pt x 437.38406pt>
 File: figures/bonestruc.png Graphic file (type png)
 
 <use figures/bonestruc.png>
 Package pdftex.def Info: figures/bonestruc.png used on input line 9.
 (pdftex.def)             Requested size: 308.69865pt x 274.25198pt.
- [1
-
+ [2
 
  <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/bonestruc.png>]
-<figures/knee.png, id=148, 885.3075pt x 429.85594pt>
+<figures/knee.png, id=158, 885.3075pt x 429.85594pt>
 File: figures/knee.png Graphic file (type png)
  <use figures/knee.png>
 Package pdftex.def Info: figures/knee.png used on input line 23.
 (pdftex.def)             Requested size: 441.0pt x 214.12723pt.
 
-[2 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/knee.png>]
+[3 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/knee.png>]
 
-Package natbib Warning: Citation `Grunnesjo2006' on page 3 undefined on input l
+Package natbib Warning: Citation `Grunnesjo2006' on page 4 undefined on input l
 ine 41.
 
 
-LaTeX Warning: Reference `painmap' on page 3 undefined on input line 41.
+LaTeX Warning: Reference `painmap' on page 4 undefined on input line 41.
 
-<figures/painmap.png, id=166, 779.91376pt x 1355.0625pt>
+<figures/painmap.png, id=177, 779.91376pt x 1355.0625pt>
 File: figures/painmap.png Graphic file (type png)
 
 <use figures/painmap.png>
 Package pdftex.def Info: figures/painmap.png used on input line 45.
 (pdftex.def)             Requested size: 176.39731pt x 306.468pt.
- [3 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/painmap.png>] <
-figures/atlas.png, id=184, 460.72125pt x 220.57407pt>
+ [4 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/painmap.png>] <
+figures/atlas.png, id=194, 460.72125pt x 220.57407pt>
 File: figures/atlas.png Graphic file (type png)
 
 <use figures/atlas.png>
 Package pdftex.def Info: figures/atlas.png used on input line 59.
 (pdftex.def)             Requested size: 264.60269pt x 126.681pt.
- [4 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/atlas.png>])
+ [5 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/atlas.png>])
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/Patternr
 e.tex"
 
-Package natbib Warning: Citation `Nielsen2010' on page 5 undefined on input lin
+Package natbib Warning: Citation `Nielsen2010' on page 6 undefined on input lin
 e 2.
 
 
-Package natbib Warning: Citation `Jordan2015' on page 5 undefined on input line
+Package natbib Warning: Citation `Jordan2015' on page 6 undefined on input line
  3.
 
-) [5]
+) [6]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/aim.tex"
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-) [6
+) [7
 
 ]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Materials/Data.tex"
+<figures/kneepainmap.png, id=215, 237.88875pt x 605.26125pt>
+File: figures/kneepainmap.png Graphic file (type png)
+
+<use figures/kneepainmap.png>
+Package pdftex.def Info: figures/kneepainmap.png used on input line 9.
+(pdftex.def)             Requested size: 110.25pt x 280.51077pt.
+
+
+Package natbib Warning: Citation `Solutions2015' on page 8 undefined on input l
+ine 16.
+
+[8
+
+ <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/kneepainmap.png (P
+NG copy)>] <figures/Navigatepain.png, id=223, 3173.8575pt x 1541.76pt>
+File: figures/Navigatepain.png Graphic file (type png)
+
+<use figures/Navigatepain.png>
+Package pdftex.def Info: figures/Navigatepain.png used on input line 21.
+(pdftex.def)             Requested size: 441.0pt x 214.22168pt.
 )
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Materials/Program.t
-ex") [7
-
-]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Methodology/Subject
-.tex")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Methodology/Literat
-ure.tex") [8
-
-]
+ex") [9 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/Navigatepai
+n.png>]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Data/Data.tex")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.bbl" [9
+("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.bbl" [10
 
-]) [10
+]) [11
 
 ]
 
@@ -1988,7 +2011,7 @@ Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-[11
+[12
 
 ]
 
@@ -1996,27 +2019,24 @@ Package caption Warning: Unused \captionsetup[table] on input line 118.
 See the caption package documentation for explanation.
 
 \tf@toc=\write5
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5D524233183F53441638755E903EC037;1003.
+(rerunfilecheck)             Checksum: A64E0C1FF112D09FBD9AE0BC1E700DCB;1081.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 26095 strings out of 493921
- 456431 string characters out of 3144831
+ 26108 strings out of 493921
+ 456581 string characters out of 3144831
  765155 words of memory out of 3000000
- 28870 multiletter control sequences out of 15000+200000
+ 28880 multiletter control sequences out of 15000+200000
  26436 words of font info for 75 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  57i,22n,92p,946b,781s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2035,9 +2055,9 @@ eX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX
 /fonts/type1/public/cm-super/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/cm-super/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (15 pages, 2419276 bytes).
+Output written on main.pdf (16 pages, 5108136 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 170 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 309 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
