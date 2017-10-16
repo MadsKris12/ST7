@@ -22,5 +22,5 @@
 \contentsline {section}{\numberline {4.2}Program}{10}{section.4.2}
 \contentsline {chapter}{\chapternumberline {5}Data Processing and results}{11}{chapter.5}
 \contentsline {section}{\numberline {5.1}Data}{11}{section.5.1}
-\contentsline {chapter}{Bibliography}{12}{section*.11}
+\contentsline {chapter}{Bibliography}{12}{section*.12}
 \contentsline {appendix}{\chapternumberline {A}Appendix}{14}{appendix.A}

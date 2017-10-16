@@ -3,8 +3,15 @@
 Information about deep learning (what is deep learning):
 Deep learning is a branch of machine learning. The main difference between the use of ML and deep learning, is that first one is not suitable for handle raw data form. Instead a machine learning system often needs a feature extractor, that will generate a feature vector from the data that can be used as an input for the ML system. \citep{LeCun2015}
 Deep learning is based on different techniques that makes it able to handle that data in its raw form, mainly because of it’s structure. \citep{LeCun2015, Schmidhuber2015}. Because of this the system will automatically detect the necessary representations needed for classification and detection \citep{LeCun2015}. The neural network consists of different layers, that can be divided into a input-layer and an output-layer, with one or more hidden layers in between \citep{LeCun2015, Schmidhuber2015}. The key aspect of these layers is that the features are not defined by programmers, but they are found and learned from raw data using a general – purpose learning procedure. \citep{LeCun2015} An example of the structure can be seen in \autoref{fig:NN_structure}.   
- 
-FIGURE OF A NEURAL NETWORK \label{fig:NN_structure}
+
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=1\textwidth]{figures/NN_structure}
+\caption{BLABLABLA}
+\label{fig:NN_structure}  
+\end{figure}
+
 
 The different layers consist of a series of processors/Neurons/Nodes, where each node is connected to one or several other nodes from a different layer. In the input-layer the nodes are fed with the data that the system is given. The second layer will then receive the output from the previous layer, and this processes continues through the layers until the output-layer is reached. \citep{Schmidhuber2015} An example of how the hidden layers affect the data e.g. an image can be explained as follows:  
 Firstly, the system detects minor changes like edges. Secondly, the edges are compared and put together to make up different kind of shapes. In the third hidden layer, it will be further combined to make up an object that can be identified. \citep{LeCun2015}
