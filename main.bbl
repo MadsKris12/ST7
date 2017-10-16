@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -24,6 +24,13 @@ Emma Briggs.
 \newblock {Understanding the experience and physiology of pain}.
 \newblock 2010.
 
+\bibitem[Grunnesj{\"{o}}(2006)]{Grunnesjo2006}
+Marie Grunnesj{\"{o}}.
+\newblock {The course of pain drawings during a 10-week treatment period in
+  patients with acute and sub-acute low back pain}.
+\newblock 2006.
+\newblock \doi{10.1186/1471-2474-7-65}.
+
 \bibitem[Schott(2010)]{Schott2010}
 Geoffrey~D. Schott.
 \newblock {The cartography of pain: The evolving contribution of pain maps}.
@@ -37,17 +44,85 @@ Shellie~A. Boudreau and Susanne et.al Badsberg.
 \newblock 2016.
 \newblock \doi{10.1097/AJP.0000000000000230}.
 
-\bibitem[Boudreau and et.al. Kamavuako(2017)]{Boudreau2017}
-Shellie~A. Boudreau and E.~N. et.al. Kamavuako.
-\newblock {Distribution and symmetrical patellofemoral pain patterns as
-  revealed by high-resolution 3D body mapping: a cross-sectional study}.
-\newblock 2017.
-\newblock \doi{10.1186/s12891-017-1521-5}.
+\bibitem[Nielsen(2010)]{Nielsen2010}
+Mads Nielsen.
+\newblock \emph{{Den digitale revolution – fort{\ae}llinger fra datalogiens
+  verden}}.
+\newblock Datalogisk Institut, 2010.
+\newblock ISBN 978-87-981270-5-5.
 
-\bibitem[Bayam and et.al. Arumilli(2017)]{Bayam2017}
-Levent Bayam and Rajendra et.al. Arumilli.
-\newblock {Testing shoulder pain mapping}.
-\newblock 2017.
-\newblock \doi{10.1093/pm/pnw326}.
+\bibitem[Jordan and Mitchell(2015)]{Jordan2015}
+M.~I. Jordan and T.~M. Mitchell.
+\newblock {Machine learning: Trends, perspectives, and prospects}.
+\newblock \emph{Science}, 349\penalty0 (6245):\penalty0 255--260, 2015.
+\newblock ISSN 0036-8075.
+\newblock \doi{10.1126/science.aaa8415}.
+\newblock URL \url{http://www.sciencemag.org/cgi/doi/10.1126/science.aaa8415}.
+
+\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Hinton]{LeCun2015}
+Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
+\newblock {Deep Learning}.
+\newblock \emph{Nature Insight Review}, pages 436--444, 2015.
+\newblock \doi{10.1038/nature14539}.
+\newblock URL
+  \url{https://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf}.
+
+\bibitem[Schmidhuber(2015)]{Schmidhuber2015}
+J{\"{u}}rgen Schmidhuber.
+\newblock {Deep Learning in Neural Networks: An Overview}.
+\newblock \emph{Neural Networks}, 61:\penalty0 85--117, 2015.
+\newblock ISSN 18792782.
+\newblock \doi{10.1016/j.neunet.2014.09.003}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0893608014002135}.
+
+\bibitem[Mehryar et~al.(2012)Mehryar, Afshin, and Ameet]{Mehryar2012}
+Mohri Mehryar, Rostamizadeh Afshin, and Talwalka Ameet.
+\newblock \emph{{Foundations of Machine Learning}}.
+\newblock 2012.
+\newblock ISBN 9780262018258.
+\newblock URL
+  \url{https://ebookcentral.proquest.com/lib/aalborguniv-ebooks/reader.action?docID=3339482{\&}ppg=17{\#}}.
+
+\bibitem[Goodfellow et~al.(2016)Goodfellow, Bengio, and
+  Courville]{Goodfellow2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock \emph{{Deep Learning}}.
+\newblock MIT Press, 2016.
+\newblock URL \url{http://www.deeplearningbook.org}.
+
+\bibitem[Acquarelli et~al.(2017)Acquarelli, van Laarhoven, Gerretzen, Tran,
+  Buydens, and Marchiori]{Acquarelli2017}
+Jacopo Acquarelli, Twan van Laarhoven, Jan Gerretzen, Thanh~N. Tran,
+  Lutgarde~M.C. Buydens, and Elena Marchiori.
+\newblock {Convolutional neural networks for vibrational spectroscopic data
+  analysis}.
+\newblock \emph{Analytica Chimica Acta}, 954:\penalty0 22--31, 2017.
+\newblock ISSN 18734324.
+\newblock \doi{10.1016/j.aca.2016.12.010}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0003267016314842}.
+
+\bibitem[Bengio(2012)]{Bengio2012}
+Yoshua Bengio.
+\newblock \emph{{Neural Networks: Tricks of the Trade: Second Edition}}.
+\newblock 2012.
+\newblock ISBN 978-3-642-35289-8.
+\newblock \doi{10.1007/978-3-642-35289-8_26}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-3-642-35289-8{\_}26}.
+
+\bibitem[Hameed et~al.(2016)Hameed, Karlik, and Salman]{Hameed2016}
+Alaa~Ali Hameed, Bekir Karlik, and Mohammad~Shukri Salman.
+\newblock {Back-propagation algorithm with variable adaptive momentum}.
+\newblock \emph{Knowledge-Based Systems}, 114:\penalty0 79--87, 2016.
+\newblock ISSN 09507051.
+\newblock \doi{10.1016/j.knosys.2016.10.001}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0950705116303811?via{\%}3Dihub}.
+
+\bibitem[Solutions(2015)]{Solutions2015}
+Aglance Solutions.
+\newblock {Visual insight for clinical reasoning – Navigate Pain}, 2015.
+\newblock URL \url{http://www.navigatepain.com/}.
 
 \end{thebibliography}
