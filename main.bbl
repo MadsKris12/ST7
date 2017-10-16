@@ -44,6 +44,14 @@ Shellie~A. Boudreau and Susanne et.al Badsberg.
 \newblock 2016.
 \newblock \doi{10.1097/AJP.0000000000000230}.
 
+\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Hinton]{LeCun2015}
+Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
+\newblock {Deep Learning}.
+\newblock \emph{Nature Insight Review}, pages 436--444, 2015.
+\newblock \doi{10.1038/nature14539}.
+\newblock URL
+  \url{https://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf}.
+
 \bibitem[Nielsen(2010)]{Nielsen2010}
 Mads Nielsen.
 \newblock \emph{{Den digitale revolution – fort{\ae}llinger fra datalogiens
@@ -59,14 +67,6 @@ M.~I. Jordan and T.~M. Mitchell.
 \newblock \doi{10.1126/science.aaa8415}.
 \newblock URL \url{http://www.sciencemag.org/cgi/doi/10.1126/science.aaa8415}.
 
-\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Hinton]{LeCun2015}
-Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
-\newblock {Deep Learning}.
-\newblock \emph{Nature Insight Review}, pages 436--444, 2015.
-\newblock \doi{10.1038/nature14539}.
-\newblock URL
-  \url{https://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf}.
-
 \bibitem[Schmidhuber(2015)]{Schmidhuber2015}
 J{\"{u}}rgen Schmidhuber.
 \newblock {Deep Learning in Neural Networks: An Overview}.
@@ -75,6 +75,18 @@ J{\"{u}}rgen Schmidhuber.
 \newblock \doi{10.1016/j.neunet.2014.09.003}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0893608014002135}.
+
+\bibitem[Acquarelli et~al.(2017)Acquarelli, van Laarhoven, Gerretzen, Tran,
+  Buydens, and Marchiori]{Acquarelli2017}
+Jacopo Acquarelli, Twan van Laarhoven, Jan Gerretzen, Thanh~N. Tran,
+  Lutgarde~M.C. Buydens, and Elena Marchiori.
+\newblock {Convolutional neural networks for vibrational spectroscopic data
+  analysis}.
+\newblock \emph{Analytica Chimica Acta}, 954:\penalty0 22--31, 2017.
+\newblock ISSN 18734324.
+\newblock \doi{10.1016/j.aca.2016.12.010}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0003267016314842}.
 
 \bibitem[Mehryar et~al.(2012)Mehryar, Afshin, and Ameet]{Mehryar2012}
 Mohri Mehryar, Rostamizadeh Afshin, and Talwalka Ameet.
@@ -90,18 +102,6 @@ Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 \newblock \emph{{Deep Learning}}.
 \newblock MIT Press, 2016.
 \newblock URL \url{http://www.deeplearningbook.org}.
-
-\bibitem[Acquarelli et~al.(2017)Acquarelli, van Laarhoven, Gerretzen, Tran,
-  Buydens, and Marchiori]{Acquarelli2017}
-Jacopo Acquarelli, Twan van Laarhoven, Jan Gerretzen, Thanh~N. Tran,
-  Lutgarde~M.C. Buydens, and Elena Marchiori.
-\newblock {Convolutional neural networks for vibrational spectroscopic data
-  analysis}.
-\newblock \emph{Analytica Chimica Acta}, 954:\penalty0 22--31, 2017.
-\newblock ISSN 18734324.
-\newblock \doi{10.1016/j.aca.2016.12.010}.
-\newblock URL
-  \url{http://linkinghub.elsevier.com/retrieve/pii/S0003267016314842}.
 
 \bibitem[Bengio(2012)]{Bengio2012}
 Yoshua Bengio.
