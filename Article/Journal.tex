@@ -60,6 +60,9 @@
 
 \usepackage{hyperref} % For hyperlinks in the PDF
 
+\usepackage[utf8]{inputenc}
+\usepackage[numbers]{natbib}	
+
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
@@ -70,16 +73,19 @@
 \posttitle{\end{center}} % Article title closing formatting
 \title{Article Title} % Article title
 \author{%
-\textsc{Birgithe Kleeman Rasmussen, Ignas, Linette Helena Poulsen}\thanks{A thank you or further information} \\[1ex] % Your name
-\normalsize University of California \\ % Your institution
-\normalsize \href{mailto:john@smith.com}{john@smith.com} % Your email address
+\textsc{Birgithe Kleemann Rasmussen, Ignas Kupcikevičius,} \\
+\textsc{Linette Helena Poulsen, Mads Kristensen}
+ \\[1ex] % Your name
+\normalsize Aalborg University \\ % Your institution
+% Your email address
 %\and % Uncomment if 2 authors are required, duplicate these 4 lines if more
 %\textsc{Jane Smith}\thanks{Corresponding author} \\[1ex] % Second author's name
 %\normalsize University of Utah \\ % Second author's institution
 %\normalsize \href{mailto:jane@smith.com}{jane@smith.com} % Second author's email address
 }
-\date{\today} % Leave empty to omit a date
+\date{December 20, 2017} % Leave empty to omit a date
 \renewcommand{\maketitlehookd}{%
+
 \begin{abstract}
 \noindent \blindtext % Dummy abstract text - replace \blindtext with your abstract text
 \end{abstract}
@@ -97,85 +103,56 @@
 %----------------------------------------------------------------------------------------
 
 \section{Introduction}
-
-\lettrine[nindent=0em,lines=3]{L} orem ipsum dolor sit amet, consectetur adipiscing elit.
-\blindtext % Dummy text
-
-\blindtext % Dummy text
+\input{Introduction/introduction}
 
 %------------------------------------------------
 
 \section{Methods}
+\input{Introduction/method}
 
-Maecenas sed ultricies felis. Sed imperdiet dictum arcu a egestas. 
-\begin{itemize}
-\item Donec dolor arcu, rutrum id molestie in, viverra sed diam
-\item Curabitur feugiat
-\item turpis sed auctor facilisis
-\item arcu eros accumsan lorem, at posuere mi diam sit amet tortor
-\item Fusce fermentum, mi sit amet euismod rutrum
-\item sem lorem molestie diam, iaculis aliquet sapien tortor non nisi
-\item Pellentesque bibendum pretium aliquet
-\end{itemize}
-\blindtext % Dummy text
-
-Text requiring further explanation\footnote{Example footnote}.
 
 %------------------------------------------------
 
 \section{Results}
-
-\begin{table}
-\caption{Example table}
-\centering
-\begin{tabular}{llr}
-\toprule
-\multicolumn{2}{c}{Name} \\
-\cmidrule(r){1-2}
-First name & Last Name & Grade \\
-\midrule
-John & Doe & $7.5$ \\
-Richard & Miles & $2$ \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\blindtext % Dummy text
-
-\begin{equation}
-\label{eq:emc}
-e = mc^2
-\end{equation}
-
-\blindtext % Dummy text
+\input{Results/result}
 
 %------------------------------------------------
 
 \section{Discussion}
+\input{Results/discuss}
 
-\subsection{Subsection One}
+%------------------------------------------------
 
-A statement requiring citation \cite{Figueredo:2009dg}.
-\blindtext % Dummy text
-
-\subsection{Subsection Two}
-
-\blindtext % Dummy text
+\section{Conclusion}
+\input{Results/conclusion}
 
 %----------------------------------------------------------------------------------------
 %	REFERENCE LIST
 %----------------------------------------------------------------------------------------
 
-\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
-
-\bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
-Figueredo, A.~J. and Wolf, P. S.~A. (2009).
-\newblock Assortative pairing and life history strategy - a cross-cultural
-  study.
-\newblock {\em Human Nature}, 20:317--330.
- 
-\end{thebibliography}
+%\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+%
+%\bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
+%Figueredo, A.~J. and Wolf, P. S.~A. (2009).
+%\newblock Assortative pairing and life history strategy - a cross-cultural
+%  study.
+%\newblock {\em Human Nature}, 20:317--330.
+% 
+%\end{thebibliography}
 
 %----------------------------------------------------------------------------------------
+\begingroup
+\raggedright
+
+\bibliographystyle{unsrtnat}
+\bibliography{bib}
+%\urlstyle{same}
+%
+%
+%\printbibliography
+%\cleardoublepage
+
+\endgroup
+
 
 \end{document}

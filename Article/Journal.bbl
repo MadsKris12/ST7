@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[et.~al. Martini(2012)]{Martini2012}
+Frederic~H. et.~al. Martini.
+\newblock \emph{{Anatomy {\&} Physology}}.
+\newblock 2012.
+
+\end{thebibliography}
