@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  16 OCT 2017 11:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  16 OCT 2017 13:21
 entering extended mode
 **main.tex
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.tex"
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\preambleNy.tex"
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\preambleNy.tex
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
 Document Class: memoir 2011/03/06 v3.6j configurable book, report, article docu
 ment class
@@ -1755,8 +1755,8 @@ Package caption Info: rotating package is loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 ))
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\macros.tex")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.aux")
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\macros.tex)
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
@@ -1822,8 +1822,8 @@ Package hyperref Info: Link coloring ON on input line 5.
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
- ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.out")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.out")
+ (C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.out)
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.out)
 \@outlinefile=\write4
 LaTeX Info: Redefining \Ref on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1844,14 +1844,14 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
 \c__siunitx_mathtt_int=\count352
 
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/xFormality/Frontpag
-e.tex") [1
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/xFormality/Frontpage.tex)
+[1
 
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/xFormality/titleShe
-et.tex" <figures/aaulogo-en.png, id=87, 293.095pt x 195.73125pt>
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/xFormality/titleSheet.tex
+<figures/aaulogo-en.png, id=107, 293.095pt x 195.73125pt>
 File: figures/aaulogo-en.png Graphic file (type png)
 
 <use figures/aaulogo-en.png>
@@ -1892,33 +1892,30 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 60--60
 []$[]$ 
  []
 
-
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/xFormality/abstract
-.tex")) [2 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/aaulogo-
-en.png>]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/xFormality/Preface.
-tex"
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/xFormality/abstract.tex))
+[2 <C:/Users/passw/OneDrive/Documents/GitHub/ST7/figures/aaulogo-en.png>]
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/xFormality/Preface.tex
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 2.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )) [3
 
 
 ]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.toc") [4]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Methodology/Literat
-ure.tex") [1
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.toc) [4]
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Methodology/Literature.tex
+) [1
 
 
 ]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/Anatomy.
-tex"
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Background/Anatomy.tex
 Underfull \hbox (badness 1902) in paragraph at lines 1--2
 \T1/cmr/m/n/10.95 This chapter contains the background knowledge to optimise th
 e understanding of
  []
 
-<figures/bonestruc.png, id=140, 492.33937pt x 437.38406pt>
+<figures/bonestruc.png, id=165, 492.33937pt x 437.38406pt>
 File: figures/bonestruc.png Graphic file (type png)
 
 <use figures/bonestruc.png>
@@ -1926,92 +1923,74 @@ Package pdftex.def Info: figures/bonestruc.png used on input line 9.
 (pdftex.def)             Requested size: 308.69865pt x 274.25198pt.
  [2
 
- <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/bonestruc.png>]
-<figures/knee.png, id=158, 885.3075pt x 429.85594pt>
+ <C:/Users/passw/OneDrive/Documents/GitHub/ST7/figures/bonestruc.png>] <figures
+/knee.png, id=183, 885.3075pt x 429.85594pt>
 File: figures/knee.png Graphic file (type png)
- <use figures/knee.png>
+
+<use figures/knee.png>
 Package pdftex.def Info: figures/knee.png used on input line 23.
 (pdftex.def)             Requested size: 441.0pt x 214.12723pt.
-
-[3 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/knee.png>]
-
-Package natbib Warning: Citation `Grunnesjo2006' on page 4 undefined on input l
-ine 41.
-
+ [3 <C:/Users/passw/OneDrive/Documents/GitHub/ST7/figures/knee.png>]
 
 LaTeX Warning: Reference `painmap' on page 4 undefined on input line 41.
 
-<figures/painmap.png, id=177, 779.91376pt x 1355.0625pt>
+<figures/painmap.png, id=203, 779.91376pt x 1355.0625pt>
 File: figures/painmap.png Graphic file (type png)
 
 <use figures/painmap.png>
 Package pdftex.def Info: figures/painmap.png used on input line 45.
 (pdftex.def)             Requested size: 176.39731pt x 306.468pt.
- [4 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/painmap.png>] <
-figures/atlas.png, id=194, 460.72125pt x 220.57407pt>
+ [4 <C:/Users/passw/OneDrive/Documents/GitHub/ST7/figures/painmap.png>] <figure
+s/atlas.png, id=221, 460.72125pt x 220.57407pt>
 File: figures/atlas.png Graphic file (type png)
 
 <use figures/atlas.png>
 Package pdftex.def Info: figures/atlas.png used on input line 59.
 (pdftex.def)             Requested size: 264.60269pt x 126.681pt.
- [5 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/atlas.png>])
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/Patternr
-e.tex"
-
-Package natbib Warning: Citation `Nielsen2010' on page 6 undefined on input lin
-e 2.
-
-
-Package natbib Warning: Citation `Jordan2015' on page 6 undefined on input line
- 3.
-
-) [6]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/aim.tex"
-
+ [5 <C:/Users/passw/OneDrive/Documents/GitHub/ST7/figures/atlas.png>])
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Background/ML.tex)
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Background/DL.tex [6])
+[7] (C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Background/aim.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-) [7
+) [8
 
-]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Materials/Data.tex"
-<figures/kneepainmap.png, id=215, 237.88875pt x 605.26125pt>
+] (C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Materials/Data.tex
+<figures/kneepainmap.png, id=283, 237.88875pt x 605.26125pt>
 File: figures/kneepainmap.png Graphic file (type png)
 
 <use figures/kneepainmap.png>
 Package pdftex.def Info: figures/kneepainmap.png used on input line 9.
 (pdftex.def)             Requested size: 110.25pt x 280.51077pt.
+ [9
 
-
-Package natbib Warning: Citation `Solutions2015' on page 8 undefined on input l
-ine 16.
-
-[8
-
- <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/kneepainmap.png (P
-NG copy)>] <figures/Navigatepain.png, id=223, 3173.8575pt x 1541.76pt>
+ <C:/Users/passw/OneDrive/Documents/GitHub/ST7/figures/kneepainmap.png (PNG cop
+y)>]
+<figures/Navigatepain.png, id=293, 3173.8575pt x 1541.76pt>
 File: figures/Navigatepain.png Graphic file (type png)
 
 <use figures/Navigatepain.png>
 Package pdftex.def Info: figures/Navigatepain.png used on input line 21.
 (pdftex.def)             Requested size: 441.0pt x 214.22168pt.
 )
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Materials/Program.t
-ex") [9 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/Navigatepai
-n.png>]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Data/Data.tex")
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.bbl" [10
-
-]) [11
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Materials/Program.tex)
+[10 <C:/Users/passw/OneDrive/Documents/GitHub/ST7/figures/Navigatepain.png>]
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report/Data/Data.tex)
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.bbl [11
 
 ]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 60.
 
-Package natbib Warning: There were undefined citations.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) [12
 
+]) [13]
 
 AED: lastpage setting LastPage
-[12
+[14
 
 ]
 
@@ -2019,27 +1998,27 @@ Package caption Warning: Unused \captionsetup[table] on input line 118.
 See the caption package documentation for explanation.
 
 \tf@toc=\write5
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A64E0C1FF112D09FBD9AE0BC1E700DCB;1081.
+(rerunfilecheck)             Checksum: 928FA199A76006CA2BD54A2CDBF3DC66;1464.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 26108 strings out of 493921
- 456581 string characters out of 3144831
- 765155 words of memory out of 3000000
- 28880 multiletter control sequences out of 15000+200000
- 26436 words of font info for 75 fonts, out of 3000000 for 9000
+ 26179 strings out of 493921
+ 457948 string characters out of 3144876
+ 768155 words of memory out of 3000000
+ 28928 multiletter control sequences out of 15000+200000
+ 26750 words of font info for 76 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
- 57i,22n,92p,946b,781s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,22n,92p,946b,937s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi1095.pfb><C:/Pro
@@ -2054,10 +2033,11 @@ eX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX
 2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/cm-super/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/cm-super/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (16 pages, 5108136 bytes).
+/type1/public/cm-super/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/cm-super/sftt1095.pfb>
+Output written on main.pdf (18 pages, 5172185 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 188 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
