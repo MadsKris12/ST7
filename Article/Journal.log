@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  16 OCT 2017 13:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  16 OCT 2017 13:46
 entering extended mode
 **Journal.tex
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Article\Journal.tex"
@@ -703,7 +703,97 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
 
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Article\Introduction/intro
 duction.tex"
+
+Package natbib Warning: Citation `Maclachlan2017' on page 1 undefined on input 
+line 1.
+
+
+Package natbib Warning: Citation `Smith2015' on page 1 undefined on input line 
+1.
+
+
+Package natbib Warning: Citation `Crossley2016' on page 1 undefined on input li
+ne 1.
+
+
+Package natbib Warning: Citation `Crossley2015' on page 1 undefined on input li
+ne 1.
+
+
+Package natbib Warning: Citation `Smith2015' on page 1 undefined on input line 
+1.
+
+
+Package natbib Warning: Citation `Boudreau2017' on page 1 undefined on input li
+ne 1.
+
+
+Package natbib Warning: Citation `Crossley2016' on page 1 undefined on input li
+ne 1.
+
+
+Package natbib Warning: Citation `Crossley2016' on page 1 undefined on input li
+ne 2.
+
+
+Package natbib Warning: Citation `Petersen2013' on page 1 undefined on input li
+ne 2.
+
+
+Package natbib Warning: Citation `Crossley2016' on page 1 undefined on input li
+ne 2.
+
+
+Package natbib Warning: Citation `Crossley2016' on page 1 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `Maclachlan2017' on page 1 undefined on input 
+line 6.
+
+
+Package natbib Warning: Citation `Crossley2015' on page 1 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `Petersen2013' on page 1 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `Petersen2013' on page 1 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `Crossley2016' on page 1 undefined on input li
+ne 6.
+
+
 Underfull \vbox (badness 1694) has occurred while \output is active []
+
+
+
+Package natbib Warning: Citation `Petersen2013' on page 1 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `Crossley2016' on page 1 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `Crossley2015' on page 1 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `Petersen2013' on page 1 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `Crossley2015' on page 1 undefined on input li
+ne 8.
+
+
+Package natbib Warning: Citation `Smith2015' on page 1 undefined on input line 
+9.
 
 )
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Article\Introduction/metho
@@ -711,20 +801,22 @@ d.tex")
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Article\Results/result.tex
 ")
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Article\Results/discuss.te
-x")
+x") [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Article\Results/conclusion
 .tex") ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Article\Journal.bbl
-" [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+")
 
+Package natbib Warning: There were undefined citations.
 
-])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
- [2
+[2
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
-
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Article\Journal.aux")
+ ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Article\Journal.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
 Package rerunfilecheck Info: File `Journal.out' has not changed.
@@ -732,22 +824,22 @@ Package rerunfilecheck Info: File `Journal.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
  ) 
 Here is how much of TeX's memory you used:
- 9377 strings out of 493921
- 144874 string characters out of 3144831
- 258828 words of memory out of 3000000
- 12377 multiletter control sequences out of 15000+200000
- 45277 words of font info for 160 fonts, out of 3000000 for 9000
+ 9387 strings out of 493921
+ 144988 string characters out of 3144831
+ 259828 words of memory out of 3000000
+ 12383 multiletter control sequences out of 15000+200000
+ 45500 words of font info for 163 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 40i,13n,43p,633b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,13n,43p,721b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on Journal.pdf (2 pages, 72168 bytes).
+Output written on Journal.pdf (2 pages, 74068 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
  45097 words of extra memory for PDF output out of 51595 (max. 10000000)
 
