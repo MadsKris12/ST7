@@ -88,6 +88,15 @@ Jacopo Acquarelli, Twan van Laarhoven, Jan Gerretzen, Thanh~N. Tran,
 \newblock URL
   \url{http://linkinghub.elsevier.com/retrieve/pii/S0003267016314842}.
 
+\bibitem[Hameed et~al.(2016)Hameed, Karlik, and Salman]{Hameed2016}
+Alaa~Ali Hameed, Bekir Karlik, and Mohammad~Shukri Salman.
+\newblock {Back-propagation algorithm with variable adaptive momentum}.
+\newblock \emph{Knowledge-Based Systems}, 114:\penalty0 79--87, 2016.
+\newblock ISSN 09507051.
+\newblock \doi{10.1016/j.knosys.2016.10.001}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0950705116303811?via{\%}3Dihub}.
+
 \bibitem[Mehryar et~al.(2012)Mehryar, Afshin, and Ameet]{Mehryar2012}
 Mohri Mehryar, Rostamizadeh Afshin, and Talwalka Ameet.
 \newblock \emph{{Foundations of Machine Learning}}.
@@ -110,15 +119,6 @@ Yoshua Bengio.
 \newblock ISBN 978-3-642-35289-8.
 \newblock \doi{10.1007/978-3-642-35289-8_26}.
 \newblock URL \url{http://dx.doi.org/10.1007/978-3-642-35289-8{\_}26}.
-
-\bibitem[Hameed et~al.(2016)Hameed, Karlik, and Salman]{Hameed2016}
-Alaa~Ali Hameed, Bekir Karlik, and Mohammad~Shukri Salman.
-\newblock {Back-propagation algorithm with variable adaptive momentum}.
-\newblock \emph{Knowledge-Based Systems}, 114:\penalty0 79--87, 2016.
-\newblock ISSN 09507051.
-\newblock \doi{10.1016/j.knosys.2016.10.001}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0950705116303811?via{\%}3Dihub}.
 
 \bibitem[Solutions(2015)]{Solutions2015}
 Aglance Solutions.
