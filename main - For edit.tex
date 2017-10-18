@@ -1,0 +1,70 @@
+%implementing document formatting:
+\input{preambleNy.tex}
+\input{macros.tex}
+\raggedbottom % Soerger for at LaTeX ikke "straekker" teksten
+\begin{document}
+
+
+\frontmatter	 % Forindhold - nummereres med romertal
+
+%implementing title sheet:
+\input{Report/xFormality/Frontpage}
+\newpage
+\input{Report/xFormality/titleSheet.tex} %	\cleardoublepage
+\clearpage
+\input{Report/xFormality/Preface.tex}
+\newpage
+
+%%%% Indholdsfortegnelse (TOC) %%%%
+\phantomsection													% Kunstigt afsnit, som hyperlinks kan 'holde fast i'
+\pdfbookmark[0]{Indholdsfortegnelse}{indhold}					% Tildeler en klikbar bookmark til den endelige PDF
+\tableofcontents*												% Indholdsfortegnelsen (kaldet ToC) 
+%\clearpage
+%\addtocontents{toc}{\protect\newpage}							% Fremtvinger sideskift i ToC hvis noedvendig (der hvor koden placeres)
+
+\mainmatter
+%-----------------------Methodology---------------------------
+\chapter{Methodology}
+\input{Report/Methodology/Literature}
+
+%-----------------------Background---------------------------
+\chapter{Background} 
+\input{Report/Background/Anatomy}
+\input{Report/Background/ML}
+\input{Report/Background/DL}
+
+%-----------------------Research problem---------------------------
+\chapter{Aim of the project}
+\input{Report/Background/aim.tex}
+
+%-----------------------Materials---------------------------
+\chapter{Materials}
+\input{Report/Materials/Data}
+\input{Report/Materials/Program}
+
+
+
+%-----------------------Data Processing and results ---------------------------
+\chapter{Data Processing and results}
+\input{Report/Data/Data}
+
+\begingroup
+\raggedright
+
+\bibliographystyle{unsrtnat}
+\bibliography{bib}
+%\urlstyle{same}
+%
+%
+%\printbibliography
+%\cleardoublepage
+
+\endgroup
+
+%-----------------------Appendix-------------------------
+\appendix
+\chapter{Appendix}
+
+
+%\fi
+\end{document}
