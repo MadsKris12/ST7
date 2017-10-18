@@ -7,14 +7,14 @@
 \contentsline {section}{\numberline {2.1}Anatomy of the Knee}{2}{section.2.1}
 \contentsline {section}{\numberline {2.2}Pain}{4}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Pain mapping}{4}{subsection.2.2.1}
-\contentsline {subsubsection}{Knee pain regions}{5}{section*.6}
-\contentsline {section}{\numberline {2.3}Machine learning}{6}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Deep Learning}{6}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Supervised Learning}{7}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Unsupervised Learning}{7}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Semi-supervised Learning}{7}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Convolutional Neural Networks}{7}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}Backpropagation}{7}{subsection.2.3.6}
+\contentsline {section}{\numberline {2.3}Knee regions}{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}Machine learning}{6}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Deep Learning}{6}{subsection.2.4.1}
+\contentsline {subsubsection}{Learning scenarios}{7}{section*.8}
+\contentsline {subsection}{\numberline {2.4.2}Unsupervised Learning}{7}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Semi-supervised Learning}{7}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Convolutional Neural Networks}{7}{subsection.2.4.4}
+\contentsline {subsubsection}{Back-propagation}{7}{section*.9}
 \contentsline {chapter}{\chapternumberline {3}Aim of the project}{8}{chapter.3}
 \contentsline {chapter}{\chapternumberline {4}Materials}{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}Data}{9}{section.4.1}
@@ -22,5 +22,5 @@
 \contentsline {section}{\numberline {4.2}Program}{10}{section.4.2}
 \contentsline {chapter}{\chapternumberline {5}Data Processing and results}{11}{chapter.5}
 \contentsline {section}{\numberline {5.1}Data}{11}{section.5.1}
-\contentsline {chapter}{Bibliography}{12}{section*.12}
+\contentsline {chapter}{Bibliography}{12}{section*.13}
 \contentsline {appendix}{\chapternumberline {A}Appendix}{14}{appendix.A}
