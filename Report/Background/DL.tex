@@ -17,11 +17,11 @@ Firstly, the system detects minor changes like edges. Secondly, the edges are co
 \subsubsection{Learning scenarios}
 There are three main learning scenarios: supervised, unsupervised and semi-supervised learnings.
 
-Supervised learning is the most common way of training in machine learning \citep{LeCun2015}. When using this method the system is trained with labeled data, where the generated output can be compared with an expected output, and thereby see how accurate the system is. The weights are interconnection between two layers and they work as a set of coefficients, defining an image feature.\citep{Hameed2016} By adjusting weights inside the neural network it is possible to fit the model better to the training data, and thereby increase its accuracy and reduce error \citep{LeCun2015}. Supervised learning is mostly associated with classification, regression, and ranking problems \citep{Mehryar2012}.
-
+Supervised learning is the most common way of training in machine learning \citep{LeCun2015}. When using this method the system is trained with labeled data, where the generated output can be compared with an expected output, and thereby see how accurate the system is. The weights are interconnection between two layers and they work as a set of coefficients, defining an image feature.\citep{Hameed2016} By adjusting weights in the neural network it is possible to fit the model better to the training data, and thereby increase its accuracy and reduce error \citep{LeCun2015}. Supervised learning is mostly associated with classification, regression, and ranking problems \citep{Mehryar2012}.
+\noindent
 Differently from supervised learning the input in unsupervised learning is received with unlabeled data and the predictions. Then the system organizes the data by searching for common characteristics \citep{Mehryar2012}. An example of an unsupervised learning algorithm is clustering, where the unlabeled dataset goes through a classification, and split into different classes.\citep{Goodfellow2016} 
-
-In semi-supervised learning the learner is receiving both labeled, unlabeled data and then it search for common characteristics in data. It is used mainly when the labeled data is hardly collected and unlabeled data is easily reachable.\citep{Mehryar2012}
+\noindent
+In semi-supervised learning the learner is receiving both labeled, unlabeled data and then it searches for common characteristics in data. It is used mainly when the labeled data is hardly collected and unlabeled data is easily reachable.\citep{Mehryar2012}
 
 \subsection{Convolutional Neural Networks}
 Convolutional neural networks (CNNs) perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex model by extracting visual features from the pixel-level content.
@@ -30,7 +30,7 @@ Accuracy and performance rely on large training datasets and training procedure 
 
 \subsubsection{Back-propagation}
 Back–propagation is a popular learning algorithm in CNN. It is valuable because of the simplicity and computationally efficient \citep{Bengio2012}.
-The basic idea behind it is to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as  the inputs and weights multiplication of each node (separate input) summed with  additional coefficient called biases.\citep{Hameed2016} 
+The basic idea behind it is to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as  the inputs and weights multiplication of each node (separate input) summed with additional coefficients called biases.\citep{Hameed2016} 
 
 \begin{comment}
 It is defined by:
