@@ -17,8 +17,9 @@
 \contentsline {chapter}{\chapternumberline {4}Materials}{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}Data}{9}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Navigate Pain}{10}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Program}{10}{section.4.2}
-\contentsline {chapter}{\chapternumberline {5}Data Processing and results}{11}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data}{11}{section.5.1}
-\contentsline {chapter}{Bibliography}{12}{section*.13}
-\contentsline {appendix}{\chapternumberline {A}Appendix}{14}{appendix.A}
+\contentsline {section}{\numberline {4.2}Programs}{10}{section.4.2}
+\contentsline {chapter}{\chapternumberline {5}Data Processing}{12}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pre-processing}{12}{section.5.1}
+\contentsline {chapter}{\chapternumberline {6}Results}{13}{chapter.6}
+\contentsline {chapter}{Bibliography}{14}{section*.14}
+\contentsline {appendix}{\chapternumberline {A}Appendix}{16}{appendix.A}
