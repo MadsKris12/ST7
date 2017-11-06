@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  6 NOV 2017 12:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  6 NOV 2017 13:23
 entering extended mode
 **main.tex
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.tex"
@@ -2040,42 +2040,35 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 235E0978592FFF7959AA0425928A6688;1554.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 26244 strings out of 493921
- 459404 string characters out of 3144831
- 768155 words of memory out of 3000000
+ 26243 strings out of 493921
+ 459397 string characters out of 3144831
+ 767155 words of memory out of 3000000
  28970 multiletter control sequences out of 15000+200000
  26750 words of font info for 76 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  57i,22n,92p,828b,941s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{page.24} has been referenced but does not exist, 
-replaced by a fixed one
-
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi1095.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/cm-super/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/cm-super/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/cm-super/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (22 pages, 5484272 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbi1095.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1000.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/cm-super/sfsx1728.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/cm-super/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/cm-super/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/cm-super/sftt1095.pfb>
+Output written on main.pdf (22 pages, 5484252 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
  264 words of extra memory for PDF output out of 10000 (max. 10000000)
 
