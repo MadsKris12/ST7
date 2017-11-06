@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,15 +14,53 @@ Frederic~H. et.~al. Martini.
 IASP.
 \newblock {IASP Taxonomy}, 2012.
 
-\bibitem[Younger and Mackey(2009)]{Younger2009}
-Jarred Younger and Sean Mackey.
-\newblock {Pain outcomes: A brief review of instruments and techniques}.
-\newblock 2009.
+\bibitem[Schmidt(1989)]{Schmidt1989}
+R.~F Schmidt.
+\newblock {Nociception and Pain}.
+\newblock In \emph{Human Physiology}. Springer Berlin Heidelberg, 1989.
+\newblock ISBN 978-3-642-73831-9.
+\newblock \doi{10.1007/978-3-642-73831-9_10}.
+
+\bibitem[Schmidt(2013)]{Schmidt2013}
+R.~F Schmidt.
+\newblock {Nociception and Pain}.
+\newblock In \emph{Fundamentals of Sensory Physiology}. Springer Science {\&}
+  Business Media, 2 edition, 2013.
+\newblock ISBN 9783662011287.
 
 \bibitem[Briggs(2010)]{Briggs2010}
 Emma Briggs.
 \newblock {Understanding the experience and physiology of pain}.
 \newblock 2010.
+
+\bibitem[Smith et~al.(2015)Smith, Drew, and Et.al.]{Smith2015}
+T.O. Smith, B.T. Drew, and Et.al.
+\newblock {Knee orthoses for treating patellofemoral pain syndrome (review)}.
+\newblock 2015.
+\newblock \doi{10.1002/14651858.CD010513.pub2.}
+
+\bibitem[Younger and Mackey(2009)]{Younger2009}
+Jarred Younger and Sean Mackey.
+\newblock {Pain outcomes: A brief review of instruments and techniques}.
+\newblock 2009.
+
+\bibitem[Roos and Lohmander(2003)]{Roos2003}
+Ewa~M. Roos and L.~Stefan Lohmander.
+\newblock {The knee injury and osteoarthritis outcome score (KOOS): from joint
+  injury to osteoarthritis}.
+\newblock \emph{Bio Med Central}, 2003.
+
+\bibitem[Ghosh and Deehan(2010)]{Ghosh2010}
+Kanishka~M. Ghosh and David~J. Deehan.
+\newblock {Soft tissue knee injuries}.
+\newblock In Mark Wilkinson, editor, \emph{Orthopaedic surgery: lower limb}.
+  Elsevier, 2010.
+
+\bibitem[Petersen et~al.(2013)Petersen, Ellermann, and Et.al.]{Petersen2013}
+Wolf Petersen, Andree Ellermann, and Et.al.
+\newblock {Patellofemoral Pain Syndrome}.
+\newblock \emph{Clinical Orthopaedics and Related Research}, 2013.
+\newblock \doi{10.1097/01.blo.0000229284.45485.6c}.
 
 \bibitem[Grunnesj{\"{o}}(2006)]{Grunnesjo2006}
 Marie Grunnesj{\"{o}}.
@@ -124,5 +162,13 @@ Yoshua Bengio.
 Aglance Solutions.
 \newblock {Visual insight for clinical reasoning – Navigate Pain}, 2015.
 \newblock URL \url{http://www.navigatepain.com/}.
+
+\bibitem[Swamynathan(2017)]{Swamynathan2017}
+Manohar Swamynathan.
+\newblock \emph{{Mastering Machine Learning with Python in Six Steps}}.
+\newblock 2017.
+\newblock ISBN 978-1-4842-2865-4.
+\newblock \doi{10.1007/978-1-4842-2866-1}.
+\newblock URL \url{http://link.springer.com/10.1007/978-1-4842-2866-1}.
 
 \end{thebibliography}

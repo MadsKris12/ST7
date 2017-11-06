@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  23 OCT 2017 10:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  6 NOV 2017 12:10
 entering extended mode
 **main.tex
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.tex"
@@ -1851,7 +1851,7 @@ e.tex") [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/xFormality/titleShe
-et.tex" <figures/aaulogo-en.png, id=103, 293.095pt x 195.73125pt>
+et.tex" <figures/aaulogo-en.png, id=115, 293.095pt x 195.73125pt>
 File: figures/aaulogo-en.png Graphic file (type png)
 
 <use figures/aaulogo-en.png>
@@ -1918,7 +1918,7 @@ Underfull \hbox (badness 1902) in paragraph at lines 1--2
 e understanding of
  []
 
-<figures/bonestruc.png, id=160, 492.33937pt x 437.38406pt>
+<figures/bonestruc.png, id=175, 492.33937pt x 437.38406pt>
 File: figures/bonestruc.png Graphic file (type png)
 
 <use figures/bonestruc.png>
@@ -1927,58 +1927,72 @@ Package pdftex.def Info: figures/bonestruc.png used on input line 9.
  [2
 
  <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/bonestruc.png>]
-<figures/knee.png, id=178, 885.3075pt x 429.85594pt>
+<figures/knee.png, id=193, 885.3075pt x 429.85594pt>
 File: figures/knee.png Graphic file (type png)
  <use figures/knee.png>
 Package pdftex.def Info: figures/knee.png used on input line 24.
 (pdftex.def)             Requested size: 441.0pt x 214.12723pt.
 
 [3 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/knee.png>]
-<figures/painmap.png, id=200, 779.91376pt x 1355.0625pt>
+<figures/painpic.pdf, id=212, 584.1825pt x 353.32pt>
+File: figures/painpic.pdf Graphic file (type pdf)
+ <use figures/painpic.pdf>
+Package pdftex.def Info: figures/painpic.pdf used on input line 46.
+(pdftex.def)             Requested size: 361.62323pt x 218.72188pt.
+
+[4 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/painpic.pdf>]
+<figures/kneetest.png, id=242, 403.5075pt x 307.90031pt>
+File: figures/kneetest.png Graphic file (type png)
+
+<use figures/kneetest.png>
+Package pdftex.def Info: figures/kneetest.png used on input line 72.
+(pdftex.def)             Requested size: 343.97946pt x 262.4776pt.
+ [5 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/kneetest.png>]
+<figures/painmap.png, id=260, 779.91376pt x 1355.0625pt>
 File: figures/painmap.png Graphic file (type png)
 
 <use figures/painmap.png>
-Package pdftex.def Info: figures/painmap.png used on input line 50.
+Package pdftex.def Info: figures/painmap.png used on input line 86.
 (pdftex.def)             Requested size: 176.39731pt x 306.468pt.
- [4 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/painmap.png>] <
-figures/atlas.png, id=219, 460.72125pt x 220.57407pt>
+ [6 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/painmap.png>] <
+figures/atlas.png, id=277, 460.72125pt x 220.57407pt>
 File: figures/atlas.png Graphic file (type png)
 
 <use figures/atlas.png>
-Package pdftex.def Info: figures/atlas.png used on input line 64.
+Package pdftex.def Info: figures/atlas.png used on input line 100.
 (pdftex.def)             Requested size: 264.60269pt x 126.681pt.
- [5 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/atlas.png>])
+ [7 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/atlas.png>])
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/ML.tex")
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/DL.tex"
-<figures/NN_structure.png, id=237, 493.845pt x 325.215pt>
+<figures/NN_structure.png, id=294, 493.845pt x 325.215pt>
 File: figures/NN_structure.png Graphic file (type png)
 
 <use figures/NN_structure.png>
 Package pdftex.def Info: figures/NN_structure.png used on input line 8.
 (pdftex.def)             Requested size: 264.60269pt x 174.24883pt.
- [6 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/NN_structure.pn
-g>]) [7]
+ [8 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/NN_structure.pn
+g>]) [9]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/aim.tex"
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--9
 
  []
 
-) [8
+) [10
 
 ]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Materials/Data.tex"
-<figures/kneepainmap.png, id=282, 237.88875pt x 605.26125pt>
+<figures/kneepainmap.png, id=340, 237.88875pt x 605.26125pt>
 File: figures/kneepainmap.png Graphic file (type png)
 
 <use figures/kneepainmap.png>
 Package pdftex.def Info: figures/kneepainmap.png used on input line 9.
 (pdftex.def)             Requested size: 110.25pt x 280.51077pt.
- [9
+ [11
 
  <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/kneepainmap.png (P
 NG copy)>]
-<figures/Navigatepain.png, id=292, 3173.8575pt x 1541.76pt>
+<figures/Navigatepain.png, id=349, 3173.8575pt x 1541.76pt>
 File: figures/Navigatepain.png Graphic file (type png)
 
 <use figures/Navigatepain.png>
@@ -1986,48 +2000,32 @@ Package pdftex.def Info: figures/Navigatepain.png used on input line 20.
 (pdftex.def)             Requested size: 441.0pt x 214.22168pt.
 )
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Materials/Program.t
-ex"
-
-Package natbib Warning: Citation `Swamynathan2017' on page 10 undefined on inpu
-t line 5.
-
-
-Package natbib Warning: Citation `Swamynathan2017' on page 10 undefined on inpu
-t line 8.
-
-
-Package natbib Warning: Citation `Swamynathan2017' on page 10 undefined on inpu
-t line 12.
-
-) [10 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/Navigatepain.
-png>] [11]
+ex") [12 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/Navigatepa
+in.png>] [13]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Data/Data.tex"
-<figures/preprocessing.png, id=309, 819.06pt x 447.17062pt>
+<figures/preprocessing.png, id=370, 819.06pt x 447.17062pt>
 File: figures/preprocessing.png Graphic file (type png)
 
 <use figures/preprocessing.png>
 Package pdftex.def Info: figures/preprocessing.png used on input line 11.
 (pdftex.def)             Requested size: 441.0pt x 240.77257pt.
-) [12
+) [14
 
  <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/preprocessing.png>
 ]
-("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.bbl" [13
+("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.bbl" [15
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 53.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 91.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [14
+) [16
 
-]) [15]
-
-Package natbib Warning: There were undefined citations.
-
+]) [17]
 
 AED: lastpage setting LastPage
-[16
+[18
 
 ]
 
@@ -2035,32 +2033,29 @@ Package caption Warning: Unused \captionsetup[table] on input line 118.
 See the caption package documentation for explanation.
 
 \tf@toc=\write5
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 235E0978592FFF7959AA0425928A6688;1554.
 
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: BA6E39F99C2718062EB9E40C71C157EA;1329
-(rerunfilecheck)             After:  238FD3F9A4C142E0F9F0B11A7E761108;1268.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 26193 strings out of 493921
- 458525 string characters out of 3144831
+ 26244 strings out of 493921
+ 459404 string characters out of 3144831
  768155 words of memory out of 3000000
- 28936 multiletter control sequences out of 15000+200000
+ 28970 multiletter control sequences out of 15000+200000
  26750 words of font info for 76 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
- 57i,22n,92p,828b,935s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does no
-t exist, replaced by a fixed one
+ 57i,22n,92p,828b,941s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{page.24} has been referenced but does not exist, 
+replaced by a fixed one
 
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
@@ -2078,9 +2073,9 @@ onts/type1/public/cm-super/sfsx2074.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/cm-super/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/cm-super/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (20 pages, 5393494 bytes).
+Output written on main.pdf (22 pages, 5484272 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 

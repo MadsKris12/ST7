@@ -6,20 +6,24 @@
 \contentsline {chapter}{\chapternumberline {2}Background}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Anatomy of the Knee}{2}{section.2.1}
 \contentsline {section}{\numberline {2.2}Pain}{4}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Pain mapping}{4}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Knee regions}{5}{section.2.3}
-\contentsline {section}{\numberline {2.4}Machine learning}{6}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Deep Learning}{6}{subsection.2.4.1}
-\contentsline {subsubsection}{Learning scenarios}{7}{section*.8}
-\contentsline {subsection}{\numberline {2.4.2}Convolutional Neural Networks}{7}{subsection.2.4.2}
-\contentsline {subsubsection}{Back-propagation}{7}{section*.9}
-\contentsline {chapter}{\chapternumberline {3}Aim of the project}{8}{chapter.3}
-\contentsline {chapter}{\chapternumberline {4}Materials}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}Data}{9}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Navigate Pain}{10}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Programs}{10}{section.4.2}
-\contentsline {chapter}{\chapternumberline {5}Data Processing}{12}{chapter.5}
-\contentsline {section}{\numberline {5.1}Pre-processing}{12}{section.5.1}
-\contentsline {chapter}{\chapternumberline {6}Results}{13}{chapter.6}
-\contentsline {chapter}{Bibliography}{14}{section*.14}
-\contentsline {appendix}{\chapternumberline {A}Appendix}{16}{appendix.A}
+\contentsline {section}{\numberline {2.3}Pain measurement}{5}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Subjective pain measurement}{5}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Objective pain measurement}{5}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Pain mapping}{6}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Knee regions}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Machine learning}{8}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Deep Learning}{8}{subsection.2.5.1}
+\contentsline {subsubsection}{Learning scenarios}{9}{section*.10}
+\contentsline {subsection}{\numberline {2.5.2}Convolutional Neural Networks}{9}{subsection.2.5.2}
+\contentsline {subsubsection}{Back-propagation}{9}{section*.11}
+\contentsline {chapter}{\chapternumberline {3}Aim of the project}{10}{chapter.3}
+\contentsline {chapter}{\chapternumberline {4}Materials}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data}{11}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Navigate Pain}{12}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Programs}{12}{section.4.2}
+\contentsline {chapter}{\chapternumberline {5}Data Processing}{14}{chapter.5}
+\contentsline {section}{\numberline {5.1}Pre-processing}{14}{section.5.1}
+\contentsline {chapter}{\chapternumberline {6}Results}{15}{chapter.6}
+\contentsline {chapter}{Bibliography}{16}{section*.16}
+\contentsline {appendix}{\chapternumberline {A}Appendix}{18}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix I}{18}{section.A.1}

@@ -5,18 +5,22 @@
 \BOOKMARK [0][-]{chapter.2}{Background}{}% 5
 \BOOKMARK [1][-]{section.2.1}{Anatomy of the Knee}{chapter.2}% 6
 \BOOKMARK [1][-]{section.2.2}{Pain}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.1}{Pain mapping}{section.2.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Knee regions}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.4}{Machine learning}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.4.1}{Deep Learning}{section.2.4}% 11
-\BOOKMARK [2][-]{subsection.2.4.2}{Convolutional Neural Networks}{section.2.4}% 12
-\BOOKMARK [0][-]{chapter.3}{Aim of the project}{}% 13
-\BOOKMARK [0][-]{chapter.4}{Materials}{}% 14
-\BOOKMARK [1][-]{section.4.1}{Data}{chapter.4}% 15
-\BOOKMARK [2][-]{subsection.4.1.1}{Navigate Pain}{section.4.1}% 16
-\BOOKMARK [1][-]{section.4.2}{Programs}{chapter.4}% 17
-\BOOKMARK [0][-]{chapter.5}{Data Processing}{}% 18
-\BOOKMARK [1][-]{section.5.1}{Pre-processing}{chapter.5}% 19
-\BOOKMARK [0][-]{chapter.6}{Results}{}% 20
-\BOOKMARK [0][-]{section*.14}{Bibliography}{}% 21
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 22
+\BOOKMARK [1][-]{section.2.3}{Pain measurement}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.3.1}{Subjective pain measurement}{section.2.3}% 9
+\BOOKMARK [2][-]{subsection.2.3.2}{Objective pain measurement}{section.2.3}% 10
+\BOOKMARK [2][-]{subsection.2.3.3}{Pain mapping}{section.2.3}% 11
+\BOOKMARK [1][-]{section.2.4}{Knee regions}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.5}{Machine learning}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.5.1}{Deep Learning}{section.2.5}% 14
+\BOOKMARK [2][-]{subsection.2.5.2}{Convolutional Neural Networks}{section.2.5}% 15
+\BOOKMARK [0][-]{chapter.3}{Aim of the project}{}% 16
+\BOOKMARK [0][-]{chapter.4}{Materials}{}% 17
+\BOOKMARK [1][-]{section.4.1}{Data}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.1.1}{Navigate Pain}{section.4.1}% 19
+\BOOKMARK [1][-]{section.4.2}{Programs}{chapter.4}% 20
+\BOOKMARK [0][-]{chapter.5}{Data Processing}{}% 21
+\BOOKMARK [1][-]{section.5.1}{Pre-processing}{chapter.5}% 22
+\BOOKMARK [0][-]{chapter.6}{Results}{}% 23
+\BOOKMARK [0][-]{section*.16}{Bibliography}{}% 24
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 25
+\BOOKMARK [1][-]{section.A.1}{Appendix I}{appendix.A}% 26
