@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: bib.bib
+Warning--I didn't find a database entry for "Harris2012"
 Warning--empty publisher in Martini2012
 Warning--empty journal in Briggs2010
 Warning--empty journal in Smith2015
@@ -11,4 +12,4 @@ Warning--empty journal in Boudreau2016
 Warning--empty publisher in Mehryar2012
 Warning--empty publisher in Bengio2012
 Warning--empty publisher in Swamynathan2017
-(There were 10 warnings)
+(There were 11 warnings)
