@@ -1,31 +1,27 @@
 \BOOKMARK [0][-]{indhold.0}{Indholdsfortegnelse}{}% 1
-\BOOKMARK [0][-]{chapter.1}{Methodology}{}% 2
-\BOOKMARK [1][-]{section.1.1}{Structure of the worksheet}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.2}{Literature}{chapter.1}% 4
-\BOOKMARK [0][-]{chapter.2}{Background}{}% 5
-\BOOKMARK [1][-]{section.2.1}{Anatomy of the Knee}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.2}{Pain}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.3}{Pain measurement}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.3.1}{Subjective pain measurement}{section.2.3}% 9
-\BOOKMARK [2][-]{subsection.2.3.2}{Objective pain measurement}{section.2.3}% 10
-\BOOKMARK [2][-]{subsection.2.3.3}{Pain mapping}{section.2.3}% 11
-\BOOKMARK [1][-]{section.2.4}{Knee regions}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.5}{Machine learning}{chapter.2}% 13
-\BOOKMARK [2][-]{subsection.2.5.1}{Deep Learning}{section.2.5}% 14
-\BOOKMARK [2][-]{subsection.2.5.2}{Convolutional Neural Networks}{section.2.5}% 15
-\BOOKMARK [0][-]{chapter.3}{Aim of the project}{}% 16
-\BOOKMARK [1][-]{section.3.1}{Research Statement}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.2}{Hypothesis}{chapter.3}% 18
-\BOOKMARK [0][-]{chapter.4}{Materials}{}% 19
-\BOOKMARK [1][-]{section.4.1}{Data}{chapter.4}% 20
-\BOOKMARK [2][-]{subsection.4.1.1}{Navigate Pain}{section.4.1}% 21
-\BOOKMARK [1][-]{section.4.2}{Programs}{chapter.4}% 22
-\BOOKMARK [0][-]{chapter.5}{Data Processing}{}% 23
-\BOOKMARK [1][-]{section.5.1}{Pre-processing}{chapter.5}% 24
-\BOOKMARK [2][-]{subsection.5.1.1}{Morphology}{section.5.1}% 25
-\BOOKMARK [2][-]{subsection.5.1.2}{Regions}{section.5.1}% 26
-\BOOKMARK [2][-]{subsection.5.1.3}{Superimposed morphology and regions}{section.5.1}% 27
-\BOOKMARK [0][-]{chapter.6}{Results}{}% 28
-\BOOKMARK [0][-]{section*.17}{Bibliography}{}% 29
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 30
-\BOOKMARK [1][-]{section.A.1}{Appendix I}{appendix.A}% 31
+\BOOKMARK [0][-]{chapter.1}{Background}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Anatomy of the Knee}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Pain}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Pain measurement}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.3.1}{Subjective pain measurement}{section.1.3}% 6
+\BOOKMARK [2][-]{subsection.1.3.2}{Objective pain measurement}{section.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.3.3}{Pain mapping}{section.1.3}% 8
+\BOOKMARK [1][-]{section.1.4}{Knee regions}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.5}{Machine learning}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.5.1}{Deep Learning}{section.1.5}% 11
+\BOOKMARK [2][-]{subsection.1.5.2}{Convolutional Neural Networks}{section.1.5}% 12
+\BOOKMARK [0][-]{chapter.2}{Aim of the project}{}% 13
+\BOOKMARK [1][-]{subsection.2.0.3}{Hypothesis}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Materials}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Data}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.1.1}{Navigate Pain}{section.3.1}% 17
+\BOOKMARK [1][-]{section.3.2}{Programs}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Data Processing}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Pre-processing}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.1.1}{Morphology}{section.4.1}% 21
+\BOOKMARK [2][-]{subsection.4.1.2}{Regions}{section.4.1}% 22
+\BOOKMARK [2][-]{subsection.4.1.3}{Superimposed morphology and regions}{section.4.1}% 23
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 24
+\BOOKMARK [0][-]{section*.17}{Bibliography}{}% 25
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 26
+\BOOKMARK [1][-]{section.A.1}{Appendix I}{appendix.A}% 27

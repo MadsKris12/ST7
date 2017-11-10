@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -157,6 +157,13 @@ Yoshua Bengio.
 \newblock ISBN 978-3-642-35289-8.
 \newblock \doi{10.1007/978-3-642-35289-8_26}.
 \newblock URL \url{http://dx.doi.org/10.1007/978-3-642-35289-8{\_}26}.
+
+\bibitem[Boudreau and et.al. Kamavuako(2017)]{Boudreau2017}
+Shellie~A. Boudreau and E.~N. et.al. Kamavuako.
+\newblock {Distribution and symmetrical patellofemoral pain patterns as
+  revealed by high-resolution 3D body mapping: a cross-sectional study}.
+\newblock 2017.
+\newblock \doi{10.1186/s12891-017-1521-5}.
 
 \bibitem[Solutions(2015)]{Solutions2015}
 Aglance Solutions.

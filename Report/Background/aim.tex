@@ -1,20 +1,16 @@
+Patellofemoral pain is a musculoskeletal condition that is presented as pain behind or around patella. Generally, pain is defined as an unpleasant sensory experience associated with potential or actual tissue damage, and it can be divided into different categories of pain depending on duration and location of the pain. Subjects with PFPS often describe the knee pain as being diffuse and hard to locate. PFPS is often classified as a chronic pain when the duration of the condition is longer than six months. Despite the feeling of pain in the knee, there is often no structural changes in the knee and therefore no definitive clinical test that can be used to diagnose PFPS. The diagnosis of PFPS is then often based on the perceived pain in the knee when doing pain provoking exercises. There are different methods for measuring pain, but since pain and pain intensity are very subjective and hence perceived differently, there are few reliable methods for objectively measuring pain. A method used to transfer a subject’s perceived pain into a relative objective illustration of the pain area is pain mapping, where subjects draw their pain areas on a body outline of the knee.\\
 
-As explained in the previous chapter, there are many possible causes for patellofemoral pain syndrome. Frederic (2012) states that this condition is associated with incorrect movement of the patella, that occurs when movement is outside of its ordinary track. <<<we have to add another source with possible cause>> But in the most cases, the etiology of PFPS is still unknown \citep{Smith2015}, what makes this disorder so interesting to investigate further. 
-
-Patients are perceiving the pain which could be nociceptive, caused by external stimuli or neuropathic which remains after the damage of tissue is healed. In addition, to understand the possible causes of this pain, Parmer (1949) introduced a technique, which is used to transfer pain into the map by drawing it on a particular area of the knee. Unfortunately, there is not a lot of information to properly understand these maps. To be able to address this matter, a research question is created,
-For this thesis, the research question will be answered through supporting hypotheses. Whether hypothesis will be valid or invalid, it will constitute to a general answer to the research question. The research question and the hypothesis will form a basis for this project.
-\section{Research Statement}
-The research statement for this thesis is as follows:\\
 \noindent
+The aim of this project is to test whether or not it is possible to classify variables associated to subjects with PFPS through the use of deep neural network, and a limited dataset. Furthermore different types of classifications will be tested to see how the variables affect the performance of the network.   
+The choice of using a deep neural network solution is based on the fact that pain is subjective, from which it is assumed that there is no linear relation between the subjects. Furthermore it is not in the scope of this project to find the dominating features used for classification, to where the neural network is chosen since it's able to discover these features itself. Thereby is the aim of this project again only to see if a classification can be made and optimised. 
+Classifications will be based on the gender, and how the subject perceive PFP expressed through pain maps. The morphology of the pain maps are considered to be a possible contributor for correct classification. To test this, the pain maps will be represented in different ways: pain morphology, pain regions and a combination of these.
+According to \citeauthor{Boudreau2017} there is a correlation between the duration of PFPS above and below five years and the pain areas. SOMETHING ABOUT WHY WE WANT TO USE PAIN INTENSITY? SHELLIE WE NEED YOUR HELP!! 
 
-\textit{Patellofemoral pain maps can be deeper investigated using neural network technique by classifying pain areas by the duration of the syndrome.}\\
+\subsection{Hypothesis}
+From the previous section the following hypothesis is given.
 
-The research aim of this thesis is to make an accurate classifier with a deep learning neural network using a limited amount of data. The information available with the pain maps will be pain maps features and used as output layer in the network. In this project, the duration of the pain was chosen in order to make a working classifier. The purpose is to make a reasonable study whether or not this technique could be used for classifying such kind of data. Thus, the intention is first to identify if it can be classify according to the set parameters and then secondly to see how accurate it can be applying different models, optimizers, and data preprocessing steps.
-\section{Hypothesis}
-The hypothesis is created to give a more comprehensive answer to the research question:\\
 \noindent
-
-\textit{It is hypothesized that deep neural network performs more accurate using superimposed images than raw data.}
+\textit{It is hypothesized that different data representations of pain maps will affect the performance accuracy of a neural network, as well as the classification between either duration or pain intensity.}
   
 %This makes it possible to use deep neural network for predicting the duration of the subjects pain (OOOOO REWRITE - WE DON'T KNOW IF WE CAN PREDICT OOOO). 
 %In addition to this model a simple correlation model is used to compare the accuracy of the models. 
