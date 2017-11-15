@@ -1,10 +1,10 @@
 ** REMEMBER TEXT! **
 
 \section{Pre-processing}
-The data is pre-processed in MatLab where the pain maps are imported. To easier analyse the data afterwards all the images are converted into vectors and then inserted into a single matrix. The pain maps are represented in three different data representations and therefore the pain maps are processed in three different ways before compiling all image-vectors in a matrix. 
+The data is pre-processed in MatLab where the pain maps are imported. To easier analyse the data afterwards all the images are converted into row vectors and then inserted into a single matrix. The pain maps are represented in three different data representations and therefore the pain maps are processed in three different ways before compiling all image-vectors in a matrix. 
 The three data representations are a matrix consisting of the pain morphology, a matrix with only the knee regions that are covered in pain, and lastly a matrix consisting of both the pain morphology and the affected knee regions. 
-To get additional information about the subjects and the associated pain maps, another input, gender, is added to the three matrices. This is done by including an extra vector containing genders after the last column in each matrix. 
-Furthermore, the three data representations have to be tested in neural network models with two different output parameters; duration of PFPS and pain intensity. The output parameters are, like gender information, added as vectors to the matrices so that the neural network models can analyse the pain information, gender and either duration or pain intensity. Only one output parameter is added to each matrix, which results in six different matrices.
+To get additional information about the subjects and the associated pain maps, another input, gender, is added to the three matrices. This is done by including an extra column vector containing genders after the last column in each matrix. 
+Furthermore, the three data representations have to be tested in neural network models with two different output parameters; duration of PFPS and pain intensity. The output parameters are, like gender information, added as column vectors to the matrices so that the neural network models can analyse the pain information, gender and either duration or pain intensity. Only one output parameter is added to each matrix, which results in six different matrices.
 
 \subsection{Morphology} \label{sec:Morph}
 The first representation of data is a binary matrix of the original pain maps. 
