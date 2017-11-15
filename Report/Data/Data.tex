@@ -1,7 +1,7 @@
 ** REMEMBER TEXT! **
 
 \section{Pre-processing}
-The data is pre-processed in MatLab where the pain maps are imported. To easier analyse the data afterwards all the images are converted into vectors and then inserted into a single matrix. The pain maps are represented in three different data representations and therefore the pain maps are processed in three different ways before compiling all image vectors in a single matrix. 
+The data is pre-processed in MatLab where the pain maps are imported. To easier analyse the data afterwards all the images are converted into vectors and then inserted into a single matrix. The pain maps are represented in three different data representations and therefore the pain maps are processed in three different ways before compiling all image-vectors in a matrix. 
 The three data representations are a matrix consisting of the pain morphology, a matrix with only the knee regions that are covered in pain, and lastly a matrix consisting of both the pain morphology and the affected knee regions. 
 To get additional information about the subjects and the associated pain maps, another input, gender, is added to the three matrices. This is done by including an extra vector containing genders after the last column in each matrix. 
 Furthermore, the three data representations have to be tested in neural network models with two different output parameters; duration of PFPS and pain intensity. The output parameters are, like gender information, added as vectors to the matrices so that the neural network models can analyse the pain information, gender and either duration or pain intensity. Only one output parameter is added to each matrix, which results in six different matrices.
@@ -17,9 +17,6 @@ Firstly, the image of the original pain map is gray-scaled to get a one-dimensio
 \label{fig:cropbin7}
 \end{figure}
 
-\noindent
-To prepare the data for the first model all the binary matrices are converted into vectors, which are inserted into a new matrix with all images, where each row represent an image. The last value in each row represent the duration above (1) or below (0) XX value. REASON WHY!?
-
 \subsection{Regions}
 The second representation of the data is a matrix consisting of vectors with 20 values which indicate pain in relation to knee regions. 
 The knee regions shown in figure \ref{fig:atlas} are converted into a matrix consisting of 20 values, which represent each knee regions. This matrix is superimposed to the binary image of the pain map, which results in a matrix with pain represented in each knee region. In figure \ref{fig:binregions} is there two illustrations of regions with different values (figure \ref{fig:binregions}(a)) and the pain in the specific regions (figure \ref{fig:binregions}(b)).
@@ -32,12 +29,11 @@ The knee regions shown in figure \ref{fig:atlas} are converted into a matrix con
 \end{figure}
 
 \noindent
-After superimposing the two matrices, knee regions and pain, the number of pixels in each active knee region is found. This number is compared to the total number of pixels that are in each knee region, so knee regions with less than 15 \% pain are excluded. WHY 15\%. As an result is a vector with 20 values created, each value represent a knee region where pain above 15 \% in the region is indicated with ones and no pain with zeroes. 
-Like the first data representation all the vectors are inserted into a single matrix where each row represent an image. The last value represent the duration above (1) or below (0) XX value.
+After superimposing the two matrices, knee regions and pain, the number of pixels in each active knee region is found. This number is compared to the total number of pixels that are in each knee region, so knee regions with less than 15 \% pain are excluded. WHY 15\%. As an result is a vector with 20 values created.
 
 
 \subsection{Superimposed morphology and regions}
 The third representation of the data is a matrix consisting of subject's pain divided into the knee regions.
 \noindent
 In this representation the superimposed matrix from the second data representation is used. Since the data representation should reflect the morphology of the pain and divide the pain into the different knee regions is one-hot encoding used. One-hot encoding is a way to separate categorical data into binary data \citep{Harris2012}. This means that the 20 values for each knee region do not have a correlation. After one-hot encoding the superimposed matrix consists of 20 layers where each layer represents a knee region.
-As the other data representations each matrix is converted into a vector and inserted into a matrix with all the pain maps. The last column identifies the duration above (1) or below (0) XX value. 
+
