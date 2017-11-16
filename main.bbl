@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{28}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -43,6 +43,19 @@ T.O. Smith, B.T. Drew, and Et.al.
 Jarred Younger and Sean Mackey.
 \newblock {Pain outcomes: A brief review of instruments and techniques}.
 \newblock 2009.
+
+\bibitem[{Ferreira Valente} et~al.(2011){Ferreira Valente}, {Ribeiro Pais}, and
+  Al]{Valente2011}
+Maria {Ferreira Valente}, Jos{\'{e}} {Ribeiro Pais}, and Et. Al.
+\newblock {Validity of four pain intensity rating scales}.
+\newblock 2011.
+\newblock \doi{10.1016/j.pain.2011.07.005}.
+
+\bibitem[Haefeli and Elfering(2005)]{Haefeli2005}
+Mathias Haefeli and Achim Elfering.
+\newblock {Pain assessment}.
+\newblock 2005.
+\newblock \doi{10.1007/s00586-005-1044-x}.
 
 \bibitem[Roos and Lohmander(2003)]{Roos2003}
 Ewa~M. Roos and L.~Stefan Lohmander.
@@ -177,5 +190,11 @@ Manohar Swamynathan.
 \newblock ISBN 978-1-4842-2865-4.
 \newblock \doi{10.1007/978-1-4842-2866-1}.
 \newblock URL \url{http://link.springer.com/10.1007/978-1-4842-2866-1}.
+
+\bibitem[Harris and Harris(2012)]{Harris2012}
+David~Money Harris and Sarah~L. Harris.
+\newblock {Sequential Logic Design}.
+\newblock In \emph{Digital design and computer architecture}. Elsevier, 2012.
+\newblock ISBN 9780123978165.
 
 \end{thebibliography}
