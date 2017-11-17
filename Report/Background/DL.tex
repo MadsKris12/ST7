@@ -29,7 +29,7 @@ During the beginning of training, the training error of network will typically b
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.6\textwidth]{figures/learningCurves}
+\includegraphics[width=0.7\textwidth]{figures/learningCurves}
 \caption{Illustration of how training (black), validation (red), and test (orange) error is affected by the increase in epochs. Edited from \citep{Duda2000}.}
 \label{fig:learningCurve}
 \end{figure}
@@ -39,16 +39,14 @@ Near the fifth epoch the validation and the test error starts to rise, indicatin
 Validation error can therefor be used as stop criterion for when the training is optimal, and prevent overfitting. 
 Typically the validation and test error will always be higher that the training error, which is also seen in \autoref{fig:learningCurve}. \citep{Duda2000}
   
-
-
-\subsection{Convolutional Neural Networks}
-Convolutional neural networks (CNNs) perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex model by extracting visual features from the pixel-level content.
-CNNs are feed–forward models that map input data with a set of suitable outputs. 
-Accuracy and performance rely on large training datasets and training procedure based on back-propagation with optimization algorithm such as gradient descent which is used for finding minimum value of the function.\citep{Acquarelli2017}
-
 \subsubsection{Back-propagation}
-Back–propagation is a popular learning algorithm in neural network, that is based on gradient decent, and valuable because of the simplicity and computationally efficient. \citep{Bengio2012, Duda2000}
+Backpropagation is a popular learning algorithm in neural networks, that is based on gradient decent, and valuable because of the simplicity and computationally efficient. \citep{Bengio2012, Duda2000}
 
+The network can be split into two main phases, where the first phase is a feedforward pass of the network, and then a learning phase. 
+When practicing supervised learning, an input is given to the network, to which a output is calculated, e.g. a classification value, that is then compared to a desired output.   
+
+
+Backpropagation is also the most general methods for supervised learning \citep{Duda2000}
 
 
 %Remember to write about batch and sochastic metods for traning with backprop
@@ -73,6 +71,13 @@ This process will be applied until optimal weights with minimum error is reached
 \item The architecture is important for classification, and depends on the given problem \citep{Duda2000}. 
 \item  
 \end{itemize}
+
+
+\subsection{Convolutional Neural Networks}
+Convolutional neural networks (CNNs) perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex model by extracting visual features from the pixel-level content.
+CNNs are feed–forward models that map input data with a set of suitable outputs. 
+Accuracy and performance rely on large training datasets and training procedure based on back-propagation with optimization algorithm such as gradient descent which is used for finding minimum value of the function.\citep{Acquarelli2017}
+
 
 
 
