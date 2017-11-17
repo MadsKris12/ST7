@@ -17,11 +17,29 @@ Firstly, the system detects minor changes like edges. Secondly, the edges are co
 \subsubsection{Learning scenarios}
 There are three main learning scenarios: supervised, unsupervised and semi-supervised learnings.
 
-Supervised learning is the most common way of training in machine learning \citep{LeCun2015}. When using this method the system is trained with labeled data, where the generated output can be compared with an expected output, and thereby see how accurate the system is. The weights are interconnection between two layers and they work as a set of coefficients, defining an image feature.\citep{Hameed2016} By adjusting weights in the neural network it is possible to fit the model better to the training data, and thereby increase its accuracy and reduce error \citep{LeCun2015}. Supervised learning is mostly associated with classification, regression, and ranking problems \citep{Mehryar2012}.
+Supervised learning is the most common way of training in machine learning \citep{LeCun2015}. When using this method the system is trained with labeled data, where the generated output can be compared with an expected output, and thereby see evaluate the performance of the system. The weights are interconnection between two layers and they work as a set of coefficients, defining an image feature.\citep{Hameed2016} By adjusting weights in the neural network it is possible to fit the model better to the training data, and thereby increase its accuracy and reduce error \citep{LeCun2015}. Supervised learning is mostly associated with classification, regression, and ranking problems \citep{Mehryar2012}.
 \noindent
 Differently from supervised learning the input in unsupervised learning is received with unlabeled data and the predictions. Then the system organizes the data by searching for common characteristics \citep{Mehryar2012}. An example of an unsupervised learning algorithm is clustering, where the unlabeled dataset goes through a classification, and split into different classes.\citep{Goodfellow2016} 
 \noindent
 In semi-supervised learning the learner is receiving both labeled, unlabeled data and then it searches for common characteristics in data. It is used mainly when the labeled data is hardly collected and unlabeled data is easily reachable.\citep{Mehryar2012}
+
+
+\subsubsection{Learning curves}
+During the beginning of training, the training error of network will typically be relatively high, but during training the error decreases monotonically, as the weights are adjusted in the network \citep{Duda2000}. An illustration of how the error values are affected during training can be seen in \autoref{fig:learningCurve}.
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.6\textwidth]{figures/learningCurves}
+\caption{Illustration of how training (black), validation (red), and test (orange) error is affected by the increase in epochs. Edited from \citep{Duda2000}.}
+\label{fig:learningCurve}
+\end{figure}
+
+From the figure it can be seen how the error value of the validation, can be used to evaluate the network. 
+Near the fifth epoch the validation and the test error starts to rise, indicating that the network is overfitting to the training data, thereby decreasing the generalization abilities. 
+Validation error can therefor be used as stop criterion for when the training is optimal, and prevent overfitting. 
+Typically the validation and test error will always be higher that the training error, which is also seen in \autoref{fig:learningCurve}. \citep{Duda2000}
+  
+
 
 \subsection{Convolutional Neural Networks}
 Convolutional neural networks (CNNs) perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex model by extracting visual features from the pixel-level content.
@@ -29,7 +47,14 @@ CNNs are feed–forward models that map input data with a set of suitable output
 Accuracy and performance rely on large training datasets and training procedure based on back-propagation with optimization algorithm such as gradient descent which is used for finding minimum value of the function.\citep{Acquarelli2017}
 
 \subsubsection{Back-propagation}
-Back–propagation is a popular learning algorithm in CNN. It is valuable because of the simplicity and computationally efficient \citep{Bengio2012}.
+Back–propagation is a popular learning algorithm in neural network, that is based on gradient decent, and valuable because of the simplicity and computationally efficient. \citep{Bengio2012, Duda2000}
+
+
+
+%Remember to write about batch and sochastic metods for traning with backprop
+
+%Mention local minima and gobal minima and why it is not so importent to find the absolut global minima. 
+
 The basic idea behind it is to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as  the inputs and weights multiplication of each node (separate input) summed with additional coefficients called biases.\citep{Hameed2016} 
 
 \begin{comment}
@@ -40,5 +65,14 @@ Where: x – the inputs, i – neurons, w_ij – weights, j – neurons for hidd
 
 In the backward process, weights will be updated to minimize the error between input and output layers.
 This process will be applied until optimal weights with minimum error is reached.\citep{Hameed2016}
+
+
+%Additional info that need to be placed somewhere. 
+\begin{itemize}
+\item There are simple methods that can be used to improve performance and training speed. Scaling of the input and giving an initial weight \citep{Duda2000}
+\item The architecture is important for classification, and depends on the given problem \citep{Duda2000}. 
+\item  
+\end{itemize}
+
 
 
