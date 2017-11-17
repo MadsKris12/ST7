@@ -1,0 +1,72 @@
+\section{Additional background}
+Learning curves - see pattern book
+
+
+\section{Overall for all the models}
+%TEMP CRAP THAT NEEDS TO BE PLACED ELSEWHERE
+Temp-placehoder:
+The process of making the neural network model has been a trial and error process, because there is not an actual “cookbook” for developing NN (This statement is from a not vaild source, but so far it’s the only one that i have found.)  
+
+\subsection{Data-handling in python}
+The preprocessed data save as a .mat file which is loaded into python. Before splitting the data into different sub-sets, it is shuffled to ensure generalization through randomization. The data is then split into a training-set and a test-set, and respectively makes out 85 \% and 15 \% of the preprocessed data. \textbf{NEED A SOURCE OR A ARGUMENT FOR WE SPLIT THE DATA LIKE THIS.} The test-set will only be used to evaluate the generalization of the model, and therefore won't contain data that's been used during training \citep{Duda2000}. 
+By keeping the test-set separate will act as new unseen data, for the model.  
+
+The training-set is additionally split into a another training-set and a validation-set. Here the new training-set makes out 90 \% of the sub-set and the validation set is the remaining 10 \%. \textbf{WE NEED A SOURCE/OR A GOOD ARGUMENT FOR THIS, SAME AS ABOVE} 
+The validation set will be used to estimate the generalization error during training \citep{Duda2000}.  
+
+\subsection{Applied optimization techniques}
+To reduce overfitting and to optimize the network different techniques are applied to the different network models. The result of this is hoped to be better generalization of the models. 
+
+\subsubsection{Dropout}
+Dropout is a technique that can be used to prevent or reduce overfitting of a neural network. In a network the dropout can be applied to the individual layers, and works by randomly drop/”turn off” different nodes temporarily in the given layer during training. 
+This reduces co-adaptation, where nodes compute the same features, and thereby reduce the generalisation error a neural network.\citep{Srivastava2014}  
+When defining the dropout, it is given a float value between 0 and 1, which defines the fraction of the nodes that drop in the given layer \citep{Chollet2015}.
+It is found through another study, that it found the optimal value for dropout to be 20 \% of the nodes in the visible layers, and 50 \% in the hidden layers \citep{Srivastava2014}.
+
+
+
+\subsubsection{Kernel-initializer 'Maybe'}
+
+
+\subsubsection{Learning rate 'Maybe'}
+
+\subsubsection{Training with noise 'Maybe'}
+
+\subsubsection{Manufacturing data 'Maybe'}
+
+\ 
+ 
+ 
+\subsection{Training of the networks}
+Supervised learning is used for training in all the models. The generic input for all of the model is gender, along with the different image representation, which are described in \autoref{BIRGITHE&LINETTE}. These inputs trained and then compared against their respective category label.   
+The models classify data into three different classes e.g. duration interval of 0-12 months, 18-30 months and 36 months and above. Because of this multi classification, the output labels are changed from integer representation, 0 (0-12 months), 1 (16-30 months) and 2 ( and 36 months and above) into a one-hot encoded representation [0 , 0 , 1], [0 , 1 , 0] and [1 , 0 , 0] respectively. This is done by using keras utility function called \textit{to_categorical}. 
+
+MAYBE SOMETHING ABOUT GRID TESTING
+
+\subsubsection{Cross-validation}
+Because the amount of data for this project is limited it is chosen to implement m-fold cross validation, where the training data is divided into m number of subsets. Each of the subsets can function a either a validation set or as a part of a training set e.g. if a classifier is trained \textit{m} times, then each time a different subset will be used as a validation set, and the rest is used for training. \citep{Duda2000}
+Because of the property of cross validation, it can be used as a way of improving generalization accuracy since all data is included during training, but may not be beneficial for every kind of problem. \citep{Duda2000}
+
+\subsubsection{Batch training}
+
+
+\subsubsection{Grid testing 'Maybe'}
+
+\section{Vector image model}
+The vectors used in this model contains the “active” pain regions from the different patients, as described in \autoref{Linette&Birgithe}. In this data representation there is no morphology of the original image, like there is in the raw image, and encoded image representation, to which this has also affect the architecture of the model, compared to the other two.
+One of the main changes is the absence of the convolutional layers, since these type of layers is often used in object recognition as described in \autoref{DEEPLEARNING}, they are considered unfit for this type of data representation.    
+
+Instead the neural network only consists of fully connected layers or known as dense layers in Keras. (We need an argument for why it’s only fully connected layers, or to see if there is other ways of optimizing the model.)
+Furthermore the network contains a dropout layer, to try to reduce overfitting of the network. 
+
+
+
+\section{Raw image model}
+The image representation for this network is binary, and contains the morphology of the pain. The gender input is represented as a either a 1 or 0 respectively for female and male subjects. 
+
+The structure for this model can be said to consist of two parts, a convolutional part and a fully-connected part/dense part. The convolutional part is made to handle the binary image, to where the image passes through 2 x (2 x Convolution and 1 x Maxpooling) and is then flatten into a row representation. 
+This part of network is based on the typical structure of a Convolutional network, with the alternation between convolutional layers and pooling layers \citep{LeCun2015}
+
+Gender is then given as an input value, and is concatenated with the flattened image features, which is then given as input to the second part of the network. Here the input passes three fully connected layers, where the last layer/the output layer classifies into one of the the two/three classes.
+
+THIS NEEDS TO BE REWRITTEN: The reason for separating gender and binary images is given as separate inputs is because of that there is no benefit in feeding gender through several convolutional layers, since these layer are use for looking at the shapes of the pain.  
