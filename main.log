@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  16 NOV 2017 14:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.10.3)  17 NOV 2017 14:16
 entering extended mode
 **main.tex
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.tex"
@@ -1851,7 +1851,7 @@ e.tex") [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/xFormality/titleShe
-et.tex" <figures/aaulogo-en.png, id=119, 293.095pt x 195.73125pt>
+et.tex" <figures/aaulogo-en.png, id=115, 293.095pt x 195.73125pt>
 File: figures/aaulogo-en.png Graphic file (type png)
 
 <use figures/aaulogo-en.png>
@@ -1907,7 +1907,7 @@ File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\main.toc") [4]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/Anatomy.
-tex" <figures/bonestruc.png, id=173, 492.33937pt x 437.38406pt>
+tex" <figures/bonestruc.png, id=168, 492.33937pt x 437.38406pt>
 File: figures/bonestruc.png Graphic file (type png)
 
 <use figures/bonestruc.png>
@@ -1917,7 +1917,7 @@ Package pdftex.def Info: figures/bonestruc.png used on input line 13.
 
 
  <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/bonestruc.png>]
-<figures/knee.png, id=193, 885.3075pt x 429.85594pt>
+<figures/knee.png, id=188, 885.3075pt x 429.85594pt>
 File: figures/knee.png Graphic file (type png)
  <use figures/knee.png>
 Package pdftex.def Info: figures/knee.png used on input line 28.
@@ -1928,44 +1928,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
-<figures/painpic.pdf, id=211, 500.87125pt x 355.3275pt>
+<figures/painpic.pdf, id=206, 500.87125pt x 355.3275pt>
 File: figures/painpic.pdf Graphic file (type pdf)
 
 <use figures/painpic.pdf>
 Package pdftex.def Info: figures/painpic.pdf used on input line 56.
 (pdftex.def)             Requested size: 330.75pt x 234.6524pt.
- [3 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/painpic.pdf>] <
-figures/VAS.png, id=240, 382.42876pt x 72.27pt>
-File: figures/VAS.png Graphic file (type png)
-
-<use figures/VAS.png>
-Package pdftex.def Info: figures/VAS.png used on input line 81.
-(pdftex.def)             Requested size: 330.75pt x 62.50716pt.
- <figures/kneetest.png, id=247, 403.5075pt x 307.90031pt>
+ [3 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/painpic.pdf>]
+<figures/kneetest.png, id=231, 403.5075pt x 307.90031pt>
 File: figures/kneetest.png Graphic file (type png)
 
 <use figures/kneetest.png>
-Package pdftex.def Info: figures/kneetest.png used on input line 94.
+Package pdftex.def Info: figures/kneetest.png used on input line 78.
 (pdftex.def)             Requested size: 343.97946pt x 262.4776pt.
- [4 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/VAS.png>] <figu
-res/painmap.png, id=269, 779.91376pt x 1355.0625pt>
+ [4 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/kneetest.png>] 
+<figures/VAS.png, id=252, 382.42876pt x 72.27pt>
+File: figures/VAS.png Graphic file (type png)
+
+<use figures/VAS.png>
+Package pdftex.def Info: figures/VAS.png used on input line 95.
+(pdftex.def)             Requested size: 396.89731pt x 75.00792pt.
+ <figures/painmap.png, id=260, 779.91376pt x 1355.0625pt>
 File: figures/painmap.png Graphic file (type png)
 
 <use figures/painmap.png>
-Package pdftex.def Info: figures/painmap.png used on input line 108.
+Package pdftex.def Info: figures/painmap.png used on input line 110.
 (pdftex.def)             Requested size: 176.39731pt x 306.468pt.
- [5 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/kneetest.png>]
-<figures/atlas.png, id=285, 460.72125pt x 220.57407pt>
+ [5 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/VAS.png>]
+
+Package natbib Warning: Citation `Elson2010' on page 6 undefined on input line 
+125.
+
+<figures/atlas.png, id=281, 460.72125pt x 220.57407pt>
 File: figures/atlas.png Graphic file (type png)
  <use figures/atlas.png>
-Package pdftex.def Info: figures/atlas.png used on input line 123.
+Package pdftex.def Info: figures/atlas.png used on input line 129.
 (pdftex.def)             Requested size: 264.60269pt x 126.681pt.
 
 [6 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/painmap.png>]
+
+Package natbib Warning: Citation `Elson2010' on page 7 undefined on input line 
+136.
+
 [7 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/atlas.png>])
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/ML.tex")
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Background/DL.tex"
-<figures/NN_structure.png, id=309, 493.845pt x 325.215pt>
+<figures/NN_structure.png, id=305, 493.845pt x 325.215pt>
 File: figures/NN_structure.png Graphic file (type png)
 
 <use figures/NN_structure.png>
@@ -1987,7 +1995,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 ]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Materials/Data.tex"
-<figures/kneepainmap.png, id=357, 237.88875pt x 605.26125pt>
+<figures/kneepainmap.png, id=353, 237.88875pt x 605.26125pt>
 File: figures/kneepainmap.png Graphic file (type png)
 
 <use figures/kneepainmap.png>
@@ -1997,7 +2005,7 @@ Package pdftex.def Info: figures/kneepainmap.png used on input line 9.
 
  <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/kneepainmap.png (P
 NG copy)>]
-<figures/Navigatepain.png, id=366, 3173.8575pt x 1541.76pt>
+<figures/Navigatepain.png, id=362, 3173.8575pt x 1541.76pt>
 File: figures/Navigatepain.png Graphic file (type png)
 
 <use figures/Navigatepain.png>
@@ -2008,7 +2016,7 @@ Package pdftex.def Info: figures/Navigatepain.png used on input line 20.
 ex") [12 <C:/Users/Linette Helena Pouls/Documents/GitHub/ST7/figures/Navigatepa
 in.png>] [13]
 ("C:\Users\Linette Helena Pouls\Documents\GitHub\ST7\Report/Data/Data.tex"
-<figures/cropbin7.png, id=386, 526.96875pt x 398.99063pt>
+<figures/cropbin7.png, id=382, 526.96875pt x 398.99063pt>
 File: figures/cropbin7.png Graphic file (type png)
 
 <use figures/cropbin7.png>
@@ -2017,7 +2025,7 @@ Package pdftex.def Info: figures/cropbin7.png used on input line 15.
  [14
 
 ]
-<figures/binregions.png, id=397, 402.00188pt x 176.91093pt>
+<figures/binregions.png, id=393, 402.00188pt x 176.91093pt>
 File: figures/binregions.png Graphic file (type png)
 
 <use figures/binregions.png>
@@ -2037,6 +2045,9 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 
 ]) [18]
 
+Package natbib Warning: There were undefined citations.
+
+
 AED: lastpage setting LastPage
 [19
 
@@ -2052,12 +2063,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F8C3D775C7604CAA44B10B5839D49D68;1654.
+(rerunfilecheck)             Checksum: 2EFC40B73BF66FB337E10EEB4386F3C0;1586.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
  26270 strings out of 493921
- 459680 string characters out of 3144831
+ 459668 string characters out of 3144831
  768155 words of memory out of 3000000
  28992 multiletter control sequences out of 15000+200000
  26750 words of font info for 76 fonts, out of 3000000 for 9000
@@ -2079,9 +2090,9 @@ eX 2.9/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Program Files (x86)/MiKTeX
 nts/type1/public/cm-super/sfti0700.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/cm-super/sfti1095.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (23 pages, 5362809 bytes).
+Output written on main.pdf (23 pages, 5363018 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
+ 508 PDF objects out of 1000 (max. 8388607)
  96 named destinations out of 1000 (max. 500000)
- 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 
