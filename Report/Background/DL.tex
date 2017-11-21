@@ -42,16 +42,25 @@ Typically the validation and test error will always be higher that the training 
 \subsubsection{Back-propagation}
 Backpropagation is a popular learning algorithm in neural networks, that is based on gradient decent, and valuable because of the simplicity and computationally efficient. \citep{Bengio2012, Duda2000}
 
-The network can be split into two main phases, where the first phase is a feedforward pass of the network, and then a learning phase. 
-When practicing supervised learning, an input is given to the network, to which a output is calculated, e.g. a classification value, that is then compared to a desired output.   
+Backpropagation is the process where the weights are adjusted to reduce the error between the input and desired output of the model. This also makes backpropagation the most general method used for supervised learning where the error is calculated through the used of the network's output and a real output.\citep{Duda2000} 
 
+The different operating-phases of the can be split into a feedforward and learning phase. 
+Feedforward is when the input is fed into the network and and output is given, simply by passing input through the different layers and weights. 
+When the network is trained that weights are initiated with random values, from which the result is a low performance accuracy of the network. 
+The learning phase is then again related to supervised learning, where parameters like the weights are adjusted to reduce error during training. \citep{Duda2000}
+   
 
-Backpropagation is also the most general methods for supervised learning \citep{Duda2000}
+%er ved chap 6.3 i pattern 
+
+In the backward process, weights will be updated to minimize the error between input and output layers.
+This process will be applied until optimal weights with minimum error is reached.\citep{Hameed2016}
 
 
 %Remember to write about batch and sochastic metods for traning with backprop
 
 %Mention local minima and gobal minima and why it is not so importent to find the absolut global minima. 
+
+%Explain gradient decent 
 
 The basic idea behind it is to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as  the inputs and weights multiplication of each node (separate input) summed with additional coefficients called biases.\citep{Hameed2016} 
 
@@ -61,13 +70,13 @@ It is defined by:
 Where: x – the inputs, i – neurons, w_ij – weights, j – neurons for hidden layer, b_in – biases
 \end{comment}
 
-In the backward process, weights will be updated to minimize the error between input and output layers.
-This process will be applied until optimal weights with minimum error is reached.\citep{Hameed2016}
+
 
 
 %Additional info that need to be placed somewhere. 
 \begin{itemize}
 \item There are simple methods that can be used to improve performance and training speed. Scaling of the input and giving an initial weight \citep{Duda2000}
+
 \item The architecture is important for classification, and depends on the given problem \citep{Duda2000}. 
 \item  
 \end{itemize}
