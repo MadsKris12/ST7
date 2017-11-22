@@ -1,31 +1,32 @@
 \changetocdepth {2}
 \select@language {english}
-\contentsline {chapter}{\chapternumberline {1}Background}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Anatomy of the Knee}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Pain}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}Identify and interpret pain}{4}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Identify cause of pain}{4}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Pain interpretation}{5}{subsection.1.3.2}
-\contentsline {subsubsection}{Pain mapping}{5}{section*.8}
-\contentsline {section}{\numberline {1.4}Knee regions}{6}{section.1.4}
-\contentsline {section}{\numberline {1.5}Machine learning}{8}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Deep Learning}{8}{subsection.1.5.1}
-\contentsline {subsubsection}{Learning scenarios}{9}{section*.12}
-\contentsline {subsubsection}{Learning curves}{9}{section*.13}
-\contentsline {subsubsection}{Back-propagation}{10}{section*.15}
-\contentsline {subsection}{\numberline {1.5.2}Convolutional Neural Networks}{10}{subsection.1.5.2}
-\contentsline {chapter}{\chapternumberline {2}Aim of the project}{11}{chapter.2}
-\contentsline {subsection}{\numberline {2.0.3}Hypothesis}{11}{subsection.2.0.3}
-\contentsline {chapter}{\chapternumberline {3}Materials}{12}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data}{12}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Software application: Navigate Pain}{13}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Programs}{13}{section.3.2}
-\contentsline {chapter}{\chapternumberline {4}Data Processing}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}Pre-processing}{15}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Morphology}{15}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Regions}{16}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Superimposed morphology and regions}{17}{subsection.4.1.3}
-\contentsline {chapter}{\chapternumberline {5}Results}{18}{chapter.5}
-\contentsline {chapter}{Bibliography}{19}{section*.22}
-\contentsline {appendix}{\chapternumberline {A}Appendix}{21}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix I}{21}{section.A.1}
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Primary aim}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Secondary aim}{2}{section.1.2}
+\contentsline {chapter}{\chapternumberline {2}Background}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Anatomy of the Knee}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Pain}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}Identify and interpret pain}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Identify cause of pain}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Pain interpretation}{7}{subsection.2.3.2}
+\contentsline {subsubsection}{Pain mapping}{7}{section*.8}
+\contentsline {section}{\numberline {2.4}Knee regions}{8}{section.2.4}
+\contentsline {section}{\numberline {2.5}Machine learning}{10}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Deep Learning}{10}{subsection.2.5.1}
+\contentsline {subsubsection}{Learning scenarios}{11}{section*.12}
+\contentsline {subsubsection}{Learning curves}{11}{section*.13}
+\contentsline {subsubsection}{Back-propagation}{12}{section*.15}
+\contentsline {subsection}{\numberline {2.5.2}Convolutional Neural Networks}{12}{subsection.2.5.2}
+\contentsline {chapter}{\chapternumberline {3}Materials}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data}{13}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Software application: Navigate Pain}{14}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Programs}{14}{section.3.2}
+\contentsline {chapter}{\chapternumberline {4}Data Processing}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}Pre-processing}{16}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Morphology}{16}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Regions}{17}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Superimposed morphology and regions}{18}{subsection.4.1.3}
+\contentsline {chapter}{\chapternumberline {5}Results}{19}{chapter.5}
+\contentsline {chapter}{Bibliography}{20}{section*.22}
+\contentsline {appendix}{\chapternumberline {A}Appendix}{22}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix I}{22}{section.A.1}
