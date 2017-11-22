@@ -1,9 +1,62 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Maclachlan et~al.(2017)Maclachlan, Collins, and Et.al]{Maclachlan2017}
+Liam~R. Maclachlan, Natalie~J. Collins, and Et.al.
+\newblock {The psychological features of patellofemoral pain: a systematic
+  review}.
+\newblock 2017.
+\newblock \doi{10.1136-bjsports-2016-096705}.
+
+\bibitem[Smith et~al.(2015)Smith, Drew, and Et.al.]{Smith2015}
+T.O. Smith, B.T. Drew, and Et.al.
+\newblock {Knee orthoses for treating patellofemoral pain syndrome (review)}.
+\newblock 2015.
+\newblock \doi{10.1002/14651858.CD010513.pub2.}
+
+\bibitem[Petersen et~al.(2013)Petersen, Ellermann, and Et.al.]{Petersen2013}
+Wolf Petersen, Andree Ellermann, and Et.al.
+\newblock {Patellofemoral Pain Syndrome}.
+\newblock \emph{Clinical Orthopaedics and Related Research}, 2013.
+\newblock \doi{10.1097/01.blo.0000229284.45485.6c}.
+
+\bibitem[Crossley et~al.(2016)Crossley, Callaghan, and Et.al]{Crossley2016}
+Kay~M. Crossley, Michael~J. Callaghan, and Et.al.
+\newblock {Patellofemoral pain}.
+\newblock 2016.
+\newblock \doi{10.1136/bjsports-2015-h3939rep}.
+
+\bibitem[Boudreau and et.al Badsberg(2016)]{Boudreau2016}
+Shellie~A. Boudreau and Susanne et.al Badsberg.
+\newblock {Digital pain drawings: Assessing Touch-Screen Technology and 3D Body
+  Schemas}.
+\newblock 2016.
+\newblock \doi{10.1097/AJP.0000000000000230}.
+
+\bibitem[Boudreau and et.al. Kamavuako(2017)]{Boudreau2017}
+Shellie~A. Boudreau and E.~N. et.al. Kamavuako.
+\newblock {Distribution and symmetrical patellofemoral pain patterns as
+  revealed by high-resolution 3D body mapping: a cross-sectional study}.
+\newblock 2017.
+\newblock \doi{10.1186/s12891-017-1521-5}.
+
+\bibitem[Haefeli and Elfering(2005)]{Haefeli2005}
+Mathias Haefeli and Achim Elfering.
+\newblock {Pain assessment}.
+\newblock 2005.
+\newblock \doi{10.1007/s00586-005-1044-x}.
+
+\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Hinton]{LeCun2015}
+Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
+\newblock {Deep Learning}.
+\newblock \emph{Nature Insight Review}, pages 436--444, 2015.
+\newblock \doi{10.1038/nature14539}.
+\newblock URL
+  \url{https://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf}.
 
 \bibitem[et.~al. Martini(2012)]{Martini2012}
 Frederic~H. et.~al. Martini.
@@ -33,16 +86,16 @@ Emma Briggs.
 \newblock {Understanding the experience and physiology of pain}.
 \newblock 2010.
 
-\bibitem[Smith et~al.(2015)Smith, Drew, and Et.al.]{Smith2015}
-T.O. Smith, B.T. Drew, and Et.al.
-\newblock {Knee orthoses for treating patellofemoral pain syndrome (review)}.
-\newblock 2015.
-\newblock \doi{10.1002/14651858.CD010513.pub2.}
-
 \bibitem[Younger and Mackey(2009)]{Younger2009}
 Jarred Younger and Sean Mackey.
 \newblock {Pain outcomes: A brief review of instruments and techniques}.
 \newblock 2009.
+
+\bibitem[Ghosh and Deehan(2010)]{Ghosh2010}
+Kanishka~M. Ghosh and David~J. Deehan.
+\newblock {Soft tissue knee injuries}.
+\newblock In Mark Wilkinson, editor, \emph{Orthopaedic surgery: lower limb}.
+  Elsevier, 2010.
 
 \bibitem[{Ferreira Valente} et~al.(2011){Ferreira Valente}, {Ribeiro Pais}, and
   Al]{Valente2011}
@@ -51,29 +104,11 @@ Maria {Ferreira Valente}, Jos{\'{e}} {Ribeiro Pais}, and Et. Al.
 \newblock 2011.
 \newblock \doi{10.1016/j.pain.2011.07.005}.
 
-\bibitem[Haefeli and Elfering(2005)]{Haefeli2005}
-Mathias Haefeli and Achim Elfering.
-\newblock {Pain assessment}.
-\newblock 2005.
-\newblock \doi{10.1007/s00586-005-1044-x}.
-
 \bibitem[Roos and Lohmander(2003)]{Roos2003}
 Ewa~M. Roos and L.~Stefan Lohmander.
 \newblock {The knee injury and osteoarthritis outcome score (KOOS): from joint
   injury to osteoarthritis}.
 \newblock \emph{Bio Med Central}, 2003.
-
-\bibitem[Ghosh and Deehan(2010)]{Ghosh2010}
-Kanishka~M. Ghosh and David~J. Deehan.
-\newblock {Soft tissue knee injuries}.
-\newblock In Mark Wilkinson, editor, \emph{Orthopaedic surgery: lower limb}.
-  Elsevier, 2010.
-
-\bibitem[Petersen et~al.(2013)Petersen, Ellermann, and Et.al.]{Petersen2013}
-Wolf Petersen, Andree Ellermann, and Et.al.
-\newblock {Patellofemoral Pain Syndrome}.
-\newblock \emph{Clinical Orthopaedics and Related Research}, 2013.
-\newblock \doi{10.1097/01.blo.0000229284.45485.6c}.
 
 \bibitem[Grunnesj{\"{o}}(2006)]{Grunnesjo2006}
 Marie Grunnesj{\"{o}}.
@@ -87,21 +122,6 @@ Geoffrey~D. Schott.
 \newblock {The cartography of pain: The evolving contribution of pain maps}.
 \newblock 2010.
 \newblock \doi{10.1016/j.ejpain.2009.12.005}.
-
-\bibitem[Boudreau and et.al Badsberg(2016)]{Boudreau2016}
-Shellie~A. Boudreau and Susanne et.al Badsberg.
-\newblock {Digital pain drawings: Assessing Touch-Screen Technology and 3D Body
-  Schemas}.
-\newblock 2016.
-\newblock \doi{10.1097/AJP.0000000000000230}.
-
-\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Hinton]{LeCun2015}
-Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
-\newblock {Deep Learning}.
-\newblock \emph{Nature Insight Review}, pages 436--444, 2015.
-\newblock \doi{10.1038/nature14539}.
-\newblock URL
-  \url{https://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf}.
 
 \bibitem[Nielsen(2010)]{Nielsen2010}
 Mads Nielsen.
@@ -163,6 +183,12 @@ Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 \newblock MIT Press, 2016.
 \newblock URL \url{http://www.deeplearningbook.org}.
 
+\bibitem[Duda et~al.(2000)Duda, Hart, and Stork]{Duda2000}
+Richard Duda, Peter Hart, and David Stork.
+\newblock \emph{{Pattern Classification}}.
+\newblock Second edi edition, 2000.
+\newblock ISBN 9780471056690.
+
 \bibitem[Bengio(2012)]{Bengio2012}
 Yoshua Bengio.
 \newblock \emph{{Neural Networks: Tricks of the Trade: Second Edition}}.
@@ -170,13 +196,6 @@ Yoshua Bengio.
 \newblock ISBN 978-3-642-35289-8.
 \newblock \doi{10.1007/978-3-642-35289-8_26}.
 \newblock URL \url{http://dx.doi.org/10.1007/978-3-642-35289-8{\_}26}.
-
-\bibitem[Boudreau and et.al. Kamavuako(2017)]{Boudreau2017}
-Shellie~A. Boudreau and E.~N. et.al. Kamavuako.
-\newblock {Distribution and symmetrical patellofemoral pain patterns as
-  revealed by high-resolution 3D body mapping: a cross-sectional study}.
-\newblock 2017.
-\newblock \doi{10.1186/s12891-017-1521-5}.
 
 \bibitem[Solutions(2015)]{Solutions2015}
 Aglance Solutions.
