@@ -62,30 +62,29 @@ OBS can only use images as an input
 Supervised learning is used for training in all the models. The generic input for all of the model is gender, along with the different image representation, which are described in \autoref{BIRGITHE&LINETTE}. These inputs trained and then compared against their respective category label.   
 The models classify data into three different classes e.g. duration interval of 0-12 months, 18-30 months and 36 months and above. Because of this multi classification, the output labels are changed from integer representation, 0 (0-12 months), 1 (16-30 months) and 2 ( and 36 months and above) into a one-hot encoded representation [0 , 0 , 1], [0 , 1 , 0] and [1 , 0 , 0] respectively. This is done by using keras utility function called \textit{to_categorical}. 
 
-
-
 \subsubsection{Cross-validation}
 Because the amount of data for this project is limited it is chosen to implement m-fold cross validation, where the training data is divided into m number of subsets. Each of the subsets can function a either a validation set or as a part of a training set e.g. if a classifier is trained \textit{m} times, then each time a different subset will be used as a validation set, and the rest is used for training. \citep{Duda2000}
 Because of the property of cross validation, it can be used as a way of improving generalization accuracy since all data is included during training, but may not be beneficial for every kind of problem. \citep{Duda2000}
 
 \section{Vector image model}
-The vectors used in this model contains the “active” pain regions from the different patients, as described in \autoref{Linette&Birgithe}. In this data representation there is no morphology of the original image, like there is in the raw image, and encoded image representation, to which this has also affect the architecture of the model, compared to the other two.
-One of the main changes is the absence of the convolutional layers, since these type of layers is often used in object recognition as described in \autoref{DEEPLEARNING}, they are considered unfit for this type of data representation.    
-
-Instead the neural network only consists of fully connected layers or known as dense layers in Keras. (We need an argument for why it’s only fully connected layers, or to see if there is other ways of optimizing the model.)
-Furthermore the network contains a dropout layer, to try to reduce overfitting of the network. 
+The architecture for this model only contains fully connected layer, since the data representation only contains 21 element vector that reflects the active pain regions and gender as described in \autoref{LinetteAndBirgithe}. It's evaluated that there wouldn't be any gains in making the model more complex e.g. adding of convolution, based on the information available from vector, since the level of detail in relation to morphology is very simple. 
+The architecture of the model is illustrated in \autoref{fig:simpleModel}. 
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.6\textwidth]{figures/XXX}
-\caption{XXX}
-\label{fig:XXX}  
+\includegraphics[width=0.6\textwidth]{figures/simpleModel}
+\caption{Arcitechture of the neural network using knee region representation.}
+\label{fig:simpleModel}  
 \end{figure}
+
+The model consists of three layers, where the input and output layer... 
+
 
 
 
 \section{Raw binary representation model}\label{sec:binaryRepModel}
-The architecture of this model is based on the typical structure of a convolutional network, where the first layers alternate between convolutional layers and max pooling layers \citep{LeCun2015}. This defines the first part of the model. The following layers consists of three fully connected layers, and output layer, and defined the second part of the model. An overview of the architecture is shown in \autoref{fig:binaryRepModel}.    
+The architecture of this model is based on the typical structure of a convolutional network, where the first layers alternate between convolutional layers and max pooling layers \citep{LeCun2015}. This defines the first part of the model. The following layers consists of three fully connected layers, and output layer, and defined the second part of the model. An overview of the architecture is shown in \autoref{fig:binaryRepModel}.  
+Convolution layer are implemented for this pain map representation, because of their ability to extract morphology features from images, as written in \autoref{CONVOLUTION}
 
 \begin{figure} [H]
 \centering
