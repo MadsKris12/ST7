@@ -1,6 +1,6 @@
 \subsection{Deep Learning}
 Deep learning is a branch of machine learning. The main difference between the use of machine learning and deep learning, is that machine learning is not suitable for handling raw data form. Instead a machine learning system often needs a feature extractor, that will generate a feature vector from the data that can be used as an input for the machine learning system.
-Deep learning is based on different techniques that makes it able to handle that data in its raw form, mainly because of its structure.\citep{LeCun2015, Schmidhuber2015} Because of this the system will automatically detect the necessary representations needed for classification and detection. Neural network is a structure of deep learning which consists of different layers, that can be divided into a input-layer and an output-layer, with one or more hidden layers in between \citep{Schmidhuber2015}. The key aspect of these layers is that the features are not defined by programmers, but they are found and learned from raw data using a general–purpose learning procedure.\citep{LeCun2015} An example of the structure can be seen in figure \ref{fig:NN_structure}.   
+Deep learning is based on different techniques that makes it able to handle that data in its raw form, mainly because of its structure.\citep{LeCun2015, Schmidhuber2015} Because of this the system will automatically detect the necessary representations needed for classification and detection. Neural network is a structure of deep learning which consists of different layers, that can be divided into a input-layer and an output-layer, with one or more hidden layers in between \citep{Schmidhuber2015}. The key aspect of these layers is that the features are not defined by programmers, but they are found and learned from raw data using a general–purpose learning procedure.\citep{LeCun2015} An example of a neural network structure can be seen in figure \ref{fig:NN_structure}.   
 
 
 \begin{figure} [H]
@@ -11,22 +11,26 @@ Deep learning is based on different techniques that makes it able to handle that
 \end{figure}
 
 \noindent
-The different layers consist of a series of nodes, where each node is connected by weights to one or several other nodes from a different layer. In the input-layer the nodes are fed with the data that the system is given. The second layer will then receive the output from the previous layer, and this process continues through the layers until the output-layer is reached.\citep{Schmidhuber2015} An example of how the hidden layers affect an image can be explained as follows:  
+The different layers consist of a series of nodes, where each node is connected by weights to one or several other nodes from a different layer. In the input-layer the nodes receive data. The second layer will then receive the output from the previous layer, and this process continues through the layers until the output-layer is reached.\citep{Schmidhuber2015} An example of how the hidden layers affect an image can be explained as follows:  
 Firstly, the system detects minor changes like edges. Secondly, the edges are compared and put together to make up different kind of shapes. In the third hidden layer, it will be further combined to make up an object that can be identified.\citep{LeCun2015}
 
+%Maybe explain a bit more to how the different nodes contain activation functions...
+
+% Maybe explain hoe the input becomes the output in a litte more detail.  The weights are interconnection between two layers and they work as a set of coefficients, defining an image feature.\citep{Hameed2016}
+
+% The following is already discriped in back prop, but could be used earlier or later maybe - By adjusting weights in the neural network it is possible to fit the model better to the training data, and thereby increase its accuracy and reduce error \citep{LeCun2015}.
 
 \subsubsection{Learning scenarios}
-There are three main learning scenarios: supervised, unsupervised and semi-supervised learnings.
+There are different approaches for training a neural network, where the three main learning scenarios are supervised-, unsupervised- and semi-supervised learning.
 
-\textbf{Supervised learning} is the most common way of training in machine learning \citep{LeCun2015}. When using this method the system is trained with labeled data, where the generated output can be compared with an expected output, and thereby see evaluate the performance of the system. The weights are interconnection between two layers and they work as a set of coefficients, defining an image feature.\citep{Hameed2016} By adjusting weights in the neural network it is possible to fit the model better to the training data, and thereby increase its accuracy and reduce error \citep{LeCun2015}. Supervised learning is mostly associated with classification, regression, and ranking problems \citep{Mehryar2012}.
 \noindent
+\textbf{Supervised learning} is the most common way of training in machine learning. When applying this learning method the neural network is trained with input data that has a corresponding label. The network calculates an output through the forward pass, where the data is simply passed through the network. This output may then be compared to the label, and used to evaluate the performance of the system. As a result of the evaluation, the network may learn form the data by doing a backward pass through the network, also known as backpropagation. \citep{LeCun2015} Overall supervised learning may be described as teaching the network how to associate a given input to a specific output \citep{Goodfellow0216}, and is mostly associated with classification, regression, and ranking problems \citep{Mehryar2012}.
 
-\textbf{Unsupervised learning} the input in unsupervised learning is received with unlabeled data and the predictions. Then the system organizes the data by searching for common characteristics \citep{Mehryar2012}. An example of an unsupervised learning algorithm is clustering, where the unlabeled dataset goes through a classification, and split into different classes.\citep{Goodfellow2016} 
 \noindent
+\textbf{Unsupervised learning} is when training i performed with data that has no output label. Instead of learning associations between input and output, the network organizes the data by searching for common characteristics \citep{Mehryar2012}. An example of an unsupervised learning algorithm is k-mean clustering, where the unlabeled dataset goes through a classification, and splits data into clusters that are near each other \citep{Goodfellow2016}.  
 
-\textbf{Semi-supervised learning} the learner is receiving both labeled, unlabeled data and then it searches for common characteristics in data. It is used mainly when the labeled data is hardly collected and unlabeled data is easily reachable.\citep{Mehryar2012}
-
-
+\noindent
+\textbf{Semi-supervised learning} network receives both labeled, unlabeled data and then it searches for common characteristics in data. It is used mainly when the labeled data is hardly collected and unlabeled data is easily reachable. \citep{Mehryar2012}
 
   
 \subsection{Back-propagation}
