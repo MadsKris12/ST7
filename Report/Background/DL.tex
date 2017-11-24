@@ -24,6 +24,23 @@ Differently from supervised learning the input in unsupervised learning is recei
 In semi-supervised learning the learner is receiving both labeled, unlabeled data and then it searches for common characteristics in data. It is used mainly when the labeled data is hardly collected and unlabeled data is easily reachable.\citep{Mehryar2012}
 
 
+
+  
+\subsection{Back-propagation}
+
+
+Backpropagation is a popular learning algorithm in neural networks, that is based on gradient decent, and valuable because of the simplicity and computationally efficient. \citep{Bengio2012, Duda2000}
+It's the (learning) process where the weights of a neural network are adjusted in order to reduce the error calculated between the output of the network and the expected output. This by definition makes backpropagation closely related to supervised learning, as written in \ref{sec:LearningTech}, to which backpropagation the most general method used.\citep{Duda2000}  
+When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of training. Based on a cost function a loss is calculated for every input that passes through the network, the is used by backpropagation to make the adjustments on the weight to reduce this loss. As training progresses the loss should decrease as a result of the weight adjustments, and improve the performance of the neural network. \citep{Duda2000, Goodfellow2016}   
+This learning process continues until optimal weights with minimum error is reached.\citep{Hameed2016}
+
+
+The basic idea behind it is to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as  the inputs and weights multiplication of each node (separate input) summed with additional coefficients called biases.\citep{Hameed2016} 
+
+\subsubsection{Gradient Decent, mini-batches and optimizers}
+
+% Mention local minima and gobal minima and why it is not so importent to find the absolut global minima \citep{Duda2000}. 
+
 \subsubsection{Learning curves}
 During the beginning of training, the training error of network will typically be relatively high, but during training the error decreases monotonically, as the weights are adjusted in the network \citep{Duda2000}. An illustration of how the error values are affected during training can be seen in \autoref{fig:learningCurve}.
 
@@ -38,51 +55,10 @@ From the figure it can be seen how the error value of the validation, can be use
 Near the fifth epoch the validation and the test error starts to rise, indicating that the network is overfitting to the training data, thereby decreasing the generalization abilities. 
 Validation error can therefor be used as stop criterion for when the training is optimal, and prevent overfitting. 
 Typically the validation and test error will always be higher that the training error, which is also seen in \autoref{fig:learningCurve}. \citep{Duda2000}
-  
-\subsubsection{Back-propagation}
-Backpropagation is a popular learning algorithm in neural networks, that is based on gradient decent, and valuable because of the simplicity and computationally efficient. \citep{Bengio2012, Duda2000}
-
-Backpropagation is the process where the weights are adjusted to reduce the error between the input and desired output of the model. This also makes backpropagation the most general method used for supervised learning where the error is calculated through the used of the network's output and a real output.\citep{Duda2000} 
-
-The different operating-phases of the can be split into a feedforward and learning phase. 
-Feedforward is when the input is fed into the network and and output is given, simply by passing input through the different layers and weights. 
-When the network is trained that weights are initiated with random values, from which the result is a low performance accuracy of the network. 
-The learning phase is then again related to supervised learning, where parameters like the weights are adjusted to reduce error during training. \citep{Duda2000}
-   
-
-%er ved chap 6.3 i pattern 
-
-In the backward process, weights will be updated to minimize the error between input and output layers.
-This process will be applied until optimal weights with minimum error is reached.\citep{Hameed2016}
 
 
-%Remember to write about batch and sochastic metods for traning with backprop
-
-%Mention local minima and gobal minima and why it is not so importent to find the absolut global minima. 
-
-%Explain gradient decent 
-
-The basic idea behind it is to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as  the inputs and weights multiplication of each node (separate input) summed with additional coefficients called biases.\citep{Hameed2016} 
-
-\begin{comment}
-It is defined by:
-%H(j)=b_in+∑_(i=1)^N▒〖x_i w_ij 〗
-Where: x – the inputs, i – neurons, w_ij – weights, j – neurons for hidden layer, b_in – biases
-\end{comment}
-
-
-
-
-%Additional info that need to be placed somewhere. 
-\begin{itemize}
-\item There are simple methods that can be used to improve performance and training speed. Scaling of the input and giving an initial weight \citep{Duda2000}
-
-\item The architecture is important for classification, and depends on the given problem \citep{Duda2000}. 
-\item  
-\end{itemize}
-
-
-\subsection{Convolutional Neural Networks}
+\subsection{Core NN layers}
+\subsubsection{Convolutional Neural Networks}
 Convolutional neural networks (CNNs) perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex model by extracting visual features from the pixel-level content.
 CNNs are feed–forward models that map input data with a set of suitable outputs. 
 Accuracy and performance rely on large training datasets and training procedure based on back-propagation with optimization algorithm such as gradient descent which is used for finding minimum value of the function.\citep{Acquarelli2017}
