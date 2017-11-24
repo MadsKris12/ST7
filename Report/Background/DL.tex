@@ -14,24 +14,25 @@ Deep learning is based on different techniques that makes it able to handle that
 The different layers consist of a series of nodes, where each node is connected by weights to one or several other nodes from a different layer. In the input-layer the nodes are fed with the data that the system is given. The second layer will then receive the output from the previous layer, and this process continues through the layers until the output-layer is reached.\citep{Schmidhuber2015} An example of how the hidden layers affect an image can be explained as follows:  
 Firstly, the system detects minor changes like edges. Secondly, the edges are compared and put together to make up different kind of shapes. In the third hidden layer, it will be further combined to make up an object that can be identified.\citep{LeCun2015}
 
+
 \subsubsection{Learning scenarios}
 There are three main learning scenarios: supervised, unsupervised and semi-supervised learnings.
 
-Supervised learning is the most common way of training in machine learning \citep{LeCun2015}. When using this method the system is trained with labeled data, where the generated output can be compared with an expected output, and thereby see evaluate the performance of the system. The weights are interconnection between two layers and they work as a set of coefficients, defining an image feature.\citep{Hameed2016} By adjusting weights in the neural network it is possible to fit the model better to the training data, and thereby increase its accuracy and reduce error \citep{LeCun2015}. Supervised learning is mostly associated with classification, regression, and ranking problems \citep{Mehryar2012}.
+\textbf{Supervised learning} is the most common way of training in machine learning \citep{LeCun2015}. When using this method the system is trained with labeled data, where the generated output can be compared with an expected output, and thereby see evaluate the performance of the system. The weights are interconnection between two layers and they work as a set of coefficients, defining an image feature.\citep{Hameed2016} By adjusting weights in the neural network it is possible to fit the model better to the training data, and thereby increase its accuracy and reduce error \citep{LeCun2015}. Supervised learning is mostly associated with classification, regression, and ranking problems \citep{Mehryar2012}.
 \noindent
-Differently from supervised learning the input in unsupervised learning is received with unlabeled data and the predictions. Then the system organizes the data by searching for common characteristics \citep{Mehryar2012}. An example of an unsupervised learning algorithm is clustering, where the unlabeled dataset goes through a classification, and split into different classes.\citep{Goodfellow2016} 
+
+\textbf{Unsupervised learning} the input in unsupervised learning is received with unlabeled data and the predictions. Then the system organizes the data by searching for common characteristics \citep{Mehryar2012}. An example of an unsupervised learning algorithm is clustering, where the unlabeled dataset goes through a classification, and split into different classes.\citep{Goodfellow2016} 
 \noindent
-In semi-supervised learning the learner is receiving both labeled, unlabeled data and then it searches for common characteristics in data. It is used mainly when the labeled data is hardly collected and unlabeled data is easily reachable.\citep{Mehryar2012}
+
+\textbf{Semi-supervised learning} the learner is receiving both labeled, unlabeled data and then it searches for common characteristics in data. It is used mainly when the labeled data is hardly collected and unlabeled data is easily reachable.\citep{Mehryar2012}
 
 
 
   
 \subsection{Back-propagation}
-
-
 Backpropagation is a popular learning algorithm in neural networks, that is based on gradient decent, and valuable because of the simplicity and computationally efficient. \citep{Bengio2012, Duda2000}
 It's the (learning) process where the weights of a neural network are adjusted in order to reduce the error calculated between the output of the network and the expected output. This by definition makes backpropagation closely related to supervised learning, as written in \ref{sec:LearningTech}, to which backpropagation the most general method used.\citep{Duda2000}  
-When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of training. Based on a cost function a loss is calculated for every input that passes through the network, the is used by backpropagation to make the adjustments on the weight to reduce this loss. As training progresses the loss should decrease as a result of the weight adjustments, and improve the performance of the neural network. \citep{Duda2000, Goodfellow2016}   
+When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of training. Based on a cost function a loss is calculated for every input that passes through the network, the is used by backpropagation to make the adjustments on the weight to reduce this loss. As training progresses the loss should decrease as a result of the weight adjustments, and improve the performance of the neural network. \citep{LeCun2015, Duda2000, Goodfellow2016}   
 This learning process continues until optimal weights with minimum error is reached.\citep{Hameed2016}
 
 
