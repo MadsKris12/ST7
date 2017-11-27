@@ -15,20 +15,20 @@
 \contentsline {subsection}{\numberline {2.5.1}Deep Learning}{10}{subsection.2.5.1}
 \contentsline {subsubsection}{Learning scenarios}{11}{section*.12}
 \contentsline {subsection}{\numberline {2.5.2}Back-propagation}{11}{subsection.2.5.2}
-\contentsline {subsubsection}{Gradient Decent, mini-batches and optimizers}{12}{section*.13}
-\contentsline {subsubsection}{Learning curves}{12}{section*.14}
-\contentsline {subsection}{\numberline {2.5.3}Core NN layers}{12}{subsection.2.5.3}
-\contentsline {subsubsection}{Convolutional Neural Networks}{12}{section*.16}
-\contentsline {chapter}{\chapternumberline {3}Methodology}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Pre-processing}{13}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Morphology}{13}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Regions}{14}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Superimposed morphology and regions}{15}{subsection.3.1.3}
-\contentsline {chapter}{\chapternumberline {4}Materials}{16}{chapter.4}
-\contentsline {section}{\numberline {4.1}Data}{16}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Software application: Navigate Pain}{17}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Programs}{17}{section.4.2}
-\contentsline {chapter}{\chapternumberline {5}Results}{19}{chapter.5}
-\contentsline {chapter}{Bibliography}{20}{section*.24}
-\contentsline {appendix}{\chapternumberline {A}Appendix}{23}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix I}{23}{section.A.1}
+\contentsline {subsubsection}{Gradient Decent}{12}{section*.13}
+\contentsline {subsubsection}{Learning curves}{13}{section*.16}
+\contentsline {subsection}{\numberline {2.5.3}Core NN layers}{14}{subsection.2.5.3}
+\contentsline {subsubsection}{Convolutional Neural Networks}{14}{section*.18}
+\contentsline {chapter}{\chapternumberline {3}Methodology}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pre-processing}{15}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Morphology}{15}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Regions}{16}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Superimposed morphology and regions}{17}{subsection.3.1.3}
+\contentsline {chapter}{\chapternumberline {4}Materials}{18}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data}{18}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Software application: Navigate Pain}{19}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Programs}{19}{section.4.2}
+\contentsline {chapter}{\chapternumberline {5}Results}{21}{chapter.5}
+\contentsline {chapter}{Bibliography}{22}{section*.26}
+\contentsline {appendix}{\chapternumberline {A}Appendix}{25}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix I}{25}{section.A.1}

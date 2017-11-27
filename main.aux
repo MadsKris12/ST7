@@ -16,6 +16,7 @@
 \global\let\hyper@last\relax 
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
 \@writefile{toc}{\changetocdepth  {2}}
 \select@language{english}
 \@writefile{toc}{\select@language{english}}
@@ -119,66 +120,76 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Example of the neural network with possible layers\citep  {Acquarelli2017}.\relax }}{10}{figure.caption.11}}
 \newlabel{fig:NN_structure}{{2.8}{10}{Example of the neural network with possible layers\citep {Acquarelli2017}.\relax }{figure.caption.11}{}}
 \citation{LeCun2015}
-\citation{Hameed2016}
-\citation{LeCun2015}
+\citation{Goodfellow0216}
 \citation{Mehryar2012}
 \citation{Mehryar2012}
 \citation{Goodfellow2016}
-\citation{Mehryar2012}
 \citation{Bengio2012,Duda2000}
 \citation{Duda2000}
-\citation{Duda2000,Goodfellow2016}
+\citation{LeCun2015,Duda2000,Goodfellow2016}
 \citation{Hameed2016}
 \citation{Hameed2016}
-\citation{Duda2000}
 \@writefile{toc}{\contentsline {subsubsection}{Learning scenarios}{11}{section*.12}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}Back-propagation}{11}{subsection.2.5.2}}
+\citation{Acquarelli2017}
+\citation{Acquarelli2017}
+\@writefile{toc}{\contentsline {subsubsection}{Gradient Decent}{12}{section*.13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces Schematic of gradient descent working principle, where J(w) \IeC {\textendash } loss function, Jmin(w) \IeC {\textendash } (local) minimum, w \IeC {\textendash } input value \citep  {Acquarelli2017}.\relax }}{12}{figure.caption.14}}
+\newlabel{fig:GDgraph}{{2.9}{12}{Schematic of gradient descent working principle, where J(w) – loss function, Jmin(w) – (local) minimum, w – input value \citep {Acquarelli2017}.\relax }{figure.caption.14}{}}
+\citation{Acquarelli2017}
+\citation{Acquarelli2017}
 \citation{Duda2000}
 \citation{Duda2000}
+\citation{Duda2000}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.10}{\ignorespaces Comparison of the convergence speed between different optimizers used to train architecture on ALFW dataset. The loss values are the mean of the five attempts \citep  {Acquarelli2017}.\relax }}{13}{figure.caption.15}}
+\newlabel{fig:Graphofyrainingcost}{{2.10}{13}{Comparison of the convergence speed between different optimizers used to train architecture on ALFW dataset. The loss values are the mean of the five attempts \citep {Acquarelli2017}.\relax }{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Learning curves}{13}{section*.16}}
 \citation{Duda2000}
 \citation{Acquarelli2017}
-\@writefile{toc}{\contentsline {subsubsection}{Gradient Decent, mini-batches and optimizers}{12}{section*.13}}
-\@writefile{toc}{\contentsline {subsubsection}{Learning curves}{12}{section*.14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces Illustration of how training (black), validation (red), and test (orange) error is affected by the increase in epochs. Edited from \citep  {Duda2000}.\relax }}{12}{figure.caption.15}}
-\newlabel{fig:learningCurve}{{2.9}{12}{Illustration of how training (black), validation (red), and test (orange) error is affected by the increase in epochs. Edited from \citep {Duda2000}.\relax }{figure.caption.15}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.3}Core NN layers}{12}{subsection.2.5.3}}
-\@writefile{toc}{\contentsline {subsubsection}{Convolutional Neural Networks}{12}{section*.16}}
+\citation{Goodfellow2016}
+\citation{Goodfellow2016}
+\citation{LeCun2015}
+\citation{Goodfellow2016}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces Illustration of how training (black), validation (red), and test (orange) error is affected by the increase in epochs. Edited from \citep  {Duda2000}.\relax }}{14}{figure.caption.17}}
+\newlabel{fig:learningCurve}{{2.11}{14}{Illustration of how training (black), validation (red), and test (orange) error is affected by the increase in epochs. Edited from \citep {Duda2000}.\relax }{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.3}Core NN layers}{14}{subsection.2.5.3}}
+\@writefile{toc}{\contentsline {subsubsection}{Convolutional Neural Networks}{14}{section*.18}}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {3}Methodology}{13}{chapter.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Pre-processing}{13}{section.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Morphology}{13}{subsection.3.1.1}}
-\newlabel{sec:Morph}{{3.1.1}{13}{Morphology}{subsection.3.1.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces (a) Original pain map and (b) image consisting of a binary matrix where white color represents the pain pixels.\relax }}{13}{figure.caption.17}}
-\newlabel{fig:cropbin7}{{3.1}{13}{(a) Original pain map and (b) image consisting of a binary matrix where white color represents the pain pixels.\relax }{figure.caption.17}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces An illustration of the matrix of the morphology data representation. The matrix consist of image-vectors for each subjects where the two last column indicate the appurtenant gender and either duration or pain intensity. The image-vectors has a length equal to the number of pixel in the pain maps.\relax }}{14}{figure.caption.18}}
-\newlabel{fig:binmatrix}{{3.2}{14}{An illustration of the matrix of the morphology data representation. The matrix consist of image-vectors for each subjects where the two last column indicate the appurtenant gender and either duration or pain intensity. The image-vectors has a length equal to the number of pixel in the pain maps.\relax }{figure.caption.18}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Regions}{14}{subsection.3.1.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces (a) Knee regions and (b) pain in the specific regions.\relax }}{14}{figure.caption.19}}
-\newlabel{fig:binregions}{{3.3}{14}{(a) Knee regions and (b) pain in the specific regions.\relax }{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {3}Methodology}{15}{chapter.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Pre-processing}{15}{section.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Morphology}{15}{subsection.3.1.1}}
+\newlabel{sec:Morph}{{3.1.1}{15}{Morphology}{subsection.3.1.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces (a) Original pain map and (b) image consisting of a binary matrix where white color represents the pain pixels.\relax }}{15}{figure.caption.19}}
+\newlabel{fig:cropbin7}{{3.1}{15}{(a) Original pain map and (b) image consisting of a binary matrix where white color represents the pain pixels.\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces An illustration of the matrix of the morphology data representation. The matrix consist of image-vectors for each subjects where the two last column indicate the appurtenant gender and either duration or pain intensity. The image-vectors has a length equal to the number of pixel in the pain maps.\relax }}{16}{figure.caption.20}}
+\newlabel{fig:binmatrix}{{3.2}{16}{An illustration of the matrix of the morphology data representation. The matrix consist of image-vectors for each subjects where the two last column indicate the appurtenant gender and either duration or pain intensity. The image-vectors has a length equal to the number of pixel in the pain maps.\relax }{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Regions}{16}{subsection.3.1.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces (a) Knee regions and (b) pain in the specific regions.\relax }}{16}{figure.caption.21}}
+\newlabel{fig:binregions}{{3.3}{16}{(a) Knee regions and (b) pain in the specific regions.\relax }{figure.caption.21}{}}
 \citation{Harris2012}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Superimposed morphology and regions}{15}{subsection.3.1.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) illstrates the one-hot encoded pain map and (b) shows the images-vectors in one assembled matrix with gender and either symptom duration or pain intensity.\relax }}{15}{figure.caption.20}}
-\newlabel{fig:onehot}{{3.4}{15}{(a) illstrates the one-hot encoded pain map and (b) shows the images-vectors in one assembled matrix with gender and either symptom duration or pain intensity.\relax }{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Superimposed morphology and regions}{17}{subsection.3.1.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces (a) illstrates the one-hot encoded pain map and (b) shows the images-vectors in one assembled matrix with gender and either symptom duration or pain intensity.\relax }}{17}{figure.caption.22}}
+\newlabel{fig:onehot}{{3.4}{17}{(a) illstrates the one-hot encoded pain map and (b) shows the images-vectors in one assembled matrix with gender and either symptom duration or pain intensity.\relax }{figure.caption.22}{}}
 \citation{Solutions2015}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {4}Materials}{16}{chapter.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Data}{16}{section.4.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Pain drawings of the lower extremities. The red markings indicate the area of pain perceived by the individual subject. In this case the PFP is bilateral (on both knees).\relax }}{16}{figure.caption.21}}
-\newlabel{fig:kneepainmap}{{4.1}{16}{Pain drawings of the lower extremities. The red markings indicate the area of pain perceived by the individual subject. In this case the PFP is bilateral (on both knees).\relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {4}Materials}{18}{chapter.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Data}{18}{section.4.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Pain drawings of the lower extremities. The red markings indicate the area of pain perceived by the individual subject. In this case the PFP is bilateral (on both knees).\relax }}{18}{figure.caption.23}}
+\newlabel{fig:kneepainmap}{{4.1}{18}{Pain drawings of the lower extremities. The red markings indicate the area of pain perceived by the individual subject. In this case the PFP is bilateral (on both knees).\relax }{figure.caption.23}{}}
 \citation{Swamynathan2017}
 \citation{Swamynathan2017}
 \citation{Swamynathan2017}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Software application: Navigate Pain}{17}{subsection.4.1.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces The figure illustrates the process for making a pain map with Navigate Pain. There is three screenshots of the application.\relax }}{17}{figure.caption.22}}
-\newlabel{fig:Navigatepain}{{4.2}{17}{The figure illustrates the process for making a pain map with Navigate Pain. There is three screenshots of the application.\relax }{figure.caption.22}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Programs}{17}{section.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Software application: Navigate Pain}{19}{subsection.4.1.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces The figure illustrates the process for making a pain map with Navigate Pain. There is three screenshots of the application.\relax }}{19}{figure.caption.24}}
+\newlabel{fig:Navigatepain}{{4.2}{19}{The figure illustrates the process for making a pain map with Navigate Pain. There is three screenshots of the application.\relax }{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Programs}{19}{section.4.2}}
 \bibstyle{unsrtnat}
 \bibdata{bib}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {5}Results}{19}{chapter.5}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {5}Results}{21}{chapter.5}}
 \bibcite{Maclachlan2017}{{1}{2017}{{Maclachlan et~al.}}{{Maclachlan, Collins, and Et.al}}}
 \bibcite{Smith2015}{{2}{2015}{{Smith et~al.}}{{Smith, Drew, and Et.al.}}}
 \bibcite{Petersen2013}{{3}{2013}{{Petersen et~al.}}{{Petersen, Ellermann, and Et.al.}}}
@@ -196,28 +207,28 @@
 \bibcite{Ghosh2010}{{15}{2010}{{Ghosh and Deehan}}{{}}}
 \bibcite{Valente2011}{{16}{2011}{{{Ferreira Valente} et~al.}}{{{Ferreira Valente}, {Ribeiro Pais}, and Al}}}
 \bibcite{Roos2003}{{17}{2003}{{Roos and Lohmander}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{20}{section*.24}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{22}{section*.26}}
 \bibcite{Grunnesjo2006}{{18}{2006}{{Grunnesj{\"{o}}}}{{}}}
 \bibcite{Schott2010}{{19}{2010}{{Schott}}{{}}}
 \bibcite{Nielsen2010}{{20}{2010}{{Nielsen}}{{}}}
 \bibcite{Jordan2015}{{21}{2015}{{Jordan and Mitchell}}{{}}}
 \bibcite{Schmidhuber2015}{{22}{2015}{{Schmidhuber}}{{}}}
 \bibcite{Acquarelli2017}{{23}{2017}{{Acquarelli et~al.}}{{Acquarelli, van Laarhoven, Gerretzen, Tran, Buydens, and Marchiori}}}
-\bibcite{Hameed2016}{{24}{2016}{{Hameed et~al.}}{{Hameed, Karlik, and Salman}}}
-\bibcite{Mehryar2012}{{25}{2012}{{Mehryar et~al.}}{{Mehryar, Afshin, and Ameet}}}
-\bibcite{Goodfellow2016}{{26}{2016}{{Goodfellow et~al.}}{{Goodfellow, Bengio, and Courville}}}
+\bibcite{Mehryar2012}{{24}{2012}{{Mehryar et~al.}}{{Mehryar, Afshin, and Ameet}}}
+\bibcite{Goodfellow2016}{{25}{2016}{{Goodfellow et~al.}}{{Goodfellow, Bengio, and Courville}}}
+\bibcite{Bengio2012}{{26}{2012}{{Bengio}}{{}}}
 \bibcite{Duda2000}{{27}{2000}{{Duda et~al.}}{{Duda, Hart, and Stork}}}
-\bibcite{Bengio2012}{{28}{2012}{{Bengio}}{{}}}
-\bibcite{Solutions2015}{{29}{2015}{{Solutions}}{{}}}
-\bibcite{Swamynathan2017}{{30}{2017}{{Swamynathan}}{{}}}
-\bibcite{Harris2012}{{31}{2012}{{Harris and Harris}}{{}}}
+\bibcite{Hameed2016}{{28}{2016}{{Hameed et~al.}}{{Hameed, Karlik, and Salman}}}
+\bibcite{Harris2012}{{29}{2012}{{Harris and Harris}}{{}}}
+\bibcite{Solutions2015}{{30}{2015}{{Solutions}}{{}}}
+\bibcite{Swamynathan2017}{{31}{2017}{{Swamynathan}}{{}}}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {appendix}{\chapternumberline {A}Appendix}{23}{appendix.A}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}Appendix I}{23}{section.A.1}}
-\newlabel{sec:KOOS}{{A.1}{23}{Appendix I}{section.A.1}{}}
-\newlabel{LastPage}{{}{23}{}{page.23}{}}
-\xdef\lastpage@lastpage{23}
-\xdef\lastpage@lastpageHy{23}
-\memsetcounter{lastsheet}{27}
-\memsetcounter{lastpage}{23}
+\@writefile{toc}{\contentsline {appendix}{\chapternumberline {A}Appendix}{25}{appendix.A}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}Appendix I}{25}{section.A.1}}
+\newlabel{sec:KOOS}{{A.1}{25}{Appendix I}{section.A.1}{}}
+\newlabel{LastPage}{{}{25}{}{page.25}{}}
+\xdef\lastpage@lastpage{25}
+\xdef\lastpage@lastpageHy{25}
+\memsetcounter{lastsheet}{29}
+\memsetcounter{lastpage}{25}

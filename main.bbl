@@ -159,15 +159,6 @@ Jacopo Acquarelli, Twan van Laarhoven, Jan Gerretzen, Thanh~N. Tran,
 \newblock URL
   \url{http://linkinghub.elsevier.com/retrieve/pii/S0003267016314842}.
 
-\bibitem[Hameed et~al.(2016)Hameed, Karlik, and Salman]{Hameed2016}
-Alaa~Ali Hameed, Bekir Karlik, and Mohammad~Shukri Salman.
-\newblock {Back-propagation algorithm with variable adaptive momentum}.
-\newblock \emph{Knowledge-Based Systems}, 114:\penalty0 79--87, 2016.
-\newblock ISSN 09507051.
-\newblock \doi{10.1016/j.knosys.2016.10.001}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0950705116303811?via{\%}3Dihub}.
-
 \bibitem[Mehryar et~al.(2012)Mehryar, Afshin, and Ameet]{Mehryar2012}
 Mohri Mehryar, Rostamizadeh Afshin, and Talwalka Ameet.
 \newblock \emph{{Foundations of Machine Learning}}.
@@ -183,12 +174,6 @@ Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 \newblock MIT Press, 2016.
 \newblock URL \url{http://www.deeplearningbook.org}.
 
-\bibitem[Duda et~al.(2000)Duda, Hart, and Stork]{Duda2000}
-Richard Duda, Peter Hart, and David Stork.
-\newblock \emph{{Pattern Classification}}.
-\newblock Second edi edition, 2000.
-\newblock ISBN 9780471056690.
-
 \bibitem[Bengio(2012)]{Bengio2012}
 Yoshua Bengio.
 \newblock \emph{{Neural Networks: Tricks of the Trade: Second Edition}}.
@@ -196,6 +181,27 @@ Yoshua Bengio.
 \newblock ISBN 978-3-642-35289-8.
 \newblock \doi{10.1007/978-3-642-35289-8_26}.
 \newblock URL \url{http://dx.doi.org/10.1007/978-3-642-35289-8{\_}26}.
+
+\bibitem[Duda et~al.(2000)Duda, Hart, and Stork]{Duda2000}
+Richard Duda, Peter Hart, and David Stork.
+\newblock \emph{{Pattern Classification}}.
+\newblock Second edi edition, 2000.
+\newblock ISBN 9780471056690.
+
+\bibitem[Hameed et~al.(2016)Hameed, Karlik, and Salman]{Hameed2016}
+Alaa~Ali Hameed, Bekir Karlik, and Mohammad~Shukri Salman.
+\newblock {Back-propagation algorithm with variable adaptive momentum}.
+\newblock \emph{Knowledge-Based Systems}, 114:\penalty0 79--87, 2016.
+\newblock ISSN 09507051.
+\newblock \doi{10.1016/j.knosys.2016.10.001}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0950705116303811?via{\%}3Dihub}.
+
+\bibitem[Harris and Harris(2012)]{Harris2012}
+David~Money Harris and Sarah~L. Harris.
+\newblock {Sequential Logic Design}.
+\newblock In \emph{Digital design and computer architecture}. Elsevier, 2012.
+\newblock ISBN 9780123978165.
 
 \bibitem[Solutions(2015)]{Solutions2015}
 Aglance Solutions.
@@ -209,11 +215,5 @@ Manohar Swamynathan.
 \newblock ISBN 978-1-4842-2865-4.
 \newblock \doi{10.1007/978-1-4842-2866-1}.
 \newblock URL \url{http://link.springer.com/10.1007/978-1-4842-2866-1}.
-
-\bibitem[Harris and Harris(2012)]{Harris2012}
-David~Money Harris and Sarah~L. Harris.
-\newblock {Sequential Logic Design}.
-\newblock In \emph{Digital design and computer architecture}. Elsevier, 2012.
-\newblock ISBN 9780123978165.
 
 \end{thebibliography}
