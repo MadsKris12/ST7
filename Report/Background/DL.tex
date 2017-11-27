@@ -44,11 +44,19 @@ MAYBE TALK ABOUT ACTIVATION FUNCTIONS IN RELATION TO BACKPROPAGATION.
 
 A PROBLEM OFTEN RELATED TO OPTIMIZATION IS THE LAGER THE NETWORK THE HARDER IT IS TO OPTIMIZE, BUT IN ANOTHER WAY IF THE NETWORK IS SMALL AND SIMPLE THE EASIER IT IS TO OPTIMIZE. 
 
-\subsubsection{Gradient Decent, mini-batches and optimizers}
+\subsubsection{Gradient Decent}
+Gradient descent is one of the most common algorithms for optimizing neural networks. It is a way to minimize the loss function (cost function) by updating the parameters in the opposite direction of the gradient of the objective function. [GD] More detailed explanatory is given in figure 5.1.
 
-% Mention local minima and gobal minima and why it is not so importent to find the absolut global minima \citep{Duda2000}. 
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.6\textwidth]{figures/NN_structure}
+\caption{Example of the neural network with possible layers\citep{Acquarelli2017}.}
+\label{fig:NN_structure}  
+\end{figure}
 
-% Mention the mini bacthes are used in order to reduce the computation cost, and that the size of the mini-batch is often what limits the network computation. 
+% Mention local minima and gobal minima and why it is not so importent to find the absolute global minima \citep{Duda2000}. 
+
+% Mention the mini bacthes are used in order to reduce the computation cost, and that the size of the mini-batch is often what limits the network computation. , mini-batches and optimizers
 
 
 
