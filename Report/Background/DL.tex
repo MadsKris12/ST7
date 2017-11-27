@@ -45,50 +45,50 @@ MAYBE TALK ABOUT ACTIVATION FUNCTIONS IN RELATION TO BACKPROPAGATION.
 A PROBLEM OFTEN RELATED TO OPTIMIZATION IS THE LAGER THE NETWORK THE HARDER IT IS TO OPTIMIZE, BUT IN ANOTHER WAY IF THE NETWORK IS SMALL AND SIMPLE THE EASIER IT IS TO OPTIMIZE. 
 
 \subsubsection{Gradient Decent}
-Gradient descent is one of the most common algorithms for optimizing neural networks. It is a way to minimize the loss function (cost function) by updating the parameters in the opposite direction of the gradient of the objective function.[GD] The principle of the gradient descent could be explained as a "climbing down a hill" until the (local) minimum is reached is it could be seen in \autoref{fig:GDgraph}. At each step, the opposite direction of the gradient is taken and the step size is determined by the value of the learning rate together with the slope of the gradient until the convergence is reached. Convergence means that oscillations of the value are small enough to call it minimum value. [SG]
+Gradient descent is one of the most common algorithms for optimizing neural networks. It is a way to minimize the loss function (cost function) by updating the parameters in the opposite direction of the gradient of the objective function.\citep{Ruder2016} The principle of the gradient descent could be explained as a "climbing down a hill" until the (local) minimum is reached is it could be seen in \autoref{fig:GDgraph}. At each step, the opposite direction of the gradient is taken and the step size is determined by the value of the learning rate together with the slope of the gradient until the convergence is reached. Convergence means that oscillations of the value are small enough to call it minimum value.\citep{Raschka2016}
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.6\textwidth]{figures/GDgraph}
-\caption{Schematic of gradient descent working principle, where J(w) – loss function, Jmin(w) – (local) minimum, w – input value \citep{Acquarelli2017}.}
+\caption{Schematic of gradient descent working principle, where J(w) – loss function, Jmin(w) – (local) minimum, w – input value \citep{Raschka2016}.}
 \label{fig:GDgraph}  
 \end{figure}
 
 There are three variants of gradient descent: Batch gradient descent, Stochastic gradient descent, and Mini-batch gradient descent. They differ on the amount of data used to compute the gradient of the cost function. Depending on which of the gradient descent variant is used, the trade-off between the accuracy and the time could be seen.
 
 \noindent
-\textbf{Batch gradient descent} computes the gradient of the cost function with regards to the parameters for the entire training dataset. [GD] Batch gradient descent has the significant deficiency, it takes a single step for one pass over the training set, meaning the larger dataset, the slower algorithm updates the weights and the longer it will take to reach global minimum. [quota] In cases like these, stochastic gradient descent is being used more commonly.
+\textbf{Batch gradient descent} computes the gradient of the cost function with regards to the parameters for the entire training dataset.\citep{Ruder2016} Batch gradient descent has the significant deficiency, it takes a single step for one pass over the training set, meaning the larger dataset, the slower algorithm updates the weights and the longer it will take to reach global minimum. [quota] In cases like these, stochastic gradient descent is being used more commonly.
 
 \noindent
-\textbf{Stochastic gradient descent (SGD)} performs a parameter update for each training example and label. It is therefore much faster and it also performs frequent updates with a high variance causing loss function to fluctuate. These fluctuations enable it to jump to new potentially better local minima. On the other hand, it complicated convergence to the exact minimum it keeps overshooting. [GD]
+\textbf{Stochastic gradient descent (SGD)} performs a parameter update for each training example and label. It is therefore much faster and it also performs frequent updates with a high variance causing loss function to fluctuate. These fluctuations enable it to jump to new potentially better local minima. On the other hand, it complicated convergence to the exact minimum it keeps overshooting.\citep{Zhang2014}
 
 \noindent
-\textbf{Mini-batch gradient descent} performs the parameters update for every mini-batch of training examples, specified by command batch size. By that, the variance of the parameter updates is reduced leading to more stable convergence and fast performance.
+\textbf{Mini-batch gradient descent} performs the parameters update for every mini-batch of training examples, specified by command batch size. By that, the variance of the parameter updates is reduced leading to more stable convergence and fast performance.\citep{Ruder2016}
 
 Additionally, there could be few challenges while using gradient descent as an optimizer. It is difficult to pick a proper learning rate so few gradient descent optimization algorithms were invented. Most popular optimizers are described below.
 
 \noindent
-\textbf{Momentum} is a method for accelerating SGD in a relevant direction and for reduction of oscillations. As a result, faster convergence is obtained but there is a risk of overshooting the minimum value. [Momentum]
+\textbf{Momentum} is a method for accelerating SGD in a relevant direction and for reduction of oscillations. As a result, faster convergence is obtained but there is a risk of overshooting the minimum value.\citep{Qian1999}
 
 \noindent
-\textbf{Adagrad} is an algorithm for gradient descent optimization which adapts the learning rate to the parameters. It performs larger updates for frequent and smaller for infrequent features. [Adagrad] It has one weakness if the learning rate shrinks too much, the algorithm is no longer able to adapt.
+\textbf{Adagrad} is an algorithm for gradient descent optimization which adapts the learning rate to the parameters. It performs larger updates for frequent and smaller for infrequent features. It has one weakness if the learning rate shrinks too much, the algorithm is no longer able to adapt.\citep{Ruder2016}
 
 \noindent
-\textbf{Adadelta} is an updated version of Adagrad, but here the learning rate is monotonically decreasing. According to the source, with this optimizer, there is no need to tune the parameters of optimizer meaning that it can be applied in a variety of situations. [adadelta]
+\textbf{Adadelta} is an updated version of Adagrad, but here the learning rate is monotonically decreasing. According to the source, with this optimizer, there is no need to tune the parameters of optimizer meaning that it can be applied in a variety of situations.\citep{Ruder2016}
 
 \noindent
-\textbf{Adam} stands for Adaptive Moment Estimation. It is mostly used method for computing adaptive learning rate and updating the parameters.  This optimizer calculates the learning rate for each parameter and stores momentum changes separately. This helps to reach the convergence very fast with a decent learning speed. [ Adam]
+\textbf{Adam} stands for Adaptive Moment Estimation. It is mostly used method for computing adaptive learning rate and updating the parameters.  This optimizer calculates the learning rate for each parameter and stores momentum changes separately. This helps to reach the convergence very fast with a decent learning speed.\citep{Kingma2015}
 
-As the example, the article of Patacchiola (2016) shows the evaluation of the performance on different optimizers on ALFW image dataset containing 21977 male and female head pose images. As \autoref{fig:Graphofyrainingcost} shows the Adam optimizer had the fastest convergence rate and it reached the lowest loss values. [Picture]. 
+As the example, the article of Patacchiola (2016) shows the evaluation of the performance on different optimizers on ALFW image dataset containing 21977 male and female head pose images. As \autoref{fig:Graphofyrainingcost} shows the Adam optimizer had the fastest convergence rate and it reached the lowest loss values. 
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.6\textwidth]{figures/Graphofyrainingcost}
-\caption{Comparison of the convergence speed between different optimizers used to train architecture on ALFW dataset. The loss values are the mean of the five attempts \citep{Acquarelli2017}.}
+\caption{Comparison of the convergence speed between different optimizers used to train architecture on ALFW dataset. The loss values are the mean of the five attempts \citep{Patacchiola2017}.}
 \label{fig:Graphofyrainingcost}  
 \end{figure}
 
-However, the results are not always similar. All of the optimizers perform differently depending on the problem and parametrization, which in the majority of the cases is the most challenging part. This leads to the conclusion that there are not winning optimizer and it has to be chosen based on every problem. [conlusion]
+However, the results are not always similar. All of the optimizers perform differently depending on the problem and parametrization, which in the majority of the cases is the most challenging part. This leads to the conclusion that there are not winning optimizer and it has to be chosen based on every problem.\citep{Int82016}
 
 % Mention local minima and gobal minima and why it is not so importent to find the absolute global minima \citep{Duda2000}. 
 

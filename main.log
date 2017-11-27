@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.4)  27 NOV 2017 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.4)  27 NOV 2017 14:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -2168,14 +2168,59 @@ Underfull \hbox (badness 1460) in paragraph at lines 45--46
 []\T1/cmr/m/n/10.95 A PROBLEM OFTEN RELATED TO OPTIMIZATION IS THE LAGER THE
  []
 
+
+Package natbib Warning: Citation `Ruder2016' on page 11 undefined on input line
+ 48.
+
+
+Package natbib Warning: Citation `Raschka2016' on page 11 undefined on input li
+ne 48.
+
 [11] <figures/GDgraph.png, id=381, 336.50719pt x 185.19188pt>
 File: figures/GDgraph.png Graphic file (type png)
 
 <use figures/GDgraph.png>
 Package pdftex.def Info: figures/GDgraph.png used on input line 52.
 (pdftex.def)             Requested size: 264.60269pt x 145.62177pt.
- [12 <./figures/GDgraph.png>]
-<figures/Graphofyrainingcost.png, id=393, 630.10406pt x 493.0922pt>
+
+
+Package natbib Warning: Citation `Raschka2016' on page 12 undefined on input li
+ne 53.
+
+
+Package natbib Warning: Citation `Raschka2016' on page 12 undefined on input li
+ne 53.
+
+
+Package natbib Warning: Citation `Ruder2016' on page 12 undefined on input line
+ 60.
+
+
+Package natbib Warning: Citation `Zhang2014' on page 12 undefined on input line
+ 63.
+
+
+Package natbib Warning: Citation `Ruder2016' on page 12 undefined on input line
+ 66.
+
+
+Package natbib Warning: Citation `Qian1999' on page 12 undefined on input line 
+71.
+
+
+Package natbib Warning: Citation `Ruder2016' on page 12 undefined on input line
+ 74.
+
+[12 <./figures/GDgraph.png>]
+
+Package natbib Warning: Citation `Ruder2016' on page 13 undefined on input line
+ 77.
+
+
+Package natbib Warning: Citation `Kingma2015' on page 13 undefined on input lin
+e 80.
+
+<figures/Graphofyrainingcost.png, id=391, 630.10406pt x 493.0922pt>
 File: figures/Graphofyrainingcost.png Graphic file (type png)
 
 <use figures/Graphofyrainingcost.png>
@@ -2183,7 +2228,19 @@ Package pdftex.def Info: figures/Graphofyrainingcost.png used on input line 86.
 
 (pdftex.def)             Requested size: 264.60269pt x 207.06721pt.
 
-<figures/learningCurves.png, id=398, 736.25063pt x 520.94624pt>
+
+Package natbib Warning: Citation `Patacchiola2017' on page 13 undefined on inpu
+t line 87.
+
+
+Package natbib Warning: Citation `Patacchiola2017' on page 13 undefined on inpu
+t line 87.
+
+
+Package natbib Warning: Citation `Int82016' on page 13 undefined on input line 
+91.
+
+<figures/learningCurves.png, id=394, 736.25063pt x 520.94624pt>
 File: figures/learningCurves.png Graphic file (type png)
 
 <use figures/learningCurves.png>
@@ -2191,7 +2248,7 @@ Package pdftex.def Info: figures/learningCurves.png used on input line 104.
 (pdftex.def)             Requested size: 308.69865pt x 218.43028pt.
  [13 <./figures/Graphofyrainingcost.png>])
 [14 <./figures/learningCurves.png>] (Report/Data/Data.tex
-<figures/cropbin7.png, id=424, 378.66469pt x 187.45032pt>
+<figures/cropbin7.png, id=420, 378.66469pt x 187.45032pt>
 File: figures/cropbin7.png Graphic file (type png)
 
 <use figures/cropbin7.png>
@@ -2200,21 +2257,21 @@ Package pdftex.def Info: figures/cropbin7.png used on input line 13.
  [15
 
  <./figures/cropbin7.png>]
-<figures/binaryimagematrix.png, id=434, 456.95718pt x 255.20343pt>
+<figures/binaryimagematrix.png, id=430, 456.95718pt x 255.20343pt>
 File: figures/binaryimagematrix.png Graphic file (type png)
 
 <use figures/binaryimagematrix.png>
 Package pdftex.def Info: figures/binaryimagematrix.png used on input line 23.
 (pdftex.def)             Requested size: 352.80135pt x 197.04073pt.
 
-<figures/binregions.png, id=437, 383.18156pt x 176.91093pt>
+<figures/binregions.png, id=433, 383.18156pt x 176.91093pt>
 File: figures/binregions.png Graphic file (type png)
 
 <use figures/binregions.png>
 Package pdftex.def Info: figures/binregions.png used on input line 35.
 (pdftex.def)             Requested size: 352.80135pt x 162.89499pt.
  [16 <./figures/binaryimagematrix.png> <./figures/binregions.png>] <figures/one
-hotmatrix.png, id=449, 1183.42125pt x 560.0925pt>
+hotmatrix.png, id=445, 1183.42125pt x 560.0925pt>
 File: figures/onehotmatrix.png Graphic file (type png)
 
 <use figures/onehotmatrix.png>
@@ -2222,7 +2279,7 @@ Package pdftex.def Info: figures/onehotmatrix.png used on input line 52.
 (pdftex.def)             Requested size: 441.0pt x 208.71803pt.
 ) [17 <./figures/onehotmatrix.png>]
 (Report/Materials/Data.tex
-<figures/kneepainmap.png, id=459, 237.88875pt x 605.26125pt>
+<figures/kneepainmap.png, id=455, 237.88875pt x 605.26125pt>
 File: figures/kneepainmap.png Graphic file (type png)
 
 <use figures/kneepainmap.png>
@@ -2231,7 +2288,7 @@ Package pdftex.def Info: figures/kneepainmap.png used on input line 9.
  [18
 
  <./figures/kneepainmap.png (PNG copy)>]
-<figures/Navigatepain.png, id=468, 3173.8575pt x 1541.76pt>
+<figures/Navigatepain.png, id=464, 3173.8575pt x 1541.76pt>
 File: figures/Navigatepain.png Graphic file (type png)
 
 <use figures/Navigatepain.png>
@@ -2277,10 +2334,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
- 29604 strings out of 493323
- 516993 string characters out of 3139060
+ 29611 strings out of 493323
+ 517077 string characters out of 3139060
  874417 words of memory out of 3000000
- 32589 multiletter control sequences out of 15000+200000
+ 32596 multiletter control sequences out of 15000+200000
  553382 words of font info for 84 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,22n,92p,10483b,948s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2302,9 +2359,9 @@ ksD-Pc\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk>
  <C:\Users\IksD-Pc\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ecrm2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
 fb>
-Output written on main.pdf (29 pages, 5746871 bytes).
+Output written on main.pdf (29 pages, 5746572 bytes).
 PDF statistics:
- 1063 PDF objects out of 1200 (max. 8388607)
+ 1059 PDF objects out of 1200 (max. 8388607)
  114 named destinations out of 1000 (max. 500000)
  315 words of extra memory for PDF output out of 10000 (max. 10000000)
 
