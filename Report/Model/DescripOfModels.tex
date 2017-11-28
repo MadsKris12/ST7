@@ -1,6 +1,3 @@
-\section{Additional background}
-Learning curves - see pattern book
-
 
 \section{General for the three models}
 %Additional info that need to be placed somewhere. 
@@ -27,7 +24,7 @@ The training-set is additionally split into a another training-set and a validat
 The validation set will be used to estimate the generalization error during training \citep{Duda2000}.  
 
 \subsection{Applied optimization techniques}
-To reduce overfitting and to optimize the network different techniques are applied to the different network models. The result of this is hoped to be better generalization of the models. 
+To try to reduce overfitting and improve generalization of the neural network different techniques are applied network models. 
 
 \subsubsection{Dropout}
 Dropout is a technique that can be used to prevent or reduce overfitting of a neural network. In a network the dropout can be applied to the individual layers, and works by randomly drop/”turn off” different nodes temporarily in the given layer during training. An illustration of the principle of dropout can be seen in \autoref{fig:Dropout}.  
@@ -44,21 +41,22 @@ A study, has tested the use of dropout in different neural networks, and indicat
 When implementing dropout to the models, it is defined in the given layers, and specified with a float value between 0 and 1, which defines the fraction of the nodes that drop \citep{Chollet2015}.
 
 
-
 \subsubsection{Kernel-initializer 'Maybe'}
 This is a must i think because this relates to the reproducible aspect. 
 
+
 \subsubsection{Learning rate 'Maybe'}
+In order to determine the most optimal Learning rate for the adam optimizer a several different learning rate were tested. 
 A must because we have done this. 
 
-\subsubsection{Training with noise 'Maybe'}
-NO GONNA HAPPEN, but it was a method mentioned the pattern recognition book
 
 \subsubsection{Manufacturing data 'Maybe'}
 I don't think this is gonna be a reality 
 
+
 \subsubsection{Batch training}
 Save computational cost, update parameters when a batch has been trained. 
+
  
 \subsubsection{Grid testing 'Maybe'}
 MAYBE SOMETHING ABOUT GRID TESTING if we can make it reproductive
@@ -67,20 +65,20 @@ OBS can only use images as an input
  
  
 \subsection{Training of the networks}
-Supervised learning is used for training in all the models. The generic input for all of the model is gender, along with the different image representation, which are described in \autoref{BIRGITHE&LINETTE}. These inputs trained and then compared against their respective category label.   
-The models classify data into three different classes e.g. duration interval of 0-12 months, 18-30 months and 36 months and above. Because of this multi classification, the output labels are changed from integer representation, 0 (0-12 months), 1 (16-30 months) and 2 ( and 36 months and above) into a one-hot encoded representation [0 , 0 , 1], [0 , 1 , 0] and [1 , 0 , 0] respectively. This is done by using keras utility function called \textit{to_categorical}. 
+Supervised learning is used for training in all the models. The generic input for all of the model is gender, along with the different image representation, which are described in REF!!!. These inputs trained and then compared against their respective category label.   
+The models classify data into three different classes e.g. duration interval of 0-12 months, 18-30 months and 36 months and above. Because of this multi classification, the output labels are changed from integer representation, 0 (0-12 months), 1 (16-30 months) and 2 ( and 36 months and above) into a one-hot encoded representation [0 , 0 , 1], [0 , 1 , 0] and [1 , 0 , 0] respectively. This is done by using keras utility function called \textit{to\_categorical}. 
 
 \subsubsection{Cross-validation}
 Because the amount of data for this project is limited it is chosen to implement m-fold cross validation, where the training data is divided into m number of subsets. Each of the subsets can function a either a validation set or as a part of a training set e.g. if a classifier is trained \textit{m} times, then each time a different subset will be used as a validation set, and the rest is used for training. \citep{Duda2000}
-Because of the property of cross validation, it can be used as a way of improving generalization accuracy since all data is included during training, but may not be beneficial for every kind of problem. \citep{Duda2000}
+Because of the property of cross validation, it can be used as a way of investigate a general accuracy since all data is included during training, but may not be beneficial for every kind of problem. \citep{Duda2000}
 
-\section{Vector image model}
+\section{Vector image model}\label{sec:SimpleRepModel}
 The architecture for this model only contains fully connected layer, since the data representation only contains 21 element vector that reflects the active pain regions and gender as described in \autoref{LinetteAndBirgithe}. It's evaluated that there wouldn't be any gains in making the model more complex e.g. adding of convolution, based on the information available from vector, since the level of detail in relation to morphology is very simple. 
 The architecture of the model is illustrated in \autoref{fig:simpleModel}. 
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.6\textwidth]{figures/simpleModel}
+\includegraphics[width=0.3\textwidth]{figures/simpleModel}
 \caption{Arcitechture of the neural network using knee region representation.}
 \label{fig:simpleModel}  
 \end{figure}
@@ -89,8 +87,7 @@ The model consists of three layers, where the input and output layer...
 
 
 
-
-\section{Raw binary representation model}\label{sec:binaryRepModel}
+\section{Raw binary representation model}\label{sec:BinaryRepModel}
 The architecture of this model is based on the typical structure of a convolutional network, where the first layers alternate between convolutional layers and max pooling layers \citep{LeCun2015}. This defines the first part of the model. The following layers consists of three fully connected layers, and output layer, and defined the second part of the model. An overview of the architecture is shown in \autoref{fig:binaryRepModel}.  
 Convolution layer are implemented for this pain map representation, because of their ability to extract morphology features from images, as written in \autoref{CONVOLUTION}
 
@@ -105,7 +102,8 @@ Rather then feeding both pain map representation and gender into the same input 
 The binary pain map representation works as input in first part of the model, where the input layer is a convolution layer. 
 This layer is setup to receive a input shape to that of the dimension of the pain map, that is defined during re-scaleing of the pain maps in \ref{LINETTE&BIRGITHE}. 
 Gender works as secondary input in the second section of the model, along with the pain maps features extracted through the convolution layers. Before the pain maps features reach the fully connected part of the network it is flattened from a matrix to a single row in order to merge the features with gender. 
-The merged data passes the fully connected layers and reaches the output layer where it is given a percentage value according to which class it fits the most. 
+The merged data passes the fully connected layers and reaches the output layer where it is given a percentage value according to which class it fits the most.
+The second part of the model resembles the simple representation model, described in \ref{sec:SimpleRepModel} 
 
 
 THIS NEEDS TO BE REWRITTEN: The reason for separating gender and binary images is given as separate inputs is because of that there is no benefit in feeding gender through several convolutional layers, since these layer are use for looking at the shapes of the pain.  
@@ -113,9 +111,8 @@ THIS NEEDS TO BE REWRITTEN: The reason for separating gender and binary images i
 The reason for using gender as input this far into the model, is a result of the way that convolution works 
 
 
-
-\section{Combined model}
-The architecture of this model is nearly identical to that of the binary representation model as described in \ref{sec:binaryRepModel}. 
+\section{Combined representation model}\label{sec:CombinedRepModel}
+The architecture of this model is nearly identical to that of the binary representation model as described in \ref{sec:BinaryRepModel}. 
 The main difference can only be seen in the input layer for the pain map representation, where the input shape is altered to contain 20 layers per pain maps instead of one. 
 This is the result of the one hot encoding done to the images as described in \autoref{LinetteAndBirgithe}. 
 
