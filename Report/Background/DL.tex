@@ -114,17 +114,27 @@ Typically the validation and test error will always be higher that the training 
 
 \subsection{Core NN layers}
 \subsubsection{Convolutional Neural Networks}
-Convolutional neural networks (CNNs) perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex model by extracting visual features from the pixel-level content.
-CNNs are feed–forward models that map input data with a set of suitable outputs. 
-Accuracy and performance rely on large training datasets and training procedure based on back-propagation with optimization algorithm such as gradient descent which is used for finding minimum value of the function.\citep{Acquarelli2017}
-
-What is convolution. 
 Convolutional Neural Networks (CNNs) a type of special neural network for processing data with a grid-like topology \citep{Goodfellow2016}. 
+The architecture of a typical CNN’s are almost always combined with another layer type called pooling \citep{Goodfellow2016, LeCun2015}.
 
-Convolution is almost always combined with a pooling layer \citep{Goodfellow2016}, and is also known as the typical architecture of a convolutional neural network \citep{LeCun2015}.  
+Convolutional neural networks (CNNs) perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex model by extracting visual features from the pixel-level content.\citep{Acquarelli2017}¨
 
 The terminology regarding the output of a convolutional layer can be refered to as a feature map \citep{Goodfellow2016} 
 
+%CNNs are feed–forward models that map input data with a set of suitable outputs. Accuracy and performance rely on large training datasets and training procedure based on back-propagation with optimization algorithm such as gradient descent which is used for finding minimum value of the function.\citep{Acquarelli2017}
+  
+The way that convolutional networks work is by taking e.g. an image an scan it and split it up into a kind of feature map. 
+
+\\
+INSERT IMAGE HERE
+\\
+
+Additional explanation of the example in start of deep learning (How it first dectecs edges and then shape and then objects. )
+
+\subsubsection{Pooling}
+As previously mentioned convolution are typically followed by pooling \citep{LeCun2015, Goodfellow0216}. 
+Pooling can used to reduce the size of the dataset, which is turn can increase computation speed, because the amount of data passed to the next layer is smaller. By pooling the input, a smaller representation is given, that still contains the overall information, in which the output does not change. \citep{Goodfellow2016}      
+The pooling process can be defined as a window that passes over e.g. a feature map from convolution, where a value within the window is extracted. One type of pooling layer is maxpooling that takes the maximum value within the window \citep{Goodfellow2016}. A pooling layer may be defined simply by its window size and a stride length, where stride length is the number of values the window jumps \citep{MAYBE KERAS}. 
 
 
 
