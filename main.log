@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  28 NOV 2017 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  28 NOV 2017 14:38
 entering extended mode
 **./main.tex
 (main.tex
@@ -2268,25 +2268,94 @@ Package pdftex.def Info: Requested size: 308.69865pt x 218.43028pt on input lin
 e 104.
 [13 <./figures/Graphofyrainingcost.png>]
 
-Package natbib Warning: Citation `Goodfellow0216' on page 14 undefined on input
- line 135.
+Package natbib Warning: Citation `LeCun1998' on page 14 undefined on input line
+ 117.
 
 
-Package natbib Warning: Citation `MAYBE KERAS' on page 14 undefined on input li
-ne 137.
+Package natbib Warning: Citation `LeCun1998' on page 14 undefined on input line
+ 119.
 
-[14 <./figures/learningCurves.png>]) [15] (Report/Methodology/Data.tex
-<figures/kneepainmap.png, id=496, 237.88875pt x 605.26125pt>
+
+Package natbib Warning: Citation `LeCun1998' on page 14 undefined on input line
+ 121.
+
+
+Package natbib Warning: Citation `LeCun1998' on page 14 undefined on input line
+ 121.
+
+
+Package natbib Warning: Citation `LeCun1998' on page 14 undefined on input line
+ 125.
+
+<figures/LeNet5.png, id=479, 806.26219pt x 254.45062pt>
+File: figures/LeNet5.png Graphic file (type png)
+<use figures/LeNet5.png>
+Package pdftex.def Info: figures/LeNet5.png  used on input line 131. on input l
+ine 131.
+Package pdftex.def Info: Requested size: 264.60269pt x 83.50693pt on input line
+ 131.
+
+Package natbib Warning: Citation `LeCun1998' on page 14 undefined on input line
+ 132.
+
+
+Package natbib Warning: Citation `LeCun1998' on page 14 undefined on input line
+ 132.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--134
+
+ []
+
+[14 <./figures/learningCurves.png>]
+
+Package natbib Warning: Citation `LeCun1998' on page 15 undefined on input line
+ 141.
+
+
+Package natbib Warning: Citation `Goodfellow0216' on page 15 undefined on input
+ line 147.
+
+
+Package natbib Warning: Citation `LeCun1998' on page 15 undefined on input line
+ 148.
+
+
+Package natbib Warning: Citation `Dumoulin2016' on page 15 undefined on input l
+ine 149.
+
+
+Package natbib Warning: Citation `Dumoulin2016' on page 15 undefined on input l
+ine 149.
+
+<figures/Kernel.png, id=492, 240.9pt x 258.9675pt>
+File: figures/Kernel.png Graphic file (type png)
+<use figures/Kernel.png>
+Package pdftex.def Info: figures/Kernel.png  used on input line 154. on input l
+ine 154.
+Package pdftex.def Info: Requested size: 264.60269pt x 284.47389pt on input lin
+e 154.
+
+Package natbib Warning: Citation `Dumoulin2016' on page 15 undefined on input l
+ine 155.
+
+
+Package natbib Warning: Citation `Dumoulin2016' on page 15 undefined on input l
+ine 155.
+
+[15 <./figures/LeNet5.png>]) [16 <./figures/Kernel.png>]
+(Report/Methodology/Data.tex
+<figures/kneepainmap.png, id=509, 237.88875pt x 605.26125pt>
 File: figures/kneepainmap.png Graphic file (type png)
 <use figures/kneepainmap.png>
 Package pdftex.def Info: figures/kneepainmap.png  used on input line 9. on inpu
 t line 9.
 Package pdftex.def Info: Requested size: 110.25pt x 280.51077pt on input line 9
 .
- [16
+ [17
 
  <./figures/kneepainmap.png (PNG copy)>]
-<figures/Navigatepain.png, id=505, 3173.8575pt x 1541.76pt>
+<figures/Navigatepain.png, id=518, 3173.8575pt x 1541.76pt>
 File: figures/Navigatepain.png Graphic file (type png)
 <use figures/Navigatepain.png>
 Package pdftex.def Info: figures/Navigatepain.png  used on input line 24. on in
@@ -2298,13 +2367,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--37
 
  []
 
-[17 <./figures/Navigatepain.png>]
+[18 <./figures/Navigatepain.png>]
 
-Package natbib Warning: Citation `Witvrouw2014' on page 18 undefined on input l
+Package natbib Warning: Citation `Witvrouw2014' on page 19 undefined on input l
 ine 39.
 
 
-Package natbib Warning: Citation `Rathleff2015' on page 18 undefined on input l
+Package natbib Warning: Citation `Rathleff2015' on page 19 undefined on input l
 ine 41.
 
 
@@ -2312,31 +2381,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-<figures/histogramDuration.png, id=518, 853.68938pt x 465.23813pt>
+<figures/histogramDuration.png, id=531, 853.68938pt x 465.23813pt>
 File: figures/histogramDuration.png Graphic file (type png)
 <use figures/histogramDuration.png>
 Package pdftex.def Info: figures/histogramDuration.png  used on input line 61. 
 on input line 61.
 Package pdftex.def Info: Requested size: 441.0pt x 240.33505pt on input line 61
 .
-[18]
-<figures/histrogramPain.png, id=526, 1028.34187pt x 490.08093pt>
+[19]
+<figures/histrogramPain.png, id=539, 1028.34187pt x 490.08093pt>
 File: figures/histrogramPain.png Graphic file (type png)
 <use figures/histrogramPain.png>
 Package pdftex.def Info: figures/histrogramPain.png  used on input line 78. on 
 input line 78.
 Package pdftex.def Info: Requested size: 441.0pt x 210.16985pt on input line 78
 .
- [19 <./figures/histogramDuration.png> <./figures/histrogramPain.png (PNG copy)
+ [20 <./figures/histogramDuration.png> <./figures/histrogramPain.png (PNG copy)
 >]
-<figures/histoGender.png, id=535, 861.2175pt x 310.15875pt>
+<figures/histoGender.png, id=549, 861.2175pt x 310.15875pt>
 File: figures/histoGender.png Graphic file (type png)
 <use figures/histoGender.png>
 Package pdftex.def Info: figures/histoGender.png  used on input line 92. on inp
 ut line 92.
 Package pdftex.def Info: Requested size: 441.0pt x 158.8225pt on input line 92.
 
-<figures/colorregion.png, id=538, 386.6445pt x 175.857pt>
+<figures/colorregion.png, id=552, 386.6445pt x 175.857pt>
 File: figures/colorregion.png Graphic file (type png)
 <use figures/colorregion.png>
 Package pdftex.def Info: figures/colorregion.png  used on input line 105. on in
@@ -2345,10 +2414,10 @@ Package pdftex.def Info: Requested size: 308.69865pt x 140.4094pt on input line
  105.
 
 
-LaTeX Warning: Reference `threshold' on page 20 undefined on input line 111.
+LaTeX Warning: Reference `threshold' on page 21 undefined on input line 111.
 
-[20 <./figures/histoGender.png> <./figures/colorregion.png>]
-<figures/threshold4.png, id=551, 701.019pt x 679.338pt>
+[21 <./figures/histoGender.png> <./figures/colorregion.png>]
+<figures/threshold4.png, id=564, 701.019pt x 679.338pt>
 File: figures/threshold4.png Graphic file (type png)
 <use figures/threshold4.png>
 Package pdftex.def Info: figures/threshold4.png  used on input line 115. on inp
@@ -2357,52 +2426,52 @@ Package pdftex.def Info: Requested size: 441.0pt x 427.36325pt on input line 11
 5.
 
 
-LaTeX Warning: Reference `fig:threshold4' on page 21 undefined on input line 12
+LaTeX Warning: Reference `fig:threshold4' on page 22 undefined on input line 12
 4.
 
 
-LaTeX Warning: Reference `app:XX' on page 21 undefined on input line 124.
+LaTeX Warning: Reference `app:XX' on page 22 undefined on input line 124.
 
-[21 <./figures/threshold4.png>]
-<figures/durationRegression.png, id=561, 856.70062pt x 328.22626pt>
+[22 <./figures/threshold4.png>]
+<figures/durationRegression.png, id=574, 856.70062pt x 328.22626pt>
 File: figures/durationRegression.png Graphic file (type png)
 <use figures/durationRegression.png>
 Package pdftex.def Info: figures/durationRegression.png  used on input line 134
 . on input line 134.
 Package pdftex.def Info: Requested size: 441.0pt x 168.96077pt on input line 13
 4.
-<figures/painRegression.png, id=563, 847.66687pt x 326.72063pt>
+<figures/painRegression.png, id=576, 847.66687pt x 326.72063pt>
 File: figures/painRegression.png Graphic file (type png)
 <use figures/painRegression.png>
 Package pdftex.def Info: figures/painRegression.png  used on input line 145. on
  input line 145.
 Package pdftex.def Info: Requested size: 441.0pt x 169.97546pt on input line 14
 5.
- [22 <./figures/durationRegression.png> <./figures/painRegression.png>]
-<figures/cropbin7.png, id=574, 378.66469pt x 187.45032pt>
+ [23 <./figures/durationRegression.png> <./figures/painRegression.png>]
+<figures/cropbin7.png, id=587, 378.66469pt x 187.45032pt>
 File: figures/cropbin7.png Graphic file (type png)
 <use figures/cropbin7.png>
 Package pdftex.def Info: figures/cropbin7.png  used on input line 168. on input
  line 168.
 Package pdftex.def Info: Requested size: 308.69865pt x 152.81784pt on input lin
 e 168.
-<figures/binaryimagematrix.png, id=576, 456.95718pt x 255.20343pt>
+<figures/binaryimagematrix.png, id=589, 456.95718pt x 255.20343pt>
 File: figures/binaryimagematrix.png Graphic file (type png)
 <use figures/binaryimagematrix.png>
 Package pdftex.def Info: figures/binaryimagematrix.png  used on input line 178.
  on input line 178.
 Package pdftex.def Info: Requested size: 352.80135pt x 197.04073pt on input lin
 e 178.
- [23 <./figures/cropbin7.png>]
-<figures/binregions.png, id=587, 383.18156pt x 176.91093pt>
+ [24 <./figures/cropbin7.png>]
+<figures/binregions.png, id=600, 383.18156pt x 176.91093pt>
 File: figures/binregions.png Graphic file (type png)
 <use figures/binregions.png>
 Package pdftex.def Info: figures/binregions.png  used on input line 190. on inp
 ut line 190.
 Package pdftex.def Info: Requested size: 352.80135pt x 162.89499pt on input lin
 e 190.
- [24 <./figures/binaryimagematrix.png> <./figures/binregions.png>]
-<figures/onehotmatrix.png, id=598, 1183.42125pt x 560.0925pt>
+ [25 <./figures/binaryimagematrix.png> <./figures/binregions.png>]
+<figures/onehotmatrix.png, id=611, 1183.42125pt x 560.0925pt>
 File: figures/onehotmatrix.png Graphic file (type png)
 <use figures/onehotmatrix.png>
 Package pdftex.def Info: figures/onehotmatrix.png  used on input line 207. on i
@@ -2410,20 +2479,20 @@ nput line 207.
 Package pdftex.def Info: Requested size: 441.0pt x 208.71803pt on input line 20
 7.
 ) (Report/Methodology/Program.tex)
-[25 <./figures/onehotmatrix.png>] (Report/Model/DescripOfModels.tex
-<figures/Dropout.png, id=615, 884.30376pt x 563.10374pt>
+[26 <./figures/onehotmatrix.png>] (Report/Model/DescripOfModels.tex
+<figures/Dropout.png, id=629, 884.30376pt x 563.10374pt>
 File: figures/Dropout.png Graphic file (type png)
 <use figures/Dropout.png>
 Package pdftex.def Info: figures/Dropout.png  used on input line 34. on input l
 ine 34.
 Package pdftex.def Info: Requested size: 264.60269pt x 168.49422pt on input lin
 e 34.
- [26
+ [27
 
 ]
-[27 <./figures/Dropout.png>]
+[28 <./figures/Dropout.png>]
 
-LaTeX Warning: Reference `LinetteAndBirgithe' on page 28 undefined on input lin
+LaTeX Warning: Reference `LinetteAndBirgithe' on page 29 undefined on input lin
 e 76.
 
 
@@ -2432,7 +2501,7 @@ Underfull \hbox (badness 1137) in paragraph at lines 76--78
  layer, since the data
  []
 
-<figures/simpleModel.png, id=643, 238.8925pt x 211.79124pt>
+<figures/simpleModel.png, id=656, 238.8925pt x 211.79124pt>
 File: figures/simpleModel.png Graphic file (type png)
 <use figures/simpleModel.png>
 Package pdftex.def Info: figures/simpleModel.png  used on input line 81. on inp
@@ -2440,41 +2509,41 @@ ut line 81.
 Package pdftex.def Info: Requested size: 132.30135pt x 117.29022pt on input lin
 e 81.
 
-LaTeX Warning: Reference `CONVOLUTION' on page 28 undefined on input line 92.
+LaTeX Warning: Reference `CONVOLUTION' on page 29 undefined on input line 92.
 
-<figures/binaryRepModel.png, id=646, 560.0925pt x 934.49126pt>
+<figures/binaryRepModel.png, id=659, 560.0925pt x 934.49126pt>
 File: figures/binaryRepModel.png Graphic file (type png)
 <use figures/binaryRepModel.png>
 Package pdftex.def Info: figures/binaryRepModel.png  used on input line 96. on 
 input line 96.
 Package pdftex.def Info: Requested size: 264.60269pt x 441.49242pt on input lin
 e 96.
-[28 <./figures/simpleModel.png>]
+[29 <./figures/simpleModel.png>]
 
-LaTeX Warning: Reference `LINETTE&BIRGITHE' on page 29 undefined on input line 
+LaTeX Warning: Reference `LINETTE&BIRGITHE' on page 30 undefined on input line 
 103.
 
-[29 <./figures/binaryRepModel.png>]
+[30 <./figures/binaryRepModel.png>]
 
-LaTeX Warning: Reference `LinetteAndBirgithe' on page 30 undefined on input lin
+LaTeX Warning: Reference `LinetteAndBirgithe' on page 31 undefined on input lin
 e 117.
 
-) [30] (main.bbl [31
+) [31] (main.bbl [32
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 59.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-[32
+[33
 
-] [33]) [34]
+] [34]) [35]
 
 Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-[35
+[36
 
 ]
 
@@ -2490,7 +2559,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3D4559292E5866A81907AD277E93B619;2658.
+(rerunfilecheck)             Checksum: CBF53D140C1392E0B068827A475C46D4;2658.
 
 
 LaTeX Warning: There were undefined references.
@@ -2498,34 +2567,34 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 29797 strings out of 493312
- 521700 string characters out of 3138898
+ 29809 strings out of 493312
+ 521923 string characters out of 3138898
  873047 words of memory out of 3000000
- 32728 multiletter control sequences out of 15000+200000
- 553723 words of font info for 85 fonts, out of 3000000 for 9000
+ 32736 multiletter control sequences out of 15000+200000
+ 553382 words of font info for 84 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,22n,92p,10483b,948s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ectt1095.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\tcrm1095.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecbi1095.pk> <C:\Users\linet\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\linet\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\linet\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1728.pk> <C:\Us
-ers\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.
+ec\dpi600\ecbx1200.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecbi1095.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\linet\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\linet\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1728.pk> <C:\Users\linet\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Us
+ers\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.
 pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecsx2074.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecti0700.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\linet\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\linet\AppData\L
-ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\linet
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on main.pdf (40 pages, 5981379 bytes).
+\ecti0700.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
+\ec\dpi600\ecrm1000.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\linet\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\linet\AppData\L
+ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on main.pdf (41 pages, 6034073 bytes).
 PDF statistics:
- 1304 PDF objects out of 1440 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
- 461 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1321 PDF objects out of 1440 (max. 8388607)
+ 160 named destinations out of 1000 (max. 500000)
+ 471 words of extra memory for PDF output out of 10000 (max. 10000000)
 
