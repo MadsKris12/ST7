@@ -16,26 +16,25 @@
 \BOOKMARK [0][-]{chapter.3}{Methodology}{}% 16
 \BOOKMARK [1][-]{section.3.1}{Data}{chapter.3}% 17
 \BOOKMARK [2][-]{subsection.3.1.1}{Software application: Navigate Pain}{section.3.1}% 18
-\BOOKMARK [2][-]{subsection.3.1.2}{Data handling}{section.3.1}% 19
-\BOOKMARK [2][-]{subsection.3.1.3}{Data representations}{section.3.1}% 20
-\BOOKMARK [1][-]{section.3.2}{Pre-analysis}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.2.1}{Classification of data}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.2}{Distribution and threshold}{section.3.2}% 23
-\BOOKMARK [2][-]{subsection.3.2.3}{Simple regression models}{section.3.2}% 24
-\BOOKMARK [1][-]{section.3.3}{Pre-processing}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.1}{Morphology-representation}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.2}{Regions-representation}{section.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.3}{Superimposed-representation}{section.3.3}% 28
-\BOOKMARK [1][-]{section.3.4}{Programs}{chapter.3}% 29
-\BOOKMARK [0][-]{chapter.4}{Description of models}{}% 30
-\BOOKMARK [1][-]{section.4.1}{General for the three models}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.1.1}{Data-handling in python}{section.4.1}% 32
-\BOOKMARK [2][-]{subsection.4.1.2}{Applied optimization techniques}{section.4.1}% 33
-\BOOKMARK [2][-]{subsection.4.1.3}{Training of the networks}{section.4.1}% 34
-\BOOKMARK [1][-]{section.4.2}{Vector image model}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.3}{Raw binary representation model}{chapter.4}% 36
-\BOOKMARK [1][-]{section.4.4}{Combined representation model}{chapter.4}% 37
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 38
-\BOOKMARK [0][-]{section*.44}{Bibliography}{}% 39
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 40
-\BOOKMARK [1][-]{section.A.1}{Appendix I}{appendix.A}% 41
+\BOOKMARK [2][-]{subsection.3.1.2}{Data representations}{section.3.1}% 19
+\BOOKMARK [1][-]{section.3.2}{Pre-analysis}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.2.1}{Classification of data}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.2}{Distribution and threshold}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.3}{Simple regression models}{section.3.2}% 23
+\BOOKMARK [1][-]{section.3.3}{Pre-processing}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.1}{Morphology-representation}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.2}{Regions-representation}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.3}{Superimposed-representation}{section.3.3}% 27
+\BOOKMARK [1][-]{section.3.4}{Programs}{chapter.3}% 28
+\BOOKMARK [0][-]{chapter.4}{Description of models}{}% 29
+\BOOKMARK [1][-]{section.4.1}{General for the three models}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.1.1}{Data-handling in python}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.2}{Applied optimization techniques}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.3}{Training of the networks}{section.4.1}% 33
+\BOOKMARK [1][-]{section.4.2}{Vector image model}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.3}{Raw binary representation model}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.4}{Combined representation model}{chapter.4}% 36
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 37
+\BOOKMARK [0][-]{section*.46}{Bibliography}{}% 38
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 39
+\BOOKMARK [1][-]{section.A.1}{Appendix I}{appendix.A}% 40
