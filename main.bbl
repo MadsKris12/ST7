@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -197,16 +197,16 @@ Alaa~Ali Hameed, Bekir Karlik, and Mohammad~Shukri Salman.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0950705116303811?via{\%}3Dihub}.
 
+\bibitem[Solutions(2015)]{Solutions2015}
+Aglance Solutions.
+\newblock {Visual insight for clinical reasoning – Navigate Pain}, 2015.
+\newblock URL \url{http://www.navigatepain.com/}.
+
 \bibitem[Harris and Harris(2012)]{Harris2012}
 David~Money Harris and Sarah~L. Harris.
 \newblock {Sequential Logic Design}.
 \newblock In \emph{Digital design and computer architecture}. Elsevier, 2012.
 \newblock ISBN 9780123978165.
-
-\bibitem[Solutions(2015)]{Solutions2015}
-Aglance Solutions.
-\newblock {Visual insight for clinical reasoning – Navigate Pain}, 2015.
-\newblock URL \url{http://www.navigatepain.com/}.
 
 \bibitem[Swamynathan(2017)]{Swamynathan2017}
 Manohar Swamynathan.
@@ -215,5 +215,22 @@ Manohar Swamynathan.
 \newblock ISBN 978-1-4842-2865-4.
 \newblock \doi{10.1007/978-1-4842-2866-1}.
 \newblock URL \url{http://link.springer.com/10.1007/978-1-4842-2866-1}.
+
+\bibitem[Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
+  Salakhutdinov]{Srivastava2014}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock {Dropout: A Simple Way to Prevent Neural Networks from Overfitting}.
+\newblock \emph{Journal of Machine Learning Research}, 15:\penalty0 1929--1958,
+  2014.
+\newblock ISSN 15337928.
+\newblock \doi{10.1214/12-AOS1000}.
+\newblock URL
+  \url{https://dl.acm.org/citation.cfm?id=2670313{\&}CFID=818407627{\&}CFTOKEN=74532044}.
+
+\bibitem[Chollet(2015)]{Chollet2015}
+Fran{\c{c}}ois Chollet.
+\newblock {Keras Documentation}, 2015.
+\newblock URL \url{https://keras.io}.
 
 \end{thebibliography}

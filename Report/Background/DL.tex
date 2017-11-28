@@ -33,24 +33,24 @@ There are different approaches for training a neural network, where the three ma
 
   
 \subsection{Back-propagation}
-Backpropagation is a popular learning algorithm in neural networks, that is based on gradient decent, and used because of it's simplicity and computationally efficiency. \citep{Bengio2012, Duda2000}
-It's the (learning) process where the weights of a neural network are adjusted in order to reduce the error calculated between the output of the network and the expected output. This by definition makes backpropagation closely related to supervised learning, as written in \ref{sec:LearningTech}, to which backpropagation the most general method used.\citep{Duda2000}  
-When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of training. Based on a cost function a loss is calculated for every input that passes through the network, the is used by backpropagation to make the adjustments on the weight to reduce this loss. As training progresses the loss should decrease as a result of the weight adjustments, and improve the performance of the neural network. \citep{LeCun2015, Duda2000, Goodfellow2016}   
+Backpropagation is a popular learning algorithm in neural networks, that is based on gradient descent, and used because of it's simplicity and computationally efficiency. \citep{Bengio2012, Duda2000} It's the (learning) process where the weights of a neural network are adjusted in order to reduce the error calculated between the output of the network and the expected output. This by definition makes backpropagation closely related to supervised learning, as written in \ref{sec:LearningTech}, to which backpropagation is the most general method used.\citep{Duda2000}  
+When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of the training. Based on a objective function a loss is calculated for every input that passes through the network, the is used by backpropagation to make the adjustments on the weight to reduce this loss. As training progresses the loss should decrease as a result of the weight adjustments, and improve the performance of the neural network. \citep{LeCun2015, Duda2000, Goodfellow2016}   
 This learning process continues until optimal weights with minimum error is reached.\citep{Hameed2016}
 
-The basic idea behind it is to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as  the inputs and weights multiplication of each node (separate input) summed with additional coefficients called biases.\citep{Hameed2016} 
+The basic idea behind it is that gradients can be computed efficiently by propagation from the output to the input in order to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as  the inputs and weights multiplication of each node (separate input) summed with additional coefficients called biases.\citep{Hameed2016,LeCun1998} 
 
 MAYBE TALK ABOUT ACTIVATION FUNCTIONS IN RELATION TO BACKPROPAGATION. 
 
 A PROBLEM OFTEN RELATED TO OPTIMIZATION IS THE LAGER THE NETWORK THE HARDER IT IS TO OPTIMIZE, BUT IN ANOTHER WAY IF THE NETWORK IS SMALL AND SIMPLE THE EASIER IT IS TO OPTIMIZE. 
 
+
 \subsubsection{Gradient Decent}
-Gradient descent is one of the most common algorithms for optimizing neural networks. It is a way to minimize the loss function (cost function) by updating the parameters in the opposite direction of the gradient of the objective function.\citep{Ruder2016} The principle of the gradient descent could be explained as a "climbing down a hill" until the (local) minimum is reached is it could be seen in \autoref{fig:GDgraph}. At each step, the opposite direction of the gradient is taken and the step size is determined by the value of the learning rate together with the slope of the gradient until the convergence is reached. Convergence means that oscillations of the value are small enough to call it minimum value.\citep{Raschka2016}
+Gradient descent is one of the most common technique for optimizing neural networks. It is a way to minimize the objective function (loss function) by updating the parameters in the opposite direction of the gradient of the objective function.\citep{Ruder2016} The principle of the gradient descent could be explained as a "ball climbing down a hill" until the (local) minimum is reached is it could be seen in \autoref{fig:GDgraph}. At each step, the opposite direction of the gradient is taken and the step size is determined by the value of the learning rate together with the slope of the gradient until the convergence is reached. Convergence means that oscillations of the value are small enough to call it the minimum value.\citep{Raschka2016}
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.6\textwidth]{figures/GDgraph}
-\caption{Schematic of gradient descent working principle, where J(w) – loss function, Jmin(w) – (local) minimum, w – input value \citep{Raschka2016}.}
+\caption{Schematic of 1-dimensional gradient descent working principle, where J(w) – the loss function, Jmin(w) – final approximation to the (local) minimum of J(w), w - value of the parameter. The arrows indicate the step direction, i.e. the negative gradient.\citep{Raschka2016}.}
 \label{fig:GDgraph}  
 \end{figure}
 
