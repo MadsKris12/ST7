@@ -2,9 +2,7 @@
 This chapter creates an understanding of the given data and the different programs respectvely the program where pain maps are created and the program for development of the neural networks. 
 
 \section{Data}
-*** OPS BIRGITHE AND LINETTE REWRITE! ***
-Data used in this project were collected beforehand from an on-going FOXH trial which is conducted in collaboration with Danish and Australian universities. The data consists of pain maps which were drawn by subjects with PFP through the use of an application Navigate Pain in a clinical setting. The data contained information regarding the subjects in terms of i.a. age, gender, height and weight. For each individual subject information related to the PFPS was also collected, regarding the duration of PFP, pain intensity and which knee was the most prominent for pain. 
-The number of samples available during this study was collected from 217 subjects with PFP. An example of a pain drawing can be seen in figure \ref{fig:kneepainmap}. 
+Data used in this project were collected beforehand from an on-going FOXH trial which is conducted in collaboration with Danish and Australian universities. The data consists of pain maps which were drawn by individuals with PFP through the use of an application Navigate Pain in a clinical setting. In addition to the pain maps an appurtenant dataset was available. This contained information regarding the individuals in terms of i.a. age, gender, symptom duration, pain intensity and the most prominent knee for pain. An example of a pain drawing can be seen in figure \ref{fig:kneepainmap}.
 
 \begin{figure} [H]
 \centering
@@ -12,6 +10,10 @@ The number of samples available during this study was collected from 217 subject
 \caption{Pain drawings of the lower extremities. The red markings indicate the area of pain perceived by the individual subject. In this case the PFP is bilateral (on both knees).}
 \label{fig:kneepainmap}
 \end{figure}
+
+\noindent
+Before using the data in the deep learning model a manual data handling was necessary. This incorporate matching the given pain maps and appertaining ID regarding the individuals, which resulted in 217 pain maps. Furthermore specific information like gender, symptom duration and pain intensity is collected. The number of pain maps and associated information, gender and symptom duration, was 205. Additionally, there were 197 pain maps with associated information, gender and pain intensity.
+
 
 \subsection{Software application: Navigate Pain}
 Navigate Pain is a software application that is used to visualise the location, shape and spatial distribution of pain from patient to healthcare personnel. The application permits individuals to draw their pain into a body outline with different colors and line thickness. Navigate Pain android was developed at Aalborg University and a commercial web application is available at Aglance Solutions (Denmark).\citep{Solutions2015}
@@ -26,10 +28,6 @@ Navigate Pain is a software application that is used to visualise the location, 
 
 \noindent
 The left screen in figure \ref{fig:Navigatepain} is the main screen. By clicking on "Project" a folder with subjects is created. From each subject information like name, age, height is saved. Before the subject can draw their pain areas, the body outline has to be chosen, which illustrates the screen in the middle. The body outlines is divided into five categories: Line Drawings, 3D Drawings, Orofacial, Special Zooms and Knee Pain. In the bottom the seleceted templates is shown. When clicking on "CREATE CHARTS" the right screen is shown. Here it is possible to draw the pain areas with different colors and line thickness, which can be seen in the left side of the screen. Afterwards the pain map can be saved. 
-
-\subsection{Data handling}
-BIRGITHE AND LINETTE
-
 
 
 \subsection{Data representations}
@@ -91,7 +89,7 @@ Gender is an interesting parameter to use as an input, because the prevalence is
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.5\textwidth]{figures/histoGender}
+\includegraphics[width=1\textwidth]{figures/histoGender}
 \caption{Histograms of the distribution/division of gender.}
 \label{fig:histogender}
 \end{figure}
