@@ -114,27 +114,41 @@ Typically the validation and test error will always be higher that the training 
 
 \subsection{Core NN layers}
 \subsubsection{Convolutional Neural Networks}
-Convolutional Neural Networks (CNNs) a type of special neural network for processing data with a grid-like topology \citep{Goodfellow2016}. 
-The architecture of a typical CNN’s are almost always combined with another layer type called pooling \citep{Goodfellow2016, LeCun2015}.
+Convolutional Neural Networks (CNNs) a type of special neural network for processing data with a grid-like topology \citep{Goodfellow2016}.{HAVE EXTRA SOURCE} Convolutional neural networks (CNNs) perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex model by extracting visual features from the pixel-level content.\citep{Acquarelli2017,LeCun1998}
 
-Convolutional neural networks (CNNs) perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex model by extracting visual features from the pixel-level content.\citep{Acquarelli2017}¨
+The architecture of a typical CNN’s are almost always combined convolutional with another type of layer called pooling \citep{Goodfellow2016, LeCun2015}. Units in a layer are organised in planes and share the same set of weights \citep{LeCun1998}.
 
-The terminology regarding the output of a convolutional layer can be refered to as a feature map \citep{Goodfellow2016} 
+The terminology regarding the output of a convolutional layer can be refered to as a feature map \citep{Goodfellow2016,LeCun1998} It is the set of outputs of the units arranged in a plane \citep{LeCun1998}.
 
 %CNNs are feed–forward models that map input data with a set of suitable outputs. Accuracy and performance rely on large training datasets and training procedure based on back-propagation with optimization algorithm such as gradient descent which is used for finding minimum value of the function.\citep{Acquarelli2017}
   
-The way that convolutional networks work is by taking e.g. an image an scan it and split it up into a kind of feature map. 
+The way that convolutional network works is by taking e.g. an image an scan it and split it up into a kind of feature map. A complete convolutional layer consists of several feature maps, so multiple features can be extracted at each location in the image \citep{LeCun1998}. A typical CNN for characters recognition of the images, called LeNet-5, could be seen in \autoref{fig:LeNet5}.
 
 \\
-INSERT IMAGE HERE
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.6\textwidth]{figures/LeNet5}
+\caption{Architecture of LeNet-5, a CNN for digits recognition. Each plane is a feature map and the size of the feature map differs through out the layers. The model consist of 2 convolutional, 2 pooling and 2 fully connected layers \citep{LeCun1998}.}
+\label{fig:LeNet5}  
+\end{figure}
 \\
 
-Additional explanation of the example in start of deep learning (How it first dectecs edges and then shape and then objects. )
+Units in the first hidden layer of LeNet-5 are arranged in planes, which are a separate feature maps respectively. The feature map is scanning the input image with a single unit that has a local respective field and store the state of this unit in the new feature map (new layer) and this process is called convolution. Respective field term is defined as the region in the input space that a particular CNN's feature is looking at. Once a feature has been detected, its location becomes not important and only its approximate position relative to other features is relevant. This is because the positions are likely to vary for different images of the same object and it is irrelevant for identifying the pattern. To reduce the importance of the position, the spacial resolution of the feature map has to be decreased, so the pooling layer is used for that.\citep{LeCun1998}
+
+
+%Additional explanation of the example in start of deep learning (How it first detects edges and then shape and then objects. )
 
 \subsubsection{Pooling}
 As previously mentioned convolution are typically followed by pooling \citep{LeCun2015, Goodfellow0216}. 
-Pooling can used to reduce the size of the dataset, which is turn can increase computation speed, because the amount of data passed to the next layer is smaller. By pooling the input, a smaller representation is given, that still contains the overall information, in which the output does not change. \citep{Goodfellow2016}      
-The pooling process can be defined as a window that passes over e.g. a feature map from convolution, where a value within the window is extracted. One type of pooling layer is maxpooling that takes the maximum value within the window \citep{Goodfellow2016}. A pooling layer may be defined simply by its window size and a stride length, where stride length is the number of values the window jumps \citep{MAYBE KERAS}. 
+Pooling can used to reduce the size of the dataset, which is turn can increase computation speed, because the amount of data passed to the next layer is smaller. By pooling the input, a smaller representation is given, that still contains the overall information, in which the output does not change. \citep{Goodfellow2016,LeCun1998}     
+The pooling process can be defined as a window that passes over e.g. a feature map from convolution, where a value within the window is extracted. One type of pooling layer is maxpooling that takes the maximum value within the window \citep{Goodfellow2016,Dumoulin2016}. A pooling layer may be defined simply by its window (Kernel) size, paddling size and a stride length, where stride length is the number of values the window jumps shown in \autoref{fig:Kernel}. \citep{Dumoulin2016}
 
-
+\\
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.6\textwidth]{figures/Kernel}
+\caption{Convolving 3x3 kernel over a 5x5 input using paddling and strides (i.e., i=5, k=3, s=1, p=1) \citep{Dumoulin2016}.}
+\label{fig:Kernel}  
+\end{figure}
+\\
 
