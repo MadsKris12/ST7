@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.4)  28 NOV 2017 09:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  28 NOV 2017 13:12
 entering extended mode
 **./main.tex
 (main.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
 (preambleNy.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
 Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docu
 ment class
@@ -380,7 +380,7 @@ LaTeX Info: Redefining \ref on input line 355.
 LaTeX Info: Redefining \pageref on input line 355.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2017/08/14 v0.5k Insert pages of external PDF documents (AM)
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -413,8 +413,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count141
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -430,10 +429,10 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -450,35 +449,35 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \AM@pageheight=\dimen153
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box29
 \AM@global@opts=\toks23
 \AM@toc@title=\toks24
-\c@AM@survey=\count142
+\c@AM@survey=\count141
 \AM@templatesizebox=\box30
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\marvosym\marvosym.sty"
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count143
+\lst@mode=\count142
 \lst@gtempboxa=\box31
 \lst@token=\toks25
-\lst@length=\count144
+\lst@length=\count143
 \lst@currlwidth=\dimen154
-\lst@column=\count145
-\lst@pos=\count146
+\lst@column=\count144
+\lst@pos=\count145
 \lst@lostspace=\dimen155
 \lst@width=\dimen156
-\lst@newlines=\count147
-\lst@lineno=\count148
+\lst@newlines=\count146
+\lst@lineno=\count147
 \lst@maxwidth=\dimen157
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count149
-\lst@skipnumbers=\count150
+\c@lstnumber=\count148
+\lst@skipnumbers=\count149
 \lst@framebox=\box32
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
@@ -494,8 +493,11 @@ File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/05/19 3.10 The Babel package
+Package: babel 2017/11/03 3.15 The Babel package
 
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
 *************************************
 * Local config file bblopts.cfg used
 *
@@ -504,11 +506,15 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
-Language: english 2017/01/24 v3.3q English support from the babel system
+Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count151
+File: babel.def 2017/11/03 3.15 Babel common definitions
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
+\babel@savecnt=\count150
 \U@D=\dimen158
 )
 \l@canadian = a dialect from \language\l@american 
@@ -870,20 +876,20 @@ Already applied: [0000/00/00] Old fixltx2e package on input line 53.
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip263
-\multirow@cntb=\count152
+\multirow@cntb=\count151
 \multirow@dima=\skip264
 \bigstrutjot=\dimen159
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count153
+\c@tracingmulticols=\count152
 \mult@box=\box33
 \multicol@leftmargin=\dimen160
-\c@unbalance=\count154
-\c@collectmore=\count155
-\doublecol@number=\count156
-\multicoltolerance=\count157
-\multicolpretolerance=\count158
+\c@unbalance=\count153
+\c@collectmore=\count154
+\doublecol@number=\count155
+\multicoltolerance=\count156
+\multicolpretolerance=\count157
 \full@width=\dimen161
 \page@free=\dimen162
 \premulticols=\dimen163
@@ -914,18 +920,18 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box54
 \@tempa=\box55
 \@tempa=\box56
-\c@columnbadness=\count159
-\c@finalcolumnbadness=\count160
+\c@columnbadness=\count158
+\c@finalcolumnbadness=\count159
 \last@try=\dimen166
 \multicolovershoot=\dimen167
 \multicolundershoot=\dimen168
 \mult@nat@firstbox=\box57
 \colbreak@box=\box58
-\mc@col@check@num=\count161
+\mc@col@check@num=\count160
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count162
+\c@r@tfl@t=\count161
 \rotFPtop=\skip267
 \rotFPbot=\skip268
 \rot@float@box=\box59
@@ -943,7 +949,7 @@ Already applied: [0000/00/00] float order in 2-column on input line 151.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count163
+\c@float@type=\count162
 \float@exts=\toks30
 \float@box=\box60
 \@float@everytoks=\toks31
@@ -955,16 +961,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip271
 \LTpre=\skip272
 \LTpost=\skip273
-\LTchunksize=\count164
+\LTchunksize=\count163
 \LTcapwidth=\dimen169
 \LT@head=\box62
 \LT@firsthead=\box63
 \LT@foot=\box64
 \LT@lastfoot=\box65
-\LT@cols=\count165
-\LT@rows=\count166
-\c@LT@tables=\count167
-\c@LT@chunks=\count168
+\LT@cols=\count164
+\LT@rows=\count165
+\c@LT@tables=\count166
+\c@LT@chunks=\count167
 \LT@p@ftn=\toks32
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\arydshln\arydshln.sty"
@@ -977,16 +983,16 @@ Package: arydshln 2016/04/28 v1.73
 \adl@depth=\dimen174
 \adl@depthsave=\dimen175
 \adl@finaldepth=\dimen176
-\adl@columns=\count169
-\adl@ncol=\count170
-\adl@currentcolumn=\count171
-\adl@currentcolumnsave=\count172
-\adl@totalheight=\count173
-\adl@totalheightsave=\count174
-\adl@dash=\count175
-\adl@gap=\count176
-\adl@cla=\count177
-\adl@clb=\count178
+\adl@columns=\count168
+\adl@ncol=\count169
+\adl@currentcolumn=\count170
+\adl@currentcolumnsave=\count171
+\adl@totalheight=\count172
+\adl@totalheightsave=\count173
+\adl@dash=\count174
+\adl@gap=\count175
+\adl@cla=\count176
+\adl@clb=\count177
 \adl@everyvbox=\toks33
 \adl@LTpagetotal=\dimen177
 )
@@ -996,16 +1002,16 @@ Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box67
-\sift@deathcycles=\count179
+\sift@deathcycles=\count178
 \@vwid@loff=\dimen178
 \@vwid@roff=\dimen179
 )
-\c@taburow=\count180
-\tabu@nbcols=\count181
-\tabu@cnt=\count182
-\tabu@Xcol=\count183
-\tabu@alloc=\count184
-\tabu@nested=\count185
+\c@taburow=\count179
+\tabu@nbcols=\count180
+\tabu@cnt=\count181
+\tabu@Xcol=\count182
+\tabu@alloc=\count183
+\tabu@nested=\count184
 \tabu@target=\dimen180
 \tabu@spreadtarget=\dimen181
 \tabu@naturalX=\dimen182
@@ -1024,7 +1030,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@cellskip=\skip274
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip275
 
 For additional information on amsmath, use the `?' option.
@@ -1043,13 +1049,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count186
+\inf@bad=\count185
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count187
-\leftroot@=\count188
+\uproot@=\count186
+\leftroot@=\count187
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count189
-\DOTSCASE@=\count190
+\classnum@=\count188
+\DOTSCASE@=\count189
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -1058,15 +1064,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen191
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count191
-\c@MaxMatrixCols=\count192
+\macc@depth=\count190
+\c@MaxMatrixCols=\count191
 \dotsspace@=\muskip10
-\c@parentequation=\count193
-\dspbrk@lvl=\count194
+\c@parentequation=\count192
+\dspbrk@lvl=\count193
 \tag@help=\toks37
-\row@=\count266
-\column@=\count267
-\maxfields@=\count268
+\row@=\count194
+\column@=\count266
+\maxfields@=\count267
 \andhelp@=\toks38
 \eqnshift@=\dimen192
 \alignsep@=\dimen193
@@ -1272,22 +1278,22 @@ Package: rsphrase 2011/06/03 v3.11 Risk and Safety Phrases (mhchem bundle)
 Package: mhchem 2017/07/24 v4.07 for typesetting chemical formulae
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
-Package: expl3 2017/09/18 L3 programming layer (loader) 
+Package: expl3 2017/11/14 L3 programming layer (loader) 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
-Package: expl3 2017/09/18 L3 programming layer (code)
-\c_max_int=\count269
-\l_tmpa_int=\count270
-\l_tmpb_int=\count271
-\g_tmpa_int=\count272
-\g_tmpb_int=\count273
-\g__intarray_font_int=\count274
-\g__prg_map_int=\count275
-\c_log_iow=\count276
-\l_iow_line_count_int=\count277
-\l__iow_line_target_int=\count278
-\l__iow_one_indent_int=\count279
-\l__iow_indent_int=\count280
+Package: expl3 2017/11/14 L3 programming layer (code)
+\c_max_int=\count268
+\l_tmpa_int=\count269
+\l_tmpb_int=\count270
+\g_tmpa_int=\count271
+\g_tmpb_int=\count272
+\g__intarray_font_int=\count273
+\g__prg_map_int=\count274
+\c_log_iow=\count275
+\l_iow_line_count_int=\count276
+\l__iow_line_target_int=\count277
+\l__iow_one_indent_int=\count278
+\l__iow_indent_int=\count279
 \c_zero_dim=\dimen259
 \c_max_dim=\dimen260
 \l_tmpa_dim=\dimen261
@@ -1306,77 +1312,77 @@ Package: expl3 2017/09/18 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count281
-\c__fp_leading_shift_int=\count282
-\c__fp_middle_shift_int=\count283
-\c__fp_trailing_shift_int=\count284
-\c__fp_big_leading_shift_int=\count285
-\c__fp_big_middle_shift_int=\count286
-\c__fp_big_trailing_shift_int=\count287
-\c__fp_Bigg_leading_shift_int=\count288
-\c__fp_Bigg_middle_shift_int=\count289
-\c__fp_Bigg_trailing_shift_int=\count290
-\c__fp_rand_size_int=\count291
-\c__fp_rand_four_int=\count292
-\c__fp_rand_eight_int=\count293
-\l__sort_length_int=\count294
-\l__sort_min_int=\count295
-\l__sort_top_int=\count296
-\l__sort_max_int=\count297
-\l__sort_true_max_int=\count298
-\l__sort_block_int=\count299
-\l__sort_begin_int=\count300
-\l__sort_end_int=\count301
-\l__sort_A_int=\count302
-\l__sort_B_int=\count303
-\l__sort_C_int=\count304
-\l__tl_build_start_index_int=\count305
-\l__tl_build_index_int=\count306
-\l__tl_analysis_normal_int=\count307
-\l__tl_analysis_index_int=\count308
-\l__tl_analysis_nesting_int=\count309
-\l__tl_analysis_type_int=\count310
-\l__regex_internal_a_int=\count311
-\l__regex_internal_b_int=\count312
-\l__regex_internal_c_int=\count313
-\l__regex_balance_int=\count314
-\l__regex_group_level_int=\count315
-\l__regex_mode_int=\count316
-\c__regex_cs_in_class_mode_int=\count317
-\c__regex_cs_mode_int=\count318
-\l__regex_catcodes_int=\count319
-\l__regex_default_catcodes_int=\count320
-\c__regex_catcode_D_int=\count321
-\c__regex_catcode_S_int=\count322
-\c__regex_catcode_L_int=\count323
-\c__regex_catcode_O_int=\count324
-\c__regex_catcode_A_int=\count325
-\c__regex_all_catcodes_int=\count326
-\l__regex_show_lines_int=\count327
-\l__regex_min_state_int=\count328
-\l__regex_max_state_int=\count329
-\l__regex_left_state_int=\count330
-\l__regex_right_state_int=\count331
-\l__regex_capturing_group_int=\count332
-\l__regex_min_pos_int=\count333
-\l__regex_max_pos_int=\count334
-\l__regex_curr_pos_int=\count335
-\l__regex_start_pos_int=\count336
-\l__regex_success_pos_int=\count337
-\l__regex_curr_char_int=\count338
-\l__regex_curr_catcode_int=\count339
-\l__regex_last_char_int=\count340
-\l__regex_case_changed_char_int=\count341
-\l__regex_curr_state_int=\count342
-\l__regex_step_int=\count343
-\l__regex_min_active_int=\count344
-\l__regex_max_active_int=\count345
-\l__regex_replacement_csnames_int=\count346
-\l__regex_match_count_int=\count347
-\l__regex_min_submatch_int=\count348
-\l__regex_submatch_int=\count349
-\l__regex_zeroth_submatch_int=\count350
-\g__debug_trace_regex_int=\count351
+\l_keys_choice_int=\count280
+\c__fp_leading_shift_int=\count281
+\c__fp_middle_shift_int=\count282
+\c__fp_trailing_shift_int=\count283
+\c__fp_big_leading_shift_int=\count284
+\c__fp_big_middle_shift_int=\count285
+\c__fp_big_trailing_shift_int=\count286
+\c__fp_Bigg_leading_shift_int=\count287
+\c__fp_Bigg_middle_shift_int=\count288
+\c__fp_Bigg_trailing_shift_int=\count289
+\c__fp_rand_size_int=\count290
+\c__fp_rand_four_int=\count291
+\c__fp_rand_eight_int=\count292
+\l__sort_length_int=\count293
+\l__sort_min_int=\count294
+\l__sort_top_int=\count295
+\l__sort_max_int=\count296
+\l__sort_true_max_int=\count297
+\l__sort_block_int=\count298
+\l__sort_begin_int=\count299
+\l__sort_end_int=\count300
+\l__sort_A_int=\count301
+\l__sort_B_int=\count302
+\l__sort_C_int=\count303
+\l__tl_build_start_index_int=\count304
+\l__tl_build_index_int=\count305
+\l__tl_analysis_normal_int=\count306
+\l__tl_analysis_index_int=\count307
+\l__tl_analysis_nesting_int=\count308
+\l__tl_analysis_type_int=\count309
+\l__regex_internal_a_int=\count310
+\l__regex_internal_b_int=\count311
+\l__regex_internal_c_int=\count312
+\l__regex_balance_int=\count313
+\l__regex_group_level_int=\count314
+\l__regex_mode_int=\count315
+\c__regex_cs_in_class_mode_int=\count316
+\c__regex_cs_mode_int=\count317
+\l__regex_catcodes_int=\count318
+\l__regex_default_catcodes_int=\count319
+\c__regex_catcode_D_int=\count320
+\c__regex_catcode_S_int=\count321
+\c__regex_catcode_L_int=\count322
+\c__regex_catcode_O_int=\count323
+\c__regex_catcode_A_int=\count324
+\c__regex_all_catcodes_int=\count325
+\l__regex_show_lines_int=\count326
+\l__regex_min_state_int=\count327
+\l__regex_max_state_int=\count328
+\l__regex_left_state_int=\count329
+\l__regex_right_state_int=\count330
+\l__regex_capturing_group_int=\count331
+\l__regex_min_pos_int=\count332
+\l__regex_max_pos_int=\count333
+\l__regex_curr_pos_int=\count334
+\l__regex_start_pos_int=\count335
+\l__regex_success_pos_int=\count336
+\l__regex_curr_char_int=\count337
+\l__regex_curr_catcode_int=\count338
+\l__regex_last_char_int=\count339
+\l__regex_case_changed_char_int=\count340
+\l__regex_curr_state_int=\count341
+\l__regex_step_int=\count342
+\l__regex_min_active_int=\count343
+\l__regex_max_active_int=\count344
+\l__regex_replacement_csnames_int=\count345
+\l__regex_match_count_int=\count346
+\l__regex_min_submatch_int=\count347
+\l__regex_submatch_int=\count348
+\l__regex_zeroth_submatch_int=\count349
+\g__debug_trace_regex_int=\count350
 \c_empty_box=\box74
 \l_tmpa_box=\box75
 \l_tmpb_box=\box76
@@ -1420,25 +1426,25 @@ Package: expl3 2017/09/18 L3 programming layer (code)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count352
+\l__driver_color_stack_int=\count351
 \l__driver_tmp_box=\box89
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
-Package: l3keys2e 2017/09/18 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2017/11/14 LaTeX2e option processing using LaTeX3 keys
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\chemgreek\chemgreek.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
-Package: xparse 2017/09/18 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count353
-\g__xparse_grabber_int=\count354
-\l__xparse_m_args_int=\count355
-\l__xparse_mandatory_args_int=\count356
-\l__xparse_v_nesting_int=\count357
+Package: xparse 2017/11/14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count352
+\g__xparse_grabber_int=\count353
+\l__xparse_m_args_int=\count354
+\l__xparse_mandatory_args_int=\count355
+\l__xparse_v_nesting_int=\count356
 )
 Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
 stry (CN)
-\l__chemgreek_tmpa_int=\count358
-\g__chemgreek_tmpa_int=\count359
+\l__chemgreek_tmpa_int=\count357
+\g__chemgreek_tmpa_int=\count358
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1490,7 +1496,7 @@ stry (CN)
 . Defining command \selectchemgreekmapping with sig. 'm' on line 491.
 .................................................
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count360
+\l__mhchem_ce_distanceFromLastComma_int=\count359
 \__mhchem_arrow_extPgfLength_skip=\skip287
 \mhchem@minispace@tmp=\skip288
 \mhchem@minibackspace@tmp=\skip289
@@ -1501,7 +1507,7 @@ stry (CN)
 \mhchem@smallbondwidth=\skip294
 \mhchem@bondtmp@minussidebearingleft=\skip295
 \mhchem@bondtmp@minussidebearingright=\skip296
-\l__mhchem_option_version_int=\count361
+\l__mhchem_option_version_int=\count360
 \mhchem@option@minusmathsidebearingleft=\dimen290
 \mhchem@option@minusmathsidebearingright=\dimen291
 \mhchem@option@minustextsidebearingleft=\dimen292
@@ -1511,27 +1517,27 @@ stry (CN)
 Package: siunitx 2017/08/02 v2.7j A comprehensive (SI) units package
 \l__siunitx_tmp_box=\box90
 \l__siunitx_tmp_dim=\dimen294
-\l__siunitx_tmp_int=\count362
-\l__siunitx_number_mantissa_length_int=\count363
-\l__siunitx_number_uncert_length_int=\count364
-\l__siunitx_round_int=\count365
-\l__siunitx_process_decimal_int=\count366
-\l__siunitx_process_uncertainty_int=\count367
-\l__siunitx_process_fixed_int=\count368
-\l__siunitx_process_integer_min_int=\count369
-\l__siunitx_process_precision_int=\count370
-\l__siunitx_group_min_int=\count371
+\l__siunitx_tmp_int=\count361
+\l__siunitx_number_mantissa_length_int=\count362
+\l__siunitx_number_uncert_length_int=\count363
+\l__siunitx_round_int=\count364
+\l__siunitx_process_decimal_int=\count365
+\l__siunitx_process_uncertainty_int=\count366
+\l__siunitx_process_fixed_int=\count367
+\l__siunitx_process_integer_min_int=\count368
+\l__siunitx_process_precision_int=\count369
+\l__siunitx_group_min_int=\count370
 \l__siunitx_angle_marker_box=\box91
 \l__siunitx_angle_unit_box=\box92
 \l__siunitx_angle_marker_dim=\dimen295
 \l__siunitx_angle_unit_dim=\dimen296
-\l__siunitx_unit_int=\count372
-\l__siunitx_unit_denominator_int=\count373
-\l__siunitx_unit_numerator_int=\count374
-\l__siunitx_unit_prefix_int=\count375
-\l__siunitx_unit_prefix_base_int=\count376
-\l__siunitx_unit_prefix_gram_int=\count377
-\l__siunitx_number_product_int=\count378
+\l__siunitx_unit_int=\count371
+\l__siunitx_unit_denominator_int=\count372
+\l__siunitx_unit_numerator_int=\count373
+\l__siunitx_unit_prefix_int=\count374
+\l__siunitx_unit_prefix_base_int=\count375
+\l__siunitx_unit_prefix_gram_int=\count376
+\l__siunitx_number_product_int=\count377
 \c__siunitx_one_fill_skip=\skip297
 \l__siunitx_table_unit_align_skip=\skip298
 \l__siunitx_table_exponent_dim=\dimen297
@@ -1672,21 +1678,21 @@ Package: translator 2010/06/12 ver 1.10
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\translator-language-m
 appings.tex"))) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\varioref.sty"
 Package: varioref 2016/02/16 v1.5c package for extended references (FMi)
-\c@vrcnt=\count379
+\c@vrcnt=\count378
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip301
 \bibsep=\skip302
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count380
+\c@NAT@ctr=\count379
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count381
+\c@lips@count=\count380
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
@@ -1694,7 +1700,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen306
 \enit@toks=\toks47
 \enit@inbox=\box97
-\enitdp@description=\count382
+\enitdp@description=\count381
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fixme\fixme.sty"
 Package: fixme 2017/03/05 v4.4 Collaborative annotations for LaTeX2e
@@ -1707,15 +1713,15 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks48
 \XKV@tempa@toks=\toks49
 )
-\XKV@depth=\count383
+\XKV@depth=\count382
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \lox@file=\read3
-\c@fixmecount=\count384
-\c@fxnotecount=\count385
-\c@fxwarningcount=\count386
-\c@fxerrorcount=\count387
-\c@fxfatalcount=\count388
+\c@fixmecount=\count383
+\c@fxnotecount=\count384
+\c@fxwarningcount=\count385
+\c@fxerrorcount=\count386
+\c@fxfatalcount=\count387
 )
 
 ******************************************************
@@ -1783,15 +1789,15 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen307
-\Hy@linkcounter=\count389
-\Hy@pagecounter=\count390
+\Hy@linkcounter=\count388
+\Hy@pagecounter=\count389
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count391
+\Hy@SavedSpaceFactor=\count390
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1803,7 +1809,7 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count392
+\c@Hy@tempcnt=\count391
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip17
@@ -1811,7 +1817,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen308
-\Fld@menulength=\count393
+\Fld@menulength=\count392
 \Field@Width=\dimen309
 \Fld@charsize=\dimen310
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -1823,23 +1829,23 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count394
-\c@Item=\count395
-\c@Hfootnote=\count396
+\Hy@abspage=\count393
+\c@Item=\count394
+\c@Hfootnote=\count395
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty"
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count397
-\c@Hpagenote=\count398
+\c@memhycontfloat=\count396
+\c@Hpagenote=\count397
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count399
-\c@bookmark@seq@number=\count400
+\Fld@listcount=\count398
+\c@bookmark@seq@number=\count399
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -1874,7 +1880,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen316
 \caption@hangindent=\dimen317
 )
-\c@ContinuedFloat=\count401
+\c@ContinuedFloat=\count400
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -1916,16 +1922,16 @@ LaTeX Info: Redefining \Ref on input line 5.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count402
+\scratchcounter=\count401
 \scratchdimen=\dimen318
 \scratchbox=\box99
-\nofMPsegments=\count403
-\nofMParguments=\count404
+\nofMPsegments=\count402
+\nofMParguments=\count403
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count405
+\MPscratchCnt=\count404
 \MPscratchDim=\dimen319
-\MPnumerator=\count406
-\makeMPintoPDFobject=\count407
+\MPnumerator=\count405
+\makeMPintoPDFobject=\count406
 \everyMPtoPDFconversion=\toks51
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1936,7 +1942,7 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
@@ -1948,7 +1954,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count408
+\c@lstlisting=\count407
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5.
@@ -1980,7 +1986,7 @@ LaTeX Info: Redefining \nameref on input line 5.
 LaTeX Info: Redefining \Ref on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\c__siunitx_mathsf_int=\count409
+\c__siunitx_mathsf_int=\count408
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1992,20 +1998,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
-\c__siunitx_mathtt_int=\count410
+\c__siunitx_mathtt_int=\count409
 
 (Report/xFormality/Frontpage.tex) [1
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (Report/xFormality/titleS
-heet.tex
+{C:/Users/linet/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Report/xFo
+rmality/titleSheet.tex
 <figures/aaulogo-en.png, id=175, 293.095pt x 195.73125pt>
 File: figures/aaulogo-en.png Graphic file (type png)
-
 <use figures/aaulogo-en.png>
-Package pdftex.def Info: figures/aaulogo-en.png used on input line 17.
-(pdftex.def)             Requested size: 85.21004pt x 56.9055pt.
+Package pdftex.def Info: figures/aaulogo-en.png  used on input line 17. on inpu
+t line 17.
+Package pdftex.def Info: Requested size: 85.21004pt x 56.9055pt on input line 1
+7.
 
 Overfull \hbox (29.07164pt too wide) in paragraph at lines 7--19
 [][] 
@@ -2087,58 +2094,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
 ]) [2] (Report/Background/Anatomy.tex
 <figures/bonestruc.png, id=281, 492.33937pt x 437.38406pt>
 File: figures/bonestruc.png Graphic file (type png)
-
 <use figures/bonestruc.png>
-Package pdftex.def Info: figures/bonestruc.png used on input line 13.
-(pdftex.def)             Requested size: 308.69865pt x 274.25198pt.
+Package pdftex.def Info: figures/bonestruc.png  used on input line 13. on input
+ line 13.
+Package pdftex.def Info: Requested size: 308.69865pt x 274.25198pt on input lin
+e 13.
  [3
 
  <./figures/bonestruc.png>]
 <figures/knee.png, id=298, 885.3075pt x 429.85594pt>
 File: figures/knee.png Graphic file (type png)
- <use figures/knee.png>
-Package pdftex.def Info: figures/knee.png used on input line 28.
-(pdftex.def)             Requested size: 441.0pt x 214.12723pt.
-
-[4 <./figures/knee.png>]
+<use figures/knee.png>
+Package pdftex.def Info: figures/knee.png  used on input line 28. on input line
+ 28.
+Package pdftex.def Info: Requested size: 441.0pt x 214.12723pt on input line 28
+.
+ [4 <./figures/knee.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
-<figures/painpic.pdf, id=316, 500.87125pt x 355.3275pt>
+<figures/painpic.pdf, id=316, pagebox=cropbox, 500.87125pt x 355.3275pt>
 File: figures/painpic.pdf Graphic file (type pdf)
-
 <use figures/painpic.pdf>
-Package pdftex.def Info: figures/painpic.pdf used on input line 56.
-(pdftex.def)             Requested size: 330.75pt x 234.6524pt.
- [5 <./figures/painpic.pdf>]
+Package pdftex.def Info: figures/painpic.pdf  used on input line 56. on input l
+ine 56.
+Package pdftex.def Info: Requested size: 330.75pt x 234.6524pt on input line 56
+.
+[5 <./figures/painpic.pdf>]
 <figures/kneetest.png, id=340, 403.5075pt x 307.90031pt>
 File: figures/kneetest.png Graphic file (type png)
-
 <use figures/kneetest.png>
-Package pdftex.def Info: figures/kneetest.png used on input line 78.
-(pdftex.def)             Requested size: 343.97946pt x 262.4776pt.
+Package pdftex.def Info: figures/kneetest.png  used on input line 78. on input 
+line 78.
+Package pdftex.def Info: Requested size: 343.97946pt x 262.4776pt on input line
+ 78.
  [6 <./figures/kneetest.png>]
 <figures/VAS.png, id=360, 382.42876pt x 72.27pt>
 File: figures/VAS.png Graphic file (type png)
- <use figures/VAS.png>
-Package pdftex.def Info: figures/VAS.png used on input line 95.
-(pdftex.def)             Requested size: 396.89731pt x 75.00792pt.
-
+<use figures/VAS.png>
+Package pdftex.def Info: figures/VAS.png  used on input line 95. on input line 
+95.
+Package pdftex.def Info: Requested size: 396.89731pt x 75.00792pt on input line
+ 95.
 <figures/painmap.png, id=368, 779.91376pt x 1355.0625pt>
 File: figures/painmap.png Graphic file (type png)
-
 <use figures/painmap.png>
-Package pdftex.def Info: figures/painmap.png used on input line 110.
-(pdftex.def)             Requested size: 176.39731pt x 306.468pt.
+Package pdftex.def Info: figures/painmap.png  used on input line 110. on input 
+line 110.
+Package pdftex.def Info: Requested size: 176.39731pt x 306.468pt on input line 
+110.
  [7 <./figures/VAS.png>]
 <figures/atlas.png, id=387, 460.72125pt x 220.57407pt>
 File: figures/atlas.png Graphic file (type png)
- <use figures/atlas.png>
-Package pdftex.def Info: figures/atlas.png used on input line 128.
-(pdftex.def)             Requested size: 264.60269pt x 126.681pt.
-
-[8 <./figures/painmap.png>]
+<use figures/atlas.png>
+Package pdftex.def Info: figures/atlas.png  used on input line 128. on input li
+ne 128.
+Package pdftex.def Info: Requested size: 264.60269pt x 126.681pt on input line 
+128.
+ [8 <./figures/painmap.png>]
 
 Package natbib Warning: Citation `Elson2010' on page 9 undefined on input line 
 134.
@@ -2150,39 +2164,45 @@ Package natbib Warning: Citation `Elson2010' on page 9 undefined on input line
 [9 <./figures/atlas.png>]) (Report/Background/ML.tex) (Report/Background/DL.tex
 <figures/NN_structure.png, id=411, 493.845pt x 325.215pt>
 File: figures/NN_structure.png Graphic file (type png)
-
 <use figures/NN_structure.png>
-Package pdftex.def Info: figures/NN_structure.png used on input line 7.
-(pdftex.def)             Requested size: 264.60269pt x 174.24883pt.
- [10 <./figures/NN_structure.png>]
+Package pdftex.def Info: figures/NN_structure.png  used on input line 7. on inp
+ut line 7.
+Package pdftex.def Info: Requested size: 264.60269pt x 174.24883pt on input lin
+e 7.
+[10 <./figures/NN_structure.png>]
 
 Package natbib Warning: Citation `Goodfellow0216' on page 11 undefined on input
  line 26.
 
 
 LaTeX Warning: Reference `sec:LearningTech' on page 11 undefined on input line 
-37.
+36.
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 45--46
+Package natbib Warning: Citation `LeCun1998' on page 11 undefined on input line
+ 40.
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 44--45
 []\T1/cmr/m/n/10.95 A PROBLEM OFTEN RELATED TO OPTIMIZATION IS THE LAGER THE
  []
 
+[11]
 
-Package natbib Warning: Citation `Ruder2016' on page 11 undefined on input line
+Package natbib Warning: Citation `Ruder2016' on page 12 undefined on input line
  48.
 
 
-Package natbib Warning: Citation `Raschka2016' on page 11 undefined on input li
+Package natbib Warning: Citation `Raschka2016' on page 12 undefined on input li
 ne 48.
 
-[11] <figures/GDgraph.png, id=451, 336.50719pt x 185.19188pt>
+<figures/GDgraph.png, id=451, 336.50719pt x 185.19188pt>
 File: figures/GDgraph.png Graphic file (type png)
-
 <use figures/GDgraph.png>
-Package pdftex.def Info: figures/GDgraph.png used on input line 52.
-(pdftex.def)             Requested size: 264.60269pt x 145.62177pt.
-
+Package pdftex.def Info: figures/GDgraph.png  used on input line 52. on input l
+ine 52.
+Package pdftex.def Info: Requested size: 264.60269pt x 145.62177pt on input lin
+e 52.
 
 Package natbib Warning: Citation `Raschka2016' on page 12 undefined on input li
 ne 53.
@@ -2222,12 +2242,11 @@ e 80.
 
 <figures/Graphofyrainingcost.png, id=461, 630.10406pt x 493.0922pt>
 File: figures/Graphofyrainingcost.png Graphic file (type png)
-
 <use figures/Graphofyrainingcost.png>
-Package pdftex.def Info: figures/Graphofyrainingcost.png used on input line 86.
-
-(pdftex.def)             Requested size: 264.60269pt x 207.06721pt.
-
+Package pdftex.def Info: figures/Graphofyrainingcost.png  used on input line 86
+. on input line 86.
+Package pdftex.def Info: Requested size: 264.60269pt x 207.06721pt on input lin
+e 86.
 
 Package natbib Warning: Citation `Patacchiola2017' on page 13 undefined on inpu
 t line 87.
@@ -2242,39 +2261,50 @@ Package natbib Warning: Citation `Int82016' on page 13 undefined on input line
 
 <figures/learningCurves.png, id=464, 736.25063pt x 520.94624pt>
 File: figures/learningCurves.png Graphic file (type png)
-
 <use figures/learningCurves.png>
-Package pdftex.def Info: figures/learningCurves.png used on input line 104.
-(pdftex.def)             Requested size: 308.69865pt x 218.43028pt.
- [13 <./figures/Graphofyrainingcost.png>])
-[14 <./figures/learningCurves.png>] (Report/Methodology/Data.tex
-<figures/kneepainmap.png, id=491, 237.88875pt x 605.26125pt>
-File: figures/kneepainmap.png Graphic file (type png)
+Package pdftex.def Info: figures/learningCurves.png  used on input line 104. on
+ input line 104.
+Package pdftex.def Info: Requested size: 308.69865pt x 218.43028pt on input lin
+e 104.
+[13 <./figures/Graphofyrainingcost.png>]
 
+Package natbib Warning: Citation `Goodfellow0216' on page 14 undefined on input
+ line 135.
+
+
+Package natbib Warning: Citation `MAYBE KERAS' on page 14 undefined on input li
+ne 137.
+
+[14 <./figures/learningCurves.png>]) [15] (Report/Methodology/Data.tex
+<figures/kneepainmap.png, id=501, 237.88875pt x 605.26125pt>
+File: figures/kneepainmap.png Graphic file (type png)
 <use figures/kneepainmap.png>
-Package pdftex.def Info: figures/kneepainmap.png used on input line 11.
-(pdftex.def)             Requested size: 110.25pt x 280.51077pt.
- [15
+Package pdftex.def Info: figures/kneepainmap.png  used on input line 11. on inp
+ut line 11.
+Package pdftex.def Info: Requested size: 110.25pt x 280.51077pt on input line 1
+1.
+ [16
 
  <./figures/kneepainmap.png (PNG copy)>]
-<figures/Navigatepain.png, id=500, 3173.8575pt x 1541.76pt>
+<figures/Navigatepain.png, id=510, 3173.8575pt x 1541.76pt>
 File: figures/Navigatepain.png Graphic file (type png)
-
 <use figures/Navigatepain.png>
-Package pdftex.def Info: figures/Navigatepain.png used on input line 22.
-(pdftex.def)             Requested size: 441.0pt x 214.22168pt.
+Package pdftex.def Info: figures/Navigatepain.png  used on input line 22. on in
+put line 22.
+Package pdftex.def Info: Requested size: 441.0pt x 214.22168pt on input line 22
+.
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--39
 
  []
 
-[16 <./figures/Navigatepain.png>]
+[17 <./figures/Navigatepain.png>]
 
-Package natbib Warning: Citation `Witvrouw2014' on page 17 undefined on input l
+Package natbib Warning: Citation `Witvrouw2014' on page 18 undefined on input l
 ine 41.
 
 
-Package natbib Warning: Citation `Rathleff2015' on page 17 undefined on input l
+Package natbib Warning: Citation `Rathleff2015' on page 18 undefined on input l
 ine 43.
 
 
@@ -2282,45 +2312,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-<figures/histogramDuration.png, id=513, 853.68938pt x 465.23813pt>
+<figures/histogramDuration.png, id=523, 853.68938pt x 465.23813pt>
 File: figures/histogramDuration.png Graphic file (type png)
-
 <use figures/histogramDuration.png>
-Package pdftex.def Info: figures/histogramDuration.png used on input line 63.
-(pdftex.def)             Requested size: 441.0pt x 240.33505pt.
- [17]
-<figures/histrogramPain.png, id=521, 1028.34187pt x 490.08093pt>
+Package pdftex.def Info: figures/histogramDuration.png  used on input line 63. 
+on input line 63.
+Package pdftex.def Info: Requested size: 441.0pt x 240.33505pt on input line 63
+.
+[18]
+<figures/histrogramPain.png, id=531, 1028.34187pt x 490.08093pt>
 File: figures/histrogramPain.png Graphic file (type png)
-
 <use figures/histrogramPain.png>
-Package pdftex.def Info: figures/histrogramPain.png used on input line 80.
-(pdftex.def)             Requested size: 441.0pt x 210.16985pt.
- [18 <./figures/histogramDuration.png> <./figures/histrogramPain.png (PNG copy)
+Package pdftex.def Info: figures/histrogramPain.png  used on input line 80. on 
+input line 80.
+Package pdftex.def Info: Requested size: 441.0pt x 210.16985pt on input line 80
+.
+ [19 <./figures/histogramDuration.png> <./figures/histrogramPain.png (PNG copy)
 >]
-<figures/histogramGender.png, id=530, 249.93375pt x 486.31688pt>
-File: figures/histogramGender.png Graphic file (type png)
+<figures/histoGender.png, id=540, 1028.34187pt x 318.43968pt>
+File: figures/histoGender.png Graphic file (type png)
+<use figures/histoGender.png>
+Package pdftex.def Info: figures/histoGender.png  used on input line 94. on inp
+ut line 94.
+Package pdftex.def Info: Requested size: 220.5pt x 68.27855pt on input line 94.
 
-<use figures/histogramGender.png>
-Package pdftex.def Info: figures/histogramGender.png used on input line 94.
-(pdftex.def)             Requested size: 220.5pt x 429.05843pt.
- [19 <./figures/histogramGender.png>]
-<figures/colorregion.png, id=540, 386.6445pt x 175.857pt>
+<figures/colorregion.png, id=543, 386.6445pt x 175.857pt>
 File: figures/colorregion.png Graphic file (type png)
-
 <use figures/colorregion.png>
-Package pdftex.def Info: figures/colorregion.png used on input line 107.
-(pdftex.def)             Requested size: 308.69865pt x 140.4094pt.
+Package pdftex.def Info: figures/colorregion.png  used on input line 107. on in
+put line 107.
+Package pdftex.def Info: Requested size: 308.69865pt x 140.4094pt on input line
+ 107.
 
 
 LaTeX Warning: Reference `threshold' on page 20 undefined on input line 113.
 
-<figures/threshold4.png, id=543, 701.019pt x 679.338pt>
+<figures/threshold4.png, id=546, 701.019pt x 679.338pt>
 File: figures/threshold4.png Graphic file (type png)
-
 <use figures/threshold4.png>
-Package pdftex.def Info: figures/threshold4.png used on input line 117.
-(pdftex.def)             Requested size: 441.0pt x 427.36325pt.
- [20 <./figures/colorregion.png>]
+Package pdftex.def Info: figures/threshold4.png  used on input line 117. on inp
+ut line 117.
+Package pdftex.def Info: Requested size: 441.0pt x 427.36325pt on input line 11
+7.
+[20 <./figures/histoGender.png (PNG copy)> <./figures/colorregion.png>]
 
 LaTeX Warning: Reference `fig:threshold4' on page 21 undefined on input line 12
 6.
@@ -2329,46 +2363,66 @@ LaTeX Warning: Reference `fig:threshold4' on page 21 undefined on input line 12
 LaTeX Warning: Reference `app:XX' on page 21 undefined on input line 126.
 
 [21 <./figures/threshold4.png>]
-<figures/cropbin7.png, id=561, 378.66469pt x 187.45032pt>
+<figures/durationRegression.png, id=565, 856.70062pt x 328.22626pt>
+File: figures/durationRegression.png Graphic file (type png)
+<use figures/durationRegression.png>
+Package pdftex.def Info: figures/durationRegression.png  used on input line 136
+. on input line 136.
+Package pdftex.def Info: Requested size: 441.0pt x 168.96077pt on input line 13
+6.
+<figures/painRegression.png, id=567, 847.66687pt x 326.72063pt>
+File: figures/painRegression.png Graphic file (type png)
+<use figures/painRegression.png>
+Package pdftex.def Info: figures/painRegression.png  used on input line 147. on
+ input line 147.
+Package pdftex.def Info: Requested size: 441.0pt x 169.97546pt on input line 14
+7.
+ [22 <./figures/durationRegression.png> <./figures/painRegression.png>]
+<figures/cropbin7.png, id=578, 378.66469pt x 187.45032pt>
 File: figures/cropbin7.png Graphic file (type png)
-
 <use figures/cropbin7.png>
-Package pdftex.def Info: figures/cropbin7.png used on input line 147.
-(pdftex.def)             Requested size: 308.69865pt x 152.81784pt.
-
-<figures/binaryimagematrix.png, id=563, 456.95718pt x 255.20343pt>
+Package pdftex.def Info: figures/cropbin7.png  used on input line 170. on input
+ line 170.
+Package pdftex.def Info: Requested size: 308.69865pt x 152.81784pt on input lin
+e 170.
+<figures/binaryimagematrix.png, id=580, 456.95718pt x 255.20343pt>
 File: figures/binaryimagematrix.png Graphic file (type png)
-
 <use figures/binaryimagematrix.png>
-Package pdftex.def Info: figures/binaryimagematrix.png used on input line 157.
-(pdftex.def)             Requested size: 352.80135pt x 197.04073pt.
- [22 <./figures/cropbin7.png>]
-<figures/binregions.png, id=574, 383.18156pt x 176.91093pt>
+Package pdftex.def Info: figures/binaryimagematrix.png  used on input line 180.
+ on input line 180.
+Package pdftex.def Info: Requested size: 352.80135pt x 197.04073pt on input lin
+e 180.
+ [23 <./figures/cropbin7.png>]
+<figures/binregions.png, id=591, 383.18156pt x 176.91093pt>
 File: figures/binregions.png Graphic file (type png)
-
 <use figures/binregions.png>
-Package pdftex.def Info: figures/binregions.png used on input line 169.
-(pdftex.def)             Requested size: 352.80135pt x 162.89499pt.
- [23 <./figures/binaryimagematrix.png> <./figures/binregions.png>] <figures/one
-hotmatrix.png, id=585, 1183.42125pt x 560.0925pt>
+Package pdftex.def Info: figures/binregions.png  used on input line 192. on inp
+ut line 192.
+Package pdftex.def Info: Requested size: 352.80135pt x 162.89499pt on input lin
+e 192.
+ [24 <./figures/binaryimagematrix.png> <./figures/binregions.png>]
+<figures/onehotmatrix.png, id=602, 1183.42125pt x 560.0925pt>
 File: figures/onehotmatrix.png Graphic file (type png)
-
 <use figures/onehotmatrix.png>
-Package pdftex.def Info: figures/onehotmatrix.png used on input line 186.
-(pdftex.def)             Requested size: 441.0pt x 208.71803pt.
-) (Report/Methodology/Program.tex) [24 <./figures/onehotmatrix.png>] (Report/Mo
-del/DescripOfModels.tex
-<figures/Dropout.png, id=602, 884.30376pt x 563.10374pt>
+Package pdftex.def Info: figures/onehotmatrix.png  used on input line 209. on i
+nput line 209.
+Package pdftex.def Info: Requested size: 441.0pt x 208.71803pt on input line 20
+9.
+) (Report/Methodology/Program.tex)
+[25 <./figures/onehotmatrix.png>] (Report/Model/DescripOfModels.tex
+<figures/Dropout.png, id=619, 884.30376pt x 563.10374pt>
 File: figures/Dropout.png Graphic file (type png)
-
 <use figures/Dropout.png>
-Package pdftex.def Info: figures/Dropout.png used on input line 34.
-(pdftex.def)             Requested size: 264.60269pt x 168.49422pt.
- [25
+Package pdftex.def Info: figures/Dropout.png  used on input line 34. on input l
+ine 34.
+Package pdftex.def Info: Requested size: 264.60269pt x 168.49422pt on input lin
+e 34.
+ [26
 
-] [26 <./figures/Dropout.png>]
+]
+[27 <./figures/Dropout.png>]
 
-LaTeX Warning: Reference `LinetteAndBirgithe' on page 27 undefined on input lin
+LaTeX Warning: Reference `LinetteAndBirgithe' on page 28 undefined on input lin
 e 76.
 
 
@@ -2377,48 +2431,49 @@ Underfull \hbox (badness 1137) in paragraph at lines 76--78
  layer, since the data
  []
 
-<figures/simpleModel.png, id=630, 238.8925pt x 211.79124pt>
+<figures/simpleModel.png, id=647, 238.8925pt x 211.79124pt>
 File: figures/simpleModel.png Graphic file (type png)
-
 <use figures/simpleModel.png>
-Package pdftex.def Info: figures/simpleModel.png used on input line 81.
-(pdftex.def)             Requested size: 132.30135pt x 117.29022pt.
+Package pdftex.def Info: figures/simpleModel.png  used on input line 81. on inp
+ut line 81.
+Package pdftex.def Info: Requested size: 132.30135pt x 117.29022pt on input lin
+e 81.
 
+LaTeX Warning: Reference `CONVOLUTION' on page 28 undefined on input line 92.
 
-LaTeX Warning: Reference `CONVOLUTION' on page 27 undefined on input line 92.
-
-<figures/binaryRepModel.png, id=633, 560.0925pt x 934.49126pt>
+<figures/binaryRepModel.png, id=650, 560.0925pt x 934.49126pt>
 File: figures/binaryRepModel.png Graphic file (type png)
-
 <use figures/binaryRepModel.png>
-Package pdftex.def Info: figures/binaryRepModel.png used on input line 96.
-(pdftex.def)             Requested size: 264.60269pt x 441.49242pt.
- [27 <./figures/simpleModel.png>]
+Package pdftex.def Info: figures/binaryRepModel.png  used on input line 96. on 
+input line 96.
+Package pdftex.def Info: Requested size: 264.60269pt x 441.49242pt on input lin
+e 96.
+[28 <./figures/simpleModel.png>]
 
-LaTeX Warning: Reference `LINETTE&BIRGITHE' on page 28 undefined on input line 
+LaTeX Warning: Reference `LINETTE&BIRGITHE' on page 29 undefined on input line 
 103.
 
-[28 <./figures/binaryRepModel.png>]
+[29 <./figures/binaryRepModel.png>]
 
-LaTeX Warning: Reference `LinetteAndBirgithe' on page 29 undefined on input lin
+LaTeX Warning: Reference `LinetteAndBirgithe' on page 30 undefined on input lin
 e 117.
 
-) [29] (main.bbl [30
+) [30] (main.bbl [31
 
 ]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 59.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-[31
+[32
 
-] [32]) [33]
+] [33]) [34]
 
 Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-[34
+[35
 
 ]
 
@@ -2434,42 +2489,48 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B562D34CD1E42A904250F01477F3A9D7;2726.
+(rerunfilecheck)             Checksum: 9F2DA063684A4185DAE50B9BE872943A;2726.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 29728 strings out of 493323
- 519335 string characters out of 3139060
- 874417 words of memory out of 3000000
- 32664 multiletter control sequences out of 15000+200000
- 553382 words of font info for 84 fonts, out of 3000000 for 9000
+ 29800 strings out of 493312
+ 521741 string characters out of 3138898
+ 873047 words of memory out of 3000000
+ 32729 multiletter control sequences out of 15000+200000
+ 553723 words of font info for 85 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,22n,92p,10483b,948s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\IksD-Pc\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ectt1095.pk> <C:\Users\IksD-Pc\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecbx1200.pk> <C:\Users\IksD-Pc\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbi1095.pk> <C:\Users\IksD-Pc\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\IksD-Pc\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\IksD-P
-c\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1728.pk> <C:\
-Users\IksD-Pc\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1
-095.pk> <C:\Users\IksD-Pc\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecsx2074.pk> <C:\Users\IksD-Pc\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecti0700.pk> <C:\Users\IksD-Pc\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\IksD-Pc\AppData\Local\MiK
-TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\IksD-Pc\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\I
-ksD-Pc\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk>
- <C:\Users\IksD-Pc\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecrm2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
-fb>
-Output written on main.pdf (39 pages, 5938940 bytes).
+pdfTeX warning (dest): name{page.36} has been referenced but does not exist, 
+replaced by a fixed one
+
+ <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
+tt1095.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\tcrm1095.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecbx1200.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecbi1095.pk> <C:\Users\linet\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\linet\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\linet\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1728.pk> <C:\User
+s\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk
+> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+csx2074.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\ecti0700.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\linet\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\linet\AppData\Loc
+al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\linet\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on main.pdf (40 pages, 5985631 bytes).
 PDF statistics:
- 1287 PDF objects out of 1440 (max. 8388607)
- 154 named destinations out of 1000 (max. 500000)
- 459 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1310 PDF objects out of 1440 (max. 8388607)
+ 159 named destinations out of 1000 (max. 500000)
+ 469 words of extra memory for PDF output out of 10000 (max. 10000000)
 
