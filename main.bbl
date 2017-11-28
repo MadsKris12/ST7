@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{45}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -18,17 +18,36 @@ T.O. Smith, B.T. Drew, and Et.al.
 \newblock 2015.
 \newblock \doi{10.1002/14651858.CD010513.pub2.}
 
+\bibitem[Rathleff et~al.(2015)Rathleff, Vicenzino, and Et.al]{Rathleff2015}
+M.~S. Rathleff, B.~Vicenzino, and Et.al.
+\newblock {Patellofemoral Pain in Adolescents and adulthood: same same, but
+  different?}
+\newblock 2015.
+\newblock \doi{10.1007/s40279-015-0364-1}.
+
 \bibitem[Petersen et~al.(2013)Petersen, Ellermann, and Et.al.]{Petersen2013}
 Wolf Petersen, Andree Ellermann, and Et.al.
 \newblock {Patellofemoral Pain Syndrome}.
 \newblock \emph{Clinical Orthopaedics and Related Research}, 2013.
 \newblock \doi{10.1097/01.blo.0000229284.45485.6c}.
 
+\bibitem[Witvrouw et~al.(2014)Witvrouw, Callaghan, and Et.at]{Witvrouw2014}
+Erik Witvrouw, Michael~J. Callaghan, and Et.at.
+\newblock {Patellofemoral Pain: consensus statement from the 3rd International
+  Patellofemoral Pain Research Retreat held in Vancouver, September 2013}.
+\newblock 2014.
+\newblock \doi{10.1136/bjsports-2014-093450}.
+
 \bibitem[Crossley et~al.(2016)Crossley, Callaghan, and Et.al]{Crossley2016}
 Kay~M. Crossley, Michael~J. Callaghan, and Et.al.
 \newblock {Patellofemoral pain}.
 \newblock 2016.
 \newblock \doi{10.1136/bjsports-2015-h3939rep}.
+
+\bibitem[Dye(2001)]{Dye2001}
+Scott~F Dye.
+\newblock {Patellofemoral Pain Current Concepts: An Overview}.
+\newblock \emph{Sports Medicine and Arthroscopy Review}, 2001.
 
 \bibitem[Boudreau and et.al Badsberg(2016)]{Boudreau2016}
 Shellie~A. Boudreau and Susanne et.al Badsberg.
@@ -37,8 +56,8 @@ Shellie~A. Boudreau and Susanne et.al Badsberg.
 \newblock 2016.
 \newblock \doi{10.1097/AJP.0000000000000230}.
 
-\bibitem[Boudreau and et.al. Kamavuako(2017)]{Boudreau2017}
-Shellie~A. Boudreau and E.~N. et.al. Kamavuako.
+\bibitem[Boudreau et~al.(2017)Boudreau, Kamavuako, and Et.al.]{Boudreau2017}
+Shellie~A. Boudreau, E.~N. Kamavuako, and Et.al.
 \newblock {Distribution and symmetrical patellofemoral pain patterns as
   revealed by high-resolution 3D body mapping: a cross-sectional study}.
 \newblock 2017.
@@ -123,6 +142,13 @@ Geoffrey~D. Schott.
 \newblock 2010.
 \newblock \doi{10.1016/j.ejpain.2009.12.005}.
 
+\bibitem[Elson et~al.(2010)Elson, Jones, and Et.al]{Elson2010}
+D.~W. Elson, S.~Jones, and Et.al.
+\newblock {The photographic knee pain map: Locating knee pain with an
+  instrument developed for diagnostic, communcation and research purposes}.
+\newblock 2010.
+\newblock \doi{10.1016/j.knee.2010.08.012}.
+
 \bibitem[Nielsen(2010)]{Nielsen2010}
 Mads Nielsen.
 \newblock \emph{{Den digitale revolution – fort{\ae}llinger fra datalogiens
@@ -196,6 +222,72 @@ Alaa~Ali Hameed, Bekir Karlik, and Mohammad~Shukri Salman.
 \newblock \doi{10.1016/j.knosys.2016.10.001}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0950705116303811?via{\%}3Dihub}.
+
+\bibitem[LeCun et~al.(1998)LeCun, Bottou, Bengio, and Haffner]{LeCun1998}
+Yann LeCun, L{\'{e}}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock {Gradient-based learning applied to document recognition}.
+\newblock \emph{Proceedings of the IEEE}, 86\penalty0 (11):\penalty0
+  2278--2323, 1998.
+\newblock ISSN 00189219.
+\newblock \doi{10.1109/5.726791}.
+\newblock URL \url{http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf}.
+
+\bibitem[Ruder(2016)]{Ruder2016}
+Sebastian Ruder.
+\newblock {An overview of gradient descent optimization algorithms}.
+\newblock 2016.
+\newblock ISSN 0006341X.
+\newblock \doi{10.1111/j.0006-341X.1999.00591.x}.
+\newblock URL \url{http://arxiv.org/abs/1609.04747}.
+
+\bibitem[Raschka(2016)]{Raschka2016}
+Sebastian Raschka.
+\newblock {Single-Layer Neural Networks and Gradient Descent}.
+\newblock 2016.
+\newblock URL
+  \url{http://sebastianraschka.com/Articles/2015{\_}singlelayer{\_}neurons.html}.
+
+\bibitem[Zhang et~al.(2014)Zhang, Choromanska, and LeCun]{Zhang2014}
+Sixin Zhang, Anna Choromanska, and Yann LeCun.
+\newblock {Deep learning with Elastic Averaging SGD}.
+\newblock 2014.
+\newblock ISSN 10495258.
+\newblock URL \url{http://arxiv.org/abs/1412.6651}.
+
+\bibitem[Qian(1999)]{Qian1999}
+Ning Qian.
+\newblock {On the Momentum Term in Gradient Descent Learning Algorithms The
+  Momentum Term in Gradient Descent}.
+\newblock \emph{Neural Networks: The Official Journal of the International
+  Neural Network Society}, 5213\penalty0 (12(1)):\penalty0 145--151, 1999.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0893608098001166{\#}aep-bibliography-id16}.
+
+\bibitem[Kingma and Ba(2015)]{Kingma2015}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock {Adam: A Method for Stochastic Optimization}.
+\newblock \emph{International Conference on Learning Representations}, 2015.
+\newblock ISSN 09252312.
+\newblock \doi{http://doi.acm.org.ezproxy.lib.ucf.edu/10.1145/1830483.1830503}.
+\newblock URL \url{http://arxiv.org/abs/1412.6980}.
+
+\bibitem[Patacchiola and Cangelosi(2017)]{Patacchiola2017}
+M.~Patacchiola and A.~Cangelosi.
+\newblock {Head pose estimation in the wild using Convolutional Neural Networks
+  and adaptive gradient methods}.
+\newblock \emph{Pattern Recognition}, 71, 2017.
+\newblock ISSN 00313203.
+\newblock \doi{10.1016/j.patcog.2017.06.009}.
+\newblock URL
+  \url{https://ac.els-cdn.com/S0031320317302327/1-s2.0-S0031320317302327-main.pdf?{\_}tid=a09e6e8a-d356-11e7-9b28-00000aacb360{\&}acdnat=1511775647{\_}f91c81864b46ddf0becfc12de21bce48}.
+
+\bibitem[Int8(2016)]{Int82016}
+Int8.
+\newblock {Optimization techniques comparison in Julia: SGD, Momentum, Adagrad,
+  Adadelta, Adam}.
+\newblock \emph{Www}, 2016.
+\newblock URL
+  \url{http://int8.io/comparison-of-optimization-techniques-stochastic-gradient-descent-momentum-adagrad-and-adadelta/}.
 
 \bibitem[Solutions(2015)]{Solutions2015}
 Aglance Solutions.

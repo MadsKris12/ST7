@@ -1,3 +1,122 @@
+@article{LeCun1998,
+abstract = {Multilayer neural networks trained with the back-propagation$\backslash$nalgorithm constitute the best example of a successful gradient based$\backslash$nlearning technique. Given an appropriate network architecture,$\backslash$ngradient-based learning algorithms can be used to synthesize a complex$\backslash$ndecision surface that can classify high-dimensional patterns, such as$\backslash$nhandwritten characters, with minimal preprocessing. This paper reviews$\backslash$nvarious methods applied to handwritten character recognition and$\backslash$ncompares them on a standard handwritten digit recognition task.$\backslash$nConvolutional neural networks, which are specifically designed to deal$\backslash$nwith the variability of 2D shapes, are shown to outperform all other$\backslash$ntechniques. Real-life document recognition systems are composed of$\backslash$nmultiple modules including field extraction, segmentation recognition,$\backslash$nand language modeling. A new learning paradigm, called graph transformer$\backslash$nnetworks (GTN), allows such multimodule systems to be trained globally$\backslash$nusing gradient-based methods so as to minimize an overall performance$\backslash$nmeasure. Two systems for online handwriting recognition are described.$\backslash$nExperiments demonstrate the advantage of global training, and the$\backslash$nflexibility of graph transformer networks. A graph transformer network$\backslash$nfor reading a bank cheque is also described. It uses convolutional$\backslash$nneural network character recognizers combined with global training$\backslash$ntechniques to provide record accuracy on business and personal cheques.$\backslash$nIt is deployed commercially and reads several million cheques per day$\backslash$n},
+archivePrefix = {arXiv},
+arxivId = {1102.0183},
+author = {LeCun, Yann and Bottou, L{\'{e}}on and Bengio, Yoshua and Haffner, Patrick},
+doi = {10.1109/5.726791},
+eprint = {1102.0183},
+isbn = {0018-9219},
+issn = {00189219},
+journal = {Proceedings of the IEEE},
+keywords = {Convolutional neural networks,Document recognition,Finite state transducers,Gradient-based learning,Graph transformer networks,Machine learning,Neural networks,Optical character recognition (OCR)},
+number = {11},
+pages = {2278--2323},
+pmid = {15823584},
+title = {{Gradient-based learning applied to document recognition}},
+url = {http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf},
+volume = {86},
+year = {1998}
+}
+@article{Patacchiola2017,
+abstract = {{\textcopyright} 2017 Elsevier Ltd Head pose estimation is an old problem that is recently receiving new attention because of possible applications in human-robot interaction, augmented reality and driving assistance. However, most of the existing work has been tested in controlled environments and is not robust enough for real-world applications. In order to handle these limitations we propose an approach based on Convolutional Neural Networks (CNNs) supplemented with the most recent techniques adopted from the deep learning community. We evaluate the performance of four architectures on recently released in-the-wild datasets. Moreover, we investigate the use of dropout and adaptive gradient methods giving a contribution to their ongoing validation. The results show that joining CNNs and adaptive gradient methods leads to the state-of-the-art in unconstrained head pose estimation.},
+author = {Patacchiola, M. and Cangelosi, A.},
+doi = {10.1016/j.patcog.2017.06.009},
+issn = {00313203},
+journal = {Pattern Recognition},
+keywords = {Adaptive gradient,Convolutional Neural Networks,Deep learning,Head pose estimation},
+title = {{Head pose estimation in the wild using Convolutional Neural Networks and adaptive gradient methods}},
+url = {https://ac.els-cdn.com/S0031320317302327/1-s2.0-S0031320317302327-main.pdf?{\_}tid=a09e6e8a-d356-11e7-9b28-00000aacb360{\&}acdnat=1511775647{\_}f91c81864b46ddf0becfc12de21bce48},
+volume = {71},
+year = {2017}
+}
+@article{Zhang2014,
+abstract = {We study the problem of stochastic optimization for deep learning in the parallel computing environment under communication constraints. A new algorithm is proposed in this setting where the communication and coordination of work among concurrent processes (local workers), is based on an elastic force which links the parameters they compute with a center variable stored by the parameter server (master). The algorithm enables the local workers to perform more exploration, i.e. the algorithm allows the local variables to fluctuate further from the center variable by reducing the amount of communication between local workers and the master. We empirically demonstrate that in the deep learning setting, due to the existence of many local optima, allowing more exploration can lead to the improved performance. We propose synchronous and asynchronous variants of the new algorithm. We provide the stability analysis of the asynchronous variant in the round-robin scheme and compare it with the more common parallelized method ADMM. We show that the stability of EASGD is guaranteed when a simple stability condition is satisfied, which is not the case for ADMM. We additionally propose the momentum-based version of our algorithm that can be applied in both synchronous and asynchronous settings. Asynchronous variant of the algorithm is applied to train convolutional neural networks for image classification on the CIFAR and ImageNet datasets. Experiments demonstrate that the new algorithm accelerates the training of deep architectures compared to DOWNPOUR and other common baseline approaches and furthermore is very communication efficient.},
+archivePrefix = {arXiv},
+arxivId = {1412.6651},
+author = {Zhang, Sixin and Choromanska, Anna and LeCun, Yann},
+eprint = {1412.6651},
+issn = {10495258},
+title = {{Deep learning with Elastic Averaging SGD}},
+url = {http://arxiv.org/abs/1412.6651},
+year = {2014}
+}
+@article{Raschka2016,
+author = {Raschka, Sebastian},
+title = {{Single-Layer Neural Networks and Gradient Descent}},
+url = {http://sebastianraschka.com/Articles/2015{\_}singlelayer{\_}neurons.html},
+year = {2016}
+}
+@article{Kingma2015,
+abstract = {We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments. The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters. The method is also appropriate for non-stationary objectives and problems with very noisy and/or sparse gradients. The hyper-parameters have intuitive interpretations and typically require little tuning. Some connections to related algorithms, on which Adam was inspired, are discussed. We also analyze the theoretical convergence properties of the algorithm and provide a regret bound on the convergence rate that is comparable to the best known results under the online convex optimization framework. Empirical results demonstrate that Adam works well in practice and compares favorably to other stochastic optimization methods. Finally, we discuss AdaMax, a variant of Adam based on the infinity norm.},
+archivePrefix = {arXiv},
+arxivId = {1412.6980},
+author = {Kingma, Diederik P. and Ba, Jimmy},
+doi = {http://doi.acm.org.ezproxy.lib.ucf.edu/10.1145/1830483.1830503},
+eprint = {1412.6980},
+isbn = {9781450300728},
+issn = {09252312},
+journal = {International Conference on Learning Representations},
+pmid = {172668},
+title = {{Adam: A Method for Stochastic Optimization}},
+url = {http://arxiv.org/abs/1412.6980},
+year = {2015}
+}
+@article{Ruder2016,
+abstract = {Gradient descent optimization algorithms, while increasingly popular, are often used as black-box optimizers, as practical explanations of their strengths and weaknesses are hard to come by. This article aims to provide the reader with intuitions with regard to the behaviour of different algorithms that will allow her to put them to use. In the course of this overview, we look at different variants of gradient descent, summarize challenges, introduce the most common optimization algorithms, review architectures in a parallel and distributed setting, and investigate additional strategies for optimizing gradient descent.},
+archivePrefix = {arXiv},
+arxivId = {1609.04747},
+author = {Ruder, Sebastian},
+doi = {10.1111/j.0006-341X.1999.00591.x},
+eprint = {1609.04747},
+issn = {0006341X},
+title = {{An overview of gradient descent optimization algorithms}},
+url = {http://arxiv.org/abs/1609.04747},
+year = {2016}
+}
+@article{Qian1999,
+abstract = {A momentum term is usually included in the simulations of connectionist learning algorithms. Although it is well known that such a term greatly improves the speed of learning, there have been few rigorous studies of its mechanisms. In this paper, I show that in the limit of continuous time, the momentum parameter is analogous to the mass of Newtonian particles that move through a viscous medium in a conservative force eld. The behavior of the system near a local minimum is equivalent to a set of coupled and damped harmonic oscillators. The momentum term improves the speed of convergence by bringing some eigen components of the system closer to critical damping. Similar results can be obtained for the discrete time case used in computer simulations. In particular, I derive the bounds for convergence on learning-rate and momentum parameters, and demonstrate that the momentum term can increase the range of learning rate over which the system converges. The optimal condition for convergence is also analyzed.},
+author = {Qian, Ning},
+isbn = {1212543521},
+journal = {Neural Networks: The Official Journal of the International Neural Network Society},
+keywords = {Critical damping,Damped harmonic oscillator,Gradient descent learning algorithm,Learning rate,Momentum,Speed of convergence]},
+number = {12(1)},
+pages = {145--151},
+title = {{On the Momentum Term in Gradient Descent Learning Algorithms The Momentum Term in Gradient Descent}},
+url = {https://www.sciencedirect.com/science/article/pii/S0893608098001166{\#}aep-bibliography-id16},
+volume = {5213},
+year = {1999}
+}
+@article{Int82016,
+author = {Int8},
+journal = {Www},
+title = {{Optimization techniques comparison in Julia: SGD, Momentum, Adagrad, Adadelta, Adam}},
+url = {http://int8.io/comparison-of-optimization-techniques-stochastic-gradient-descent-momentum-adagrad-and-adadelta/},
+year = {2016}
+}
+@article{Witvrouw2014,
+author = {Witvrouw, Erik and Callaghan, Michael J. and Et.at},
+doi = {10.1136/bjsports-2014-093450},
+title = {{Patellofemoral Pain: consensus statement from the 3rd International Patellofemoral Pain Research Retreat held in Vancouver, September 2013}},
+year = {2014}
+}
+@article{Dye2001,
+author = {Dye, Scott F},
+journal = {Sports Medicine and Arthroscopy Review},
+title = {{Patellofemoral Pain Current Concepts: An Overview}},
+year = {2001}
+}
+@article{Rathleff2015,
+author = {Rathleff, M. S. and Vicenzino, B. and Et.al},
+doi = {10.1007/s40279-015-0364-1},
+title = {{Patellofemoral Pain in Adolescents and adulthood: same same, but different?}},
+year = {2015}
+}
+@article{Elson2010,
+author = {Elson, D. W. and Jones, S. and Et.al},
+doi = {10.1016/j.knee.2010.08.012},
+title = {{The photographic knee pain map: Locating knee pain with an instrument developed for diagnostic, communcation and research purposes}},
+year = {2010}
+}
 @article{Valente2011,
 author = {{Ferreira Valente}, Maria and {Ribeiro Pais}, Jos{\'{e}} and Al, Et.},
 doi = {10.1016/j.pain.2011.07.005},
@@ -264,7 +383,7 @@ title = {{Anatomy {\&} Physology}},
 year = {2012}
 }
 @article{Boudreau2017,
-author = {Boudreau, Shellie A. and et.al. Kamavuako, E. N.},
+author = {Boudreau, Shellie A. and Kamavuako, E. N. and Et.al.},
 doi = {10.1186/s12891-017-1521-5},
 title = {{Distribution and symmetrical patellofemoral pain patterns as revealed by high-resolution 3D body mapping: a cross-sectional study}},
 year = {2017}
