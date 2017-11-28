@@ -4,7 +4,7 @@ This chapter creates an understanding of the given data and the different progra
 \section{Data}
 *** OPS BIRGITHE AND LINETTE REWRITE! ***
 Data used in this project were collected beforehand from an on-going FOXH trial which is conducted in collaboration with Danish and Australian universities. The data consists of pain maps which were drawn by subjects with PFP through the use of an application Navigate Pain in a clinical setting. The data contained information regarding the subjects in terms of i.a. age, gender, height and weight. For each individual subject information related to the PFPS was also collected, regarding the duration of PFP, pain intensity and which knee was the most prominent for pain. 
-The number of samples available during this study was collected from ??? subjects with PFP. An example of a pain drawing can be seen in figure \ref{fig:kneepainmap}. 
+The number of samples available during this study was collected from 217 subjects with PFP. An example of a pain drawing can be seen in figure \ref{fig:kneepainmap}. 
 
 \begin{figure} [H]
 \centering
@@ -91,7 +91,7 @@ Gender is an interesting parameter to use as an input, because the prevalence is
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.5\textwidth]{figures/histogramGender}
+\includegraphics[width=0.5\textwidth]{figures/histoGender}
 \caption{Histograms of the distribution/division of gender.}
 \label{fig:histogender}
 \end{figure}
@@ -127,8 +127,31 @@ Based on analysis of the five pain maps and bar charts, figure \ref{fig:threshol
 
 
 \subsection{Simple regression models}
+To test whether there is a linear correlation between the size of the pain area and the symptom duration and pain intensity, are simple regression models made. If the size can predict the symptom duration and pain intensity, it may not be significant to investigate pain morphology and location.
 
-BLA BLA
+In figure \ref{fig:durationRegression} is a linear regression fit of symptom duration and size of pain area illustrated. 
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=1\textwidth]{figures/durationRegression}
+\caption{A simple linear regression fit of symptom duration and the size of pain area.}
+\label{fig:durationRegression}
+\end{figure}
+
+\noindent
+The linear regression model of symptom duration has an R-squared value of 0.046, which is close to zero and therefore the model is not a good fit for the data. 
+A linear regression model of pain intensity and the size of pain area is also made, which is illustrated in figure \ref{fig:painRegression}.
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=1\textwidth]{figures/painRegression}
+\caption{A simple linear regression fit of pain intensity and the size of pain area.}
+\label{fig:painRegression}
+\end{figure}
+
+\noindent
+The R-squared value of this model is 0.0117, so the linear model is not a good fit on the data. 
+These linear regression models are not very suitable when trying to predict symptom duration or pain intensity from the size of pain area. However they can be compared to the performance of the neural network models.  
 
 
 

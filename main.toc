@@ -19,36 +19,37 @@
 \contentsline {subsubsection}{Learning curves}{13}{section*.16}
 \contentsline {subsection}{\numberline {2.5.3}Core NN layers}{14}{subsection.2.5.3}
 \contentsline {subsubsection}{Convolutional Neural Networks}{14}{section*.18}
-\contentsline {chapter}{\chapternumberline {3}Methodology}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data}{15}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Software application: Navigate Pain}{16}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Data handling}{16}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Data representations}{16}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Pre-analysis}{17}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Classification of data}{17}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Distribution and threshold}{19}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Simple regression models}{21}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Pre-processing}{22}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Morphology-representation}{22}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Regions-representation}{23}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Superimposed-representation}{24}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Programs}{24}{section.3.4}
-\contentsline {chapter}{\chapternumberline {4}Description of models}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}General for the three models}{25}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Data-handling in python}{25}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Applied optimization techniques}{25}{subsection.4.1.2}
-\contentsline {subsubsection}{Dropout}{25}{section*.30}
-\contentsline {subsubsection}{Kernel-initializer 'Maybe'}{26}{section*.32}
-\contentsline {subsubsection}{Learning rate 'Maybe'}{26}{section*.33}
-\contentsline {subsubsection}{Manufacturing data 'Maybe'}{26}{section*.34}
-\contentsline {subsubsection}{Batch training}{26}{section*.35}
-\contentsline {subsubsection}{Grid testing 'Maybe'}{26}{section*.36}
-\contentsline {subsection}{\numberline {4.1.3}Training of the networks}{26}{subsection.4.1.3}
-\contentsline {subsubsection}{Cross-validation}{27}{section*.37}
-\contentsline {section}{\numberline {4.2}Vector image model}{27}{section.4.2}
-\contentsline {section}{\numberline {4.3}Raw binary representation model}{27}{section.4.3}
-\contentsline {section}{\numberline {4.4}Combined representation model}{29}{section.4.4}
-\contentsline {chapter}{\chapternumberline {5}Results}{30}{chapter.5}
-\contentsline {chapter}{Bibliography}{31}{section*.41}
-\contentsline {appendix}{\chapternumberline {A}Appendix}{34}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix I}{34}{section.A.1}
+\contentsline {subsubsection}{Pooling}{14}{section*.19}
+\contentsline {chapter}{\chapternumberline {3}Methodology}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data}{16}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Software application: Navigate Pain}{17}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Data handling}{17}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Data representations}{17}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Pre-analysis}{18}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Classification of data}{18}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Distribution and threshold}{20}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Simple regression models}{22}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Pre-processing}{23}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Morphology-representation}{23}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Regions-representation}{24}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Superimposed-representation}{25}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Programs}{25}{section.3.4}
+\contentsline {chapter}{\chapternumberline {4}Description of models}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}General for the three models}{26}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Data-handling in python}{26}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Applied optimization techniques}{26}{subsection.4.1.2}
+\contentsline {subsubsection}{Dropout}{26}{section*.33}
+\contentsline {subsubsection}{Kernel-initializer 'Maybe'}{27}{section*.35}
+\contentsline {subsubsection}{Learning rate 'Maybe'}{27}{section*.36}
+\contentsline {subsubsection}{Manufacturing data 'Maybe'}{27}{section*.37}
+\contentsline {subsubsection}{Batch training}{27}{section*.38}
+\contentsline {subsubsection}{Grid testing 'Maybe'}{27}{section*.39}
+\contentsline {subsection}{\numberline {4.1.3}Training of the networks}{27}{subsection.4.1.3}
+\contentsline {subsubsection}{Cross-validation}{28}{section*.40}
+\contentsline {section}{\numberline {4.2}Vector image model}{28}{section.4.2}
+\contentsline {section}{\numberline {4.3}Raw binary representation model}{28}{section.4.3}
+\contentsline {section}{\numberline {4.4}Combined representation model}{30}{section.4.4}
+\contentsline {chapter}{\chapternumberline {5}Results}{31}{chapter.5}
+\contentsline {chapter}{Bibliography}{32}{section*.44}
+\contentsline {appendix}{\chapternumberline {A}Appendix}{35}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix I}{35}{section.A.1}
