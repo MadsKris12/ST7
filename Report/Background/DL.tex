@@ -116,9 +116,15 @@ Typically the validation and test error will always be higher that the training 
 \subsubsection{Convolutional Neural Networks}
 Convolutional Neural Networks (CNNs) a type of special neural network for processing data with a grid-like topology \citep{Goodfellow2016}. Convolutional neural networks (CNNs) perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex model by extracting visual features from the pixel-level content.\citep{Acquarelli2017,LeCun1998}
 
-The architecture of a typical CNN’s are always combined of two types of layers: convolutional and pooling. \citep{Goodfellow2016, LeCun2015}. The porpuse of the convolutional layer is to recognize the features in the input. It usually consists of few features maps, where each map represents different feature. The terminology regarding the output of a convolutional layer can be refered as a feature map \citep{Goodfellow2016,LeCun1998} It is the set of outputs of the units arranged in a plane \citep{LeCun1998}. The other layer called pooling, always follows after convolutional layer. It consists of the same number of feature maps as the previous convolutional layer had. Each feature map is used as a new input in a pooling layer. Depending on the network's depth, the convolutional and pooling layers alternate until the last pooling layer is reached. The combination of convolutional and pooling layers defines the part of the network which performs feature extraction while the classification part is made by fully connected layers. 
+The architecture of a typical CNN’s are always combined of two types of layers: convolutional and pooling. \citep{Goodfellow2016, LeCun2015}. 
 
-The way that convolutional network works is by taking e.g. an image and scan it and split it up into the feature maps. A complete convolutional layer consists of several feature maps, so multiple features can be extracted at each location in the image \citep{LeCun1998}. A typical CNN architecture for characters recognition of the images, called LeNet-5, could be seen in \autoref{fig:LeNet5}.
+The porpuse of the convolutional layer is to recognize the features in the input by taking e.g. an image and scan it then split it up into the feature maps. A complete convolutional layer consists of several feature maps, so multiple features can be extracted at each location in the image \citep{LeCun1998}. The terminology regarding the output of a convolutional layer can be refered as a feature map \citep{Goodfellow2016,LeCun1998} It is the set of outputs of the units arranged in a plane \citep{LeCun1998}. 
+%It usually consists of few features maps, where each map represents different feature. 
+The other layer called pooling, always follows after convolutional layer. It consists of the same number of feature maps as the previous convolutional layer had. Each feature map is used as a new input in a pooling layer. Depending on the network's depth, the convolutional and pooling layers alternate until the last pooling layer is reached. 
+
+The combination of convolutional and pooling layers defines the part of the network which performs feature extraction while the classification part is made by fully connected layers. 
+
+A typical CNN architecture for characters recognition of the images, called LeNet-5, could be seen in \autoref{fig:LeNet5}.The way this convolutional network works is 
 
 
 %
@@ -133,13 +139,7 @@ The way that convolutional network works is by taking e.g. an image and scan it 
 \caption{Architecture of LeNet-5, a CNN for digits recognition. Each plane is a feature map and the size of the feature map differs through out the layers. The model consist of 2 convolutional, 2 pooling and 2 fully connected layers \citep{LeCun1998}.}
 \label{fig:LeNet5}  
 \end{figure}
-<<<<<<< HEAD
 \\
-=======
-
-\noindent
-INSERT IMAGE HERE
->>>>>>> 946e51ad8afb270ff3594305b7d6bb7c9541de92
 
 % The feature map is made by scanning the input image with a single unit that has a local respective field and store the state of this unit in the new feature map (new layer) and this process is called convolution.Respective field term is defined as the region in the input space that a particular CNN's feature is looking at.
 
@@ -153,11 +153,12 @@ As previously mentioned convolution are typically followed by pooling \citep{LeC
 Pooling can used to reduce the size of the dataset, which is turn can increase computation speed, because the amount of data passed to the next layer is smaller. By pooling the input, a smaller representation is given, that still contains the relevant features.\citep{Goodfellow2016,LeCun1998}     
 The pooling process can be defined as a window that passes over e.g. a feature map from convolution, where a value within the window is extracted. One type of pooling layer is maxpooling that takes the maximum value within the window \citep{Goodfellow2016,Dumoulin2016}. A pooling layer may be defined simply by its window (Kernel) size, paddling size and a stride length, where stride length is the number of values the window jumps as shown in \autoref{fig:Kernel}. \citep{Dumoulin2016}
 
-
+\\
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.6\textwidth]{figures/Kernel}
-\caption{Convolving 3x3 kernel over a 5x5 input using paddling and strides (i.e., $i=5$, $k=3$, $s=1$, $p=1$) \citep{Dumoulin2016}.}
+\caption{Convolving 3x3 kernel over a 5x5 input using paddling and strides (i.e., i=5, k=3, s=1, p=1) \citep{Dumoulin2016}.}
 \label{fig:Kernel}  
 \end{figure}
+\\
 
