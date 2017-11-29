@@ -24,6 +24,7 @@ Convolution layer are implemented for this pain map representation, because of t
 \label{fig:binaryRepModel}  
 \end{figure}
 
+\noindent
 Rather then feeding both pain map representation and gender into the same input layer, they are separated and used as input at two different locations. 
 The binary pain map representation works as input in first part of the model, where the input layer is a convolution layer. 
 This layer is setup to receive a input shape to that of the dimension of the pain map, that is defined during re-scaleing of the pain maps in \ref{LINETTE&BIRGITHE}. 
@@ -31,9 +32,9 @@ Gender works as secondary input in the second section of the model, along with t
 The merged data passes the fully connected layers and reaches the output layer where it is given a percentage value according to which class it fits the most.
 The second part of the model resembles the simple representation model, described in \ref{sec:SimpleRepModel} 
 
-
+\noindent
 THIS NEEDS TO BE REWRITTEN: The reason for separating gender and binary images is given as separate inputs is because of that there is no benefit in feeding gender through several convolutional layers, since these layer are use for looking at the shapes of the pain.  
-
+\noindent
 The reason for using gender as input this far into the model, is a result of the way that convolution works 
 
 

@@ -36,7 +36,7 @@ There are different approaches for training a neural network, where the three ma
 Backpropagation is a popular learning algorithm in neural networks, that is based on gradient descent, and used because of it's simplicity and computationally efficiency. \citep{Bengio2012, Duda2000} It's the (learning) process where the weights of a neural network are adjusted in order to reduce the error calculated between the output of the network and the expected output. This by definition makes backpropagation closely related to supervised learning, as written in \ref{sec:LearningTech}, to which backpropagation is the most general method used.\citep{Duda2000}  
 When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of the training. Based on a objective function a loss is calculated for every input that passes through the network, the is used by backpropagation to make the adjustments on the weight to reduce this loss. As training progresses the loss should decrease as a result of the weight adjustments, and improve the performance of the neural network. \citep{LeCun2015, Duda2000, Goodfellow2016}   
 This learning process continues until optimal weights with minimum error is reached.\citep{Hameed2016}
-
+\noindent
 The basic idea behind it is that gradients can be computed efficiently by propagation from the output to the input in order to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as  the inputs and weights multiplication of each node (separate input) summed with additional coefficients called biases.\citep{Hameed2016,LeCun1998} 
 
 MAYBE TALK ABOUT ACTIVATION FUNCTIONS IN RELATION TO BACKPROPAGATION. 
@@ -44,7 +44,7 @@ MAYBE TALK ABOUT ACTIVATION FUNCTIONS IN RELATION TO BACKPROPAGATION.
 A PROBLEM OFTEN RELATED TO OPTIMIZATION IS THE LAGER THE NETWORK THE HARDER IT IS TO OPTIMIZE, BUT IN ANOTHER WAY IF THE NETWORK IS SMALL AND SIMPLE THE EASIER IT IS TO OPTIMIZE. 
 
 
-\subsubsection{Gradient Decent}
+\subsubsection{Gradient Descent}
 Gradient descent is one of the most common technique for optimizing neural networks. It is a way to minimize the objective function (loss function) by updating the parameters in the opposite direction of the gradient of the objective function.\citep{Ruder2016} The principle of the gradient descent could be explained as a "ball climbing down a hill" until the (local) minimum is reached is it could be seen in \autoref{fig:GDgraph}. At each step, the opposite direction of the gradient is taken and the step size is determined by the value of the learning rate together with the slope of the gradient until the convergence is reached. Convergence means that oscillations of the value are small enough to call it the minimum value.\citep{Raschka2016}
 
 \begin{figure} [H]
@@ -54,6 +54,7 @@ Gradient descent is one of the most common technique for optimizing neural netwo
 \label{fig:GDgraph}  
 \end{figure}
 
+\noindent
 There are three variants of gradient descent: Batch gradient descent, Stochastic gradient descent, and Mini-batch gradient descent. They differ on the amount of data used to compute the gradient of the cost function. Depending on which of the gradient descent variant is used, the trade-off between the accuracy and the time could be seen.
 
 \noindent
@@ -65,6 +66,7 @@ There are three variants of gradient descent: Batch gradient descent, Stochastic
 \noindent
 \textbf{Mini-batch gradient descent} performs the parameters update for every mini-batch of training examples, specified by command batch size. By that, the variance of the parameter updates is reduced leading to more stable convergence and fast performance.\citep{Ruder2016}
 
+\noindent
 Additionally, there could be few challenges while using gradient descent as an optimizer. It is difficult to pick a proper learning rate so few gradient descent optimization algorithms were invented. Most popular optimizers are described below.
 
 \noindent
@@ -78,7 +80,7 @@ Additionally, there could be few challenges while using gradient descent as an o
 
 \noindent
 \textbf{Adam} stands for Adaptive Moment Estimation. It is mostly used method for computing adaptive learning rate and updating the parameters.  This optimizer calculates the learning rate for each parameter and stores momentum changes separately. This helps to reach the convergence very fast with a decent learning speed.\citep{Kingma2015}
-
+\noindent
 As the example, the article of Patacchiola (2016) shows the evaluation of the performance on different optimizers on ALFW image dataset containing 21977 male and female head pose images. As \autoref{fig:Graphofyrainingcost} shows the Adam optimizer had the fastest convergence rate and it reached the lowest loss values. 
 
 \begin{figure} [H]
@@ -88,6 +90,7 @@ As the example, the article of Patacchiola (2016) shows the evaluation of the pe
 \label{fig:Graphofyrainingcost}  
 \end{figure}
 
+\noindent
 However, the results are not always similar. All of the optimizers perform differently depending on the problem and parametrization, which in the majority of the cases is the most challenging part. This leads to the conclusion that there are not winning optimizer and it has to be chosen based on every problem.\citep{Int82016}
 
 % Mention local minima and gobal minima and why it is not so importent to find the absolute global minima \citep{Duda2000}. 
@@ -106,6 +109,7 @@ During the beginning of training, the training error of network will typically b
 \label{fig:learningCurve}
 \end{figure}
 
+\noindent
 From the figure it can be seen how the error value of the validation, can be used to evaluate the network. 
 Near the fifth epoch the validation and the test error starts to rise, indicating that the network is overfitting to the training data, thereby decreasing the generalization abilities. 
 Validation error can therefor be used as stop criterion for when the training is optimal, and prevent overfitting. 
@@ -116,14 +120,17 @@ Typically the validation and test error will always be higher that the training 
 \subsubsection{Convolutional Neural Networks}
 Convolutional Neural Networks (CNNs) a type of special neural network for processing data with a grid-like topology \citep{Goodfellow2016}. Convolutional neural networks (CNNs) perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex model by extracting visual features from the pixel-level content.\citep{Acquarelli2017,LeCun1998}
 
+\noindent
 The architecture of a typical CNN’s are always combined of two types of layers: convolutional and pooling. \citep{Goodfellow2016, LeCun2015}. 
 
+\noindent
 The porpuse of the convolutional layer is to recognize the features in the input by taking e.g. an image and scan it then split it up into the feature maps. A complete convolutional layer consists of several feature maps, so multiple features can be extracted at each location in the image \citep{LeCun1998}. The terminology regarding the output of a convolutional layer can be refered as a feature map \citep{Goodfellow2016,LeCun1998} It is the set of outputs of the units arranged in a plane \citep{LeCun1998}. 
 %It usually consists of few features maps, where each map represents different feature. 
 The other layer called pooling, always follows after convolutional layer. It consists of the same number of feature maps as the previous convolutional layer had. Each feature map is used as a new input in a pooling layer. Depending on the network's depth, the convolutional and pooling layers alternate until the last pooling layer is reached. 
 
+\noindent
 The combination of convolutional and pooling layers defines the part of the network which performs feature extraction while the classification part is made by fully connected layers. 
-
+\noindent
 A typical CNN architecture for characters recognition of the images, called LeNet-5, could be seen in \autoref{fig:LeNet5}.
 
 
@@ -150,6 +157,7 @@ INSERT IMAGE HERE
 
 % The feature map is made by scanning the input image with a single unit that has a local respective field and store the state of this unit in the new feature map (new layer) and this process is called convolution.Respective field term is defined as the region in the input space that a particular CNN's feature is looking at.
 
+\noindent
 Units in the first hidden layer of LeNet-5 are arranged in planes, which are a separate feature maps respectively. Once a feature has been detected, its location becomes unimportant and only its approximate position relative to other features is relevant. This is because the positions are likely to vary for different images of the same object and it is irrelevant for identifying the pattern. To reduce the importance of the position, the spacial resolution of the feature map has to be decreased, so the pooling layer is used for that.\citep{LeCun1998}
 
 
@@ -157,7 +165,8 @@ Units in the first hidden layer of LeNet-5 are arranged in planes, which are a s
 
 \subsubsection{Pooling}
 As previously mentioned convolution are typically followed by pooling \citep{LeCun2015, Goodfellow0216}. 
-Pooling can used to reduce the size of the dataset, which is turn can increase computation speed, because the amount of data passed to the next layer is smaller. By pooling the input, a smaller representation is given, that still contains the relevant features.\citep{Goodfellow2016,LeCun1998}     
+Pooling can used to reduce the size of the dataset, which is turn can increase computation speed, because the amount of data passed to the next layer is smaller. By pooling the input, a smaller representation is given, that still contains the relevant features.\citep{Goodfellow2016,LeCun1998}   
+\noindent  
 The pooling process can be defined as a window that passes over e.g. a feature map from convolution, where a value within the window is extracted. One type of pooling layer is max pooling that takes the maximum value within the window \citep{Goodfellow2016,Dumoulin2016}. A pooling layer may be defined simply by its window (Kernel) size, paddling size and a stride length, where stride length is the number of values the window jumps as shown in \autoref{fig:Kernel}. \citep{Dumoulin2016}
 
 
