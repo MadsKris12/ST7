@@ -4,7 +4,6 @@
 \raggedbottom % Soerger for at LaTeX ikke "straekker" teksten
 \begin{document}
 
-
 \frontmatter	 % Forindhold - nummereres med romertal
 
 %implementing title sheet:
@@ -72,11 +71,12 @@
 
 %-----------------------Appendix-------------------------
 \appendix
-\chapter{Appendix}
-\section{Appendix I}\label{sec:KOOS}
-%\includegraphics[scale=0.9, page=1]{Report/yAppendix/KOOS.pdf}
-%\includepdf[pages=2-, scale=0.9]{Report/yAppendix/KOOS.pdf}
 
+\chapter{\large Knee injury and Ostearthritis Outcome Score (KOOS)}\label{app:KOOS}
+\input{Report/yAppendix/appKOOS}
+
+\chapter{\large Threshold analysis}\label{app:thresholds}
+\input{Report/yAppendix/appThresholds}
 
 
 %\fi

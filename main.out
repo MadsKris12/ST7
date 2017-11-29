@@ -27,14 +27,10 @@
 \BOOKMARK [2][-]{subsection.3.3.3}{Superimposed-representation}{section.3.3}% 27
 \BOOKMARK [1][-]{section.3.4}{Programs}{chapter.3}% 28
 \BOOKMARK [0][-]{chapter.4}{Description of models}{}% 29
-\BOOKMARK [1][-]{section.4.1}{General for the three models}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.1.1}{Data-handling in python}{section.4.1}% 31
-\BOOKMARK [2][-]{subsection.4.1.2}{Applied optimization techniques}{section.4.1}% 32
-\BOOKMARK [2][-]{subsection.4.1.3}{Training of the networks}{section.4.1}% 33
-\BOOKMARK [1][-]{section.4.2}{Vector image model}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.3}{Raw binary representation model}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.4}{Combined representation model}{chapter.4}% 36
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 37
-\BOOKMARK [0][-]{section*.46}{Bibliography}{}% 38
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 39
-\BOOKMARK [1][-]{section.A.1}{Appendix I}{appendix.A}% 40
+\BOOKMARK [1][-]{section.4.1}{Vector image model}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{Raw binary representation model}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.3}{Combined representation model}{chapter.4}% 32
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 33
+\BOOKMARK [0][-]{section*.38}{Bibliography}{}% 34
+\BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\)}{}% 35
+\BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 36
