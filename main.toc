@@ -6,18 +6,19 @@
 \contentsline {chapter}{\chapternumberline {2}Background}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Anatomy of the Knee}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Pain}{5}{section.2.2}
-\contentsline {section}{\numberline {2.3}Identify and interpret pain}{6}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Identify cause of pain}{6}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Pain interpretation}{7}{subsection.2.3.2}
-\contentsline {subsubsection}{Pain mapping}{7}{section*.8}
-\contentsline {section}{\numberline {2.4}Knee regions}{8}{section.2.4}
-\contentsline {section}{\numberline {2.5}Machine learning}{10}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Deep Learning}{10}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.3}Patellofemoral pain syndrome}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Identify and interpret pain}{7}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Identify cause of pain}{7}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Pain interpretation}{7}{subsection.2.4.2}
+\contentsline {subsubsection}{Pain mapping}{8}{section*.8}
+\contentsline {section}{\numberline {2.5}Knee regions}{9}{section.2.5}
+\contentsline {section}{\numberline {2.6}Machine learning}{10}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Deep Learning}{10}{subsection.2.6.1}
 \contentsline {subsubsection}{Learning scenarios}{11}{section*.12}
-\contentsline {subsection}{\numberline {2.5.2}Back-propagation}{11}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.6.2}Back-propagation}{11}{subsection.2.6.2}
 \contentsline {subsubsection}{Gradient Decent}{12}{section*.13}
 \contentsline {subsubsection}{Learning curves}{13}{section*.16}
-\contentsline {subsection}{\numberline {2.5.3}Core NN layers}{14}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.6.3}Core NN layers}{14}{subsection.2.6.3}
 \contentsline {subsubsection}{Convolutional Neural Networks}{14}{section*.18}
 \contentsline {subsubsection}{Pooling}{15}{section*.20}
 \contentsline {chapter}{\chapternumberline {3}Methodology}{17}{chapter.3}

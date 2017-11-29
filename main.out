@@ -5,32 +5,33 @@
 \BOOKMARK [0][-]{chapter.2}{Background}{}% 5
 \BOOKMARK [1][-]{section.2.1}{Anatomy of the Knee}{chapter.2}% 6
 \BOOKMARK [1][-]{section.2.2}{Pain}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.3}{Identify and interpret pain}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.3.1}{Identify cause of pain}{section.2.3}% 9
-\BOOKMARK [2][-]{subsection.2.3.2}{Pain interpretation}{section.2.3}% 10
-\BOOKMARK [1][-]{section.2.4}{Knee regions}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.5}{Machine learning}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.5.1}{Deep Learning}{section.2.5}% 13
-\BOOKMARK [2][-]{subsection.2.5.2}{Back-propagation}{section.2.5}% 14
-\BOOKMARK [2][-]{subsection.2.5.3}{Core NN layers}{section.2.5}% 15
-\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 16
-\BOOKMARK [1][-]{section.3.1}{Data}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.1.1}{Software application: Navigate Pain}{section.3.1}% 18
-\BOOKMARK [2][-]{subsection.3.1.2}{Data representations}{section.3.1}% 19
-\BOOKMARK [1][-]{section.3.2}{Pre-analysis}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.2.1}{Classification of data}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.2}{Threshold selection}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.3}{Simple regression models}{section.3.2}% 23
-\BOOKMARK [1][-]{section.3.3}{Pre-processing}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.1}{Morphology-representation}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.2}{Regions-representation}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.3}{Combined-representation}{section.3.3}% 27
-\BOOKMARK [1][-]{section.3.4}{Programs}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Description of models}{}% 29
-\BOOKMARK [1][-]{section.4.1}{Vector image model}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{Raw binary representation model}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.3}{Combined representation model}{chapter.4}% 32
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 33
-\BOOKMARK [0][-]{section*.40}{Bibliography}{}% 34
-\BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\) KOOS2016}{}% 35
-\BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 36
+\BOOKMARK [1][-]{section.2.3}{Patellofemoral pain syndrome}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.4}{Identify and interpret pain}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.4.1}{Identify cause of pain}{section.2.4}% 10
+\BOOKMARK [2][-]{subsection.2.4.2}{Pain interpretation}{section.2.4}% 11
+\BOOKMARK [1][-]{section.2.5}{Knee regions}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.6}{Machine learning}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.6.1}{Deep Learning}{section.2.6}% 14
+\BOOKMARK [2][-]{subsection.2.6.2}{Back-propagation}{section.2.6}% 15
+\BOOKMARK [2][-]{subsection.2.6.3}{Core NN layers}{section.2.6}% 16
+\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 17
+\BOOKMARK [1][-]{section.3.1}{Data}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.1.1}{Software application: Navigate Pain}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.2}{Data representations}{section.3.1}% 20
+\BOOKMARK [1][-]{section.3.2}{Pre-analysis}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.2.1}{Classification of data}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.2}{Threshold selection}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.3}{Simple regression models}{section.3.2}% 24
+\BOOKMARK [1][-]{section.3.3}{Pre-processing}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.1}{Morphology-representation}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.2}{Regions-representation}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.3}{Combined-representation}{section.3.3}% 28
+\BOOKMARK [1][-]{section.3.4}{Programs}{chapter.3}% 29
+\BOOKMARK [0][-]{chapter.4}{Description of models}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Vector image model}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{Raw binary representation model}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.3}{Combined representation model}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 34
+\BOOKMARK [0][-]{section*.40}{Bibliography}{}% 35
+\BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\) KOOS2016}{}% 36
+\BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 37

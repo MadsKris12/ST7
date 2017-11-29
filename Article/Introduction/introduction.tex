@@ -1,10 +1,41 @@
-Patellofemoral pain syndrome (PFPS) is a painful musculoskeletal condition \citep{Maclachlan2017, Smith2015}, which presents pain behind or around the patella. The patellofemoral pain (PFP) is often known as anterior knee pain and runner’s knee. The pain is often described like diffuse knee pain, which is provoked by patellofemoral loaded activities like climbing stairs, running on hard or slanted surfaces, hiking, squatting or just prolonged sitting in the same position.\citep{Crossley2016, Crossley2015, Smith2015, Boudreau2017} The pain is therefore not caused by previous trauma \citep{Crossley2016}.
-Knee pain is not the only symptom of PFPS, the patient often complain about knee stiffness, patellofemoral crepitus, swelling knee and having trouble with common daily activities \citep{Martini2012, Crossley2016}. The patients may limit or stop the physical activity because of the pain, and that can lead to weight gain \citep{Petersen2013, Crossley2016}.
+Patellofemoral pain syndrome (PFPS) is a painful musculoskeletal condition that is presented as pain behind or around patella \citep{Maclachlan2017, Smith2015}. PFPS affects 6-7 \% of adolescents, of whom two thirds are highly physically active \citep{Rathleff2015}. Additionally the prevalence is more than twice as high for females than males \citep{Petersen2013, Rathleff2015}.
+PFPS may be present over longer periods of time where a high number of individuals experience a recurrent or chronic pain \citep{Witvrouw2014} and may also lead to osteoarthritis \citep{Petersen2013, Crossley2016}.
 
-Physiologically PFPS is associated with incorrect movement of the patellar, that occurs when the patella moves outside of its ordinary track, which for instance can be movement in lateral direction instead of movement in superior-inferior direction.\citep{Martini2012}
+\noindent
+Patellofemoral pain (PFP) is often described as diffuse knee pain, that can be hard to explain and localize \citep{Witvrouw2014}. Despite the fact that individuals feel pain in the knee, there is not any structural changes in the knee such as significant chondral damage or increased Q-angle. There is no definitive clinical test to diagnose PFPS and it is thereby often diagnosed based on exclusion criterias \citep{Petersen2013} to which PFPS is also described as an orthopaedic enigma, and is one of the most challenging pathologies to manage \citep{Dye2001}. 
+To assist diagnosis of PFPS, pain maps may be used as a helpful tool for the individuals to communicate their pain by drawing pain areas \citep{Boudreau2016}. A study shows that through the use of pain maps it is possible to find a correlation between the symptom duration and the size and morphology of pain area \citep{Boudreau2017}. 
+Another method to measure pain is by using visual analog scale (VAS), that scores pain between no-pain to the worst pain imaginable \citep{Haefeli2005}. However it is a known problem that chronic pain is considered a multidimensional pain, because the perceived pain of an individual is influenced by biomedical, psychosocial and behavioral factors \citep{Dansie2013}.
 
-PFP is mostly prevalent in adolescents and younger adults who are physically active, but it can affect people of all ages and activity levels \citep{Crossley2016, Maclachlan2017, Crossley2015}. Additionally,  females are affected about more than twice as often as males \citep{Petersen2013}. Furthermore, the PFPS can persist for up to 20 years and lead to osteoarthritis \citep{Petersen2013, Crossley2016}.
+\noindent
+Since PFP is associated with a lack of knowledge, and it has been shown that there is a correlation between pain maps and symptom duration as well as pain intensity, it is interesting to investigate if pain maps can be used to classify and thereby predict PFP related information. 
 
-Despite the fact that patients feel pain in the knee, there is not any structural changes in the knee such as significant chondral damage or increased Q-angle \citep{Petersen2013}. The Q-angle, also known as the quadriceps angle, is the angle between a line that follows the longitudinal axis of femur, and a line that follows a line from the tibial tubercle through the center of patella \citep{Dahab2011}.
-There is no definitive clinical test to diagnose PFP, but there is a test to elicit the knee pain by during a squatting manoeuvre. The PFP is evident in 80 \% of people who are tested positive in this test.\citep{Crossley2016, Crossley2015} Therefore the diagnosis PFPS is often based on exclusion \citep{Petersen2013}. After the diagnosis  evidence based treatments can reduce pain and improve function that allows patients to maintain physical activity \citep{Crossley2015}.
-The aetiology of PFPS still remains unclear \citep{Smith2015}.
+\noindent
+A method that has not been found used in this context before is a deep learning. The deep learning method is chosen for this study because it is a state of the art method, that has shown greater performance in specific computation fields, compared to other machine learning methods \citep{LeCun2015}.
+Furthermore, the method is chosen because of its ability to find non-linear connections between input and output data \citep{LeCun2015}, which is found relevant for this study mainly based on the fact that PFP is subjective and may be affected by the multidimensionality of chronic pain.  \\
+
+
+
+\noindent
+The goals of this project is to explore how accurate a deep learning model can classify symptom duration and pain intensity associated to PFP pain maps using a limited dataset. Because the prevalence is more than twice as high for females than males, the gender is included as a feature in the deep learning model. 
+Furthermore, morphology of the pain is considered to be relevant, based on the indication that morphology and size of pain area increase with prolonged symptom duration. 
+To investigate the influence of morphology and location of the pain three types of pain map representations are created: a binary representation which reflect the morphology, a simplified representation of morphology based on knee regions that give information about the pain location, and a combined representation that contains the morphology divided into knee regions.\\
+
+\noindent
+The aim of this study is to explore classification performance of a deep learning model, using PFP pain maps and gender as input to classify either symptom duration or pain intensity. 
+\vspace{1mm}
+\noindent
+\begin{center}
+\textit{It is hypothesized that a deep learning model that uses pain maps and gender as input parameter has a higher performance when classifying according to symptom duration than pain intensity.}
+\end{center}
+
+\noindent
+The secondary aim is to investigate if multiple pain map representations, which reflect the morphology and location of the pain, affect the deep learning model classification performance.
+
+\vspace{1mm}
+\noindent
+\begin{center}
+\textit{It is hypothesized that different data represen-\newline tations of pain maps, reflecting morphology and location of pain, affect the performance
+accuracy of a deep learning model when classifying according to symptom duration or pain intensity.
+}
+\end{center}
+
