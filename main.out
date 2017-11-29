@@ -27,11 +27,13 @@
 \BOOKMARK [2][-]{subsection.3.3.2}{Regions-representation}{section.3.3}% 27
 \BOOKMARK [2][-]{subsection.3.3.3}{Combined-representation}{section.3.3}% 28
 \BOOKMARK [1][-]{section.3.4}{Programs}{chapter.3}% 29
-\BOOKMARK [0][-]{chapter.4}{Description of models}{}% 30
-\BOOKMARK [1][-]{section.4.1}{Vector image model}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.2}{Raw binary representation model}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.3}{Combined representation model}{chapter.4}% 33
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 34
-\BOOKMARK [0][-]{section*.40}{Bibliography}{}% 35
-\BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\) KOOS2016}{}% 36
-\BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 37
+\BOOKMARK [1][-]{section.3.5}{Deep learning \(but I would like to think another name for this section}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.5.1}{Sofware and hardware}{section.3.5}% 31
+\BOOKMARK [0][-]{chapter.4}{Description of models}{}% 32
+\BOOKMARK [1][-]{section.4.1}{Vector image model}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.2}{Raw binary representation model}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.3}{Combined representation model}{chapter.4}% 35
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 36
+\BOOKMARK [0][-]{section*.41}{Bibliography}{}% 37
+\BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\) KOOS2016}{}% 38
+\BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 39
