@@ -31,7 +31,7 @@ Navigate Pain is a software application that is used to visualise the location, 
 The left screen in figure \ref{fig:Navigatepain}(a) is the main screen. By clicking on "Project", a folder with individuals is created. From each individual information like name, age, height is saved. Before the individual can draw their pain areas, the body outline has to be chosen, which is illustrated in figure (b). The body outlines are divided into five categories: Line Drawings, 3D Drawings, Orofacial, Special Zooms and Knee Pain. In the bottom the seleceted templates are shown. When clicking on "CREATE CHARTS" the screen in figure (c) is shown. Here it is possible to draw the pain areas with different colors and line thickness, which can be seen in the left side of the screen. Afterwards the pain map can be saved. 
 
 
-\subsection{Data representations}
+\subsection{Data representations} \label{sec:representation}
 It is presumed that different representations of the pain maps affect the performance accuracy of a deep learning models, which is why different data representations are created. 
 A study by \citeauthor{Boudreau2017} found a correlation between a prolonged symptom duration and the size of the pain area. It was shown that the pain area increased for individuals that have a symptom duration for longer than five years compared to those with a symptom duration below. Likewise, pain intensity had a correlation with the size of pain area for individuals with a symptom duration for more than five years. Furthermore, the shape of the pain developed from a U-shape to an O-shape for individuals with a symptom duration above five years.\citep{Boudreau2017} \\
 Based on this study the morphology of PFP is considered to be relevant to investigate, which is why morphology is the first data representation.\\
@@ -96,7 +96,7 @@ To explore the difference between the individuals’ stated pain intensity in th
 The worst pain intensity is divided into some classes which the models should classify in addition to. To test the models are the data firstly divided into the extremes, since it is assumed that if the models predict badly with the extremes, the models will not predict better with multiple classifications of the pain intensity. The extremes is chosen to be intervals 1 to 4 and 8 to 10 by which the last classification constitute the interval between. 
 
 
-\subsection{Threshold selection}
+\subsection{Threshold selection}\label{sec:Selectthreshold}
 In relation to the data representation that contains information about the active pain regions, it is necessary to find a threshold that decides when a knee region contains enough pain pixels to be considered active. A threshold is required to increase the confidence of an active pain region by avoiding minimal contributions e.g. small pain areas in the associated regions. Simultaneously the threshold may not be too large so that potential pain regions will not be incorporated. The threshold to indicate active pain regions is decided based on an analysis, where threshold values of 0, 5, 10 and 15 percent are tested. The analysis of the threshold is tested on five random pain maps to get a general impression of the data. To better illustrate the division of the pain regions are the regions in figure \ref{fig:atlas} colored in different colors that are easier to distinguish, which is shown in figure \ref{fig:colorregion}.
 
 \begin{figure} [H]
@@ -152,9 +152,9 @@ These linear regression models are not very suitable when trying to predict symp
 
 
 \section{Pre-processing}
-The data is pre-processed in MatLab to prepare it to the three different neural network models. Each model has an appurtenant data representation which are prepared in three different ways. The three data representations are morphology, regions and superimposed morphology and region. Common for the data representation is that the pain maps are imported as image-matrices whereafter the matrices are resized, since the given data was collected at different resolutions (screen sizes). Furthermore, the matrices are cropped to sort out unnecessary data like the areas inferior and superior to the knee.
-Before the data is used as an input in the neural network models, the image-matrices are converted into vectors whereafter they are assembled in one matrix for each data representation. To get additional information associated with the pain maps, is gender added by including a column vector to the three matrices. 
-In addition to the input, the neural network models need an output to train the models. The output, which is either symptom duration or pain intensity, is likewise added as a column vector. 
+The data is pre-processed in MatLab to prepare it to the three different neural network models. Each model has an appurtenant data representation which are prepared in three different ways. The three data representations are morphology, regions and superimposed morphology and region, which are described in section \ref{sec:representation}. Common for the data representation is that the pain maps are imported as image-matrices whereafter the matrices are resized, since the given data was collected at different resolutions (screen sizes). Furthermore, the matrices are cropped to sort out unnecessary data like the areas inferior and superior to the knee.
+Before the data is used as an input in the deep learning models each matrix, which represent an image, is converted into a vector whereafter they are assembled in one matrix for each data representation. To get additional information associated with the pain maps, is gender added by including a column vector to the three matrices. 
+In addition to the input, the deep learning models need an output to train the models. The output, which is either symptom duration or pain intensity, is likewise added as a column vector. 
 The following sections describe the pre-processing of the individual data representations. 
 
 \subsection{Morphology-representation} \label{sec:Morph}
@@ -169,19 +169,19 @@ Firstly, the image of the original pain map is gray-scaled to get a one-dimensio
 \end{figure}
 
 \noindent
-An illustration of this data representation is created to convey how the data is assembled and transferred to the model. The illustration is shown in figure \ref{fig:binmatrix}.
+An illustration of this data representation is created to convey how the data is assembled and transferred to the model. The illustration is shown in figure \ref{fig:binmatrix}, where a matrix containing image-vectors for all the pain maps and appurtenant gender and either symptom duration or pain intensity. 
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.8\textwidth]{figures/binaryimagematrix}
-\caption{An illustration of the matrix of the morphology data representation. The matrix consist of image-vectors for each subjects where the two last column indicate the appurtenant gender and either duration or pain intensity. The image-vectors has a length equal to the number of pixel in the pain maps.}
+\caption{An illustration of the matrix of the morphology-representation. The matrix consist of image-vectors for each individuals where the two last columns indicate the appurtenant gender (blue column vector) and either duration or pain intensity (green column vector). The image-vectors have a length equal to the number of pixels in the pain maps.}
 \label{fig:binmatrix}
 \end{figure}
 
 
 \subsection{Regions-representation}
 The second representation of the data is a matrix consisting of vectors with 20 values which indicate pain in relation to the knee regions.
-The knee regions shown in figure \ref{fig:atlas} are converted into a matrix consisting of 20 values, which represent each knee regions. This matrix is superimposed to the binary image of the pain map, which results in a matrix with pain represented in each knee region. In figure \ref{fig:binregions} are the knee regions and the pain associated with the regions illustrated.
+An image of the knee regions as shown in figure \ref{fig:atlas} are converted into a matrix consisting of 20 values, which represent each knee regions. This matrix is superimposed to the binary image of the pain map, which results in a matrix with pain pixels represented in each knee region. In figure \ref{fig:binregions} are the knee regions and the pain associated with the regions illustrated.
 
 \begin{figure} [H]
 \centering
@@ -191,18 +191,18 @@ The knee regions shown in figure \ref{fig:atlas} are converted into a matrix con
 \end{figure}
 
 \noindent
-After superimposing the two matrices, knee regions and pain, the number of pixels in each active knee region is found. This number is compared to the total number of pixels that are in each knee region, so knee regions with less than 15 \% pain are excluded. WHY 15\%. As a result a vector with 20 values is created. This data representation is implemented the same way as the first representation, figure \ref{fig:binmatrix}. The only difference is that the length of the image-vectors respond to the 20 regions, and therefore are there only 20 values in this data representation.
+After superimposing the two matrices, knee regions and pain pixels, the number of pixels in each active knee region is found. This number is compared to the total number of pixels that are in each knee region, so knee regions with less than 5 percent pain are excluded. The threshold on 5 percent is chosen based on the analysis in section \ref{sec:Selectthreshold}. As a result a vector with 20 values is created with zeros and ones, where one represent an active region. This data representation is implemented in the deep learning models the same way as the morphology-representation, which is illustrated in figure \ref{fig:binmatrix}. The only difference is that the length of the image-vectors respond to the 20 regions, and therefore are there only 20 values in this data representation.
 
 
 \subsection{Superimposed-representation}
 The third representation of the data is a matrix consisting of individuals’ pain divided into the knee regions.
 \noindent
-In this representation the superimposed matrix from the second data representation is used. Since the data representation should reflect the morphology of the pain and divide the pain into the different knee regions is one-hot encoding used. One-hot encoding is a way to separate categorical data into binary data \citep{Harris2012}. This means that the 20 values for each knee region do not have a correlation. After one-hot encoding the superimposed matrix consists of 20 layers where each layer represents a knee region. An illustration of this data representation is shown in figure \ref{fig:onehot}.
+In this representation the superimposed matrix from the region-representation is used. Since the data representation should reflect the morphology of the pain and divide the pain into the different knee regions is one-hot encoding used. One-hot encoding is a way to separate categorical data into binary data \citep{Harris2012}. This means that the 20 values for each knee region do not have a correlation. After one-hot encoding, the superimposed matrix consists of 20 layers where each layer represents a knee region. An illustration of this data representation is shown in figure \ref{fig:onehot}.
 
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/onehotmatrix}
-\caption{(a) illstrates the one-hot encoded pain map and (b) shows the images-vectors in one assembled matrix with gender and either symptom duration or pain intensity.}
+\caption{(a) An illustration of the one-hot encoded pain map and (b) shows the images-vectors in one assembled matrix with gender and either symptom duration or pain intensity.}
 \label{fig:onehot}
 \end{figure}

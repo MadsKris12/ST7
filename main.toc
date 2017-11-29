@@ -33,11 +33,11 @@
 \contentsline {subsection}{\numberline {3.3.2}Regions-representation}{25}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Superimposed-representation}{26}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Programs}{26}{section.3.4}
-\contentsline {chapter}{\chapternumberline {4}Description of models}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Vector image model}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Raw binary representation model}{27}{section.4.2}
-\contentsline {section}{\numberline {4.3}Combined representation model}{29}{section.4.3}
-\contentsline {chapter}{\chapternumberline {5}Results}{30}{chapter.5}
-\contentsline {chapter}{Bibliography}{31}{section*.38}
-\contentsline {appendix}{\chapternumberline {A}\relax \fontsize {12}{14.5}\selectfont Knee injury and Ostearthritis Outcome Score (KOOS)}{35}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}\relax \fontsize {12}{14.5}\selectfont Threshold analysis}{39}{appendix.B}
+\contentsline {chapter}{\chapternumberline {4}Description of models}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}Vector image model}{28}{section.4.1}
+\contentsline {section}{\numberline {4.2}Raw binary representation model}{28}{section.4.2}
+\contentsline {section}{\numberline {4.3}Combined representation model}{30}{section.4.3}
+\contentsline {chapter}{\chapternumberline {5}Results}{31}{chapter.5}
+\contentsline {chapter}{Bibliography}{32}{section*.38}
+\contentsline {appendix}{\chapternumberline {A}\relax \fontsize {12}{14.5}\selectfont Knee injury and Ostearthritis Outcome Score (KOOS) \citep {KOOS2016}}{36}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}\relax \fontsize {12}{14.5}\selectfont Threshold analysis}{40}{appendix.B}
