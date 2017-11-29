@@ -124,7 +124,7 @@ The other layer called pooling, always follows after convolutional layer. It con
 
 The combination of convolutional and pooling layers defines the part of the network which performs feature extraction while the classification part is made by fully connected layers. 
 
-A typical CNN architecture for characters recognition of the images, called LeNet-5, could be seen in \autoref{fig:LeNet5}.The way this convolutional network works is 
+A typical CNN architecture for characters recognition of the images, called LeNet-5, could be seen in \autoref{fig:LeNet5}.
 
 
 %
@@ -151,7 +151,7 @@ Units in the first hidden layer of LeNet-5 are arranged in planes, which are a s
 \subsubsection{Pooling}
 As previously mentioned convolution are typically followed by pooling \citep{LeCun2015, Goodfellow0216}. 
 Pooling can used to reduce the size of the dataset, which is turn can increase computation speed, because the amount of data passed to the next layer is smaller. By pooling the input, a smaller representation is given, that still contains the relevant features.\citep{Goodfellow2016,LeCun1998}     
-The pooling process can be defined as a window that passes over e.g. a feature map from convolution, where a value within the window is extracted. One type of pooling layer is maxpooling that takes the maximum value within the window \citep{Goodfellow2016,Dumoulin2016}. A pooling layer may be defined simply by its window (Kernel) size, paddling size and a stride length, where stride length is the number of values the window jumps as shown in \autoref{fig:Kernel}. \citep{Dumoulin2016}
+The pooling process can be defined as a window that passes over e.g. a feature map from convolution, where a value within the window is extracted. One type of pooling layer is max pooling that takes the maximum value within the window \citep{Goodfellow2016,Dumoulin2016}. A pooling layer may be defined simply by its window (Kernel) size, paddling size and a stride length, where stride length is the number of values the window jumps as shown in \autoref{fig:Kernel}. \citep{Dumoulin2016}
 
 \\
 \begin{figure} [H]
