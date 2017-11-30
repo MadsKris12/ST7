@@ -1,4 +1,4 @@
-\begin{thebibliography}{45}
+\begin{thebibliography}{47}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -300,6 +300,23 @@ Int8.
 \newblock \emph{Www}, 2016.
 \newblock URL
   \url{http://int8.io/comparison-of-optimization-techniques-stochastic-gradient-descent-momentum-adagrad-and-adadelta/}.
+
+\bibitem[Chollet(2015)]{Chollet2015}
+Fran{\c{c}}ois Chollet.
+\newblock {Keras Documentation}, 2015.
+\newblock URL \url{https://keras.io}.
+
+\bibitem[Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
+  Salakhutdinov]{Srivastava2014}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock {Dropout: A Simple Way to Prevent Neural Networks from Overfitting}.
+\newblock \emph{Journal of Machine Learning Research}, 15:\penalty0 1929--1958,
+  2014.
+\newblock ISSN 15337928.
+\newblock \doi{10.1214/12-AOS1000}.
+\newblock URL
+  \url{https://dl.acm.org/citation.cfm?id=2670313{\&}CFID=818407627{\&}CFTOKEN=74532044}.
 
 \bibitem[Solutions(2015)]{Solutions2015}
 Aglance Solutions.

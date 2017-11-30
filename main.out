@@ -13,27 +13,32 @@
 \BOOKMARK [1][-]{section.2.6}{Machine learning}{chapter.2}% 13
 \BOOKMARK [2][-]{subsection.2.6.1}{Deep Learning}{section.2.6}% 14
 \BOOKMARK [2][-]{subsection.2.6.2}{Back-propagation}{section.2.6}% 15
-\BOOKMARK [2][-]{subsection.2.6.3}{Core NN layers}{section.2.6}% 16
-\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 17
-\BOOKMARK [1][-]{section.3.1}{Data}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.1.1}{Software application: Navigate Pain}{section.3.1}% 19
-\BOOKMARK [2][-]{subsection.3.1.2}{Data representations}{section.3.1}% 20
-\BOOKMARK [1][-]{section.3.2}{Pre-analysis}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.2.1}{Classification of data}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.2}{Threshold selection}{section.3.2}% 23
-\BOOKMARK [2][-]{subsection.3.2.3}{Simple regression models}{section.3.2}% 24
-\BOOKMARK [1][-]{section.3.3}{Pre-processing}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.1}{Morphology-representation}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.2}{Regions-representation}{section.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.3}{Combined-representation}{section.3.3}% 28
-\BOOKMARK [1][-]{section.3.4}{Programs}{chapter.3}% 29
-\BOOKMARK [1][-]{section.3.5}{Deep learning \(but I would like to think another name for this section}{chapter.3}% 30
-\BOOKMARK [2][-]{subsection.3.5.1}{Sofware and hardware}{section.3.5}% 31
-\BOOKMARK [0][-]{chapter.4}{Description of models}{}% 32
-\BOOKMARK [1][-]{section.4.1}{Vector image model}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.2}{Raw binary representation model}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.3}{Combined representation model}{chapter.4}% 35
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 36
-\BOOKMARK [0][-]{section*.41}{Bibliography}{}% 37
-\BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\) KOOS2016}{}% 38
-\BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 39
+\BOOKMARK [2][-]{subsection.2.6.3}{Regulation}{section.2.6}% 16
+\BOOKMARK [2][-]{subsection.2.6.4}{Core NN layers}{section.2.6}% 17
+\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Data}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.1.1}{Software application: Navigate Pain}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.2}{Data representations}{section.3.1}% 21
+\BOOKMARK [1][-]{section.3.2}{Pre-analysis}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.2.1}{Classification of data}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.2}{Threshold selection}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.3}{Simple regression models}{section.3.2}% 25
+\BOOKMARK [1][-]{section.3.3}{Pre-processing}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{Morphology-representation}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.2}{Regions-representation}{section.3.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.3}{Combined-representation}{section.3.3}% 29
+\BOOKMARK [1][-]{section.3.4}{Programs}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.5}{Deep learning \(but I would like to think another name for this section}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.5.1}{Sofware and hardware}{section.3.5}% 32
+\BOOKMARK [0][-]{chapter.4}{Description of models}{}% 33
+\BOOKMARK [1][-]{section.4.1}{Data handling and design choices of the models}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.1.1}{Data handling in python}{section.4.1}% 35
+\BOOKMARK [2][-]{subsection.4.1.2}{Optimization techniques}{section.4.1}% 36
+\BOOKMARK [2][-]{subsection.4.1.3}{Training of the networks}{section.4.1}% 37
+\BOOKMARK [1][-]{section.4.2}{Vector image model}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.3}{Raw binary representation model}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.4}{Combined representation model}{chapter.4}% 40
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 41
+\BOOKMARK [0][-]{section*.49}{Bibliography}{}% 42
+\BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\) KOOS2016}{}% 43
+\BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 44
