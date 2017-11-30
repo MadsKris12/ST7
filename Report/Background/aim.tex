@@ -1,24 +1,27 @@
-Patellofemoral pain syndrome (PFPS) is a painful musculoskeletal condition that is presented as pain behind or around patella \citep{Maclachlan2017, Smith2015}. PFPS affects 6-7 \% of adolescents, of whom two thirds are highly physically active \citep{Rathleff2015}. Additionally the prevalence is more than twice as high for females than males \citep{Petersen2013, Rathleff2015}.
-PFPS may be present over longer periods of time where a high number of individuals experience a recurrent or chronic pain \citep{Witvrouw2014} and may also lead to osteoarthritis \citep{Petersen2013, Crossley2016}.
+Patellofemoral pain syndrome (PFPS) is a painful musculoskeletal condition that is presented as pain behind or around the patella \citep{Maclachlan2017, Smith2015}. PFPS affects 6-7 \% of adolescents, of whom two thirds are highly physically active \citep{Rathleff2015}. Additionally the prevalence is more than twice as high for females than males \citep{Rathleff2015, Petersen2013}.
+PFPS may be present over a longer period of time where a high number of individuals experience a recurrent or chronic pain \citep{Witvrouw2014} and may also lead to osteoarthritis \citep{Petersen2013, Crossley2016}.
 
 \noindent
-Patellofemoral pain (PFP) is often described as diffuse knee pain, that can be hard to explain and localize \citep{Witvrouw2014}. Despite the fact that individuals feel pain in the knee, there is not any structural changes in the knee such as significant chondral damage or increased Q-angle. There is no definitive clinical test to diagnose PFPS and it is thereby often diagnosed based on exclusion criterias \citep{Petersen2013} to which PFPS is also described as an orthopaedic enigma, and is one of the most challenging pathologies to manage \citep{Dye2001}. 
-To assist diagnosis of PFPS, pain maps may be used as a helpful tool for the individuals to communicate their pain by drawing pain areas \citep{Boudreau2016}. A study shows that through the use of pain maps it is possible to find a correlation between the symptom duration and the size and morphology of pain area \citep{Boudreau2017}. 
-Another method to measure pain is by using visual analog scale (VAS), that scores pain between no-pain to the worst pain imaginable \citep{Haefeli2005}. However it is a known problem that chronic pain is considered a multidimensional pain, because the perceived pain of an individual is influenced by biomedical, psychosocial and behavioral factors \citep{Dansie2013}.
+Patellofemoral pain (PFP) is often described as diffuse knee pain, that can be hard for individuals to explain and localize \citep{Witvrouw2014}. Despite the fact that individuals feel pain in the knee, there is no structural changes in the knee such as significant chondral damage or increased Q-angle. Because of this there is no definitive clinical test to diagnose PFPS and it is thereby often diagnosed based on exclusion criterias \citep{Petersen2013} to which PFPS is also described as an orthopaedic enigma, and is one of the most challenging pathologies to manage \citep{Dye2001}. 
+To assist diagnosis of PFPS, pain maps may be used as a helpful tool for the individuals to communicate their pain by drawing pain areas on a body outline \citep{Boudreau2016}. \newline
+Another method to measure pain is visual analog scale (VAS), that scores pain intensity between no-pain to the worst pain imaginable \citep{Haefeli2005}.
+A study by \citeauthor{Boudreau2017} shows that through the use of pain maps it is possible to find a correlation between the symptom duration and the size as well as morphology of pain area in individuals with a symptom duration longer than five years. Furthermore a correlation between pain intensity and the size of the pain was found.\citep{Boudreau2017}
+It is a known problem that chronic pain is considered as multidimensional, because the perceived pain of an individual is influenced by biomedical, psychosocial and behavioral factors \citep{Dansie2013}.
 
 \noindent
-Since PFP is associated with a lack of knowledge, and it has been shown that there is a correlation between pain maps and symptom duration as well as pain intensity, it is interesting to investigate if pain maps can be used to classify and thereby predict PFP related information. 
+Because there is a lack of knowledge in the area of PFP, and it has been shown that there is a correlation between pain maps and symptom duration as well as pain intensity, it is interesting to investigate if pain maps can be used to classify and predict PFP related information. 
 
 \noindent
-A method that has not been found used in this context before is a deep learning. The deep learning method is chosen for this study because it is a state of the art method, that has shown greater performance in specific computation fields, compared to other machine learning methods \citep{LeCun2015}.
-Furthermore, the method is chosen because of its ability to find non-linear connections between input and output data \citep{LeCun2015}, which is found relevant for this study mainly based on the fact that PFP is subjective and may be affected by the multidimensionality of chronic pain.  \\
-
+A method that has not been found used in this context before is deep learning. The deep learning method is chosen for this study because it is a state-of-the-art method, that has shown greater performance in specific computation fields, compared to other machine learning methods \citep{LeCun2015}.
+Furthermore, the method is chosen because of its ability to find non-linear connections between input and output data \citep{LeCun2015}, which is found relevant for this study mainly based on the fact that pain is subjective and may be affected by the multidimensionality of chronic pain.  \\
 
 
 \noindent
-The goals of this project is to explore how accurate a deep learning model can classify symptom duration and pain intensity associated to PFP pain maps using a limited dataset. Because the prevalence is more than twice as high for females than males, the gender is included as a feature in the deep learning model. 
+The goals of this project is to explore how accurate a deep learning model can classify pain maps according to symptom duration and pain intensity by using a limited dataset. Because of the imbalance in prevalence between females and males, the gender is included as a feature in the deep learning model. 
 Furthermore, morphology of the pain is considered to be relevant, based on the indication that morphology and size of pain area increase with prolonged symptom duration. 
-To investigate the influence of morphology and location of the pain three types of pain map representations are created: a binary representation which reflect the morphology, a simplified representation of morphology based on knee regions that give information about the pain location, and a combined representation that contains the morphology divided into knee regions.   
+To accommodate the difficulty of localizing pain related to PFP, the pain is divided into different knee regions. This might indicate whether regions has a relation to either symptom duration or pain intensity.
+\noindent
+To investigate the influence of morphology and location of the pain, three types of pain map representations are created: a binary representation which reflect the morphology, a simplified representation of morphology based on knee regions that give information about the pain location, and a combined representation that contains the morphology divided into knee regions.   
 
 \section{Primary aim}
 The aim of this study is to explore classification performance of a deep learning model, using PFP pain maps and gender as input to classify either symptom duration or pain intensity. 
@@ -29,7 +32,7 @@ The aim of this study is to explore classification performance of a deep learnin
 \end{center}
 
 \section{Secondary aim}
-The secondary aim of this project is to investigate if multiple pain map representations, which reflect the morphology and location of the pain, affect the deep learning model classification performance.
+The secondary aim of this project is to investigate if multiple pain map representations, which reflect the morphology and location of the pain, affect the  classification performance of the deep learning models.
 
 \vspace{4mm}
 \noindent
