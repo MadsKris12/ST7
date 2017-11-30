@@ -219,7 +219,7 @@ An image of the knee regions as shown in figure \ref{fig:atlas} are converted in
 After superimposing the two matrices, knee regions and pain pixels, the number of pixels in each active knee region is found. This number is compared to the total number of pixels that are in each knee region, so knee regions with less than 5 percent pain are excluded. The threshold on 5 percent is chosen based on the analysis in section \ref{sec:Selectthreshold}. As a result a vector with 20 values is created with zeros and ones, where one represent an active region. This data representation is implemented in the deep learning models the same way as the morphology-representation, which is illustrated in figure \ref{fig:binmatrix}. The only difference is that the length of the image-vectors respond to the 20 regions, and therefore are there only 20 values in this data representation.
 
 
-\subsection{Combined-representation}
+\subsection{Combined-representation} \label{sec:combined}
 The third representation of the data is a matrix consisting of individuals’ pain divided into the knee regions.
 \noindent
 In this representation the superimposed matrix from the region-representation is used. Since the data representation should reflect the morphology of the pain and divide the pain into the different knee regions is one-hot encoding used. One-hot encoding is a way to separate categorical data into binary data \citep{Harris2012}. This means that the 20 values for each knee region do not have a correlation. After one-hot encoding, the superimposed matrix consists of 20 layers where each layer represents a knee region. An illustration of this data representation is shown in figure \ref{fig:onehot}.
