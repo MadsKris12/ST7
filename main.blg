@@ -1,9 +1,11 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: bib.bib
+Warning--I didn't find a database entry for "KOOS2016"
 Warning--I didn't find a database entry for "Dansie2013"
 Warning--I didn't find a database entry for "Goodfellow0216"
 Warning--I didn't find a database entry for "Dumoulin2016"
+Warning--I didn't find a database entry for "Abadi2016a"
 Warning--empty journal in Maclachlan2017
 Warning--empty journal in Smith2015
 Warning--empty journal in Rathleff2015
@@ -14,6 +16,7 @@ Warning--empty journal in Boudreau2017
 Warning--empty journal in Haefeli2005
 Warning--empty publisher in Martini2012
 Warning--empty journal in Briggs2010
+Warning--empty journal in Crossley2015
 Warning--empty journal in Younger2009
 Warning--empty journal in Valente2011
 Warning--empty journal in Grunnesjo2006
@@ -26,4 +29,4 @@ Warning--empty journal in Ruder2016
 Warning--empty journal in Raschka2016
 Warning--empty journal in Zhang2014
 Warning--empty publisher in Swamynathan2017
-(There were 25 warnings)
+(There were 28 warnings)
