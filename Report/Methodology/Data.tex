@@ -36,7 +36,7 @@ A study by \citeauthor{Boudreau2017} found a correlation between a prolonged sym
 Based on this study the morphology of PFP is considered to be relevant to investigate, which is why morphology is the first data representation.\\
 
 \noindent
-The PFP is often described as diffuse pain and it is therefore difficult to describe and localise \citep{Witvrouw2014}. To accommodate this is it chosen to divide the pain into different knee regions, which may indicate whether a specific region of the knee influence the PFP. This is converted to a simplified data representation that indicate active knee regions.
+The PFP is often described as diffuse pain and it is therefore difficult to describe and localise \citep{Witvrouw2014}. To accommodate this is it chosen to divide the pain into different knee regions, which may indicate whether a specific region of the knee influence the PFP. This is converted to a simplified data representation that indicate active pain regions.
 A combination of the two data representations is created to achieve a third data representation which both include the morphology of the pain and the different active knee regions.
 \noindent
 Furthermore is gender an interesting parameter to use as an input, because the prevalence is more than twice as high for females than males. Thereto perceived pain is subjective and depends on the individual's character and personality. The distribution of gender is investigated by creating a histogram, which is shown in figure \ref{fig:histogender}.
@@ -54,7 +54,7 @@ According to the given data the prevalence is higher for females than males. The
 
 \noindent
 Since the symptom duration of PFP seems to affect the size and shape of the pain area, is it chosen to classify the three data representations in proportion to symptom duration. Likewise is it chosen to classify pain intensity because of the influence from the size of pain area. Thereto is it interesting to investigate whether there is a connection between knee regions and either symptom duration or pain intensity.
-The three data representations is referred to as morphology-, regions- and combined-representation.
+The three data representations are referred to as morphology-, regions- and combined-representation.
 \newpage
 
 \section{Pre-analysis}
@@ -176,7 +176,7 @@ The figure shows once again a wide dispersion of the data. There is therefore no
 Based on the four figures is it assumed that a single feature, number of pain pixels or regions, may not have a simple correlation with the outputs, symptom duration or pain intensity. Thereto is it interesting to investigate the morphology of pain and knee regions as features in a more complicated model. 
 
 
-\section{Pre-processing}
+\section{Pre-processing} \label{sec:prepros}
 The data is pre-processed in MatLab to prepare it to the three different deep learning models. Each model has an appurtenant data representation which are prepared in three different ways. The three data representations are morphology, regions and combined, which are described in section \ref{sec:representation}. Common for the data representation is that the pain maps are imported as image-matrices whereafter the matrices are resized, since the given data was collected at different resolutions (screen sizes). Furthermore, the matrices are cropped to sort out unnecessary data like the areas inferior and superior to the knee.
 Before the data is used as an input in the deep learning models each matrix, which represent an image, is converted into a vector whereafter they are assembled in one matrix for each data representation. To get additional information associated with the pain maps, is gender added by including a column vector to the three matrices.
 In addition to the input, the deep learning models need an output to train the models. The output, which is either symptom duration or pain intensity, is likewise added as a column vector.
