@@ -41,6 +41,8 @@ The basic idea behind it is that gradients can be computed efficiently by propag
 
 MAYBE TALK ABOUT ACTIVATION FUNCTIONS IN RELATION TO BACKPROPAGATION. 
 
+IF WE WILL HAVE TIME WE NEED TO ADD ACTIVATION GRAPHS WITH EXPLANATION
+
 A PROBLEM OFTEN RELATED TO OPTIMIZATION IS THE LAGER THE NETWORK THE HARDER IT IS TO OPTIMIZE, BUT IN ANOTHER WAY IF THE NETWORK IS SMALL AND SIMPLE THE EASIER IT IS TO OPTIMIZE. 
 
 
@@ -115,6 +117,20 @@ Near the fifth epoch the validation and the test error starts to rise, indicatin
 Validation error can therefor be used as stop criterion for when the training is optimal, and prevent overfitting. 
 Typically the validation and test error will always be higher that the training error, which is also seen in \autoref{fig:learningCurve}. \citep{Duda2000}
 
+\subsection{Regulation}\label{sec:dropout}
+Small intro, what it cointains blablabla:Dropout
+
+Dropout is a regulation technique used to reduce overfitting of the neural network. In a network the dropout is applied to the individual layers, and works by randomly drop different nodes temporarily in the given layer during training. An illustration of the principle of dropout can be seen in \autoref{fig:Dropout}. This parameter is specified with a float value between 0 and 1, which defines the fraction of the nodes that drop \citep{Chollet2015}.
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.6\textwidth]{figures/Dropout}
+\caption{Illustration of dropout effect: The figure on the left illustrates a fully connected network, without dropout, and the right shows a network where dropout is enabled on the first three layers.}
+\label{fig:Dropout} 
+\end{figure}
+
+This reduces co-adaptation, where nodes compute the same features, to where this may increase the generalization capabilities for a neural network. 
+A study, has tested the use of dropout in different neural networks, and indicates that the most optimal range of dropout is 20 \% of the nodes in the visible layers, and 50 \% in the hidden layers \citep{Srivastava2014}.
 
 \subsection{Core NN layers}
 \subsubsection{Convolutional Neural Networks}

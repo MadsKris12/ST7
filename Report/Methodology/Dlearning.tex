@@ -5,7 +5,8 @@ In this project the deep learning method is used to classify the pain maps and g
 The architecture of model is presented in PICTURE(If nesceserry). From the higher point of view, the model can be architecturally splitted into two main parts. Feature extraction part, where convolutional and pooling layers alternates in order to extract the most important features out of the image. Second part is called classification, where computed feature maps will be assigned to particular class of the output layer. In order to obtain a better accuracy of deep learning classifier, methods like activation function, regulation and optimization will be used within the layers.
 
 \noindent
-Activation function is used to fit nonlinear patterns in the data and to control when the node in the model should be considered as an active or not.  In this project “Rectified linear unit” (ReLu) activation function will be used as given (equation). [deeplearningbook]
+Activation function is used to fit nonlinear patterns in the data and to control when the node in the model should be considered as an active or not.  In this project “Rectified linear unit” (ReLu) activation function will be used as given since this is the most common for nueral network (equation)  \citep{Goodfellow2016}.
+
 \noindent
 Regulation is a method for restricting model from overfitting. The most common which is used in this project is called dropout. It randomly omitts the fixed percentage amount of neurons in order to significantly improve the training accuracy. [Dropout]
 
