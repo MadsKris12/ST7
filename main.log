@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  30 NOV 2017 18:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  1 DEC 2017 12:55
 entering extended mode
 **./main.tex
 (main.tex
@@ -2094,143 +2094,143 @@ Package pdftex.def Info: figures/knee.png  used on input line 28. on input line
  28.
 Package pdftex.def Info: Requested size: 441.0pt x 214.12723pt on input line 28
 .
- [4 <./figures/knee.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+
+ []
+
+[4 <./figures/knee.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
 <figures/painpic.pdf, id=341, pagebox=cropbox, 500.87125pt x 355.3275pt>
 File: figures/painpic.pdf Graphic file (type pdf)
 <use figures/painpic.pdf>
-Package pdftex.def Info: figures/painpic.pdf  used on input line 56. on input l
-ine 56.
-Package pdftex.def Info: Requested size: 330.75pt x 234.6524pt on input line 56
+Package pdftex.def Info: figures/painpic.pdf  used on input line 54. on input l
+ine 54.
+Package pdftex.def Info: Requested size: 330.75pt x 234.6524pt on input line 54
 .
 [5 <./figures/painpic.pdf>] [6]
 <figures/kneetest.png, id=397, 403.5075pt x 307.90031pt>
 File: figures/kneetest.png Graphic file (type png)
 <use figures/kneetest.png>
-Package pdftex.def Info: figures/kneetest.png  used on input line 90. on input 
-line 90.
+Package pdftex.def Info: figures/kneetest.png  used on input line 92. on input 
+line 92.
 Package pdftex.def Info: Requested size: 343.97946pt x 262.4776pt on input line
- 90.
-<figures/VAS.png, id=407, 382.42876pt x 72.27pt>
+ 92.
+ [7 <./figures/kneetest.png>]
+<figures/VAS.png, id=416, 382.42876pt x 72.27pt>
 File: figures/VAS.png Graphic file (type png)
 <use figures/VAS.png>
-Package pdftex.def Info: figures/VAS.png  used on input line 107. on input line
- 107.
+Package pdftex.def Info: figures/VAS.png  used on input line 109. on input line
+ 109.
 Package pdftex.def Info: Requested size: 352.80135pt x 66.67445pt on input line
- 107.
- [7 <./figures/kneetest.png>]
-<figures/painmap.png, id=425, 779.91376pt x 1355.0625pt>
+ 109.
+<figures/painmap.png, id=424, 779.91376pt x 1355.0625pt>
 File: figures/painmap.png Graphic file (type png)
 <use figures/painmap.png>
-Package pdftex.def Info: figures/painmap.png  used on input line 122. on input 
-line 122.
+Package pdftex.def Info: figures/painmap.png  used on input line 126. on input 
+line 126.
 Package pdftex.def Info: Requested size: 132.30135pt x 229.86134pt on input lin
-e 122.
+e 126.
  [8 <./figures/VAS.png>]
 <figures/atlas.png, id=444, 460.72125pt x 220.57407pt>
 File: figures/atlas.png Graphic file (type png)
 <use figures/atlas.png>
-Package pdftex.def Info: figures/atlas.png  used on input line 140. on input li
-ne 140.
+Package pdftex.def Info: figures/atlas.png  used on input line 143. on input li
+ne 143.
 Package pdftex.def Info: Requested size: 264.60269pt x 126.681pt on input line 
-140.
+143.
  [9 <./figures/painmap.png> <./figures/atlas.png>] [10])
 (Report/Background/ML.tex) (Report/Background/DL.tex
-<figures/NN_structure.png, id=470, 493.845pt x 325.215pt>
+<figures/NN_structure.png, id=471, 493.845pt x 325.215pt>
 File: figures/NN_structure.png Graphic file (type png)
 <use figures/NN_structure.png>
-Package pdftex.def Info: figures/NN_structure.png  used on input line 7. on inp
-ut line 7.
+Package pdftex.def Info: figures/NN_structure.png  used on input line 8. on inp
+ut line 8.
 Package pdftex.def Info: Requested size: 264.60269pt x 174.24883pt on input lin
-e 7.
+e 8.
  [11 <./figures/NN_structure.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 38--44
 
-Package natbib Warning: Citation `Goodfellow0216' on page 12 undefined on input
- line 26.
-
-
-LaTeX Warning: Reference `sec:LearningTech' on page 12 undefined on input line 
-36.
-
-
-Underfull \hbox (badness 1460) in paragraph at lines 46--47
-[]\T1/cmr/m/n/10.95 A PROBLEM OFTEN RELATED TO OPTIMIZATION IS THE LAGER THE
  []
 
 [12]
-<figures/GDgraph.png, id=514, 336.50719pt x 185.19188pt>
+Underfull \hbox (badness 1460) in paragraph at lines 49--50
+[]\T1/cmr/m/n/10.95 A PROBLEM OFTEN RELATED TO OPTIMIZATION IS THE LAGER THE
+ []
+
+<figures/GDgraph.png, id=516, 336.50719pt x 185.19188pt>
 File: figures/GDgraph.png Graphic file (type png)
 <use figures/GDgraph.png>
-Package pdftex.def Info: figures/GDgraph.png  used on input line 54. on input l
-ine 54.
+Package pdftex.def Info: figures/GDgraph.png  used on input line 57. on input l
+ine 57.
 Package pdftex.def Info: Requested size: 264.60269pt x 145.62177pt on input lin
-e 54.
- [13 <./figures/GDgraph.png>]
-<figures/Graphofyrainingcost.png, id=536, 630.10406pt x 493.0922pt>
+e 57.
+[13 <./figures/GDgraph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
+
+ []
+
+<figures/Graphofyrainingcost.png, id=538, 630.10406pt x 493.0922pt>
 File: figures/Graphofyrainingcost.png Graphic file (type png)
 <use figures/Graphofyrainingcost.png>
-Package pdftex.def Info: figures/Graphofyrainingcost.png  used on input line 90
-. on input line 90.
+Package pdftex.def Info: figures/Graphofyrainingcost.png  used on input line 94
+. on input line 94.
 Package pdftex.def Info: Requested size: 264.60269pt x 207.06721pt on input lin
-e 90.
- [14 <./figures/Graphofyrainingcost.png>]
+e 94.
+[14 <./figures/Graphofyrainingcost.png>]
 <figures/learningCurves.png, id=555, 736.25063pt x 520.94624pt>
 File: figures/learningCurves.png Graphic file (type png)
 <use figures/learningCurves.png>
-Package pdftex.def Info: figures/learningCurves.png  used on input line 109. on
- input line 109.
+Package pdftex.def Info: figures/learningCurves.png  used on input line 114. on
+ input line 114.
 Package pdftex.def Info: Requested size: 308.69865pt x 218.43028pt on input lin
-e 109.
+e 114.
 <figures/Dropout.png, id=562, 884.30376pt x 563.10374pt>
 File: figures/Dropout.png Graphic file (type png)
 <use figures/Dropout.png>
-Package pdftex.def Info: figures/Dropout.png  used on input line 127. on input 
-line 127.
+Package pdftex.def Info: figures/Dropout.png  used on input line 130. on input 
+line 130.
 Package pdftex.def Info: Requested size: 264.60269pt x 168.49422pt on input lin
-e 127.
-
-[15 <./figures/learningCurves.png>]
-<figures/LeNet5.png, id=582, 1091.57813pt x 295.85532pt>
+e 130.
+ [15 <./figures/learningCurves.png>]
+<figures/LeNet5.png, id=586, 1091.57813pt x 295.85532pt>
 File: figures/LeNet5.png Graphic file (type png)
 <use figures/LeNet5.png>
-Package pdftex.def Info: figures/LeNet5.png  used on input line 159. on input l
-ine 159.
-Package pdftex.def Info: Requested size: 441.0pt x 119.5273pt on input line 159
+Package pdftex.def Info: figures/LeNet5.png  used on input line 165. on input l
+ine 165.
+Package pdftex.def Info: Requested size: 441.0pt x 119.5273pt on input line 165
 .
- [16 <./figures/Dropout.png>]
 
-Package natbib Warning: Citation `Goodfellow0216' on page 17 undefined on input
- line 172.
+[16 <./figures/Dropout.png>]
+
+Package natbib Warning: Citation `Dumoulin2016' on page 17 undefined on input l
+ine 181.
 
 
 Package natbib Warning: Citation `Dumoulin2016' on page 17 undefined on input l
-ine 175.
+ine 181.
 
-
-Package natbib Warning: Citation `Dumoulin2016' on page 17 undefined on input l
-ine 175.
-
-<figures/Kernel.png, id=600, 240.9pt x 258.9675pt>
+<figures/Kernel.png, id=605, 240.9pt x 258.9675pt>
 File: figures/Kernel.png Graphic file (type png)
 <use figures/Kernel.png>
-Package pdftex.def Info: figures/Kernel.png  used on input line 180. on input l
-ine 180.
+Package pdftex.def Info: figures/Kernel.png  used on input line 186. on input l
+ine 186.
 Package pdftex.def Info: Requested size: 110.25pt x 118.51794pt on input line 1
-80.
+86.
 
 Package natbib Warning: Citation `Dumoulin2016' on page 17 undefined on input l
-ine 181.
+ine 187.
 
 
 Package natbib Warning: Citation `Dumoulin2016' on page 17 undefined on input l
-ine 181.
+ine 187.
 
 ) [17 <./figures/LeNet5.png> <./figures/Kernel.png>]
 (Report/Methodology/Data.tex
-<figures/kneepainmap.png, id=612, 237.88875pt x 605.26125pt>
+<figures/kneepainmap.png, id=617, 237.88875pt x 605.26125pt>
 File: figures/kneepainmap.png Graphic file (type png)
 <use figures/kneepainmap.png>
 Package pdftex.def Info: figures/kneepainmap.png  used on input line 8. on inpu
@@ -2240,140 +2240,140 @@ Package pdftex.def Info: Requested size: 88.19865pt x 224.40492pt on input line
  [18
 
  <./figures/kneepainmap.png (PNG copy)>]
-<figures/Navigatepain.png, id=621, 2539.086pt x 1341.813pt>
+<figures/Navigatepain.png, id=626, 2539.086pt x 1341.813pt>
 File: figures/Navigatepain.png Graphic file (type png)
 <use figures/Navigatepain.png>
-Package pdftex.def Info: figures/Navigatepain.png  used on input line 24. on in
-put line 24.
-Package pdftex.def Info: Requested size: 441.0pt x 233.03952pt on input line 24
+Package pdftex.def Info: figures/Navigatepain.png  used on input line 26. on in
+put line 26.
+Package pdftex.def Info: Requested size: 441.0pt x 233.03952pt on input line 26
 .
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--37
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
 
  []
 
 [19 <./figures/Navigatepain.png>]
-<figures/histoGender.png, id=635, 861.2175pt x 310.15875pt>
+<figures/histoGender.png, id=640, 861.2175pt x 310.15875pt>
 File: figures/histoGender.png Graphic file (type png)
 <use figures/histoGender.png>
-Package pdftex.def Info: figures/histoGender.png  used on input line 46. on inp
-ut line 46.
-Package pdftex.def Info: Requested size: 441.0pt x 158.8225pt on input line 46.
+Package pdftex.def Info: figures/histoGender.png  used on input line 48. on inp
+ut line 48.
+Package pdftex.def Info: Requested size: 441.0pt x 158.8225pt on input line 48.
 
  [20 <./figures/histoGender.png>]
-<figures/histogramDuration.png, id=645, 853.68938pt x 465.23813pt>
+<figures/histogramDuration.png, id=650, 853.68938pt x 465.23813pt>
 File: figures/histogramDuration.png Graphic file (type png)
 <use figures/histogramDuration.png>
-Package pdftex.def Info: figures/histogramDuration.png  used on input line 72. 
-on input line 72.
-Package pdftex.def Info: Requested size: 441.0pt x 240.33505pt on input line 72
+Package pdftex.def Info: figures/histogramDuration.png  used on input line 74. 
+on input line 74.
+Package pdftex.def Info: Requested size: 441.0pt x 240.33505pt on input line 74
 .
  [21 <./figures/histogramDuration.png>]
-<figures/histrogramPain.png, id=654, 1028.34187pt x 490.08093pt>
+<figures/histrogramPain.png, id=659, 1028.34187pt x 490.08093pt>
 File: figures/histrogramPain.png Graphic file (type png)
 <use figures/histrogramPain.png>
-Package pdftex.def Info: figures/histrogramPain.png  used on input line 86. on 
-input line 86.
-Package pdftex.def Info: Requested size: 441.0pt x 210.16985pt on input line 86
+Package pdftex.def Info: figures/histrogramPain.png  used on input line 88. on 
+input line 88.
+Package pdftex.def Info: Requested size: 441.0pt x 210.16985pt on input line 88
 .
-<figures/colorregion.png, id=657, 386.6445pt x 175.857pt>
+<figures/colorregion.png, id=662, 386.6445pt x 175.857pt>
 File: figures/colorregion.png Graphic file (type png)
 <use figures/colorregion.png>
-Package pdftex.def Info: figures/colorregion.png  used on input line 100. on in
-put line 100.
+Package pdftex.def Info: figures/colorregion.png  used on input line 102. on in
+put line 102.
 Package pdftex.def Info: Requested size: 264.60269pt x 120.35397pt on input lin
-e 100.
+e 102.
  [22 <./figures/histrogramPain.png (PNG copy)> <./figures/colorregion.png>]
-<figures/threshold4.png, id=669, 701.019pt x 663.6795pt>
+<figures/threshold4.png, id=674, 701.019pt x 663.6795pt>
 File: figures/threshold4.png Graphic file (type png)
 <use figures/threshold4.png>
-Package pdftex.def Info: figures/threshold4.png  used on input line 110. on inp
-ut line 110.
+Package pdftex.def Info: figures/threshold4.png  used on input line 112. on inp
+ut line 112.
 Package pdftex.def Info: Requested size: 418.94865pt x 396.6411pt on input line
- 110.
+ 112.
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--128
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
 
  []
 
 [23 <./figures/threshold4.png>]
-<figures/durationRegression.png, id=681, 675.7245pt x 368.577pt>
+<figures/durationRegression.png, id=686, 675.7245pt x 368.577pt>
 File: figures/durationRegression.png Graphic file (type png)
 <use figures/durationRegression.png>
-Package pdftex.def Info: figures/durationRegression.png  used on input line 131
-. on input line 131.
+Package pdftex.def Info: figures/durationRegression.png  used on input line 133
+. on input line 133.
 Package pdftex.def Info: Requested size: 441.0pt x 240.54515pt on input line 13
-1.
+3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--140
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
 
  []
 
-<figures/painRegression.png, id=683, 681.747pt x 364.9635pt>
+<figures/painRegression.png, id=688, 681.747pt x 364.9635pt>
 File: figures/painRegression.png Graphic file (type png)
 <use figures/painRegression.png>
-Package pdftex.def Info: figures/painRegression.png  used on input line 143. on
- input line 143.
-Package pdftex.def Info: Requested size: 441.0pt x 236.0874pt on input line 143
+Package pdftex.def Info: figures/painRegression.png  used on input line 145. on
+ input line 145.
+Package pdftex.def Info: Requested size: 441.0pt x 236.0874pt on input line 145
 .
 [24 <./figures/durationRegression.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 148--153
+Underfull \hbox (badness 10000) in paragraph at lines 150--155
 
  []
 
-<figures/regionRegressionDuration.png, id=695, 848.4197pt x 338.01282pt>
+<figures/regionRegressionDuration.png, id=700, 848.4197pt x 338.01282pt>
 File: figures/regionRegressionDuration.png Graphic file (type png)
 <use figures/regionRegressionDuration.png>
 Package pdftex.def Info: figures/regionRegressionDuration.png  used on input li
-ne 156. on input line 156.
+ne 158. on input line 158.
 Package pdftex.def Info: Requested size: 441.0pt x 175.69547pt on input line 15
-6.
+8.
 [25 <./figures/painRegression.png> <./figures/regionRegressionDuration.png>]
-<figures/regionRegressionPain.png, id=707, 853.68938pt x 338.76563pt>
+<figures/regionRegressionPain.png, id=712, 853.68938pt x 338.76563pt>
 File: figures/regionRegressionPain.png Graphic file (type png)
 <use figures/regionRegressionPain.png>
 Package pdftex.def Info: figures/regionRegressionPain.png  used on input line 1
-68. on input line 168.
-Package pdftex.def Info: Requested size: 441.0pt x 175.00124pt on input line 16
-8.
+70. on input line 170.
+Package pdftex.def Info: Requested size: 441.0pt x 175.00124pt on input line 17
+0.
 
 [26 <./figures/regionRegressionPain.png>]
-<figures/cropbin7.png, id=717, 378.66469pt x 187.45032pt>
+<figures/cropbin7.png, id=722, 378.66469pt x 187.45032pt>
 File: figures/cropbin7.png Graphic file (type png)
 <use figures/cropbin7.png>
-Package pdftex.def Info: figures/cropbin7.png  used on input line 191. on input
- line 191.
+Package pdftex.def Info: figures/cropbin7.png  used on input line 193. on input
+ line 193.
 Package pdftex.def Info: Requested size: 308.69865pt x 152.81784pt on input lin
-e 191.
-<figures/binaryimagematrix.png, id=719, 456.95718pt x 255.20343pt>
+e 193.
+<figures/binaryimagematrix.png, id=724, 456.95718pt x 255.20343pt>
 File: figures/binaryimagematrix.png Graphic file (type png)
 <use figures/binaryimagematrix.png>
-Package pdftex.def Info: figures/binaryimagematrix.png  used on input line 201.
- on input line 201.
+Package pdftex.def Info: figures/binaryimagematrix.png  used on input line 203.
+ on input line 203.
 Package pdftex.def Info: Requested size: 352.80135pt x 197.04073pt on input lin
-e 201.
+e 203.
  [27 <./figures/cropbin7.png> <./figures/binaryimagematrix.png>]
-<figures/binregions.png, id=730, 383.18156pt x 176.91093pt>
+<figures/binregions.png, id=735, 383.18156pt x 176.91093pt>
 File: figures/binregions.png Graphic file (type png)
 <use figures/binregions.png>
-Package pdftex.def Info: figures/binregions.png  used on input line 213. on inp
-ut line 213.
+Package pdftex.def Info: figures/binregions.png  used on input line 215. on inp
+ut line 215.
 Package pdftex.def Info: Requested size: 352.80135pt x 162.89499pt on input lin
-e 213.
-<figures/onehotmatrix.png, id=735, 1183.42125pt x 560.0925pt>
+e 215.
+<figures/onehotmatrix.png, id=740, 1183.42125pt x 560.0925pt>
 File: figures/onehotmatrix.png Graphic file (type png)
 <use figures/onehotmatrix.png>
-Package pdftex.def Info: figures/onehotmatrix.png  used on input line 230. on i
-nput line 230.
+Package pdftex.def Info: figures/onehotmatrix.png  used on input line 232. on i
+nput line 232.
 Package pdftex.def Info: Requested size: 441.0pt x 208.71803pt on input line 23
-0.
+2.
 ) (Report/Methodology/Program.tex [28 <./figures/binregions.png>]) (Report/Meth
 odology/Dlearning.tex [29 <./figures/onehotmatrix.png>]
 
 Package natbib Warning: Citation `Abadi2016a' on page 30 undefined on input lin
 e 17.
 
-<figures/Specs.png, id=757, 555.57562pt x 223.58531pt>
+<figures/Specs.png, id=762, 555.57562pt x 223.58531pt>
 File: figures/Specs.png Graphic file (type png)
 <use figures/Specs.png>
 Package pdftex.def Info: figures/Specs.png  used on input line 24. on input lin
@@ -2407,7 +2407,7 @@ Underfull \hbox (badness 1137) in paragraph at lines 67--69
  layer, since the data
  []
 
-<figures/simpleModel.png, id=797, 238.8925pt x 211.79124pt>
+<figures/simpleModel.png, id=802, 238.8925pt x 211.79124pt>
 File: figures/simpleModel.png Graphic file (type png)
 <use figures/simpleModel.png>
 Package pdftex.def Info: figures/simpleModel.png  used on input line 72. on inp
@@ -2418,7 +2418,7 @@ e 72.
 LaTeX Warning: Reference `CONVOLUTION' on page 33 undefined on input line 81.
 
 [33 <./figures/simpleModel.png>]
-<figures/binaryRepModel.png, id=808, 560.0925pt x 934.49126pt>
+<figures/binaryRepModel.png, id=813, 560.0925pt x 934.49126pt>
 File: figures/binaryRepModel.png Graphic file (type png)
 <use figures/binaryRepModel.png>
 Package pdftex.def Info: figures/binaryRepModel.png  used on input line 85. on 
@@ -2480,14 +2480,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\new@ifnextchar' on input line 76.
 
 (Report/yAppendix/appKOOS.tex
-<figures/KOOS1.png, id=879, 515.526pt x 778.107pt>
+<figures/KOOS1.png, id=885, 515.526pt x 778.107pt>
 File: figures/KOOS1.png Graphic file (type png)
 <use figures/KOOS1.png>
 Package pdftex.def Info: figures/KOOS1.png  used on input line 3. on input line
  3.
 Package pdftex.def Info: Requested size: 374.85269pt x 565.80501pt on input lin
 e 3.
-<figures/KOOS2.png, id=880, 513.71925pt x 831.105pt>
+<figures/KOOS2.png, id=886, 513.71925pt x 831.105pt>
 File: figures/KOOS2.png Graphic file (type png)
 <use figures/KOOS2.png>
 Package pdftex.def Info: figures/KOOS2.png  used on input line 8. on input line
@@ -2497,7 +2497,7 @@ e 8.
  [41
 
  <./figures/KOOS1.png>]
-<figures/KOOS3.png, id=889, 516.12825pt x 843.15pt>
+<figures/KOOS3.png, id=895, 516.12825pt x 843.15pt>
 File: figures/KOOS3.png Graphic file (type png)
 <use figures/KOOS3.png>
 Package pdftex.def Info: figures/KOOS3.png  used on input line 14. on input lin
@@ -2510,7 +2510,7 @@ Package natbib Warning: Citation `KOOS2016' on page 42 undefined on input line
 16.
 
 [42 <./figures/KOOS2.png>]
-<figures/KOOS4.png, id=898, 517.935pt x 864.22874pt>
+<figures/KOOS4.png, id=904, 517.935pt x 864.22874pt>
 File: figures/KOOS4.png Graphic file (type png)
 <use figures/KOOS4.png>
 Package pdftex.def Info: figures/KOOS4.png  used on input line 20. on input lin
@@ -2531,13 +2531,13 @@ Package natbib Warning: Citation `KOOS2016' on page 44 undefined on input line
 78.
 
 [44 <./figures/KOOS4.png>] (Report/yAppendix/appThresholds.tex
-<figures/threshold52.png, id=914, 708.246pt x 679.338pt>
+<figures/threshold52.png, id=920, 708.246pt x 679.338pt>
 File: figures/threshold52.png Graphic file (type png)
 <use figures/threshold52.png>
 Package pdftex.def Info: figures/threshold52.png  used on input line 3. on inpu
 t line 3.
 Package pdftex.def Info: Requested size: 441.0pt x 423.0096pt on input line 3.
-<figures/threshold67.png, id=915, 701.019pt x 679.338pt>
+<figures/threshold67.png, id=921, 701.019pt x 679.338pt>
 File: figures/threshold67.png Graphic file (type png)
 <use figures/threshold67.png>
 Package pdftex.def Info: figures/threshold67.png  used on input line 8. on inpu
@@ -2547,7 +2547,7 @@ Package pdftex.def Info: Requested size: 441.0pt x 427.36325pt on input line 8.
  [45
 
  <./figures/threshold52.png>]
-<figures/threshold125.png, id=923, 705.837pt x 679.338pt>
+<figures/threshold125.png, id=929, 705.837pt x 679.338pt>
 File: figures/threshold125.png Graphic file (type png)
 <use figures/threshold125.png>
 Package pdftex.def Info: figures/threshold125.png  used on input line 13. on in
@@ -2555,7 +2555,7 @@ put line 13.
 Package pdftex.def Info: Requested size: 441.0pt x 424.45044pt on input line 13
 .
  [46 <./figures/threshold67.png>]
-<figures/threshold206.png, id=931, 720.291pt x 679.338pt>
+<figures/threshold206.png, id=937, 720.291pt x 679.338pt>
 File: figures/threshold206.png Graphic file (type png)
 <use figures/threshold206.png>
 Package pdftex.def Info: figures/threshold206.png  used on input line 18. on in
@@ -2581,19 +2581,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
 (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4DAF0B8297AA8B4E840CF6055BE1BA45;3042.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D012711784E2C415F20514255ECD8CAE;3042
+(rerunfilecheck)             After:  9E2E2D6733852B2111735F612304351F;3054.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
- 29975 strings out of 493312
- 525377 string characters out of 3138898
+ 29973 strings out of 493312
+ 525343 string characters out of 3138898
  873047 words of memory out of 3000000
- 32837 multiletter control sequences out of 15000+200000
+ 32835 multiletter control sequences out of 15000+200000
  554494 words of font info for 86 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,22n,92p,10483b,972s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2618,9 +2627,9 @@ sers\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095
 .pk> <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
 0\ecrm2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
 .pfb>
-Output written on main.pdf (53 pages, 6794721 bytes).
+Output written on main.pdf (53 pages, 6794430 bytes).
 PDF statistics:
- 1609 PDF objects out of 1728 (max. 8388607)
+ 1613 PDF objects out of 1728 (max. 8388607)
  201 named destinations out of 1000 (max. 500000)
  558 words of extra memory for PDF output out of 10000 (max. 10000000)
 

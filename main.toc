@@ -8,8 +8,8 @@
 \contentsline {section}{\numberline {2.2}Pain}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Patellofemoral pain syndrome}{6}{section.2.3}
 \contentsline {section}{\numberline {2.4}Identify and interpret pain}{7}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Identify cause of pain}{7}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Pain interpretation}{7}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.1}Identify pain}{7}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Pain interpretation}{8}{subsection.2.4.2}
 \contentsline {subsubsection}{Pain mapping}{8}{section*.8}
 \contentsline {section}{\numberline {2.5}Knee regions}{9}{section.2.5}
 \contentsline {section}{\numberline {2.6}Machine learning}{11}{section.2.6}
@@ -17,15 +17,15 @@
 \contentsline {subsubsection}{Learning scenarios}{12}{section*.12}
 \contentsline {subsection}{\numberline {2.6.2}Back-propagation}{12}{subsection.2.6.2}
 \contentsline {subsubsection}{Gradient Descent}{13}{section*.13}
-\contentsline {subsubsection}{Learning curves}{14}{section*.16}
-\contentsline {subsection}{\numberline {2.6.3}Regulation}{15}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2.6.4}Core NN layers}{16}{subsection.2.6.4}
+\contentsline {subsubsection}{Learning curves}{15}{section*.16}
+\contentsline {subsection}{\numberline {2.6.3}Dropout}{15}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}Core Neural Network layers}{16}{subsection.2.6.4}
 \contentsline {subsubsection}{Convolutional Neural Networks}{16}{section*.19}
-\contentsline {subsubsection}{Pooling}{17}{section*.21}
+\contentsline {subsubsection}{Pooling layer}{17}{section*.21}
 \contentsline {chapter}{\chapternumberline {3}Methodology}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data}{18}{section.3.1}
+\contentsline {section}{\numberline {3.1}Data description}{18}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Software application: Navigate Pain}{19}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Data representations}{19}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Data representations}{20}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Pre-analysis}{21}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Classification of data}{21}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Threshold selection}{22}{subsection.3.2.2}

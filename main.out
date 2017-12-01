@@ -7,16 +7,16 @@
 \BOOKMARK [1][-]{section.2.2}{Pain}{chapter.2}% 7
 \BOOKMARK [1][-]{section.2.3}{Patellofemoral pain syndrome}{chapter.2}% 8
 \BOOKMARK [1][-]{section.2.4}{Identify and interpret pain}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.4.1}{Identify cause of pain}{section.2.4}% 10
+\BOOKMARK [2][-]{subsection.2.4.1}{Identify pain}{section.2.4}% 10
 \BOOKMARK [2][-]{subsection.2.4.2}{Pain interpretation}{section.2.4}% 11
 \BOOKMARK [1][-]{section.2.5}{Knee regions}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.6}{Machine learning}{chapter.2}% 13
 \BOOKMARK [2][-]{subsection.2.6.1}{Deep Learning}{section.2.6}% 14
 \BOOKMARK [2][-]{subsection.2.6.2}{Back-propagation}{section.2.6}% 15
-\BOOKMARK [2][-]{subsection.2.6.3}{Regulation}{section.2.6}% 16
-\BOOKMARK [2][-]{subsection.2.6.4}{Core NN layers}{section.2.6}% 17
+\BOOKMARK [2][-]{subsection.2.6.3}{Dropout}{section.2.6}% 16
+\BOOKMARK [2][-]{subsection.2.6.4}{Core Neural Network layers}{section.2.6}% 17
 \BOOKMARK [0][-]{chapter.3}{Methodology}{}% 18
-\BOOKMARK [1][-]{section.3.1}{Data}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.1}{Data description}{chapter.3}% 19
 \BOOKMARK [2][-]{subsection.3.1.1}{Software application: Navigate Pain}{section.3.1}% 20
 \BOOKMARK [2][-]{subsection.3.1.2}{Data representations}{section.3.1}% 21
 \BOOKMARK [1][-]{section.3.2}{Pre-analysis}{chapter.3}% 22
