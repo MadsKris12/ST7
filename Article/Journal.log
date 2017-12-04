@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  30 NOV 2017 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  4 DEC 2017 15:20
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -872,13 +872,13 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
 (Introduction/introduction.tex
 
 Package natbib Warning: Citation `Dansie2013' on page 1 undefined on input line
- 7.
+ 9.
 
 
 Underfull \vbox (badness 4168) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
@@ -904,7 +904,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
  []
 
-
+[2 <./Figures/twoPainmaps.png>]
 Underfull \hbox (badness 1253) in paragraph at lines 15--18
 \T1/pplx/m/n/10 (+20) Nav-i-gate Pain an-droid was de-vel-oped at
  []
@@ -914,15 +914,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--18
 
  []
 
-[2 <./Figures/twoPainmaps.png>]
-Underfull \vbox (badness 3148) has occurred while \output is active []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
-<Figures/atlas.png, id=73, 460.72125pt x 220.57407pt>
+<Figures/atlas.png, id=74, 460.72125pt x 220.57407pt>
 File: Figures/atlas.png Graphic file (type png)
 <use Figures/atlas.png>
 Package pdftex.def Info: Figures/atlas.png  used on input line 41. on input lin
@@ -934,21 +931,17 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 41--42
  [][] 
  []
 
-
+[3 <./Figures/atlas.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 49--52
 
  []
 
-[3 <./Figures/atlas.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 53--55
 
  []
 
-)
-Underfull \vbox (badness 3148) has occurred while \output is active []
-
-
-(Results/result.tex) (Results/discuss.tex) (Results/conclusion.tex)
+) (Results/result.tex) (Results/discuss.tex) (Results/conclusion.tex)
 (Journal.bbl [4]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 78.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
@@ -976,12 +969,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
  ) 
 Here is how much of TeX's memory you used:
  10876 strings out of 493312
- 165136 string characters out of 3138898
- 292916 words of memory out of 3000000
+ 165132 string characters out of 3138898
+ 291916 words of memory out of 3000000
  13971 multiletter control sequences out of 15000+200000
  53000 words of font info for 233 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,13n,43p,845b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,13n,43p,845b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
@@ -989,9 +982,9 @@ MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pa
 latino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a
 .pfb>
-Output written on Journal.pdf (5 pages, 1782298 bytes).
+Output written on Journal.pdf (5 pages, 1782852 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
  46131 words of extra memory for PDF output out of 51595 (max. 10000000)
 

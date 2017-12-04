@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {3.3.2}Regions-representation}{27}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Combined-representation}{28}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Programs}{29}{section.3.4}
-\contentsline {section}{\numberline {3.5}Deep learning (but I would like to think another name for this section}{29}{section.3.5}
+\contentsline {section}{\numberline {3.5}Neural network implementation and models}{29}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Sofware and hardware}{30}{subsection.3.5.1}
 \contentsline {chapter}{\chapternumberline {4}Description of models}{31}{chapter.4}
 \contentsline {section}{\numberline {4.1}Data handling and design choices of the models}{31}{section.4.1}
