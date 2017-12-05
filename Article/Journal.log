@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  4 DEC 2017 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  5 DEC 2017 13:15
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -174,18 +174,26 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count115
 \@thisrulewidth=\dimen132
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count116
+\float@exts=\toks17
+\float@box=\box26
+\@float@everytoks=\toks18
+\@floatcapt=\box27
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lettrine\lettrine.sty"
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count116
-\c@DefaultDepth=\count117
+\c@DefaultLines=\count117
+\c@DefaultDepth=\count118
 \DefaultFindent=\dimen133
 \DefaultNindent=\dimen134
 \DefaultSlope=\dimen135
 \DiscardVskip=\dimen136
-\L@lbox=\box26
-\L@tbox=\box27
-\c@L@lines=\count118
-\c@L@depth=\count119
+\L@lbox=\box28
+\L@tbox=\box29
+\c@L@lines=\count119
+\c@L@depth=\count120
 \L@Pindent=\dimen137
 \L@Findent=\dimen138
 \L@Nindent=\dimen139
@@ -205,9 +213,9 @@ Loading lettrine.cfg
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip44
 \enit@outerparindent=\dimen149
-\enit@toks=\toks17
-\enit@inbox=\box28
-\enitdp@description=\count120
+\enit@toks=\toks19
+\enit@inbox=\box30
+\enitdp@description=\count121
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -239,12 +247,12 @@ Package: abstract 2009/06/08 v1.2a configurable abstracts
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box29
+\ttl@box=\box31
 \beforetitleunit=\skip50
 \aftertitleunit=\skip51
 \ttl@plus=\dimen152
 \ttl@minus=\dimen153
-\ttl@toksa=\toks18
+\ttl@toksa=\toks20
 \titlewidth=\dimen154
 \titlewidthlast=\dimen155
 \titlewidthfirst=\dimen156
@@ -324,13 +332,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen157
-\Hy@linkcounter=\count121
-\Hy@pagecounter=\count122
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count123
+\Hy@SavedSpaceFactor=\count124
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -342,7 +350,7 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count124
+\c@Hy@tempcnt=\count125
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
@@ -350,7 +358,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen158
-\Fld@menulength=\count125
+\Fld@menulength=\count126
 \Field@Width=\dimen159
 \Fld@charsize=\dimen160
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -362,17 +370,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count126
-\c@Item=\count127
-\c@Hfootnote=\count128
+\Hy@abspage=\count127
+\c@Item=\count128
+\c@Hfootnote=\count129
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count129
-\c@bookmark@seq@number=\count130
+\Fld@listcount=\count130
+\c@bookmark@seq@number=\count131
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -383,8 +391,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
@@ -706,31 +714,32 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip65
 \bibsep=\skip66
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count131
+\c@NAT@ctr=\count132
 ) (Journal.aux)
 \openout1 = `Journal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Try loading font information for T1+pplx on input line 97.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
+LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 115.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pplx.fd"
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
 )
 \big@size=\dimen161
-LaTeX Info: Redefining \microtypecontext on input line 97.
+LaTeX Info: Redefining \microtypecontext on input line 115.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -780,21 +789,22 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count132
+\scratchcounter=\count133
 \scratchdimen=\dimen162
-\scratchbox=\box30
-\nofMPsegments=\count133
-\nofMParguments=\count134
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count135
+\scratchbox=\box32
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count136
 \MPscratchDim=\dimen163
-\MPnumerator=\count136
-\makeMPintoPDFobject=\count137
-\everyMPtoPDFconversion=\toks22
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks24
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -808,8 +818,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 97.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 115.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -817,43 +827,43 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count138
+\c@section@level=\count139
 )
-LaTeX Info: Redefining \ref on input line 97.
-LaTeX Info: Redefining \pageref on input line 97.
-LaTeX Info: Redefining \nameref on input line 97.
+LaTeX Info: Redefining \ref on input line 115.
+LaTeX Info: Redefining \pageref on input line 115.
+LaTeX Info: Redefining \nameref on input line 115.
 
 (Journal.out) (Journal.out)
 \@outlinefile=\write3
 \openout3 = `Journal.out'.
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 101.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 101
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 119.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 119
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pplx.fd"
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 101
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 119
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlzplm.fd"
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 101
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 119
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omszplm.fd"
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 101
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 119
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxzplm.fd"
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 101
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 119
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.fd"
@@ -867,30 +877,31 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 101.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 119.
 
 (Introduction/introduction.tex
-
-Package natbib Warning: Citation `Dansie2013' on page 1 undefined on input line
- 9.
-
-
-Underfull \vbox (badness 4168) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
-
- []
-
-
-Underfull \vbox (badness 5302) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{C:/Users/linet/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-])
-(Introduction/method.tex
-<Figures/twoPainmaps.png, id=60, 1601.985pt x 1746.525pt>
+]
+
+Package natbib Warning: Citation `Dansie2013' on page 2 undefined on input line
+ 10.
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 12--14
+\T1/pplx/m/n/10 (+20) of the im-bal-ance in preva-lence be-tween
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+) (Introduction/method.tex
+<Figures/twoPainmaps.png, id=54, 1601.985pt x 1746.525pt>
 File: Figures/twoPainmaps.png Graphic file (type png)
 <use Figures/twoPainmaps.png>
 Package pdftex.def Info: Figures/twoPainmaps.png  used on input line 6. on inpu
@@ -914,37 +925,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--18
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
-
- []
-
-<Figures/atlas.png, id=74, 460.72125pt x 220.57407pt>
+<Figures/atlas.png, id=66, 324.0105pt x 175.857pt>
 File: Figures/atlas.png Graphic file (type png)
 <use Figures/atlas.png>
-Package pdftex.def Info: Figures/atlas.png  used on input line 41. on input lin
-e 41.
-Package pdftex.def Info: Requested size: 215.0023pt x 102.93272pt on input line
- 41.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 41--42
- [][] 
- []
-
-[3 <./Figures/atlas.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-
- []
-
-) (Results/result.tex) (Results/discuss.tex) (Results/conclusion.tex)
-(Journal.bbl [4]
+Package pdftex.def Info: Figures/atlas.png  used on input line 26. on input lin
+e 26.
+Package pdftex.def Info: Requested size: 163.40385pt x 88.68767pt on input line
+ 26.
+) (Results/result.tex) (Results/discuss.tex) [3 <./Figures/atlas.png>]
+(Results/conclusion.tex) (Journal.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 78.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -955,26 +947,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
-[5
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
  (Journal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `Journal.out' has not changed.
 (rerunfilecheck)             Checksum: 0776556B9BF227483756BF56B892A401;226.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
- 10876 strings out of 493312
- 165132 string characters out of 3138898
- 291916 words of memory out of 3000000
- 13971 multiletter control sequences out of 15000+200000
- 53000 words of font info for 233 fonts, out of 3000000 for 9000
+ 10923 strings out of 493312
+ 165791 string characters out of 3138898
+ 297725 words of memory out of 3000000
+ 14017 multiletter control sequences out of 15000+200000
+ 52816 words of font info for 231 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,13n,43p,845b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,13n,43p,1078b,360s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
@@ -982,9 +972,9 @@ MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pa
 latino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a
 .pfb>
-Output written on Journal.pdf (5 pages, 1782852 bytes).
+Output written on Journal.pdf (4 pages, 1779932 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
+ 147 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  46131 words of extra memory for PDF output out of 51595 (max. 10000000)
 
