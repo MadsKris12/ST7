@@ -1,0 +1,41 @@
+This chapter will present the results from training and testing of the three representations. Training results will support arguments to how optimization of the models were performed as well as the generalization performance. Final testing will show how the trained model will generalize unseen data, in the form of a confusion matrix, along with is type 1 and type 2 errors. 
+
+\section{Initial optimization and training of the models}
+From initial grid search of hyperparameters, led to results that were used as and indication to initial setting of the models in order to raise or maintain performance for the different networks. The results of the grid search is shown in \autoref{tab:gridResults}. 
+
+
+\subsection{Simple representation}
+\begin{table}[H]
+\centering
+\label{tab:gridResults}
+\begin{tabular}{llllll}
+\multicolumn{6}{l}{Grid search Optimizers}       \\
+           &           &      &      &     &     \\
+           &           &      &      &     &     \\
+           &           &      &      &     &     \\
+           &           &      &      &     &     \\
+           &           &      &      &     &     \\
+\multicolumn{6}{l}{Grid search batch and epochs} \\
+Epochs     & Batch     &      &      &     &     \\
+1          &           &      &      &     &     \\
+2          &           &      &      &     &     \\
+3          &           &      &      &     &     \\
+4          &           &      &      &     &     \\
+5          &           &      &      &     &     \\
+6          &           &      &      &     &     \\
+7          &           &      &      &     &     \\
+8          &           &      &      &     &     \\
+9          &           &      &      &     &     \\
+\multicolumn{6}{l}{}                             \\
+           &           &      &      &     &     \\
+           &           &      &      &     &     \\
+           &           &      &      &     &     \\
+           &           &      &      &     &     \\
+           &           &      &      &     &     
+           
+\end{tabular}
+\caption{Result of grid search according to the simple data representation.}
+\end{table}
+
+\section{Training optimization based on validation performance}
+Further optimization was performed based the development in performance of the validation set. This result of the optimization was used to investigate the tendency to under- and overfitting to which the results are shown in \autoref{fig:}
