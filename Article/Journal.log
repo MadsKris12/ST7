@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  6 DEC 2017 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  6 DEC 2017 13:04
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -875,6 +875,9 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 119.
 
 (Introduction/introduction.tex
+Underfull \vbox (badness 6608) has occurred while \output is active []
+
+
 
 Package natbib Warning: Citation `Dansie2013' on page 1 undefined on input line
  10.
@@ -886,8 +889,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 1484) in paragraph at lines 12--14
-\T1/pplx/m/n/10 (+20) mor-phol-ogy and lo-ca-tion have an in-flu-ence on
+Underfull \hbox (badness 1502) in paragraph at lines 12--14
+\T1/pplx/m/n/10 (+20) a deep learn-ing model can clas-sify pain maps
  []
 
 
@@ -916,7 +919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--18
  []
 
 [2 <./Figures/twoPainmaps.png>]
-<Figures/atlas.png, id=66, 324.0105pt x 175.857pt>
+<Figures/atlas.png, id=67, 324.0105pt x 175.857pt>
 File: Figures/atlas.png Graphic file (type png)
 <use Figures/atlas.png>
 Package pdftex.def Info: Figures/atlas.png  used on input line 26. on input lin
@@ -933,10 +936,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <./Figures/atlas.png>]) (Results/result.tex) (Results/discuss.tex)
+[3 <./Figures/atlas.png>]) (Results/result.tex) (Results/discuss.tex)
 (Results/conclusion.tex) (Journal.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 78.
 
@@ -964,7 +964,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
 Here is how much of TeX's memory you used:
  10931 strings out of 493312
  165795 string characters out of 3138898
- 296538 words of memory out of 3000000
+ 296489 words of memory out of 3000000
  14032 multiletter control sequences out of 15000+200000
  58970 words of font info for 237 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -976,7 +976,7 @@ MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pa
 latino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a
 .pfb>
-Output written on Journal.pdf (4 pages, 1782888 bytes).
+Output written on Journal.pdf (4 pages, 1782699 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)

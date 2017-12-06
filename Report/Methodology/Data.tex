@@ -11,13 +11,13 @@ Data used in this project were collected beforehand from an on-going FOXH trial 
 \end{figure}
 
 \noindent
-In addition to the pain maps a corresponding dataset was available. This contained information regarding the individuals in terms of i.a. age, gender, symptom duration, pain intensity and the most prominent knee for pain. However, not all of the information was present for all individuals.
-Before using the data in the deep learning models, a manual data handling was necessary. This incorporated matching the given pain maps and associated ID regarding the individuals. Furthermore, specific information like gender, symptom duration and pain intensity were collected. To visualise the amount of data table \ref{tab:numberofpain} is created.
+In addition to the pain maps a corresponding dataset was available. This contained information regarding the individuals in terms of i.a. age, gender, pain duration, and intensity and the most prominent knee for pain. However, not all of the information was present for all individuals.
+Before using the data in the deep learning models, a manual data handling was necessary. This incorporated matching the given pain maps and associated ID regarding the individuals. Furthermore, specific information like gender, pain duration, and intensity were collected. To visualise the amount of data table \ref{tab:numberofpain} is created.
 
 \begin{table} [H]
 \centering
 \includegraphics[width=0.5\textwidth]{figures/numberofpain}
-\caption{Number of pain maps with associated gender, symptom duration and pain intensity  available. }
+\caption{Number of pain maps with associated gender, pain duration and intensity available. }
 \label{tab:numberofpain}
 \end{table}
 
@@ -39,7 +39,7 @@ In figure \ref{fig:Navigatepain}(a) is the main screen. By clicking on "Projects
 
 \subsection{Data representations} \label{sec:representation}
 It is presumed that different representations of the pain maps affect the performance accuracy of a deep learning models, hence different data representations were created.
-A study by \citeauthor{Boudreau2017} found a correlation between a prolonged symptom duration and the size of the pain area. It was shown that the pain area increased for individuals that have a symptom duration for longer than five years compared to those with a symptom duration below five years. Likewise, pain intensity had a correlation with the size of pain area for individuals with a symptom duration for more than five years. Furthermore, the shape of the pain developed from a U-shape to an O-shape for individuals with a symptom duration above five years.\citep{Boudreau2017} However it is unknown whether the morphology or location of the pain influence either symptom duration or pain intensity to which two data representations reflecting morphology or locations of the pain are created.
+A study by \citeauthor{Boudreau2017} found a correlation between a prolonged pain duration and the size of the pain area. It was shown that the pain area increased for individuals that have a pain duration for longer than five years compared to those with a pain duration below five years. Likewise, pain intensity had a correlation with the size of pain area for individuals with a pain duration for more than five years. Furthermore, the shape of the pain developed from a U-shape to an O-shape for individuals with a pain duration above five years.\citep{Boudreau2017} However it is unknown whether the morphology or location of the pain influence either pain duration or intensity to which two data representations reflecting morphology or locations of the pain are created.
 A combination of the two data representations is created to achieve a third data representation which both include the morphology of the pain and the different active knee regions.
 \noindent
 Furthermore, gender may be considered as an important parameter to use as an input, because of the difference prevalence in PFPS. The distribution of gender in the available data is investigated by creating a histogram, which is shown in figure \ref{fig:histogender}.
@@ -55,30 +55,30 @@ Furthermore, gender may be considered as an important parameter to use as an inp
 According to the given data the distribution is higher for females than males. The females constitute 156 of the 207 individuals, and males constituted 51 individuals.  \newline
 
 \noindent
-Since the symptom duration of PFP seems to affect the size and morphology of the pain area, it is chosen to classify the three data representations in proportion to symptom duration. Likewise it is chosen to classify according to pain intensity because of the influence from the size of pain area. 
+Since the pain duration of PFP seems to affect the size and morphology of the pain area, it is chosen to classify the three data representations in proportion to pain duration. Likewise it is chosen to classify according to pain intensity because of the influence from the size of pain area. 
 The three data representations are referred to as morphology-, regions- and combined-representation.
 \newpage
 
 \section{Pre-analysis}
-The pain maps and associated symptom duration as well as pain intensity are analysed to get an overview of the data. The data is analysed in MatLab, where the distribution of the outputs, symptom duration and pain intensity, are investigated whereafter intervals used for classification in the deep learning models are decided. Furthermore, different threshold values are analysed according to five pain maps to select the threshold which should define when a region is active.
-Simple linear regressions are made to investigate whether symptom duration or pain intensity have a linear relation to the size of pain.
+The pain maps and associated pain duration as well as pain intensity are analysed to get an overview of the data. The data is analysed in MatLab, where the distribution of the outputs, pain duration and intensity, are investigated whereafter intervals used for classification in the deep learning models are decided. Furthermore, different threshold values are analysed according to five pain maps to select the threshold which should define when a region is active.
+Simple linear regressions are made to investigate whether pain duration or intensity have a linear relation to the size of pain.
 
 
 \subsection{Classification of data}
-The deep learning models should classify the input, pain maps and gender, in different intervals in relation to symptom duration or pain intensity intervals. To help define the class intervals of both symptom duration and pain intensity, histograms were created.
+The deep learning models should classify the input, pain maps and gender, in different intervals in relation to pain duration or intensity intervals. To help define the class intervals of both pain duration and intensity, histograms were created.
 
 \noindent
-A histogram of the symptom duration associated with the pain maps is illustrated in figure \ref{fig:histoduration}.
+A histogram of the pain duration associated with the pain maps is illustrated in figure \ref{fig:histoduration}.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/histogramDuration}
-\caption{A histogram of the symptom duration according to the number of pain maps.}
+\caption{A histogram of the pain duration according to the number of pain maps.}
 \label{fig:histoduration}
 \end{figure}
 
 \noindent
-The symptom duration is divided into some classes which the models should classify in addition to. To test the models are the data firstly divided into two extremes, since it is assumed that if the models predict badly with the extremes, the models will not predict better with multiple classifications of symptom duration. 
+The pain duration is divided into some classes which the models should classify in addition to. To test the models are the data firstly divided into two extremes, since it is assumed that if the models predict badly with the extremes, the models will not predict better with multiple classifications of pain duration. 
 By considering the amount of data and the distribution shown in the histogram class intervals were chosen to be 0 to 12 months (n=), and 36 to 300 months (n=). Afterwards, the interval between is used as a third classification. 
 **** HOW MANY DATA IN EACH CLASS ****\newline
 
@@ -95,7 +95,7 @@ To illustrate the distribution of the individuals’ worst pain intensity in the
 \end{figure}
 
 \noindent
-Likewise to the symptom duration classification, the worst pain intensity is divided into the extremes, which are chosen to be intervals 1 to 4 and 8 to 10. The third classification constitute the interval between the extremes.
+Likewise to the pain duration classification, the worst pain intensity is divided into the extremes, which are chosen to be intervals 1 to 4 and 8 to 10. The third classification constitute the interval between the extremes.
 
 
 \subsection{Threshold selection}\label{sec:Selectthreshold}
@@ -128,21 +128,21 @@ Based on analysis of the five pain maps and bar charts, in figure \ref{fig:thres
 
 
 \subsection{Simple regression models}
-To verify the assumption of nonlinear data, linear regressions on the data representations and output, symptom duration or pain intensity, are created. 
-Other features in the morphology- and location-representation are respectively the size of the pain (number of pain pixels) and the number of active regions. If these simple features have a linear correlation to the symptom duration or pain intensity,  it may not be significant to investigate morphology and location as features in the deep learning models. \newline
+To verify the assumption of nonlinear data, linear regressions on the data representations and output, pain duration or intensity, are created. 
+Other features in the morphology- and location-representation are respectively the size of the pain (number of pain pixels) and the number of active regions. If these simple features have a linear correlation to the pain duration or intensity,  it may not be significant to investigate morphology and location as features in the deep learning models. \newline
 \noindent
-To investigate if pain size has a linear correlation to symptom duration, a linear regression i created, which is shown in figure \ref{fig:durationRegression}.
+To investigate if pain size has a linear correlation to pain duration, a linear regression i created, which is shown in figure \ref{fig:durationRegression}.
 \newline
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/durationRegression}
-\caption{A linear regression of the the number of pain pixels and symptom duration.}
+\caption{A linear regression of the the number of pain pixels and pain duration.}
 \label{fig:durationRegression}
 \end{figure}
 
 \noindent
-As a result of the linear regression model was $R^2=0.046$, which indicates that there is no linear correlation between the number of pain pixels and symptom duration.\newline
+As a result of the linear regression model was $R^2=0.046$, which indicates that there is no linear correlation between the number of pain pixels and pain duration.\newline
 \noindent
 A linear regression model of the number of pain pixels and pain intensity is made, which is shown in figure \ref{fig:painRegression}. \newline
 
@@ -157,23 +157,23 @@ A linear regression model of the number of pain pixels and pain intensity is mad
 The result in this linear regression was $R^2=0.0117$, which indicates that there is no any linear correlation to be found between the number of pain pixels and pain intensity.\newline
 
 \noindent
-These linear regression models are not very suitable when trying to find a correlation between the number of pain pixels and symptom duration or pain intensity. However, they can be compared to the performance of the deep learning models.
+These linear regression models are not very suitable when trying to find a correlation between the number of pain pixels and pain duration or intensity. However, they can be compared to the performance of the deep learning models.
 
 
 
 
 \noindent
-A linear regression between the number of active pain regions with a threshold on 5\%  and symptom duration is shown in figure \ref{fig:regDuration}. \newline
+A linear regression between the number of active pain regions with a threshold on 5\% and pain duration is shown in figure \ref{fig:regDuration}. \newline
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/regionsRegressionDuration}
-\caption{A linear regression of the number of active pain regions and symptom duration.}
+\caption{A linear regression of the number of active pain regions and pain duration.}
 \label{fig:regDuration}
 \end{figure}
 
 \noindent
-The result in this linear regression between the number of active pain regions and symptom duration was $R^2=0.0357$, which indicates that there is no any linear correlation to be found.\newline
+The result in this linear regression between the number of active pain regions and pain duration was $R^2=0.0357$, which indicates that there is no any linear correlation to be found.\newline
 Thereto, a linear correlation between the number of active pain regions and pain intensity is shown in figure \ref{fig:regPain}.
 
 \begin{figure} [H]
@@ -187,14 +187,14 @@ Thereto, a linear correlation between the number of active pain regions and pain
 The result of the linear regression between the number of active pain regions and pain intensity was $R^2=0.00833$, which once again indicates nonlinearity. 
 
 \noindent
-Based on the four linear regression models, it is assumed that a single feature, number of pain pixels or number of active pain regions with a 5\% threshold, may not have a simple correlation with the outputs, symptom duration or pain intensity. Hence a deep learning model may find patterns in the pain maps in relation to either symptom duration or pain intensity.
+Based on the four linear regression models, it is assumed that a single feature, number of pain pixels or number of active pain regions with a 5\% threshold, may not have a simple correlation with the outputs, pain duration or intensity. Hence a deep learning model may find patterns in the pain maps in relation to either pain duration or intensity.
 
 
 
 \section{Pre-processing} \label{sec:prepros}
 The data is pre-processed in MatLab to prepare the three different data representations. The three data representations are morphology, regions and combined, which are described in section \ref{sec:representation}. Common for the data representation is that the pain maps are imported as image-matrices whereafter the matrices are resized, since the given pain maps was collected at different resolutions (screen sizes). Furthermore, the matrices are cropped to sort out unnecessary data like the areas inferior and superior to the knee.
 Before the data is used as an input in the deep learning models, each matrix which represent an image, is converted into a vector whereafter they are assembled in one matrix for each data representation. To get additional information associated with the pain maps, gender is added by including a column vector to the three matrices.
-In addition to the input, a classification label is added. The label, which is either symptom duration or pain intensity, is added as a column vector.
+In addition to the input, a classification label is added. The label, which is either pain duration or intensity, is added as a column vector.
 The following sections describe the pre-processing of the individual data representations.
 
 \subsection{Morphology-representation} \label{sec:Morph}
@@ -209,12 +209,12 @@ Firstly, the image of the original pain map is gray-scaled to get a one-dimensio
 \end{figure}
 
 \noindent
-An illustration of this morphology-representation is created to convey how the data is assembled and transferred to the model. The illustration is shown in figure \ref{fig:binmatrix}, where a matrix containing image-vectors for all the pain maps and appurtenant gender and either symptom duration or pain intensity.
+An illustration of this morphology-representation is created to convey how the data is assembled and transferred to the model. The illustration is shown in figure \ref{fig:binmatrix}, where a matrix containing image-vectors for all the pain maps and appurtenant gender and either pain duration or intensity.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.8\textwidth]{figures/binaryimagematrix}
-\caption{An illustration of the matrix of the morphology-representation. The matrix consists of image-vectors for each individuals where the two last columns indicate the corresponding gender (blue column vector) and either symptom duration or pain intensity (green column vector). The image-vectors have a length equal to the number of pixels in the pain maps.}
+\caption{An illustration of the matrix of the morphology-representation. The matrix consists of image-vectors for each individuals where the two last columns indicate the corresponding gender (blue column vector) and either pain duration or intensity (green column vector). The image-vectors have a length equal to the number of pixels in the pain maps.}
 \label{fig:binmatrix}
 \end{figure}
 
@@ -243,6 +243,6 @@ In this representation the superimposed matrix from the region-representation is
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/onehotmatrix}
-\caption{(a) An illustration of a one-hot encoded pain map and (b) shows the image-vectors in one assembled matrix with gender and either symptom duration or pain intensity.}
+\caption{(a) An illustration of a one-hot encoded pain map and (b) shows the image-vectors in one assembled matrix with gender and either pain duration or intensity.}
 \label{fig:onehot}
 \end{figure}
