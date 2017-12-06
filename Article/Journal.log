@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  6 DEC 2017 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  6 DEC 2017 18:12
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -875,7 +875,7 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 119.
 
 (Introduction/introduction.tex
-Underfull \vbox (badness 6608) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -919,7 +919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--18
  []
 
 [2 <./Figures/twoPainmaps.png>]
-<Figures/atlas.png, id=67, 324.0105pt x 175.857pt>
+<Figures/atlas.png, id=66, 324.0105pt x 175.857pt>
 File: Figures/atlas.png Graphic file (type png)
 <use Figures/atlas.png>
 Package pdftex.def Info: Figures/atlas.png  used on input line 26. on input lin
@@ -963,7 +963,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
  ) 
 Here is how much of TeX's memory you used:
  10931 strings out of 493312
- 165795 string characters out of 3138898
+ 165799 string characters out of 3138898
  296489 words of memory out of 3000000
  14032 multiletter control sequences out of 15000+200000
  58970 words of font info for 237 fonts, out of 3000000 for 9000
@@ -976,7 +976,7 @@ MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pa
 latino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a
 .pfb>
-Output written on Journal.pdf (4 pages, 1782699 bytes).
+Output written on Journal.pdf (4 pages, 1782879 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)

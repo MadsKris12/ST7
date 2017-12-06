@@ -1,8 +1,6 @@
 \changetocdepth {2}
 \select@language {english}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Primary aim}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}Secondary aim}{2}{section.1.2}
 \contentsline {chapter}{\chapternumberline {2}Background}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Anatomy of the Knee}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Pain}{5}{section.2.2}
