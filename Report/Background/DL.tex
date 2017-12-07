@@ -1,7 +1,7 @@
 \subsection{Deep Learning}
 Deep learning is a branch of machine learning. The main difference between the use of machine learning and deep learning, is that deep learning is more suitable for handling raw data forms. Instead, a machine learning system often needs a feature extractor, that will generate a feature vector from the data that can be used as an input.
-Deep learning is based on different techniques that makes it able to handle raw data, mainly because of its structure.\citep{LeCun2015, Schmidhuber2015} Because of this the system will automatically detect the necessary representations needed for classification and detection. \newline
-Neural network is a structure of deep learning which consists of different layers, that can be divided into input- and output-layers, with one or more hidden layers in between \citep{Schmidhuber2015}. The key aspect of these layers is that the features are not defined by programmers, but they are found and learned from raw data using a general–purpose learning procedure.\citep{LeCun2015} An example of a neural network structure can be seen in figure \ref{fig:NN_structure}.   
+Deep learning is based on different techniques that makes it able to handle raw data, mainly because of its structure.\citep{LeCun2015, Schmidhuber2015} This allows the system to automatically detect necessary representations needed for classification and detection. \newline
+Neural network is a structure of deep learning which consists of different layers, that can be divided into input- and output-layers, with one or more hidden layers in between \citep{Schmidhuber2015}. The key aspect of these layers is that the features are not defined by programmers, but they are found and learned from data using a general–purpose learning procedure.\citep{LeCun2015} An example of a neural network structure can be seen in figure \ref{fig:NN_structure}.   
 
 \begin{figure} [H]
 \centering
@@ -38,17 +38,54 @@ Unsupervised learning is when training is performed with data that has no output
 \subsection{Back-propagation}
 ***** CORRECT FORWARD AND BACKWARD + EQUATIONS******
 Back-propagation is a popular learning algorithm in neural networks, that is based on gradient descent, and used because of it's simplicity and computationally efficiency.\citep{Bengio2012, Duda2000} It is the learning process where the weights of a neural network are adjusted in order to reduce the error calculated between the calculated output of the network and the expected output. This makes back-propagation closely related to supervised learning, to which back-propagation is the most general method used.\citep{Duda2000}  
-When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of the training. Based on a loss function a loss is calculated for every input that passes through the network, that may be used as a part of back-propagation to make the adjustments on the weights to reduce this loss. As training progresses, the loss should decrease as a result of the weight adjustments, and improve the performance of the neural network.\citep{LeCun2015, Goodfellow2016, Duda2000}   
+
+The basic concept is that gradients can be computed efficiently by propagation from the output to the input in order to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as the inputs and weights multiplication of separate node summed with additional coefficient called bias.\citep{Hameed2016,LeCun1998}. When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of the training. When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of the training.
+During the second backward part, a loss is calculated based on a loss function for every input that passes through the network, that may be used as a part of back-propagation to make the adjustments on the weights to reduce the loss. As training progresses, the loss should decrease as a result of the weight adjustments, and improve the performance of the neural network.\citep{LeCun2015, Goodfellow2016, Duda2000}   
 This learning process continues until optimal weights with minimum error is reached.\citep{Hameed2016}
 \noindent
-The basic concept is that gradients can be computed efficiently by propagation from the output to the input in order to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as the inputs and weights multiplication of separate node summed with additional coefficient called bias.\citep{Hameed2016,LeCun1998} \\
+
+\subsubsection{Activation functions}
+Deep learning networks are structures of hidden layers, and this requires to choose the activation functions for computing the hidden layer values and to decide whether node could be considered as active or not\citep{Goodfellow2016}. The activation function is a nonlinear function which give neural network nonlinear capabilieties\citep{Bengio2012}. It applied element-wise and can be defined as new output of each node:
+>>>>EQUATION<<<<
+
+Sigmoid activation function is one of the most common activation functions which monotonicaly approches at some finite values as $\pm\infty$ .\citep{Bengio2012} Most common examples would be the standard logistic function $\f(x) = 1/(1 + e^−x)$ and hyperbolic tangent $\[f(x) = tanh(x)$ which is shown in figure \ref{fig:Sigmoids}.
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/Sigmoids}
+\caption{(a) Standard logistic function and (b) hyperbolic tangent. Edited \citep{Bengio2012}.}
+\label{fig:Sigmoids}
+\end{figure}
+
+Another activation function
+In model neural networks, rectified linear unit or ReLu is recommended to use as a default activation function\citep{Goodfellow2016}.
+
+
+ReLu and Sigmoid
+
+
+
 
 MAYBE TALK ABOUT ACTIVATION FUNCTIONS IN RELATION TO BACKPROPAGATION. 
-
 IF WE WILL HAVE TIME WE NEED TO ADD ACTIVATION GRAPHS WITH EXPLANATION
-
 A PROBLEM OFTEN RELATED TO OPTIMIZATION IS THE LAGER THE NETWORK THE HARDER IT IS TO OPTIMIZE, BUT IN ANOTHER WAY IF THE NETWORK IS SMALL AND SIMPLE THE EASIER IT IS TO OPTIMIZE. 
 
+\subsubsection{Learning curves}
+Learning curves is used to observe the error on the training, validation and testing sets, which is increased because of randomly initialized weights and biases \citep{Duda2000}. The error is presented over time, which in deep learning is expressed as the number of epochs.
+During the beginning of training, the training error of network will typically be relatively high, but during training the error decreases monotonically, as the weights are adjusted in the network \citep{Duda2000}. An illustration of how the error values are affected during training can be seen in figure \ref{fig:learningCurve}.
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/learningCurves}
+\caption{Illustration of how training (black), validation (red), and test (orange) error is affected by the increase in epochs. Edited \citep{Duda2000}.}
+\label{fig:learningCurve}
+\end{figure}
+
+\noindent
+From the figure it can be seen how the error value of the validation, can be used to evaluate the network. 
+Near the fifth epoch the validation and the test error starts to rise, indicating that the network is overfitting to the training data, thereby decreasing the generalization abilities. 
+Validation error can therefore be used as stop criterion for when the training is optimal, and prevent overfitting. 
+Typically the validation and test error will always be higher than the training error, which is also seen in figure \ref{fig:learningCurve}.\citep{Duda2000}
 
 \subsubsection{Gradient Descent}
 Gradient descent is one of the most common techniques for optimizing neural networks. It is a way to minimize the loss function by updating the parameters, like weights, in the opposite direction of the gradient of the objective function.\citep{Ruder2016} The principle of the gradient descent could be explained as a "ball climbing down a hill" until a local minimum is reached as shown in figure \ref{fig:GDgraph}. At each step, the opposite direction of the gradient is taken and the step size is determined by the value of the learning rate together with the slope of the gradient until the convergence is reached. Convergence means that oscillations of the value are small enough to call it the minimum value.\citep{Raschka2016}
@@ -64,7 +101,7 @@ Gradient descent is one of the most common techniques for optimizing neural netw
 There are three variants of gradient descent: batch gradient descent, stochastic gradient descent, and mini-batch gradient descent. They differ on the amount of data used to compute the gradient of the loss function. Depending on which of the gradient descent variants is used, the trade-off between the accuracy and the runtime could be seen.
 
 \noindent
-Batch gradient descent computes the gradient of the cost function with regards to the parameters for the entire training dataset.\citep{Ruder2016} Batch gradient descent has the significant deficiency, it takes a single step for one pass over the training set, meaning the larger dataset, the slower algorithm updates the weights and the longer it will take to reach global minimum.[quota] In cases like these, stochastic gradient descent is being used more commonly. **** SOURCE ****
+Batch gradient descent computes the gradient of the cost function with regards to the parameters for the entire training dataset. Batch gradient descent has the significant deficiency, it takes a single step for one pass over the training set, meaning the larger dataset, the slower algorithm updates the weights and the longer it will take to reach global minimum.\citep{Ruder2016} 
 
 \noindent
 Stochastic gradient descent (SGD) performs a parameter update for each training example and label. It is therefore much faster and it also performs frequent updates with a high variance causing loss function to fluctuate. These fluctuations enable it to jump to new potentially better local minima, but it may complicate the convergence to reach the exact minimum because of overshooting.\citep{Zhang2014}
@@ -73,16 +110,16 @@ Stochastic gradient descent (SGD) performs a parameter update for each training 
 Mini-batch gradient descent performs the parameters update for every mini-batch of training examples, specified by a batch size. By that, the variance of the parameter updates are reduced leading to more stable convergence and fast performance.\citep{Ruder2016}
 
 \noindent
-Additionally, there could be few challenges while using gradient descent as an optimizer. It is difficult to pick a proper learning rate so few gradient descent optimization algorithms were invented. The most popular optimizers are adagrad, adadelta and adam. **** SOURCE ****
+Additionally, there could be few challenges while using gradient descent as an optimizer. It is difficult to pick a proper learning rate so few gradient descent optimization algorithms were invented. The most widely used methods are momentum, adagrad, adadelta and adam.\citep{Ruder2016} 
 
-%\noindent
-%Momentum is a method for accelerating SGD in a relevant direction and for reduction of oscillations. As a result, faster convergence is obtained but there is a risk of overshooting the minimum value.\citep{Qian1999}
+\noindent
+Momentum is a method for accelerating SGD in a relevant direction and for reduction of oscillations. As a result, faster convergence is obtained but there is a risk of overshooting the minimum value.\citep{Qian1999, Ruder2016}
 
 \noindent
 Adagrad is an algorithm for gradient descent optimization which adapts the learning rate to the parameters. It performs larger updates for frequent and smaller for infrequent features. It has one weakness if the learning rate shrinks too much, the algorithm is no longer able to adapt.\citep{Ruder2016}
 
 \noindent
-Adadelta is an updated version of Adagrad, but the learning rate is monotonically decreasing. Using this optimizer, there is no need to tune the parameters of optimizer meaning that it can be applied in a variety of situations.\citep{Ruder2016}
+Adadelta is an adaptive learning rate method. Different to Adagrad, in Adadelta learning rate is monotonically decreasing. Using this optimizer, there is no manual tunning of the parameters of optimizer meaning that it can be applied in a variety of situations.\citep{Ruder2016}
 
 \noindent
 Adam stands for Adaptive Moment Estimation. It is the most used method for computing adaptive learning rate and updating the parameters.  This optimizer calculates the learning rate for each parameter and stores momentum changes separately. This helps to reach the convergence faster with a decent learning speed.\citep{Kingma2015}\\
@@ -103,25 +140,6 @@ However, the results are not always similar. All of the optimizers perform diffe
 % Mention local minima and gobal minima and why it is not so importent to find the absolute global minima \citep{Duda2000}. 
 
 % Mention the mini bacthes are used in order to reduce the computation cost, and that the size of the mini-batch is often what limits the network computation. , mini-batches and optimizers
-
-
-
-\subsubsection{Learning curves}
-**** EXPLAIN WHY IT'S GOOD TO SEPARATE DATA AND WHY? MOVE IT UP BEFORE GRADIENT  ****
-During the beginning of training, the training error of network will typically be relatively high, but during training the error decreases monotonically, as the weights are adjusted in the network \citep{Duda2000}. An illustration of how the error values are affected during training can be seen in figure \ref{fig:learningCurve}.
-
-\begin{figure} [H]
-\centering
-\includegraphics[width=0.7\textwidth]{figures/learningCurves}
-\caption{Illustration of how training (black), validation (red), and test (orange) error is affected by the increase in epochs. Edited \citep{Duda2000}.}
-\label{fig:learningCurve}
-\end{figure}
-
-\noindent
-From the figure it can be seen how the error value of the validation, can be used to evaluate the network. 
-Near the fifth epoch the validation and the test error starts to rise, indicating that the network is overfitting to the training data, thereby decreasing the generalization abilities. 
-Validation error can therefore be used as stop criterion for when the training is optimal, and prevent overfitting. 
-Typically the validation and test error will always be higher than the training error, which is also seen in figure \ref{fig:learningCurve}.\citep{Duda2000}
 
 \subsection{Dropout}\label{sec:dropout}
 Dropout is a regulation technique used to reduce overfitting of the neural network. In a network the dropout is applied to the individual layers, and works by randomly dropping different nodes temporarily in the given layer during training. An illustration of the principle of dropout can be seen in figure \ref{fig:Dropout}. This parameter is specified with a percentage, which defines the fraction of the nodes that drop \citep{Chollet2015}.
