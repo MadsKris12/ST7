@@ -30,7 +30,7 @@ To define the location of the PFP the knees are divided into 20 regions, which a
 
 \noindent
 The regions are based on the anatomical structures according to the areas where individuals often indicate pain.
-There are ten regions on each knee, where region 1 and 3 represent the superior lateral and superior medial areas for patella. Region 2 refers to quadriceps tendon. The patella is divided into lateral and medial regions, which are region 4 and 5. Region 6 and 8 are lateral and medial joint line areas. Patella tendor is region 7 and the two last regions, 9 and 10, are tibia lateral and medial.\citep{Elson2010}
+There are ten regions on each knee, where region 1 and 3 represent the superior lateral and superior medial areas for patella. Region 2 refers to quadriceps tendon. The patella is divided into lateral and medial regions, which are region 4 and 5. Region 6 and 8 are lateral and medial joint line areas. Patella tendor is region 7 and the two last regions, 9 and 10, are tibia lateral and medial.\citep{Elson2010}\\
 
 \noindent
 \textbf{Data representations} \newline
@@ -64,5 +64,13 @@ Active regions \& pain intensity                 & 0.0083         \\ \bottomrule
 Based on the four linear regression models, it was assumed that single features, number of pain pixels or number of active pain regions, do not have a linear correlation with the outputs, pain duration or intensity. Hence a deep learning model may find patterns in the pain maps in relation to either pain duration or intensity. \newline
 
 \noindent
-\textbf{DEEP LEARNING}
+\textbf{DEEP LEARNING}\newline
 \noindent
+Deep learning models were developed on a computer with 4x ‘‘Intel® Core™ i7‘‘ CPUs and one single GPU of type "Geforce GTX 970M", using the programming language Python v3.6.3. Libraries used was Keras with a TensorFlow backend. \newline
+\noindent
+Multiple deep learning models suitable to the three data representation were created. The models used supervised learning, which is defined as a network learning to classify a given input corresponding to a specific output \citep{Goodfellow2016}. The models classify the input, pain maps and gender, in relation to the determined outputs, pain duration or pain intensity.\newline
+\noindent
+Two of the models, which managed the morphology-representation and the representation of the combination of morphology and location, were developed using the same layers, convolutional- followed by pooling layers and fully connected layers. Convolutional layers perform highly in image classification that automatically learn a complex pattern by extracting visual features from the pixel-level content \citep{Acquarelli2017,LeCun1998}. The combination of convolutional and pooling layers performed feature extraction while the classification was made by fully connected layers. \newline
+\noindent
+The model that classified the location should not process morphology, thus a convolutional layer was not necessary, and thereby only contained fully connected layers. 
+

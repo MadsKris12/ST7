@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{14}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -63,20 +63,6 @@ Shellie~A. Boudreau, E.~N. Kamavuako, and Et.al.
 \newblock 2017.
 \newblock \doi{10.1186/s12891-017-1521-5}.
 
-\bibitem[Haefeli and Elfering(2005)]{Haefeli2005}
-Mathias Haefeli and Achim Elfering.
-\newblock {Pain assessment}.
-\newblock 2005.
-\newblock \doi{10.1007/s00586-005-1044-x}.
-
-\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Hinton]{LeCun2015}
-Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
-\newblock {Deep Learning}.
-\newblock \emph{Nature Insight Review}, pages 436--444, 2015.
-\newblock \doi{10.1038/nature14539}.
-\newblock URL
-  \url{https://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf}.
-
 \bibitem[Solutions(2015)]{Solutions2015}
 Aglance Solutions.
 \newblock {Visual insight for clinical reasoning – Navigate Pain}, 2015.
@@ -88,5 +74,33 @@ D.~W. Elson, S.~Jones, and Et.al.
   instrument developed for diagnostic, communcation and research purposes}.
 \newblock 2010.
 \newblock \doi{10.1016/j.knee.2010.08.012}.
+
+\bibitem[Goodfellow et~al.(2016)Goodfellow, Bengio, and
+  Courville]{Goodfellow2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock \emph{{Deep Learning}}.
+\newblock MIT Press, 2016.
+\newblock URL \url{http://www.deeplearningbook.org}.
+
+\bibitem[Acquarelli et~al.(2017)Acquarelli, van Laarhoven, Gerretzen, Tran,
+  Buydens, and Marchiori]{Acquarelli2017}
+Jacopo Acquarelli, Twan van Laarhoven, Jan Gerretzen, Thanh~N. Tran,
+  Lutgarde~M.C. Buydens, and Elena Marchiori.
+\newblock {Convolutional neural networks for vibrational spectroscopic data
+  analysis}.
+\newblock \emph{Analytica Chimica Acta}, 954:\penalty0 22--31, 2017.
+\newblock ISSN 18734324.
+\newblock \doi{10.1016/j.aca.2016.12.010}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0003267016314842}.
+
+\bibitem[LeCun et~al.(1998)LeCun, Bottou, Bengio, and Haffner]{LeCun1998}
+Yann LeCun, L{\'{e}}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock {Gradient-based learning applied to document recognition}.
+\newblock \emph{Proceedings of the IEEE}, 86\penalty0 (11):\penalty0
+  2278--2323, 1998.
+\newblock ISSN 00189219.
+\newblock \doi{10.1109/5.726791}.
+\newblock URL \url{http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf}.
 
 \end{thebibliography}
