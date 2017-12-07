@@ -25,18 +25,24 @@
 \BOOKMARK [2][-]{subsection.3.3.1}{Morphology-representation}{section.3.3}% 25
 \BOOKMARK [2][-]{subsection.3.3.2}{Regions-representation}{section.3.3}% 26
 \BOOKMARK [2][-]{subsection.3.3.3}{Combined-representation}{section.3.3}% 27
-\BOOKMARK [1][-]{section.3.4}{Programs}{chapter.3}% 28
-\BOOKMARK [1][-]{section.3.5}{Neural network implementation and models}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.5.1}{Sofware and hardware}{section.3.5}% 30
-\BOOKMARK [0][-]{chapter.4}{Description of models}{}% 31
-\BOOKMARK [1][-]{section.4.1}{Data handling and design choices of the models}{chapter.4}% 32
-\BOOKMARK [2][-]{subsection.4.1.1}{Data handling in python}{section.4.1}% 33
-\BOOKMARK [2][-]{subsection.4.1.2}{Optimization techniques}{section.4.1}% 34
-\BOOKMARK [2][-]{subsection.4.1.3}{Training of the networks}{section.4.1}% 35
-\BOOKMARK [1][-]{section.4.2}{Vector image model}{chapter.4}% 36
-\BOOKMARK [1][-]{section.4.3}{Raw binary representation model}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.4}{Combined representation model}{chapter.4}% 38
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 39
-\BOOKMARK [0][-]{section*.51}{Bibliography}{}% 40
-\BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\) KOOS2016}{}% 41
-\BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 42
+\BOOKMARK [1][-]{section.3.4}{Neural network implementation and models}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.4.1}{Sofware and hardware}{section.3.4}% 29
+\BOOKMARK [2][-]{subsection.3.4.2}{Data handling and design choices of the models}{section.3.4}% 30
+\BOOKMARK [2][-]{subsection.3.4.3}{Regions-representation model}{section.3.4}% 31
+\BOOKMARK [2][-]{subsection.3.4.4}{Combined representation model}{section.3.4}% 32
+\BOOKMARK [2][-]{subsection.3.4.5}{Data handling in python}{section.3.4}% 33
+\BOOKMARK [1][-]{section.3.5}{Optimization}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.5.1}{Training and validation}{section.3.5}% 35
+\BOOKMARK [2][-]{subsection.3.5.2}{Testing}{section.3.5}% 36
+\BOOKMARK [0][-]{chapter.4}{Description of models}{}% 37
+\BOOKMARK [1][-]{section.4.1}{Data handling and design choices of the models}{chapter.4}% 38
+\BOOKMARK [2][-]{subsection.4.1.1}{Data handling in python}{section.4.1}% 39
+\BOOKMARK [2][-]{subsection.4.1.2}{Optimization techniques}{section.4.1}% 40
+\BOOKMARK [2][-]{subsection.4.1.3}{Training of the networks}{section.4.1}% 41
+\BOOKMARK [1][-]{section.4.2}{Vector image model}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.3}{Raw binary representation model}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.4}{Combined representation model}{chapter.4}% 44
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 45
+\BOOKMARK [0][-]{section*.62}{Bibliography}{}% 46
+\BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\) KOOS2016}{}% 47
+\BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 48
