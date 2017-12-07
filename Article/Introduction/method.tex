@@ -3,7 +3,7 @@ Data used in this study were collected beforehand from an on-going clinical tria
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.4\textwidth]{Figures/twoPainmaps}
+\includegraphics[width=0.35\textwidth]{Figures/twoPainmaps}
 \caption{Pain maps from individuals with uni- and bilateral PFP. The red markings indicate the area of pain perceived by the individuals.}
 \label{fig:twoPainmaps}
 \end{figure}
@@ -23,7 +23,7 @@ To define the location of the PFP the knees are divided into 20 regions, which a
 
 \begin{figure} [H] 
 \centering
-\includegraphics[width=0.38\textwidth]{Figures/atlas}
+\includegraphics[width=0.4\textwidth]{Figures/atlas}
 \caption{The regions of the left (L1-L10) and right (R1-R10) knees, where each knee is split into ten regions.}
 \label{fig:atlas}
 \end{figure}
@@ -46,10 +46,6 @@ Lastly, a data representation which reflects a combination of morphology and loc
 \textbf{Linear regressions} \newline
 \noindent
 It was assumed that the data was nonlinear, because PFP is subjective and multidimensional. To verify this assumption of nonlinearity, linear regression on simple features was investigated. These features respond to number of pain pixels and number of active pain regions in relation to pain duration and intensity. If it was possible to find a linear correlation between these simple features and the outputs, it may not be significant to investigate the morphology and the location of pain in deep learning models. Four linear regressions were explored, which resulted in $R^2$ values shown in tab. \ref{tab:Rvalues}.
-
-\noindent
-\textbf{Optimization of models}\newline
-\noindent
 
 \begin{table}[h]
 \centering
@@ -74,17 +70,40 @@ Based on the four linear regression models, it was assumed that single features,
 Deep learning models were developed on a computer with 4x ‘‘Intel® Core™ i7‘‘ CPUs and one single GPU of type "Geforce GTX 970M", using the programming language Python v3.6.3. Libraries used was Keras with a TensorFlow backend. \newline
 \noindent
 Multiple deep learning models suitable to the three data representation were created. The models used supervised learning, which is defined as a network learning to classify a given input corresponding to a specific output \citep{Goodfellow2016}. The models classify the input, pain maps and gender, in relation to the determined outputs, pain duration or pain intensity.\newline
-
 \noindent
 Two of the models, which managed the morphology-representation and the representation of the combination of morphology and location, were developed using the same layers, convolutional- followed by pooling layers and fully connected layers. Convolutional layers perform highly in image classification that automatically learn a complex pattern by extracting visual features from the pixel-level content \citep{Acquarelli2017,LeCun1998}. The combination of convolutional and pooling layers performed feature extraction while the classification was made by fully connected layers. \newline
 \noindent
 The model that classified the location should not process morphology, thus a convolutional layer was not necessary, and thereby only contained fully connected layers. \newline
 
+\noindent
+\textbf{Optimization of models}\newline
+\noindent
 
-\begin{figure*} [b!]
-\centering
-\includegraphics[width=0.38\textwidth]{Figures/atlas}
-\caption{SÅDEN HER PLACER MAN ET BILLED I MIDTEN!}
-\label{fig:atlas}
-\end{figure*}
+%\begin{figure*} [b!]
+%\begin{tcolorbox}[colframe=black!30!black, colback=white]
+%\centering
+%\includegraphics[width=0.2\textwidth]{Figures/atlas}
+%\caption{SÅDAN LAVER VI EN BOXER MED ET BILLED}
+%\label{fig:atlas1}
+%\end{tcolorbox}
+%\end{figure*}
+
+
+
+%\begin{figure*} [b!]
+%\begin{tcolorbox}[colframe=black!30!black, colback=white]
+%  \begin{subfigure}[b]{0.45\textwidth}
+%    \includegraphics[width=\textwidth]{Figures/atlas}
+%    \caption{FUCK JA}
+%    \label{fig:f11}
+%  \end{subfigure}
+%  \hfill
+%  \begin{subfigure}[b]{0.45\textwidth}
+%    \includegraphics[width=\textwidth]{Figures/twopainmaps}
+%    \caption{FUCK NEJ}
+%    \label{fig:f22}
+%  \end{subfigure}
+%  \caption{SÅDAN SÆTTER VI TO BILLEDER I EN}
+%\end{tcolorbox}
+%\end{figure*}
 
