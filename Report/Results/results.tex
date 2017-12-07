@@ -1,23 +1,27 @@
-This chapter will present the results from training and testing of the three representations. Training results will support arguments to how optimization of the models were performed as well as the generalization performance. Final testing will show how the trained model will generalize unseen data, in the form of a confusion matrix, along with is type 1 and type 2 errors. 
+
+\chapter{Results of model training and testing}
+This chapter will present the results from training and testing of the three data representations. Training results support arguments to how optimization of the models were performed as well as the generalization performance of the models. Final testing shows how the trained model will generalize unseen data, displayed in a confusion matrix, along with it's calculated type 1 and type 2 errors. 
 
 \section{Initial optimization and training of the models}
-From initial grid search of hyperparameters, led to results that were used as and indication to initial setting of the models in order to raise or maintain performance for the different networks. The results of the grid search is shown in \autoref{tab:gridResults}. 
+From initial grid search of hyperparameters, led to results that were used as an indication to initial setting of the models in order to raise or maintain performance for the different networks. The results of the grid search is shown in %\autoref{tab:gridResults}. 
 
 
 \subsection{Simple representation}
 \begin{table}[H]
 \centering
-\label{tab:gridResults}
-\begin{tabular}{llllll}
-\multicolumn{6}{l}{Grid search Optimizers}       \\
-           &           &      &      &     &     \\
-           &           &      &      &     &     \\
-           &           &      &      &     &     \\
-           &           &      &      &     &     \\
-           &           &      &      &     &     \\
-\multicolumn{6}{l}{Grid search batch and epochs} \\
-Epochs     & Batch     &      &      &     &     \\
-1          &           &      &      &     &     \\
+
+\begin{longtable}{|l|l|l|l|l|l|}
+\hline
+\multicolumn{6}{|l|}{Grid search Optimizers}     \\ \hline
+Optimizer: & Mean acc: & SD (+/-)   &      &     &     \\ \hline
+Adam       &           &      &      &     &     \\ \hline
+SGD        &           &      &      &     &     \\ \hline
+Adagrad    &           &      &      &     &     \\ \hline
+RMSProp    &           &      &      &     &     \\ \hline
+
+\multicolumn{6}{l}{Grid search batch and epochs} \\ \hline
+Epochs     & Batch     &      &      &     &     \\ \hline
+1          &           &      &      &     &     \\ \hline 
 2          &           &      &      &     &     \\
 3          &           &      &      &     &     \\
 4          &           &      &      &     &     \\
@@ -33,9 +37,64 @@ Epochs     & Batch     &      &      &     &     \\
            &           &      &      &     &     \\
            &           &      &      &     &     
            
-\end{tabular}
+\end{longtable}
 \caption{Result of grid search according to the simple data representation.}
+\label{tab:gridResults}
 \end{table}
 
+
+
 \section{Training optimization based on validation performance}
-Further optimization was performed based the development in performance of the validation set. This result of the optimization was used to investigate the tendency to under- and overfitting to which the results are shown in \autoref{fig:}
+Further optimization was performed based the development in validation validation. These result was used to evaluate the performance of the model, in terms of the under- and overfitting of the training subset. Results for this training optimization is shown as graphs in %\autoref{fig:}
+
+\subsection{Simple representation training results}
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.2\textwidth]{figures/missimage}
+\caption{Training graphs: }
+\label{fig:simpleGraph}  
+\end{figure}
+
+\subsection{Binary representation training results}
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.2\textwidth]{figures/missimage}
+\caption{Training graphs:}
+\label{fig:binaryGraph}  
+\end{figure}
+
+\subsection{Combined representation training results}
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.2\textwidth]{figures/missimage}
+\caption{Training graphs:}
+\label{fig:combinedGraph}  
+\end{figure}
+
+
+
+\section{Testing results}
+These result reflect the generalization performance of the three representation models, to which the models classification capabilities to unseen data is shown in confusion matrices, from where a type 1 and type 2 error is calculated. 
+\subsection{Simple representation training results}
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.2\textwidth]{figures/missimage}
+\caption{Confusion matrix: Results of classification done on test subset, for simple representation model.}
+\label{fig:simpleConfusion}  
+\end{figure}
+
+\subsection{Binary representation training results}
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.2\textwidth]{figures/missimage}
+\caption{Confusion matrix: Results of classification done on test subset, for binary representation model.}
+\label{fig:binaryConfusion}  
+\end{figure}
+
+\subsection{Combined representation training results}
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.2\textwidth]{figures/missimage}
+\caption{Confusion matrix: Results of classification done on test subset, for combined representation model.}
+\label{fig:combinedConfusion}  
+\end{figure}
