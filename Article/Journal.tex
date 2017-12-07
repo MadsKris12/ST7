@@ -21,6 +21,12 @@
 
 \documentclass[twoside,twocolumn]{article}
 
+%\usepackage[showframe, left=2cm, right=2cm, top=32mm, bottom=32mm, columnsep=25pt]{geometry}% http://ctan.org/pkg/geometry
+\usepackage{graphicx}% http://ctan.org/pkg/graphicx
+\usepackage[left=2cm, right=2cm, top=32mm, bottom=32mm, columnsep=25pt]{geometry}
+\usepackage{stfloats}
+
+
 \makeatletter
 \renewcommand{\fnum@figure}{Fig. \thefigure}
 \makeatother
@@ -28,7 +34,7 @@
 
 \usepackage{blindtext} % Package to generate dummy text throughout this template 
 
-\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[sc]{mathpazo} % Use the Palatino 
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \linespread{1.05} % Line spacing - Palatino needs more space between lines
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
@@ -69,6 +75,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[numbers]{natbib}	
 
+
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
@@ -104,14 +111,14 @@ Estimation of generalization performance of the models was calculated through 5-
 Results: The results showed that the combined representation performed with the highest accuracy (67\%). The location representation and morphology representation scored 63\% and 62\%, respectively, based on pain intensity. Generalization during training showed a higher accuracy for pain intensity classification (highest acc: 67\% SD: 6.78) than pain duration (highest acc: 57.85\% SD: 4.95) using combined data representation.
 (TEST RESULT MISSING: will come later)
  
- \noindent
+\noindent
 Discussion: Despite pain intensity being defined as multidimensional and subjective, the performance accuracy were higher than that of pain duration. The results may indicate that a combination of the morphology and the location of the pain influence the classification performance in relation to pain duration or intensity. Currently, it is unclear if deep learning methods may be a suitable approach for classifying PFPS to work as support in a clinical setting, to which further investigation is necessary. Improvements could be found when more data become available to better reflect generalization patterns in PFP drawings.  
 
 \end{abstract}
 }
 
 %----------------------------------------------------------------------------------------
-\usepackage[left=2cm, right=2cm, top=32mm, bottom=32mm, columnsep=25pt]{geometry}
+%\usepackage[left=2cm, right=2cm, top=32mm, bottom=32mm, columnsep=25pt]{geometry}
 \begin{document}
 
 % Print the title
@@ -172,6 +179,4 @@ Discussion: Despite pain intensity being defined as multidimensional and subject
 %\cleardoublepage
 
 \endgroup
-
-
 \end{document}

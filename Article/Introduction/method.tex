@@ -36,6 +36,7 @@ There are ten regions on each knee, where region 1 and 3 represent the superior 
 \textbf{Data representations} \newline
 \noindent
 To investigate whether morphology and location of pain have an influence on the outputs, pain duration and intensity, the pain maps are encoded in multiple data representations. The pain maps were processed in MatLab, where the images were resized, since they were collected at different resolutions (screen sizes) and cropped to sort out unnecessary data like the areas inferior and superior to the knee.  Each data representation is reflected in a matrix consisting of the pain maps, gender and the output, pain duration and intensity. Since the original pain maps reflecting the morphology of the pain, thus the morphology-representation does not require further manipulation. \newline
+
 \noindent
 To investigate whether the location alone have a correlation to the outputs, a simplified representation of the pain maps are created. The location of the pain is then reflected by the use of the defined knee regions (fig. \ref{fig:atlas}), where each region represent a value of 0 (not active) or 1 (active) in a vector.  The values were defined by using a threshold to determine whether a region was considered active in relation the amount of pain. A threshold was required to increase the confidence of an active pain region by avoiding minimal contributions e.g. small pain areas in the associated regions. Simultaneously the threshold should not be too large so that pain areas was excluded. The threshold was decided based on an analysis on five random pain maps, where threshold values of 0, 5, 10 and 15\% was compared. The threshold represent which minimal percentage of pain should be present in a specific region before it is considered active. Based on the analysis a 5\% threshold was chosen. \newline
 \noindent
@@ -45,6 +46,10 @@ Lastly, a data representation which reflects a combination of morphology and loc
 \textbf{Linear regressions} \newline
 \noindent
 It was assumed that the data was nonlinear, because PFP is subjective and multidimensional. To verify this assumption of nonlinearity, linear regression on simple features was investigated. These features respond to number of pain pixels and number of active pain regions in relation to pain duration and intensity. If it was possible to find a linear correlation between these simple features and the outputs, it may not be significant to investigate the morphology and the location of pain in deep learning models. Four linear regressions were explored, which resulted in $R^2$ values shown in tab. \ref{tab:Rvalues}.
+
+\noindent
+\textbf{Optimization of models}\newline
+\noindent
 
 \begin{table}[h]
 \centering
@@ -69,8 +74,17 @@ Based on the four linear regression models, it was assumed that single features,
 Deep learning models were developed on a computer with 4x ‘‘Intel® Core™ i7‘‘ CPUs and one single GPU of type "Geforce GTX 970M", using the programming language Python v3.6.3. Libraries used was Keras with a TensorFlow backend. \newline
 \noindent
 Multiple deep learning models suitable to the three data representation were created. The models used supervised learning, which is defined as a network learning to classify a given input corresponding to a specific output \citep{Goodfellow2016}. The models classify the input, pain maps and gender, in relation to the determined outputs, pain duration or pain intensity.\newline
+
 \noindent
 Two of the models, which managed the morphology-representation and the representation of the combination of morphology and location, were developed using the same layers, convolutional- followed by pooling layers and fully connected layers. Convolutional layers perform highly in image classification that automatically learn a complex pattern by extracting visual features from the pixel-level content \citep{Acquarelli2017,LeCun1998}. The combination of convolutional and pooling layers performed feature extraction while the classification was made by fully connected layers. \newline
 \noindent
-The model that classified the location should not process morphology, thus a convolutional layer was not necessary, and thereby only contained fully connected layers. 
+The model that classified the location should not process morphology, thus a convolutional layer was not necessary, and thereby only contained fully connected layers. \newline
+
+
+\begin{figure*} [b!]
+\centering
+\includegraphics[width=0.38\textwidth]{Figures/atlas}
+\caption{SÅDEN HER PLACER MAN ET BILLED I MIDTEN!}
+\label{fig:atlas}
+\end{figure*}
 
