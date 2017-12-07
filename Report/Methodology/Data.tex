@@ -11,10 +11,15 @@ Data used in this project were collected beforehand from an on-going FOXH trial 
 \end{figure}
 
 \noindent
-In addition to the pain maps a corresponding dataset was available. This contained information regarding the individuals in terms of i.a. age, gender, symptom duration, pain intensity and the most prominent knee for pain. However, not all of the information was present for all individuals.
-Before using the data in the deep learning models, a manual data handling was necessary. This incorporates matching the given pain maps and associated ID regarding the individuals, which resulted in 217 pain maps. Furthermore, specific information like gender, symptom duration and pain intensity are collected. The number of pain maps and associated gender and symptom duration, is 205. Additionally, there were 197 pain maps with associated gender and pain intensity.
+In addition to the pain maps a corresponding dataset was available. This contained information regarding the individuals in terms of i.a. age, gender, pain duration, and intensity and the most prominent knee for pain. However, not all of the information was present for all individuals.
+Before using the data in the deep learning models, a manual data handling was necessary. This incorporated matching the given pain maps and associated ID regarding the individuals. Furthermore, specific information like gender, pain duration, and intensity were collected. To visualise the amount of data table \ref{tab:numberofpain} is created.
 
-**** MAKE A TABLE WITH THE NUMBER OF PAIN MAPS ****
+\begin{table} [H]
+\centering
+\includegraphics[width=0.5\textwidth]{figures/numberofpain}
+\caption{Number of pain maps with associated gender, pain duration and intensity available. }
+\label{tab:numberofpain}
+\end{table}
 
 
 \subsection{Software application: Navigate Pain} \label{sec:nav}
@@ -34,12 +39,7 @@ In figure \ref{fig:Navigatepain}(a) is the main screen. By clicking on "Projects
 
 \subsection{Data representations} \label{sec:representation}
 It is presumed that different representations of the pain maps affect the performance accuracy of a deep learning models, hence different data representations were created.
-A study by \citeauthor{Boudreau2017} found a correlation between a prolonged symptom duration and the size of the pain area. It was shown that the pain area increased for individuals that have a symptom duration for longer than five years compared to those with a symptom duration below five years. Likewise, pain intensity had a correlation with the size of pain area for individuals with a symptom duration for more than five years. Furthermore, the shape of the pain developed from a U-shape to an O-shape for individuals with a symptom duration above five years.\citep{Boudreau2017} \\
-Based on this study, the morphology of PFP is considered to be relevant and presented as the first data representation.\\
-
-\noindent
-The PFP is often described as diffuse pain and it is therefore difficult to describe and localise \citep{Witvrouw2014}. To accommodate this it is chosen to divide the pain into different knee regions, as seen in figure \ref{fig:atlas}, which may indicate whether regions of the knee influences the PFP. This is converted to a simplified data representation that indicates active pain regions.\newline
-\noindent
+A study by \citeauthor{Boudreau2017} found a correlation between a prolonged pain duration and the size of the pain area. It was shown that the pain area increased for individuals that have a pain duration for longer than five years compared to those with a pain duration below five years. Likewise, pain intensity had a correlation with the size of pain area for individuals with a pain duration for more than five years. Furthermore, the shape of the pain developed from a U-shape to an O-shape for individuals with a pain duration above five years.\citep{Boudreau2017} However it is unknown whether the morphology or location of the pain influence either pain duration or intensity to which two data representations reflecting morphology or locations of the pain are created.
 A combination of the two data representations is created to achieve a third data representation which both include the morphology of the pain and the different active knee regions.
 \noindent
 Furthermore, gender may be considered as an important parameter to use as an input, because of the difference prevalence in PFPS. The distribution of gender in the available data is investigated by creating a histogram, which is shown in figure \ref{fig:histogender}.
@@ -52,35 +52,34 @@ Furthermore, gender may be considered as an important parameter to use as an inp
 \end{figure}
 
 \noindent
-According to the given data the distribution is higher for females than males. The females constitute 156 of the 206 individuals. *** PUT MALES IN! MAKE THE HISTOGRAM NUMBER BIGGER!*** \newline
-
+According to the given data the distribution is higher for females than males. The females constitute 156 of the 207 individuals, and males constituted 51 individuals.  \newline
 
 \noindent
-Since the symptom duration of PFP seems to affect the size and morphology of the pain area, it is chosen to classify the three data representations in proportion to symptom duration. Likewise it is chosen to classify according to pain intensity because of the influence from the size of pain area. 
+Since the pain duration of PFP seems to affect the size and morphology of the pain area, it is chosen to classify the three data representations in proportion to pain duration. Likewise it is chosen to classify according to pain intensity because of the influence from the size of pain area. 
 The three data representations are referred to as morphology-, regions- and combined-representation.
 \newpage
 
 \section{Pre-analysis}
-The pain maps and associated symptom duration as well as pain intensity are analysed to get an overview of the data. The data is analysed in MatLab, where the distribution of the outputs, symptom duration and pain intensity, are investigated whereafter intervals used for classification in the deep learning models are decided. Furthermore, different threshold values are analysed according to five pain maps to select the threshold which should define when a region is active.
-Simple linear regressions are made to investigate whether symptom duration or pain intensity have a linear relation to the size of pain.
+The pain maps and associated pain duration as well as pain intensity are analysed to get an overview of the data. The data is analysed in MatLab, where the distribution of the outputs, pain duration and intensity, are investigated whereafter intervals used for classification in the deep learning models are decided. Furthermore, different threshold values are analysed according to five pain maps to select the threshold which should define when a region is active.
+Simple linear regressions are made to investigate whether pain duration or intensity have a linear relation to the size of pain.
 
 
 \subsection{Classification of data}
-The deep learning models should classify the input, pain maps and gender, in different intervals in relation to symptom duration or pain intensity intervals. To help define the class intervals of both symptom duration and pain intensity, histograms were created.
+The deep learning models should classify the input, pain maps and gender, in different intervals in relation to pain duration or intensity intervals. To help define the class intervals of both pain duration and intensity, histograms were created.
 
 \noindent
-A histogram of the symptom duration associated with the pain maps is illustrated in figure \ref{fig:histoduration}.
+A histogram of the pain duration associated with the pain maps is illustrated in figure \ref{fig:histoduration}.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/histogramDuration}
-\caption{A histogram of the symptom duration according to the number of pain maps.}
+\caption{A histogram of the pain duration according to the number of pain maps.}
 \label{fig:histoduration}
 \end{figure}
 
 \noindent
-The symptom duration is divided into some classes which the models should classify in addition to. To test the models are the data firstly divided into two extremes, since it is assumed that if the models predict badly with the extremes, the models will not predict better with multiple classifications of symptom duration. 
-By considering the amount of data and the distribution shown in the histogram class intervals were chosen to be 0 to 12 and 36 to 300 months. Afterwards, the interval between is used as a third classification. 
+The pain duration is divided into some classes which the models should classify in addition to. To test the models are the data firstly divided into two extremes, since it is assumed that if the models predict badly with the extremes, the models will not predict better with multiple classifications of pain duration. 
+By considering the amount of data and the distribution shown in the histogram class intervals were chosen to be 0 to 12 months (n=), and 36 to 300 months (n=). Afterwards, the interval between is used as a third classification. 
 **** HOW MANY DATA IN EACH CLASS ****\newline
 
 \noindent
@@ -96,11 +95,11 @@ To illustrate the distribution of the individuals’ worst pain intensity in the
 \end{figure}
 
 \noindent
-Likewise to the symptom duration classification, the worst pain intensity is divided into the extremes, which are chosen to be intervals 1 to 4 and 8 to 10. The third classification constitute the interval between the extremes.
+Likewise to the pain duration classification, the worst pain intensity is divided into the extremes, which are chosen to be intervals 1 to 4 and 8 to 10. The third classification constitute the interval between the extremes.
 
 
 \subsection{Threshold selection}\label{sec:Selectthreshold}
-In relation to the data representation that contains information about the active pain regions, it is necessary to find a threshold that decides when a knee region contains enough pain pixels to be considered active. A threshold is required to increase the confidence of an active pain region by avoiding minimal contributions e.g. small pain areas in the associated regions. Simultaneously the threshold may not be too large so that potential pain regions will not be incorporated. The threshold to indicate active pain regions is decided based on an analysis, where threshold values of 5, 10 and 15 percent. A 0 percent threshold was used as a reference. 
+In relation to the data representation that contains information about the active pain regions, it is necessary to find a threshold that decides when a knee region contains enough pain pixels to be considered active. A threshold is required to increase the confidence of an active pain region by avoiding minimal contributions e.g. small pain areas in the associated regions. Simultaneously the threshold may not be too large so that potential pain regions will not be incorporated. The threshold to indicate active pain regions is decided based on an analysis, where threshold values of 5, 10 and 15\%. A 0\% threshold was used as a reference. 
 The analysis of the threshold is tested on five random pain maps to get a general impression of the data. To better distinguish the regions in figure \ref{fig:atlas} different colors are used as shown in figure \ref{fig:colorregion}
 
 
@@ -112,87 +111,90 @@ The analysis of the threshold is tested on five random pain maps to get a genera
 \end{figure}
 
 \noindent
-An example of pain maps and appurtenant bar chart are illustrated in figure \ref{fig:threshold}. The pain maps, figure \ref{fig:threshold}(a-d), are colored in the same colors as figure \ref{fig:colorregion} to indicate which regions are affected by pain according to 5, 10 and 15 percent threshold. Figure (e) shows a bar chart that indicates how many and which active regions there are according to the threshold values.
+An example of pain maps and appurtenant bar chart are illustrated in figure \ref{fig:threshold}. The pain maps, figure \ref{fig:threshold}(a-d), are colored in the same colors as figure \ref{fig:colorregion} to indicate which regions are affected by pain according to 5, 10 and 15\% threshold. Figure (e) shows a bar chart that indicates how many and which active regions there are according to the threshold values.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.95\textwidth]{figures/threshold4}
-\caption{The active knee regions when the threshold is (a) 0 percent, (b) 5 percent, (c) 10 percent and (d) 15 percent. (e) is the bar chart that indicates how many and which knee regions that are considered active.}
+\caption{The active knee regions when the threshold is (a) 0\%, (b) 5\%, (c) 10\% and (d) 15\%. (e) is the bar chart that indicates how many and which knee regions that are considered active.}
 \label{fig:threshold}
 \end{figure}
 
 \noindent
-According to figure \ref{fig:threshold} (a) and (e) it is shown that the knee to the left has nine active regions and the knee to the right has six active knee regions, when the threshold is zero. In proportion to the active regions, pain regions L3, L10 and R1 are very small and thereby the first regions are discarded when the threshold is increased by 5 percent, which is shown in figure (b).
-By comparing figure (a) and (b) minor changes according to the missing regions can be seen, compared to figure (c) and (d) where greater areas disappears after increasing the threshold to 10 and 15 percent.
+According to figure \ref{fig:threshold} (a) and (e) it is shown that the knee to the left has nine active regions and the knee to the right has six active knee regions, when the threshold is zero. In proportion to the active regions, pain regions L3, L10 and R1 are very small and thereby the first regions are discarded when the threshold is increased by 5\%, which is shown in figure (b).
+By comparing figure (a) and (b) minor changes according to the missing regions can be seen, compared to figure (c) and (d) where greater areas disappears after increasing the threshold to 10 and 15\%.
 \noindent
-Based on analysis of the five pain maps and bar charts, in figure \ref{fig:threshold} and appendix \ref{app:thresholds}, a threshold on 5 percent is chosen to avoid including minor pain areas, like region L10, as active knee regions, and to avoid discarding too many and large areas, like regions R3 and R5.
+Based on analysis of the five pain maps and bar charts, in figure \ref{fig:threshold} and appendix \ref{app:thresholds}, a threshold on 5\% is chosen to avoid including minor pain areas, like region L10, as active knee regions, and to avoid discarding too many and large areas, like regions R3 and R5.
 
 
 \subsection{Simple regression models}
-**** MAKE IT MORE CLEAR! ****
-Linear regression models were created to explore whether there is a simple correlation between a single feature and either symptom duration or pain intensity. In relation to the data representations, morphology and regions, it is chosen to investigate two single features in relation to the representations. The features are the number of pain pixel and active pain regions. The two features are visualised according to each output, symptom duration and pain intensity.
-If these simple features have a correlation to the symptom duration or pain intensity, it may not be significant to investigate morphology and division of regions as features in the deep learning models. ***WHY!***
+To verify the assumption of nonlinear data, linear regressions on the data representations and output, pain duration or intensity, are created. 
+Other features in the morphology- and location-representation are respectively the size of the pain (number of pain pixels) and the number of active regions. If these simple features have a linear correlation to the pain duration or intensity,  it may not be significant to investigate morphology and location as features in the deep learning models. \newline
 \noindent
-To test if there is a linear correlation between the number of pain pixel and symptom duration a linear regression model is made, which is shown in figure \ref{fig:durationRegression}. 
+To investigate if pain size has a linear correlation to pain duration, a linear regression i created, which is shown in figure \ref{fig:durationRegression}.
 \newline
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/durationRegression}
-\caption{A linear regression of the symptom duration and the number of pain pixels. ***SMALL TEXT ***}
+\caption{A linear regression of the the number of pain pixels and pain duration.}
 \label{fig:durationRegression}
 \end{figure}
 
 \noindent
-According to the figure it is assumed that there is a poor linear correlation between the symptom duration and number of pain pixels. As a result of the linear regression model was $R^2=0.046$, which indicates that there is no linear correlation, because the value is close to zero.\newline
+As a result of the linear regression model was $R^2=0.046$, which indicates that there is no linear correlation between the number of pain pixels and pain duration.\newline
 \noindent
-A linear regression model of pain intensity and the size of pain area is also made, which is shown in figure \ref{fig:painRegression}. \newline
+A linear regression model of the number of pain pixels and pain intensity is made, which is shown in figure \ref{fig:painRegression}. \newline
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/painRegression}
-\caption{A linear regression of pain intensity stated in VAS and the size of pain area.}
+\caption{A linear regression of the number of pain pixels and pain intensity stated in VAS.}
 \label{fig:painRegression}
 \end{figure}
 
 \noindent
-Figure \ref{fig:painRegression} indicates a wide spread in the data. The result was $R^2=0.0117$, which is very low, so there is a poor linear correlation between pain intensity and the number of pain pixels.\newline
-\noindent
-These linear regression models are not very suitable when trying to find a correlation between symptom duration or pain intensity and the size of pain area. However, they can be compared to the performance of the deep learning models. 
-\noindent
-Beside the linear regressions, the correlation between the number of active regions and either symptom duration or pain intensity is investigated, which is shown in figure \ref{fig:regDuration} and figure \ref{fig:regPain}. \newline
+The result in this linear regression was $R^2=0.0117$, which indicates that there is no any linear correlation to be found between the number of pain pixels and pain intensity.\newline
 
-** LINEAR REGRESSION FOR THEM AS WELL **
+\noindent
+These linear regression models are not very suitable when trying to find a correlation between the number of pain pixels and pain duration or intensity. However, they can be compared to the performance of the deep learning models.
+
+
+
+
+\noindent
+A linear regression between the number of active pain regions with a threshold on 5\% and pain duration is shown in figure \ref{fig:regDuration}. \newline
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=1\textwidth]{figures/regionRegressionDuration}
-\caption{Plot of the correlation between the number of active pain regions and symptom duration.}
+\includegraphics[width=1\textwidth]{figures/regionsRegressionDuration}
+\caption{A linear regression of the number of active pain regions and pain duration.}
 \label{fig:regDuration}
 \end{figure}
 
-\newpage
 \noindent
-In figure \ref{fig:regDuration} is a dispersion of the data, which presumably means that there is no linear correlation to be found between the number of regions and for how long the individuals have had PFP. 
+The result in this linear regression between the number of active pain regions and pain duration was $R^2=0.0357$, which indicates that there is no any linear correlation to be found.\newline
 Thereto, a linear correlation between the number of active pain regions and pain intensity is shown in figure \ref{fig:regPain}.
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=1\textwidth]{figures/regionRegressionPain}
-\caption{Plot of the correlation between the number active pain regions and pain intensity.}
+\includegraphics[width=1\textwidth]{figures/regionsRegressionPain}
+\caption{A linear regression of the number active pain regions and pain intensity.}
 \label{fig:regPain}
 \end{figure}
 
 \noindent
-The figure shows once again a wide dispersion of the data. There is therefore no simple correlation between the number of active regions and pain intensity. 
+The result of the linear regression between the number of active pain regions and pain intensity was $R^2=0.00833$, which once again indicates nonlinearity. 
+
 \noindent
-Based on the four figures it is assumed that a single feature, number of pain pixels or regions, may not have a simple correlation with the outputs, symptom duration or pain intensity. 
+Based on the four linear regression models, it is assumed that a single feature, number of pain pixels or number of active pain regions with a 5\% threshold, may not have a simple correlation with the outputs, pain duration or intensity. Hence a deep learning model may find patterns in the pain maps in relation to either pain duration or intensity.
+
 
 
 \section{Pre-processing} \label{sec:prepros}
 The data is pre-processed in MatLab to prepare the three different data representations. The three data representations are morphology, regions and combined, which are described in section \ref{sec:representation}. Common for the data representation is that the pain maps are imported as image-matrices whereafter the matrices are resized, since the given pain maps was collected at different resolutions (screen sizes). Furthermore, the matrices are cropped to sort out unnecessary data like the areas inferior and superior to the knee.
 Before the data is used as an input in the deep learning models, each matrix which represent an image, is converted into a vector whereafter they are assembled in one matrix for each data representation. To get additional information associated with the pain maps, gender is added by including a column vector to the three matrices.
-In addition to the input, a classification label is added. The label, which is either symptom duration or pain intensity, is added as a column vector.
+In addition to the input, a classification label is added. The label, which is either pain duration or intensity, is added as a column vector.
 The following sections describe the pre-processing of the individual data representations.
 
 \subsection{Morphology-representation} \label{sec:Morph}
@@ -207,18 +209,17 @@ Firstly, the image of the original pain map is gray-scaled to get a one-dimensio
 \end{figure}
 
 \noindent
-An illustration of this morphology-representation is created to convey how the data is assembled and transferred to the model. The illustration is shown in figure \ref{fig:binmatrix}, where a matrix containing image-vectors for all the pain maps and appurtenant gender and either symptom duration or pain intensity.
+An illustration of this morphology-representation is created to convey how the data is assembled and transferred to the model. The illustration is shown in figure \ref{fig:binmatrix}, where a matrix containing image-vectors for all the pain maps and appurtenant gender and either pain duration or intensity.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.8\textwidth]{figures/binaryimagematrix}
-\caption{An illustration of the matrix of the morphology-representation. The matrix consists of image-vectors for each individuals where the two last columns indicate the corresponding gender (blue column vector) and either symptom duration or pain intensity (green column vector). The image-vectors have a length equal to the number of pixels in the pain maps.}
+\caption{An illustration of the matrix of the morphology-representation. The matrix consists of image-vectors for each individuals where the two last columns indicate the corresponding gender (blue column vector) and either pain duration or intensity (green column vector). The image-vectors have a length equal to the number of pixels in the pain maps.}
 \label{fig:binmatrix}
 \end{figure}
 
 
 \subsection{Regions-representation}
-*** CHECK FOR SIMPLIFIED MORPHOLOGY ***
 The second representation of the data is a matrix consisting of vectors with 20 values which indicate pain in relation to the knee regions.
 An image of the knee regions as shown in figure \ref{fig:atlas} are converted into a matrix consisting of 20 values, which represent each knee regions. This matrix is superimposed on the binary image of the pain map, which results in a matrix with pain pixels represented in each knee region. 
 An illustration of the knee regions and an example of a pain map with the pain divided into regions are shown in figure \ref{fig:binregions}.
@@ -231,19 +232,17 @@ An illustration of the knee regions and an example of a pain map with the pain d
 \end{figure}
 
 \noindent
-After superimposing the two matrices, knee regions and pain pixels, the number of pain pixels in each active knee region is found. This number is compared to the total number of pixels that are in each knee region, so knee regions with less than 5\% pain are excluded. The threshold on 5 percent is chosen based on the analysis in section \ref{sec:Selectthreshold}. As a result a vector with 20 values is created with zeros and ones, where one represent an active pain region. Region-representation is imported in the deep learning models the same way as the morphology-representation, which is illustrated in figure \ref{fig:binmatrix}. The only difference is that the length of the image-vectors respond to the 20 regions, and therefore there are only 20 values for each pain map.
+After superimposing the two matrices, knee regions and pain pixels, the number of pain pixels in each active knee region is found. This number is compared to the total number of pixels that are in each knee region, so knee regions with less than 5\% pain are excluded. The threshold on 5\% is chosen based on the analysis in section \ref{sec:Selectthreshold}. As a result a vector with 20 values is created with zeros and ones, where one represent an active pain region. Region-representation is imported in the deep learning models the same way as the morphology-representation, which is illustrated in figure \ref{fig:binmatrix}. The only difference is that the length of the image-vectors respond to the 20 regions, and therefore there are only 20 values for each pain map.
 
 
 \subsection{Combined-representation} \label{sec:combined}
-*** ADD MORPHOLOGY ***
-The third representation of the data is a matrix consisting of individuals’ pain divided into the knee regions.
+The third representation of the data is a matrix consisting the morphology of pain divided into the knee regions.
 \noindent
-In this representation the superimposed matrix from the region-representation is used. Additionally one-hot encoding is used to divide the pain into different knee regions. One-hot encoding is a way to separate categorical data into binary data \citep{Harris2012}. This means that the 20 values for each knee region do not have a correlation when analysed in the deep learning model. After one-hot encoding, the superimposed matrix consists of 20 layers where each layer represents a knee region. An illustration of this combined-representation is shown in figure \ref{fig:onehot}.
-**** Something about it is converted in to vectors so the image makes sence*****
+In this representation the superimposed matrix from the region-representation is used. Additionally one-hot encoding is used to divide the pain into different knee regions. One-hot encoding is a way to separate categorical data into binary data \citep{Harris2012}. This means that the 20 values for each knee region do not have a correlation when analysed in the deep learning model. After one-hot encoding, the superimposed matrix consists of 20 layers where each layer represents a knee region, which is illustrated in figure \ref{fig:onehot}(a), and afterwards converted to image-vector with gender and the output as illustrated in figure \ref{fig:onehot}(b).
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/onehotmatrix}
-\caption{(a) An illustration of a one-hot encoded pain map and (b) shows the image-vectors in one assembled matrix with gender and either symptom duration or pain intensity.}
+\caption{(a) An illustration of a one-hot encoded pain map and (b) shows the image-vectors in one assembled matrix with gender and either pain duration or intensity.}
 \label{fig:onehot}
 \end{figure}

@@ -11,7 +11,7 @@ Neural network is a structure of deep learning which consists of different layer
 \end{figure}
 
 \noindent
-The different layers consist of a series of nodes, where each node is connected by weights ****EXPLAIN!!*** to one or several other nodes in different layers. In the input-layer the nodes receive data. The second layer will then receive the output from the previous layer, and this process continues through the layers until the output-layer is reached.\citep{Schmidhuber2015} An example of how the hidden layers may affect an image in one type of neural network can be explained in the following.  
+The different layers consist of a series of nodes, where each node is connected by weights to one or several other nodes in different layers. The weights  are interconnection between two layers and they work as a set of coefficients, defining an image feature\citep{Hameed2016}. In the input-layer the nodes receive data. The second layer will then receive the output from the previous layer, and this process continues through the layers until the output-layer is reached.\citep{Schmidhuber2015} An example of how the hidden layers may affect an image in one type of neural network can be explained in the following.  
 Firstly, the system detects minor changes like edges. Secondly, the edges are compared and put together to make up different kind of shapes. In the third hidden layer, it will be further combined to make up an object that can be identified.\citep{LeCun2015}
 
 %Maybe explain a bit more to how the different nodes contain activation functions...
@@ -22,7 +22,8 @@ Firstly, the system detects minor changes like edges. Secondly, the edges are co
 
 \subsubsection{Learning scenarios}
 ****WRITE A INTRODUCTION! ITS NEED TO BE TRAIN, OPTIMIZED ECT.*****
-There are different approaches for training a neural network, where the two main learning scenarios are supervised and unsupervised learning.
+
+There are different approaches for training a neural network, where the two main learning scenarios are supervised and unsupervised learning. 
 
 \noindent
 Supervised learning is the most common way of training in machine learning. When applying this learning method the neural network is trained with input data that has a corresponding label. The network calculates an output through the forward pass, where the data is simply passed through the network. This output may then be compared to the label, and used to evaluate the performance of the system. As a result of the evaluation, the network may learn form the data by doing a backward pass through the network, also known as back-propagation.\citep{LeCun2015} Overall supervised learning may be described as teaching the network how to associate a given input to a specific output \citep{Goodfellow2016}, and is mostly associated with classification, regression, and ranking problems \citep{Mehryar2012}. 
@@ -123,7 +124,7 @@ Validation error can therefore be used as stop criterion for when the training i
 Typically the validation and test error will always be higher than the training error, which is also seen in figure \ref{fig:learningCurve}.\citep{Duda2000}
 
 \subsection{Dropout}\label{sec:dropout}
-Dropout is a regulation technique used to reduce overfitting of the neural network. In a network the dropout is applied to the individual layers, and works by randomly dropping different nodes temporarily in the given layer during training. An illustration of the principle of dropout can be seen in figure \ref{fig:Dropout}. This parameter is specified with a percent value, which defines the fraction of the nodes that drop \citep{Chollet2015}.
+Dropout is a regulation technique used to reduce overfitting of the neural network. In a network the dropout is applied to the individual layers, and works by randomly dropping different nodes temporarily in the given layer during training. An illustration of the principle of dropout can be seen in figure \ref{fig:Dropout}. This parameter is specified with a percentage, which defines the fraction of the nodes that drop \citep{Chollet2015}.
 
 \begin{figure} [H]
 \centering

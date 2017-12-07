@@ -3,10 +3,10 @@ This chapter presents how the pre-processed data is loaded and prepared for trai
 
 \subsection{Data handling in python}
 The pre-processed data is loaded from a \textit{.mat} file into python.
-Data within the file is pre-shuffled and split into a training and test subsets, as described in \autoref{sec:pre-process}. 
+Data within the file is pre-shuffled and split into a training and test subsets, as described in \autoref{sec:prepros}. 
 % The reason for shuffle the data is that improves generalisation through randomization.
 In Python the training subset is further divided into a training and validation set. 
-The training set is used to find the "optimal" weights with the backpropagation algorithm \citep{Bengio2012}. In this project, training set makes the biggest percentage amount of the data up to 75\%.
+The training set is used to find the "optimal" weights with the back-propagation algorithm \citep{Bengio2012}. In this project, training set makes the biggest percentage amount of the data up to 75\%.
 The validation set is used for estimating the generalization error of the model, and to examine how adjustments to hyperparameters effect the model performance \citep{Duda2000}. Hyperparameters often define many different values that can be adjusted, to control the behavior of the algorithm, to which some parameters may affect the runtime and computational cost when training the model \citep{Goodfellow2016}.The validation set makes up 10\% of the available data for the different models.
 The test subset will only be used to evaluate the generalization of the model, and therefore will not contain data that has been used during the training \citep{Duda2000}.
 By keeping the test subset separate it will act as new unseen data, for the model. It contains 15\% of the data.
