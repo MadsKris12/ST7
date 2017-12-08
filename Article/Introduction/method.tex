@@ -45,39 +45,68 @@ Lastly, a data representation which reflects a combination of morphology and loc
 \noindent
 \textbf{Linear regressions} \newline
 \noindent
-It was assumed that the data was nonlinear, because PFP is subjective and multidimensional. To verify this assumption of nonlinearity, linear regression on simple features was investigated. These features respond to number of pain pixels and number of active pain regions in relation to pain duration and intensity. If it was possible to find a linear correlation between these simple features and the outputs, it may not be significant to investigate the morphology and the location of pain in deep learning models. Four linear regressions were explored, which resulted in $R^2$ values shown in tab. \ref{tab:Rvalues}.
+It was assumed that the data was nonlinear, because PFP is subjective and multidimensional. To verify this assumption of nonlinearity, linear regression on simple features reflecting the size of the pain was investigated. This decision was based on the phenomenon central sensitization that may result in widespread, to which this might be reflected in the number of pain pixels and active pain regions. 
+Additionally, is a linear correlation according to the pain intensity investigated. The linear regression is shown in fig. \ref{fig:correlations}.
 
-\begin{table}[h]
-\centering
-\begin{tabular}{@{}lc@{}}
-\toprule
-{\textbf{Feature combination}} & \textbf{$R^2$} \\ \midrule
-Pain pixels \& pain duration                  & 0.0460         \\
-Pain pixels \& pain intensity                    & 0.0117         \\
-Active regions \& pain duration               & 0.0357         \\
-Active regions \& pain intensity                 & 0.0083         \\ \bottomrule
-\end{tabular}
-\caption{Feature combinations and associated $R^2$ values.}
-\label{tab:Rvalues}
-\end{table}
+
+
+\begin{figure*} [t!]
+\begin{tcolorbox}[colframe=black!30!black, colback=white]
+\hfill
+\begin{subfigure}[r]{0.5\textwidth}
+    \includegraphics[width=\textwidth]{Figures/legend}
+  \end{subfigure}
+  \vskip\baselineskip
+  \hspace{-5mm}
+  \begin{subfigure}[b]{0.51\textwidth}
+    \includegraphics[width=\textwidth]{Figures/durapixel}
+    \caption{ }
+    \label{fig:1}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.51\textwidth}
+    \includegraphics[width=\textwidth]{Figures/linRegDurationRegions}
+       \caption{ }
+    \label{fig:2}
+  \end{subfigure}
+    \vskip\baselineskip
+    \hspace{-5mm}
+  \begin{subfigure}[b]{0.51\textwidth}
+    \includegraphics[width=\textwidth]{Figures/vaspixel}
+    \caption{}
+    \label{fig:3}
+  \end{subfigure}
+  \hfill
+  \hspace{2mm}
+  \begin{subfigure}[b]{0.51\textwidth}
+    \includegraphics[width=\textwidth]{Figures/vasregion}
+       \caption{ }
+    \label{fig:4}
+  \end{subfigure}  
+  \caption{Linear correlations of pain pixels and pain duration (a), active pain regions and pain duration (b), pain pixels and pain intensity indicated in VAS (c), and active pain regions and pain intensity indicated in VAS (d).}
+  \label{fig:correlations}
+\end{tcolorbox}
+\end{figure*}
 
 \noindent
-Based on the four linear regression models, it was assumed that single features, number of pain pixels or number of active pain regions, do not have a linear correlation with the outputs, pain duration or intensity. Hence a deep learning model may find patterns in the pain maps in relation to either pain duration or intensity. \newline
+Based on the four linear regression models, it was shown that single features, number of pain pixels or number of active pain regions, did not have a clear linear correlation with the outputs, pain duration or intensity. Hence a deep learning model may find patterns in the pain maps according morphology or location of pain in relation to either pain duration or intensity. \newpage
 
 \noindent
-\textbf{DEEP LEARNING}\newline
+\textbf{Deep learning models}\newline
 \noindent
 Deep learning models were developed on a computer with 4x ‘‘Intel® Core™ i7‘‘ CPUs and one single GPU of type "Geforce GTX 970M", using the programming language Python v3.6.3. Libraries used was Keras with a TensorFlow backend. \newline
 \noindent
 Multiple deep learning models suitable to the three data representation were created. The models used supervised learning, which is defined as a network learning to classify a given input corresponding to a specific output \citep{Goodfellow2016}. The models classify the input, pain maps and gender, in relation to the determined outputs, pain duration or pain intensity.\newline
 \noindent
-Two of the models, which managed the morphology-representation and the representation of the combination of morphology and location, were developed using the same layers, convolutional- followed by pooling layers and fully connected layers. Convolutional layers perform highly in image classification that automatically learn a complex pattern by extracting visual features from the pixel-level content \citep{Acquarelli2017,LeCun1998}. The combination of convolutional and pooling layers performed feature extraction while the classification was made by fully connected layers. \newline
+Two of the models, which managed the morphology-, and the combined morphology and location-representations, were developed using the same model architecture consisting of convolutional- followed by pooling layers and fully connected layers. Convolutional were used because it’s highly classification in images that automatically learn a complex pattern by extracting visual features from the pixel-level content \citep{Acquarelli2017,LeCun1998}. The combination of convolutional and pooling layers performed feature extraction while the classification was made by fully connected layers. \newline
 \noindent
-The model that classified the location should not process morphology, thus a convolutional layer was not necessary, and thereby only contained fully connected layers. \newline
+The model that classified the location should not process morphology, thus a convolutional layer was not necessary, and thereby only contained fully connected layers. \\
+
 
 \noindent
 \textbf{Optimization of models}\newline
 \noindent
+Optimization of the three model were done using a validation subset, whereto graphs plotting validation accuracy and loss were compared with training accuracy and loss. This was used to estimate the optimal number of epochs to reduce overfitting the model to the training subset. Further optimization were done using manual search on hyperparameters, from which improvements were based on an average accuracy, sensitivity and specificity gained from 10-fold cross validation.  
 
 %\begin{figure*} [b!]
 %\begin{tcolorbox}[colframe=black!30!black, colback=white]
