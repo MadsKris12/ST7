@@ -36,7 +36,6 @@ Unsupervised learning is when training is performed with data that has no output
 
   
 \subsection{Back-propagation}
-***** CORRECT FORWARD AND BACKWARD + EQUATIONS******
 Back-propagation is a popular learning algorithm in neural networks, that is based on gradient descent, and used because of it's simplicity and computationally efficiency.\citep{Bengio2012, Duda2000} It is the learning process where the weights of a neural network are adjusted in order to reduce the error calculated between the calculated output of the network and the expected output. This makes back-propagation closely related to supervised learning, to which back-propagation is the most general method used.\citep{Duda2000}  
 
 The basic concept is that gradients can be computed efficiently by propagation from the output to the input in order to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as the inputs and weights multiplication of separate node summed with additional coefficient called bias.\citep{Hameed2016,LeCun1998}. When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of the training. When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of the training.
@@ -48,7 +47,7 @@ This learning process continues until optimal weights with minimum error is reac
 Deep learning networks are structures of hidden layers, and this requires to choose the activation functions for computing the hidden layer values and to decide whether node could be considered as active or not\citep{Goodfellow2016}. The activation function is a nonlinear function which give neural network nonlinear capabilieties\citep{Bengio2012}. It applied element-wise and can be defined as new output of each node:
 >>>>EQUATION<<<<
 
-Sigmoid activation function is one of the most common activation functions which monotonicaly approches at some finite values as $\pm\infty$ .\citep{Bengio2012} Most common examples would be the standard logistic function $\f(x) = 1/(1 + e^−x)$ and hyperbolic tangent $\[f(x) = tanh(x)$ which is shown in figure \ref{fig:Sigmoids}.
+Sigmoid activation function is one of the most common activation functions which monotonicaly approches at some finite values as $\pm\infty$. Most common examples would be the standard logistic function $\f(x) = 1/(1 + e^−x)$ and hyperbolic tangent $\[f(x) = tanh(x)$ which is shown in figure \ref{fig:Sigmoids}. Symetric hyperbolic tangent is used more often because it converges faster then standard logistic function. \citep{Bengio2012}
 
 \begin{figure} [H]
 \centering
@@ -57,18 +56,19 @@ Sigmoid activation function is one of the most common activation functions which
 \label{fig:Sigmoids}
 \end{figure}
 
-Another activation function
-In model neural networks, rectified linear unit or ReLu is recommended to use as a default activation function\citep{Goodfellow2016}.
+Another activation function is rectified linear unit, which transforms the linear output to nonlinear function. However, the the function still remains nearly linear, which means at could be easily optimized with gradient descent based methods\citep{Goodfellow2016}. In modern neural networks, ReLu is recommended to use as a default activation function and could be defined as 
 
+\begin{equation}
+\[g(x) = max{0, x}\]
+\end{equation}
 
-ReLu and Sigmoid
-
-
-
-
-MAYBE TALK ABOUT ACTIVATION FUNCTIONS IN RELATION TO BACKPROPAGATION. 
-IF WE WILL HAVE TIME WE NEED TO ADD ACTIVATION GRAPHS WITH EXPLANATION
-A PROBLEM OFTEN RELATED TO OPTIMIZATION IS THE LAGER THE NETWORK THE HARDER IT IS TO OPTIMIZE, BUT IN ANOTHER WAY IF THE NETWORK IS SMALL AND SIMPLE THE EASIER IT IS TO OPTIMIZE. 
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.7\textwidth]{figures/Relu}
+\caption{Rectified linear activation function. Function g(x) is equal to zero when x is less than zero and g(x) is equal to x when x it above or equal to zero.
+Edited \citep{Goodfellow2016}.}
+\label{fig:Relu}
+\end{figure}
 
 \subsubsection{Learning curves}
 Learning curves is used to observe the error on the training, validation and testing sets, which is increased because of randomly initialized weights and biases \citep{Duda2000}. The error is presented over time, which in deep learning is expressed as the number of epochs.
@@ -140,8 +140,10 @@ However, the results are not always similar. All of the optimizers perform diffe
 % Mention local minima and gobal minima and why it is not so importent to find the absolute global minima \citep{Duda2000}. 
 
 % Mention the mini bacthes are used in order to reduce the computation cost, and that the size of the mini-batch is often what limits the network computation. , mini-batches and optimizers
+\subsection{Regularization}
+Many strategies are used in deep learning to reduce the test or training error, they are known as collectivity of regularization\citep{Goodfellow2016} , mainly used to restrict a models expressiveness in order to prevent it from overfitting, underfitting, generalization. Few of these strategies will be presented in this section.
 
-\subsection{Dropout}\label{sec:dropout}
+\subsubsection{Dropout}\label{sec:dropout}
 Dropout is a regulation technique used to reduce overfitting of the neural network. In a network the dropout is applied to the individual layers, and works by randomly dropping different nodes temporarily in the given layer during training. An illustration of the principle of dropout can be seen in figure \ref{fig:Dropout}. This parameter is specified with a percentage, which defines the fraction of the nodes that drop \citep{Chollet2015}.
 
 \begin{figure} [H]
@@ -155,54 +157,50 @@ Dropout is a regulation technique used to reduce overfitting of the neural netwo
 This reduces co-adaptation, where nodes compute the same features, to where this may increase the generalization capabilities for a neural network. 
 A study \citeauthor{Srivastava2014} has tested the use of dropout in different neural networks, and indicates that the most optimal range of dropout is 20\% of the nodes in the visible layers, and 50\% in the hidden layers.\citep{Srivastava2014}
 
+\subsubsection{Initializers}
+In neural networks starting values of hyperparameters can have a significant effect on the training process \citep{Bengio2012}. Hyperparameters often define many different values that can be adjusted, to control the behavior of the algorithm, to which some parameters may affect the runtime and computational cost when training the model \citep{Goodfellow2016}. Weights, biases initializers could be used in order to take the values randomly and exclude the symmetry between nodes\citep{Gustafson1998}. 
+
 \subsection{Core Neural Network layers}
-**** INTRODUCTION! ****
+Convolutional, pooling and fully connected layers could be called as core neural network layers, where convolutional and pooling layers also act as hidden layers. In architecture of the network these layers have specific place and functions \citep{Goodfellow2016,LeCun2015}.
 
 \subsubsection{Convolutional Neural Networks}
 Convolutional Neural Networks (CNNs) is a type of special neural network for processing data with a grid-like topology \citep{Goodfellow2016}. CNNs perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex pattern by extracting visual features from the pixel-level content.\citep{Acquarelli2017,LeCun1998}
 
 \noindent
-The architecture of a typical CNNs is always combined of two types of layers: convolutional and pooling \citep{Goodfellow2016, LeCun2015}. 
-
-\noindent
 The purpose of the convolutional layer is to recognize the features in the input by taking e.g. an image and scan it, then split it up into the feature maps. The terminology regarding the output of a convolutional layer can be referred to a feature map \citep{Goodfellow2016,LeCun1998}. A complete convolutional layer consists of several feature maps, so multiple features can be extracted at each location in the image \citep{LeCun1998}. 
-%It usually consists of few features maps, where each map represents different feature. 
-The other layer called pooling, typically follows after convolutional layer. It consists of the same number of feature maps as the previous convolutional layer had. Each feature map is used as a new input in a pooling layer. Depending on the network's depth, the convolutional and pooling layers alternate until the last pooling layer is reached.\citep{LeCun1998}
+
+\subsubsection{Pooling layer} 
+As previously mentioned convolution are typically followed by pooling \citep{LeCun2015, Goodfellow2016}. It consists of the same number of feature maps as the previous convolutional layer had. Each feature map is used as a new input in a pooling layer. Depending on the network's depth, the convolutional and pooling layers alternate until the last pooling layer is reached.\citep{LeCun1998}
+Pooling can be used to reduce the size of the dataset, which may increase computation speed, because the amount of data passed to the next layer is smaller. By pooling the input, a smaller representation is given, that still contains the relevant features.\citep{Goodfellow2016,LeCun1998}   
+\noindent  
+The pooling process can be defined as a window that passes over e.g. a feature map from convolution, where a value within the window is extracted. One type of pooling layer is max pooling that takes the maximum value within the window \citep{Goodfellow2016, Dumoulin2016}. A pooling layer may be defined simply by its window (Kernel) size, paddling size and a stride length, where stride length is the number of values the window jumps as shown in figure \ref{fig:Kernel}.\citep{Dumoulin2016}
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.35\textwidth]{figures/Kernel}
+\caption{Illustration of pooling with 3x3 kernel over a 5x5 input using paddling and strides (i.e., input = 5, kernel = 3, stide = 1, paddling size = 1) \citep{Dumoulin2016}.}
+\label{fig:Kernel}  
+\end{figure}
 
 \noindent
-The combination of convolutional and pooling layers defines the part of the network which performs feature extraction while the classification part is made by fully connected layers. 
-\noindent
-A typical CNNs architecture for character recognition of the images, called LeNet-5, can be seen in figure \ref{fig:LeNet5}.
-
-
-%
-%Units in a layer are organised in planes and share the same set of weights \citep{LeCun1998}.
+\subsubsection{Fully-connected layers}
+The combination of convolutional and pooling layers defines the part of the network which performs feature extraction while the classification part is made by fully connected layers\citep{Goodfellow2016}. Fully connected layers have full connections to all activations in previous layers. The further connections to the output layer is made compared the final values in fully connected layer to specific value of the class in the output. {no decent source} 
 %CNNs are feed–forward models that map input data with a set of suitable outputs. Accuracy and performance rely on large training datasets and training procedure based on back-propagation with optimization algorithm such as gradient descent which is used for finding minimum value of the function.\citep{Acquarelli2017}
  
+% The feature map is made by scanning the input image with a single unit that has a local respective field and store the state of this unit in the new feature map (new layer) and this process is called convolution.Respective field term is defined as the region in the input space that a particular CNN's feature is looking at.
+
+\noindent
+A typical architecture containing core neural network layers for character recognition of the images, called LeNet-5, can be seen in figure \ref{fig:LeNet5}.
+
 \begin{figure} [H]
 \centering
 \includegraphics[width=1.0\textwidth]{figures/LeNet5}
 \caption{Architecture of LeNet-5, a CNN for character recognition. Each plane is a feature map and the size of the feature map differs throughout the layers. The model consists of two convolutional, two pooling and two fully connected layers \citep{LeCun1998}.}
 \label{fig:LeNet5}  
 \end{figure}
-% The feature map is made by scanning the input image with a single unit that has a local respective field and store the state of this unit in the new feature map (new layer) and this process is called convolution.Respective field term is defined as the region in the input space that a particular CNN's feature is looking at.
-
-\noindent
-Units in the first hidden layer of LeNet-5 are arranged in planes, which are a separate feature maps respectively. Once a feature has been detected, its location becomes unimportant and only its approximate position relative to other features is relevant. This is because the positions are likely to vary for different images of the same object and it is irrelevant for identifying the pattern. To reduce the importance of the position, the spacial resolution of the feature map is decreased by the use of pooling layer.\citep{LeCun1998}
 
 
+
+%Units in the first hidden layer of LeNet-5 are arranged in planes, which are a separate feature maps respectively. Once a feature has been detected, its location becomes unimportant and only its approximate position relative to other features is relevant. This is because the positions are likely to vary for different images of the same object and it is irrelevant for identifying the pattern.
 %Additional explanation of the example in start of deep learning (How it first detects edges and then shape and then objects. )
 
-\subsubsection{Pooling layer} ***MOVING THE EXAMPLE TO THE END, SO CNN IS FIRST, THEN POOLING, FULLY CONNECTED LAYERS AND THE EXAMPLE***
-As previously mentioned convolution are typically followed by pooling \citep{LeCun2015, Goodfellow2016}. 
-Pooling can be used to reduce the size of the dataset, which may increase computation speed, because the amount of data passed to the next layer is smaller. By pooling the input, a smaller representation is given, that still contains the relevant features.\citep{Goodfellow2016,LeCun1998}   
-\noindent  
-The pooling process can be defined as a window that passes over e.g. a feature map from convolution, where a value within the window is extracted. One type of pooling layer is max pooling that takes the maximum value within the window \citep{Goodfellow2016, Dumoulin2016}. A pooling layer may be defined simply by its window (Kernel) size, paddling size and a stride length, where stride length is the number of values the window jumps as shown in figure \ref{fig:Kernel}.\citep{Dumoulin2016}
-
-
-\begin{figure} [H]
-\centering
-\includegraphics[width=0.25\textwidth]{figures/Kernel}
-\caption{Illustration of pooling with 3x3 kernel over a 5x5 input using paddling and strides (i.e., input = 5, kernel = 3, stide = 1, paddling size = 1) \citep{Dumoulin2016}.}
-\label{fig:Kernel}  
-\end{figure}
