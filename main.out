@@ -11,7 +11,7 @@
 \BOOKMARK [1][-]{section.2.6}{Machine learning}{chapter.2}% 11
 \BOOKMARK [2][-]{subsection.2.6.1}{Deep Learning}{section.2.6}% 12
 \BOOKMARK [2][-]{subsection.2.6.2}{Back-propagation}{section.2.6}% 13
-\BOOKMARK [2][-]{subsection.2.6.3}{Dropout}{section.2.6}% 14
+\BOOKMARK [2][-]{subsection.2.6.3}{Regularization}{section.2.6}% 14
 \BOOKMARK [2][-]{subsection.2.6.4}{Core Neural Network layers}{section.2.6}% 15
 \BOOKMARK [0][-]{chapter.3}{Methodology}{}% 16
 \BOOKMARK [1][-]{section.3.1}{Data description}{chapter.3}% 17
@@ -43,6 +43,6 @@
 \BOOKMARK [1][-]{section.4.3}{Raw binary representation model}{chapter.4}% 43
 \BOOKMARK [1][-]{section.4.4}{Combined representation model}{chapter.4}% 44
 \BOOKMARK [0][-]{chapter.5}{Results}{}% 45
-\BOOKMARK [0][-]{section*.62}{Bibliography}{}% 46
+\BOOKMARK [0][-]{section*.68}{Bibliography}{}% 46
 \BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\) KOOS2016}{}% 47
 \BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 48
