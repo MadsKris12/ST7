@@ -1,1 +1,21 @@
-resultttt
+Results on generalization performance when using 10-fold cross validation, after final optimization for morphology-, region- and combined representation are shown in tab. \ref{tab:performance}. This is done for pain duration and pain intensity classifications to which an average accuracy, sensitivity, specificity are calculated along with it’s corresponding standard deviations. 
+
+
+\begin{table*}[b]
+\centering
+\begin{tabular}{@{}llll@{}}
+\toprule
+\multicolumn{4}{c}{Morphology representation}                                                                                                                                                                         \\ \midrule
+               & Avg. accuracy (\%)                                               & Avg. sensitivity (\%)                                           & Avg. specificity (\%)                                           \\ \midrule
+Pain duration  & \begin{tabular}[c]{@{}l@{}}59.51\% \\ ($\pm 11.20\%$)\end{tabular} & \begin{tabular}[c]{@{}l@{}}62.16\%\\ ($\pm 21.59\%$)\end{tabular} & \begin{tabular}[c]{@{}l@{}}62.20\%\\ ($\pm 18.13\%$)\end{tabular} \\ %\midrule
+Pain intensity & \begin{tabular}[c]{@{}l@{}}65.04\%\\ ($\pm 10.83\%$)\end{tabular}  & \begin{tabular}[c]{@{}l@{}}48.23\%\\ ($\pm 0.28\%$)\end{tabular}  & \begin{tabular}[c]{@{}l@{}}71.02\%\\ ($\pm 0.12\%$)\end{tabular}  \\ \midrule
+\multicolumn{4}{c}{Region representation}                                                                                                                                                                             \\ \midrule
+Pain duration  & \begin{tabular}[c]{@{}l@{}}54.56\%\\ ($\pm 12.81\%$)\end{tabular}  & \begin{tabular}[c]{@{}l@{}}50.68\%\\ ($\pm 0.15\%$)\end{tabular}  & \begin{tabular}[c]{@{}l@{}}59.55\%\\ ($\pm 0.15\%$)\end{tabular}  \\ %\midrule
+Pain intensity & \begin{tabular}[c]{@{}l@{}}63.33\%\\ ($\pm 1.67\%$)\end{tabular}   & \begin{tabular}[c]{@{}l@{}}0.00\%\\ ($\pm 0.00\%$)\end{tabular}   & \begin{tabular}[c]{@{}l@{}}63.33\%\\ ($\pm 0.02\%$)\end{tabular}  \\ \midrule
+\multicolumn{4}{c}{Morphology and region representation}                                                                                                                                                              \\ \midrule
+Pain duration  & \begin{tabular}[c]{@{}l@{}}55.49\% \\ ($\pm 9.55\%$)\end{tabular}                                                                   & \begin{tabular}[c]{@{}l@{}}55.23\%\\ ($\pm 0.15\%$)\end{tabular}                                                                & \begin{tabular}[c]{@{}l@{}}56.99\%\\ ($\pm 0.12\%$)\end{tabular}                                                                                                                                \\% \midrule
+Pain intensity &                                                                  &                                                                 &                                                                 \\ \bottomrule
+\end{tabular}
+\caption{Generalization performance of the three models, which use the morphology-, region- and morphology and region-representation.}
+\label{tab:performance}
+\end{table*}
