@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  8 DEC 2017 14:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  8 DEC 2017 15:21
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -1521,6 +1521,8 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 127.
+LaTeX Font Info:    Font shape `T1/pplx/bx/it' in size <9> not available
+(Font)              Font shape `T1/pplx/b/it' tried instead on input line 127.
 
 (Introduction/introduction.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1547,7 +1549,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 ) (Introduction/method.tex
-<Figures/twoPainmaps.png, id=95, 1601.985pt x 1746.525pt>
+<Figures/twoPainmaps.png, id=96, 1601.985pt x 1746.525pt>
 File: Figures/twoPainmaps.png Graphic file (type png)
 <use Figures/twoPainmaps.png>
 Package pdftex.def Info: Figures/twoPainmaps.png  used on input line 6. on inpu
@@ -1567,7 +1569,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--18
  []
 
 [2 <./Figures/twoPainmaps.png>]
-<Figures/atlas.png, id=106, 324.0105pt x 175.857pt>
+<Figures/atlas.png, id=107, 324.0105pt x 175.857pt>
 File: Figures/atlas.png Graphic file (type png)
 <use Figures/atlas.png>
 Package pdftex.def Info: Figures/atlas.png  used on input line 26. on input lin
@@ -1594,35 +1596,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--44
 
  []
 
-<Figures/legend.png, id=111, 401.70074pt x 27.7035pt>
+<Figures/legend.png, id=112, 401.70074pt x 27.7035pt>
 File: Figures/legend.png Graphic file (type png)
 <use Figures/legend.png>
 Package pdftex.def Info: Figures/legend.png  used on input line 57. on input li
 ne 57.
 Package pdftex.def Info: Requested size: 234.59302pt x 16.1792pt on input line 
 57.
-<Figures/durapixel.png, id=112, 683.55376pt x 343.2825pt>
+<Figures/durapixel.png, id=113, 683.55376pt x 343.2825pt>
 File: Figures/durapixel.png Graphic file (type png)
 <use Figures/durapixel.png>
 Package pdftex.def Info: Figures/durapixel.png  used on input line 62. on input
  line 62.
 Package pdftex.def Info: Requested size: 239.2823pt x 120.16638pt on input line
  62.
-<Figures/linRegDurationRegions.png, id=113, 822.6735pt x 392.06474pt>
+<Figures/linRegDurationRegions.png, id=114, 822.6735pt x 392.06474pt>
 File: Figures/linRegDurationRegions.png Graphic file (type png)
 <use Figures/linRegDurationRegions.png>
 Package pdftex.def Info: Figures/linRegDurationRegions.png  used on input line 
 68. on input line 68.
 Package pdftex.def Info: Requested size: 239.2823pt x 114.03685pt on input line
  68.
-<Figures/vaspixel.png, id=114, 683.55376pt x 336.0555pt>
+<Figures/vaspixel.png, id=115, 683.55376pt x 336.0555pt>
 File: Figures/vaspixel.png Graphic file (type png)
 <use Figures/vaspixel.png>
 Package pdftex.def Info: Figures/vaspixel.png  used on input line 75. on input 
 line 75.
 Package pdftex.def Info: Requested size: 239.2823pt x 117.63657pt on input line
  75.
-<Figures/vasregion.png, id=115, 660.66824pt x 339.669pt>
+<Figures/vasregion.png, id=116, 660.66824pt x 339.669pt>
 File: Figures/vasregion.png Graphic file (type png)
 <use Figures/vasregion.png>
 Package pdftex.def Info: Figures/vasregion.png  used on input line 82. on input
@@ -1698,11 +1700,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
  ) 
 Here is how much of TeX's memory you used:
- 35652 strings out of 493312
- 701077 string characters out of 3138898
- 832302 words of memory out of 3000000
- 38399 multiletter control sequences out of 15000+200000
- 582984 words of font info for 236 fonts, out of 3000000 for 9000
+ 35666 strings out of 493312
+ 701224 string characters out of 3138898
+ 832314 words of memory out of 3000000
+ 38402 multiletter control sequences out of 15000+200000
+ 585502 words of font info for 245 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,15n,101p,10468b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
@@ -1710,11 +1712,11 @@ ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pa
-latino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a
-.pfb>
-Output written on Journal.pdf (6 pages, 1909239 bytes).
+latino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Journal.pdf (6 pages, 1920924 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
+ 223 PDF objects out of 1000 (max. 8388607)
  30 named destinations out of 1000 (max. 500000)
- 47336 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 47848 words of extra memory for PDF output out of 51595 (max. 10000000)
 
