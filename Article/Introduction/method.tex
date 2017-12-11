@@ -1,5 +1,7 @@
-\textbf{Data and manual data handling} \newline
-Data used in this study were collected beforehand from an on-going clinical trial (FOXH) which is conducted in collaboration with Danish and Australian universities. The data consists of pain maps which were drawn by individuals with PFPS through the use of an application, Navigate Pain, in a clinical setting. The pain maps are both from individuals with uni- and bilateral PFP, an example of these are shown in fig. \ref{fig:twoPainmaps}.
+\textbf{Pain maps and manual data handling} \newline
+Data used in this study were collected beforehand from an on-going clinical trial (FOXH) which is conducted in collaboration with Danish and Australian universities. The pain maps were drawn by individuals with PFPS through the use of an application, Navigate Pain, in a clinical setting. \newline
+\noindent
+Navigate Pain is a software application that is used to visualise the location, morphology and spatial distribution of pain from individuals to healthcare personnel. The application permits individuals to draw their pain with different colors and line thickness onto a body outline, an example is shown in fig. \ref{fig:twoPainmaps}. Navigate Pain android was developed at Aalborg University.\citep{Solutions2015}
 
 \begin{figure}[H]
 \centering
@@ -9,17 +11,13 @@ Data used in this study were collected beforehand from an on-going clinical tria
 \end{figure}
 
 \noindent
-In addition to the pain maps related information regarding the individuals was available.
-Before using the data in the deep learning models, a manual data handling was necessary to match the given pain maps and associated ID on the individuals, which resulted in 217 available pain maps. Furthermore, specific information like gender, pain duration and intensity were collected from the appurtenant information. The number of pain maps with associated gender and pain duration, was 205. Furthermore, there were 197 pain maps with associated gender and pain intensity.\\
+The total number of pain maps available was 217, but only 205 pain maps with associated gender and pain duration, and 197 pain maps with associated gender and pain intensity was available.\\
 
 \noindent
-\textbf{Software application: Navigate Pain} \newline
-Navigate Pain is a software application that is used to visualise the location, morphology and spatial distribution of pain from individuals to healthcare personnel. The application permits individuals to draw their pain with different colors and line thickness onto a body outline. Navigate Pain android was developed at Aalborg University and a commercial web application is available at Aglance Solutions (Denmark).\citep{Solutions2015}\\
-
+\textbf{Pain location} \newline
 \noindent
-\textbf{Knee regions} \newline
-\noindent
-To define the location of the PFP the knees are divided into 20 regions, which are inspired by Photographic Knee Pain Map (PKPM). The divisions are designed to categorise location of knee pain for diagnostic and research purposes. PKPM represent both knees that makes it possible to identify unilateral and bilateral pain.\citep{Elson2010} The knee regions are illustrated in fig. \ref{fig:atlas}.
+The knees are divided into regions based on the underlying anatomical structures, which may have a correlation to pain duration or pain intensity.
+The locations are divided into 20 regions, which are inspired by Photographic Knee Pain Map (PKPM). The divisions are designed to categorise location of knee pain for diagnostic and research purposes. PKPM represent both knees that makes it possible to identify unilateral and bilateral pain.\citep{Elson2010} The knee regions are illustrated in fig. \ref{fig:atlas}.
 
 \begin{figure} [H] 
 \centering
@@ -28,8 +26,7 @@ To define the location of the PFP the knees are divided into 20 regions, which a
 \label{fig:atlas}
 \end{figure}
 
-\noindent
-The regions are based on the anatomical structures according to the areas where individuals often indicate pain.
+\noindent 
 There are ten regions on each knee, where region 1 and 3 represent the superior lateral and superior medial areas for patella. Region 2 refers to quadriceps tendon. The patella is divided into lateral and medial regions, which are region 4 and 5. Region 6 and 8 are lateral and medial joint line areas. Patella tendor is region 7 and the two last regions, 9 and 10, are tibia lateral and medial.\citep{Elson2010}\\
 
 \noindent
