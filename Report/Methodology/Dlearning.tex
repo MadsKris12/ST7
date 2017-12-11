@@ -2,20 +2,25 @@
 Building neural network for classifying pain maps was try and error process.
 In this project the deep learning method is used to classify the pain maps and gender by determined outputs. The data is a set of 2D-images combined with gender and the outputs are pain intensity and duration. For classification purpose supervised convolutional neural network is used followed by fully-connected layers at the end. This architecture of the model is chosen to the interest of morphology and location of the pain. as there was no "golden recipe" for most optimized  The models are trained and tested on a single computer with GPU and ran on Python programming language with Keras library and Tensorboard tool for visualizing results. Specifications of hardware and software are described in detail in section {Sofware and hardware}.
 
-\subsection{Sofware and hardware}
-In this project it is chosen to use Python v3.6.3 for development of the neural network. Python is an object-oriented and general-purpose programming and scripting language. Python is among other things used for programming websites, mobile applications, desktop GUI's, but also used for machine learning programming.
-When developing a machine learning application, there are different libraries that can be used, where some of the most popular is the Theano and the TensorFlow and Keras libraries.\citep{Swamynathan2017}
-The model was created and tested using Keras library, which is a high-level neural networks API (Application programming interface). Keras runs on top of either TensorFlow or Theano. Keras is a simplified version of the two libraries, which makes it easier to program in Python, but still allows for building complex models. TensorFlow is an open source library for development of machine learning applications, that has been released by Google \citep{Swamynathan2017}. 
-Using CPU or GPU on this platform the most mathematical operation  is computed in a computerized and simple way \citep{Swamynathan2017}. A small example of the concept of using TensorFlow could be seen in Appendix B. The plots for this model are generated using Tensorboard visualizing tool. It allows to watch a graph during the training, gives plot quantitative metrics and shows data like images that pass through it. Besides visualizing part of this tool it is also useful for debugging as it allows to observe the graph at a present time.\citep{Abadi2016a}
+\subsection{Software and hardware}
+The neural network developed for this study, was programmed using Python v3.6.3. Python is an object-oriented and general-purpose programming and scripting language, that may be used for e.g. programming websites, mobile applications, but also for machine learning programming applications.
+For development of deep learning application in python, different libraries are available, where some of the popular are the Theano and TensorFlow libraries.\citep{Swamynathan2017}, where the Tensorflow v1.3.0 library was used in this study. %TensorFlow is an open source library for development of machine learning applications, that has been released by Google \citep{Swamynathan2017}.  
+An additionally library, Keras v2.0.8, was imported, which runs on top of either Tensorflow or Theano, and is a high-level neural networks application programming interface (API).   
+Keras is a simplified version of the two libraries, which allows for fast and easier prototyping of neural network \citep{fcollet2015}. This was deemed suitable given that no previous experience with neural network were available during this study.  
+
+Utilization of graphics processing unit (GPU) computation was also implemented using CUDA drivers and cnDNN communication libraries, which allowed for faster runtimes, then through the use of the central processing unit (CPU).
+ 
+%Keras is a simplified version of the two libraries, which makes it easier to program in Python, but still allows for building complex models. TensorFlow is an open source library for development of machine learning applications, that has been released by Google \citep{Swamynathan2017}. 
+%Using CPU or GPU on this platform the most mathematical operation  is computed in a computerized and simple way \citep{Swamynathan2017}. A small example of the concept of using TensorFlow could be seen in Appendix B. The plots for this model are generated using Tensorboard visualizing tool. It allows to watch a graph during the training, gives plot quantitative metrics and shows data like images that pass through it. Besides visualizing part of this tool it is also useful for debugging as it allows to observe the graph at a present time.\citep{Abadi2016a}
 
 \noindent
-The classifier was created on a machine with 4x ‘‘Intel® Core™ i7‘‘ CPU‘s and one single GPU of type "Geforce GTX 970M" with specifications listed in table \ref{fig:Specs}.
+The neural network was created on a laptop with 4x 'Intel® Core™ i7' CPU‘s and one GPU of type 'Geforce GTX 970M' with specifications listed in table \ref{tab:Specs}.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/Specs}
 \caption{Specifications of CPU‘s and GPU \citep{Intel,Nvidia}.}
-\label{fig:Specs}
+\label{tab:Specs}
 \end{figure}
 
 \subsection{Data handling and design choices of the models}
