@@ -1,0 +1,611 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  11 DEC 2017 13:09
+entering extended mode
+**results.tex
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report\Results\results.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen104
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comment\comment.sty"
+\CommentStream=\write3
+
+Excluding comment 'comment')
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen115
+\captionmargin@=\dimen116
+\captionwidth=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+)
+\c@ContinuedFloat=\count102
+Package caption Info: float package is loaded.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
+\c@subfigure=\count103
+\c@subtable=\count104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen121
+\Gm@wd@mp=\dimen122
+\Gm@odd@mp=\dimen123
+\Gm@even@mp=\dimen124
+\Gm@layoutwidth=\dimen125
+\Gm@layoutheight=\dimen126
+\Gm@layouthoffset=\dimen127
+\Gm@layoutvoffset=\dimen128
+\Gm@dimlist=\toks24
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report\Results\results.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 17.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen129
+\scratchbox=\box30
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen130
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks26
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (2.10258pt too wide) in paragraph at lines 26--26
+[]\OT1/lmr/bx/n/17.28 Training op-ti-miza-tion based on val-i-da-tion per-for-m
+ance 
+ []
+
+<figures/missimage.png, id=1, 200.75pt x 162.6075pt>
+File: figures/missimage.png Graphic file (type png)
+
+<use figures/missimage.png>
+Package pdftex.def Info: figures/missimage.png used on input line 32.
+(pdftex.def)             Requested size: 96.73788pt x 78.35837pt.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 39.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 39.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 39.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 39.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 39.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\OT1/lmr/bx/n/12 cu-racy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\OT1/lmr/bx/n/12 Avg.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\OT1/lmr/bx/n/12 Speci-ficity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\OT1/lmr/bx/n/12 Avg.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\OT1/lmr/bx/n/12 Avg.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\OT1/lmr/bx/n/12 Symptom
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]\OT1/lmr/bx/n/12 Pain
+ []
+
+File: figures/missimage.png Graphic file (type png)
+<use figures/missimage.png>
+Package pdftex.def Info: figures/missimage.png used on input line 52.
+(pdftex.def)             Requested size: 96.73788pt x 78.35837pt.
+
+Underfull \hbox (badness 7047) in paragraph at lines 61--61
+[]\OT1/lmr/m/n/12 Mean Sen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+[]\OT1/lmr/m/n/12 Symptom
+ []
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/passw/OneDrive/D
+ocuments/GitHub/ST7/Report/Results/figures/missimage.png>]
+File: figures/missimage.png Graphic file (type png)
+
+<use figures/missimage.png>
+Package pdftex.def Info: figures/missimage.png used on input line 72.
+(pdftex.def)             Requested size: 96.73788pt x 78.35837pt.
+
+Underfull \hbox (badness 7047) in paragraph at lines 81--81
+[]\OT1/lmr/m/n/12 Mean Sen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]\OT1/lmr/m/n/12 Symptom
+ []
+
+<figures/sdura2cla.png, id=12, 1387.584pt x 710.4141pt>
+File: figures/sdura2cla.png Graphic file (type png)
+
+<use figures/sdura2cla.png>
+Package pdftex.def Info: figures/sdura2cla.png used on input line 100.
+(pdftex.def)             Requested size: 217.66211pt x 111.43552pt.
+
+Underfull \hbox (badness 1675) in paragraph at lines 101--101
+[]\OT1/lmr/m/n/10.95 (a) |Con-fu-sion ma-trix for clas-si-fi-ca-tion of
+ []
+
+<figures/spain2cla.png, id=13, 1387.584pt x 710.4141pt>
+File: figures/spain2cla.png Graphic file (type png)
+
+<use figures/spain2cla.png>
+Package pdftex.def Info: figures/spain2cla.png used on input line 106.
+(pdftex.def)             Requested size: 217.66211pt x 111.43552pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]\OT1/lmr/m/n/12 Accuracy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]\OT1/lmr/m/n/12 Sensitivity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]\OT1/lmr/m/n/12 Specificity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]\OT1/lmr/m/n/12 Symptom
+ []
+
+[2 <C:/Users/passw/OneDrive/Documents/GitHub/ST7/Report/Results/figures/sdura2c
+la.png> <C:/Users/passw/OneDrive/Documents/GitHub/ST7/Report/Results/figures/sp
+ain2cla.png>] <figures/bdura2cla.png, id=20, 1387.584pt x 710.4141pt>
+File: figures/bdura2cla.png Graphic file (type png)
+
+<use figures/bdura2cla.png>
+Package pdftex.def Info: figures/bdura2cla.png used on input line 131.
+(pdftex.def)             Requested size: 217.66211pt x 111.43552pt.
+
+Underfull \hbox (badness 1675) in paragraph at lines 132--132
+[]\OT1/lmr/m/n/10.95 (a) |Con-fu-sion ma-trix for clas-si-fi-ca-tion of
+ []
+
+<figures/bpain2cla.png, id=21, 1387.584pt x 710.4141pt>
+File: figures/bpain2cla.png Graphic file (type png)
+
+<use figures/bpain2cla.png>
+Package pdftex.def Info: figures/bpain2cla.png used on input line 137.
+(pdftex.def)             Requested size: 217.66211pt x 111.43552pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]\OT1/lmr/m/n/12 Accuracy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]\OT1/lmr/m/n/12 Sensitivity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]\OT1/lmr/m/n/12 Specificity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]\OT1/lmr/m/n/12 Symptom
+ []
+
+<figures/edura2cla.png, id=22, 1387.584pt x 710.4141pt>
+File: figures/edura2cla.png Graphic file (type png)
+
+<use figures/edura2cla.png>
+Package pdftex.def Info: figures/edura2cla.png used on input line 164.
+(pdftex.def)             Requested size: 217.66211pt x 111.43552pt.
+
+Underfull \hbox (badness 1675) in paragraph at lines 165--165
+[]\OT1/lmr/m/n/10.95 (a) |Con-fu-sion ma-trix for clas-si-fi-ca-tion of
+ []
+
+<figures/epain2cla.png, id=23, 1387.584pt x 710.4141pt>
+File: figures/epain2cla.png Graphic file (type png)
+
+<use figures/epain2cla.png>
+Package pdftex.def Info: figures/epain2cla.png used on input line 170.
+(pdftex.def)             Requested size: 217.66211pt x 111.43552pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
+[]\OT1/lmr/m/n/12 Accuracy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
+[]\OT1/lmr/m/n/12 Sensitivity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
+[]\OT1/lmr/m/n/12 Specificity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]\OT1/lmr/m/n/12 Symptom
+ []
+
+[3 <C:/Users/passw/OneDrive/Documents/GitHub/ST7/Report/Results/figures/bdura2c
+la.png> <C:/Users/passw/OneDrive/Documents/GitHub/ST7/Report/Results/figures/bp
+ain2cla.png> <C:/Users/passw/OneDrive/Documents/GitHub/ST7/Report/Results/figur
+es/edura2cla.png> <C:/Users/passw/OneDrive/Documents/GitHub/ST7/Report/Results/
+figures/epain2cla.png>] [4]
+(C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report\Results\results.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4138 strings out of 493921
+ 60571 string characters out of 3144876
+ 127055 words of memory out of 3000000
+ 7360 multiletter control sequences out of 15000+200000
+ 33890 words of font info for 37 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,11n,38p,412b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/lm/lmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
+lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on results.pdf (4 pages, 316247 bytes).
+PDF statistics:
+ 53 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+
