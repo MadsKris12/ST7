@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  8 DEC 2017 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  11 DEC 2017 09:58
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -1610,67 +1610,74 @@ Package pdftex.def Info: Figures/durapixel.png  used on input line 62. on input
  line 62.
 Package pdftex.def Info: Requested size: 239.2823pt x 120.16638pt on input line
  62.
-<Figures/linRegDurationRegions.png, id=114, 822.6735pt x 392.06474pt>
-File: Figures/linRegDurationRegions.png Graphic file (type png)
-<use Figures/linRegDurationRegions.png>
-Package pdftex.def Info: Figures/linRegDurationRegions.png  used on input line 
-68. on input line 68.
-Package pdftex.def Info: Requested size: 239.2823pt x 114.03685pt on input line
- 68.
+<Figures/duraregion.png, id=114, 827.34094pt x 424.58624pt>
+File: Figures/duraregion.png Graphic file (type png)
+<use Figures/duraregion.png>
+Package pdftex.def Info: Figures/duraregion.png  used on input line 69. on inpu
+t line 69.
+Package pdftex.def Info: Requested size: 239.2823pt x 122.79643pt on input line
+ 69.
+
+Overfull \hbox (7.47275pt too wide) in paragraph at lines 60--73
+[]  []    [] 
+ []
+
 <Figures/vaspixel.png, id=115, 683.55376pt x 336.0555pt>
 File: Figures/vaspixel.png Graphic file (type png)
 <use Figures/vaspixel.png>
-Package pdftex.def Info: Figures/vaspixel.png  used on input line 75. on input 
-line 75.
+Package pdftex.def Info: Figures/vaspixel.png  used on input line 76. on input 
+line 76.
 Package pdftex.def Info: Requested size: 239.2823pt x 117.63657pt on input line
- 75.
+ 76.
 <Figures/vasregion.png, id=116, 660.66824pt x 339.669pt>
 File: Figures/vasregion.png Graphic file (type png)
 <use Figures/vasregion.png>
-Package pdftex.def Info: Figures/vasregion.png  used on input line 82. on input
- line 82.
+Package pdftex.def Info: Figures/vasregion.png  used on input line 83. on input
+ line 83.
 Package pdftex.def Info: Requested size: 239.2823pt x 123.0219pt on input line 
-82.
+83.
 
-Overfull \hbox (7.47275pt too wide) in paragraph at lines 73--86
+Overfull \hbox (7.47275pt too wide) in paragraph at lines 74--87
 []  []    [] 
  []
 
 [3 <./Figures/atlas.png>]
-LaTeX Font Info:    Try loading font information for OMS+pplx on input line 97.
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 98.
 
-LaTeX Font Info:    No file OMSpplx.fd. on input line 97.
+LaTeX Font Info:    No file OMSpplx.fd. on input line 98.
 
 
 LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 97.
+(Font)              using `OMS/cmsy/m/n' instead on input line 98.
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 94--104
+Underfull \hbox (badness 6825) in paragraph at lines 95--105
 \T1/pplx/m/n/10 (+20) and the com-bined mor-phol-ogy and location-
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 94--104
+Underfull \hbox (badness 4940) in paragraph at lines 95--105
 \T1/pplx/m/n/10 (+20) model ar-chi-tec-ture con-sist-ing of convolutional-
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 94--104
+Underfull \hbox (badness 1275) in paragraph at lines 95--105
 \T1/pplx/m/n/10 (+20) fol-lowed by pool-ing lay-ers and fully con-nected
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--104
+Underfull \hbox (badness 10000) in paragraph at lines 95--105
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./Figures/legend.png> <./Figures/durapixel.png> <./Figures/linRegDurationR
-egions.png> <./Figures/vaspixel.png> <./Figures/vasregion.png>]) (Results/resul
-t.tex)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./Figures/legend.png> <./Figures/durapixel.png> <./Figures/duraregion.png>
+ <./Figures/vaspixel.png> <./Figures/vasregion.png>]) (Results/result.tex)
 (Results/discuss.tex) (Results/conclusion.tex) (Journal.bbl [5]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 69.
 
@@ -1701,7 +1708,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
  ) 
 Here is how much of TeX's memory you used:
  35666 strings out of 493312
- 701224 string characters out of 3138898
+ 701169 string characters out of 3138898
  832314 words of memory out of 3000000
  38402 multiletter control sequences out of 15000+200000
  585502 words of font info for 245 fonts, out of 3000000 for 9000
@@ -1714,7 +1721,7 @@ MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pa
 latino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Journal.pdf (6 pages, 1920924 bytes).
+Output written on Journal.pdf (6 pages, 1914654 bytes).
 PDF statistics:
  223 PDF objects out of 1000 (max. 8388607)
  30 named destinations out of 1000 (max. 500000)
