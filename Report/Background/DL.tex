@@ -80,7 +80,7 @@ Near the fifth epoch the validation and the test error starts to rise, indicatin
 Validation error can therefore be used as stop criterion for when the training is optimal, and prevent overfitting. 
 Typically the validation and test error will always be higher than the training error, which is also seen in figure \ref{fig:learningCurve}.\citep{Duda2000}
 
-\subsubsection{Gradient Descent}
+\subsubsection{Gradient Descent} \label{sec:optimizers}
 Gradient descent is one of the most common techniques for optimizing neural networks. It is a way to minimize the loss function by updating the parameters, like weights, in the opposite direction of the gradient of the objective function.\citep{Ruder2016} The principle of the gradient descent could be explained as a "ball climbing down a hill" until a local minimum is reached as shown in figure \ref{fig:GDgraph}. At each step, the opposite direction of the gradient is taken and the step size is determined by the value of the learning rate together with the slope of the gradient until the convergence is reached. Convergence means that oscillations of the value are small enough to call it the minimum value.\citep{Raschka2016}
 
 \begin{figure} [H]
@@ -154,7 +154,7 @@ A study \citeauthor{Srivastava2014} has tested the use of dropout in different n
 \subsubsection{Initializers}
 In neural networks starting values of hyperparameters can have a significant effect on the training process \citep{Bengio2012}. Hyperparameters often define many different values that can be adjusted, to control the behavior of the algorithm, to which some parameters may affect the runtime and computational cost when training the model \citep{Goodfellow2016}. Weights, biases initializers could be used in order to take the values randomly and exclude the symmetry between nodes \citep{Gustafson1998}. 
 
-\subsection{Core Neural Network layers}
+\subsection{Core Neural Network layers}\label{sec:Layers}
 Convolutional, pooling and fully connected layers could be called as core neural network layers, where convolutional and pooling layers also act as hidden layers. In architecture of the network these layers have specific place and functions \citep{LeCun2,Goodfellow2016}.
 
 \subsubsection{Convolutional Neural Networks}
