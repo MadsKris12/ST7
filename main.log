@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  12 DEC 2017 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  12 DEC 2017 18:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -2645,36 +2645,37 @@ Package natbib Warning: Citation `KOOS2016' on page 48 undefined on input line
 78.
 
 [48 <./figures/KOOS4.png>] (Report/yAppendix/appThresholds.tex
-<figures/threshold52.png, id=1008, 708.246pt x 679.338pt>
+<figures/threshold52.png, id=1008, 640.794pt x 497.4585pt>
 File: figures/threshold52.png Graphic file (type png)
 <use figures/threshold52.png>
 Package pdftex.def Info: figures/threshold52.png  used on input line 3. on inpu
 t line 3.
-Package pdftex.def Info: Requested size: 441.0pt x 423.0096pt on input line 3.
-<figures/threshold67.png, id=1009, 701.019pt x 679.338pt>
+Package pdftex.def Info: Requested size: 441.0pt x 342.35863pt on input line 3.
+
+<figures/threshold67.png, id=1009, 640.794pt x 492.6405pt>
 File: figures/threshold67.png Graphic file (type png)
 <use figures/threshold67.png>
 Package pdftex.def Info: figures/threshold67.png  used on input line 8. on inpu
 t line 8.
-Package pdftex.def Info: Requested size: 441.0pt x 427.36325pt on input line 8.
+Package pdftex.def Info: Requested size: 441.0pt x 339.04282pt on input line 8.
 
  [49
 
  <./figures/threshold52.png>]
-<figures/threshold125.png, id=1017, 705.837pt x 679.338pt>
+<figures/threshold125.png, id=1017, 625.1355pt x 499.8675pt>
 File: figures/threshold125.png Graphic file (type png)
 <use figures/threshold125.png>
 Package pdftex.def Info: figures/threshold125.png  used on input line 13. on in
 put line 13.
-Package pdftex.def Info: Requested size: 441.0pt x 424.45044pt on input line 13
+Package pdftex.def Info: Requested size: 441.0pt x 352.62782pt on input line 13
 .
  [50 <./figures/threshold67.png>]
-<figures/threshold206.png, id=1026, 720.291pt x 679.338pt>
+<figures/threshold206.png, id=1026, 626.94225pt x 478.1865pt>
 File: figures/threshold206.png Graphic file (type png)
 <use figures/threshold206.png>
 Package pdftex.def Info: figures/threshold206.png  used on input line 18. on in
 put line 18.
-Package pdftex.def Info: Requested size: 441.0pt x 415.92972pt on input line 18
+Package pdftex.def Info: Requested size: 441.0pt x 336.36267pt on input line 18
 .
 ) [51 <./figures/threshold125.png>]
 
@@ -2732,7 +2733,7 @@ sers\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (57 pages, 7012086 bytes).
+Output written on main.pdf (57 pages, 6980968 bytes).
 PDF statistics:
  1733 PDF objects out of 2073 (max. 8388607)
  228 named destinations out of 1000 (max. 500000)
