@@ -44,64 +44,18 @@ There are ten regions on each knee, where region 1 and 3 represent the superior 
 \noindent
 \textbf{Location-representation} \newline
 \noindent
-To investigate whether the location alone have a correlation to the outputs, a simplified representation of the pain maps was created. The location of the pain was reflected by the use of the defined knee regions (fig. \ref{fig:atlas}), where each region represented a value of 0 (not active) or 1 (active) in a vector.  The values were defined by using a threshold to determine whether a region was considered active in relation the amount of pain. A threshold was required to increase the confidence of an active pain region by avoiding minimal contributions e.g. small pain areas in the associated regions. Simultaneously the threshold should not be too large so that pain areas was excluded. The threshold was decided based on an analysis on five random pain maps, where threshold values of 0, 5, 10 and 15\% was compared. The threshold represent which minimal percentage of pain should be present in a specific region before it is considered active. Based on the analysis a 5\% threshold was chosen. As a result for adding the threshold value the number of pain maps with pain duration decrease to 316, and number of pain maps with pain intensity decrease to 302.  \newline
+To investigate whether the location alone have a correlation to the outputs, a simplified representation of the pain maps was created. The location of the pain was reflected by the use of the defined knee regions (fig. \ref{fig:atlas}), where each region represented a value of 0 (not active) or 1 (active) in a vector.  The values were defined by using a threshold to determine whether a region was considered active in relation the amount of pain. A threshold was required to increase the confidence of an active pain region by avoiding minimal contributions e.g. small pain areas in the associated regions. Simultaneously the threshold should not be too large so that pain areas was excluded. The threshold was decided based on an analysis on five random pain maps, where threshold values of 0, 5, 10 and 15\% was compared. The threshold represent which minimal percentage of pain should be present in a specific region before it is considered active. Based on the analysis a 5\% threshold was chosen. As a result for adding the threshold value the number of pain maps with pain duration decrease to 316, and number of pain maps with pain intensity decrease to 302.  \\
 
 \noindent
 \textbf{Combined-representation} \newline
 \noindent
-A combination of morphology and location of the pain is created based on components from morphology- and location-representations. The original pain maps are superimposed on the regions, which result in pain pixels reflecting the location with a number from 1 to 10. Before using the representation as input, one-hot encoding approach was used, which made it possible to separate categorical data into binary data [46]. This means that the 20 values for each knee region do not have a correlation when analysed in the deep learning model. The number of pain maps with pain duration was 331, and number of pain maps with pain intensity was 317. The number of pain maps increased according to the location-representation, because no threshold was applied in this data-representation. 
-
-
+A combination of morphology and location of the pain is created based on components from morphology- and location-representations. The original pain maps are superimposed on the regions, which result in pain pixels reflecting the location with a number from 1 to 10. Before using the representation as input, one-hot encoding approach was used, which made it possible to separate categorical data into binary data [46]. This means that the 20 values for each knee region do not have a correlation when analysed in the deep learning model. The number of pain maps with pain duration was 331, and number of pain maps with pain intensity was 317. The number of pain maps increased according to the location-representation, because no threshold was applied in this data-representation. \\
 
 \noindent
-\textbf{Linear regressions} \newline
+\textbf{Nonlinearity in pain maps} \newline
 \noindent
-It was assumed that the data was nonlinear, because PFP is subjective and multidimensional. To verify this assumption of nonlinearity, linear regression on simple features reflecting the size of the pain was investigated. This decision was based on the phenomenon central sensitization that may result in widespread, to which this might be reflected in the number of pain pixels and active pain regions. 
-Additionally, is a linear correlation according to the pain intensity investigated. The linear regression is shown in fig. \ref{fig:correlations}.
+Given that PFP is subjective and multifactorial it is unlikely that the pain maps and pain duration or pain intensity are linearly correlated. In order to determine if there was a linear relationship, linear regressions were done on simple features reflecting the size of the pain and number of active pain regions. The linear regressions were made in MatLab, and composed a correlation between number of pain pixels and pain duration, number of pain pixels and pain intensity, number of active pain regions and pain duration, and number of active pain regions and pain intensity.\\
 
-
-
-\begin{figure*} [b!]
-\begin{tcolorbox}[colframe=black!30!black, colback=white]
-\hfill
-\begin{subfigure}[r]{0.5\textwidth}
-    \includegraphics[width=\textwidth]{Figures/legend}
-  \end{subfigure}
-  \vskip\baselineskip
-  \hspace{-5mm}
-  \begin{subfigure}[b]{0.51\textwidth}
-    \includegraphics[width=\textwidth]{Figures/durapixel}
-    \caption{ }
-    \label{fig:1}
-  \end{subfigure}
-  \hfill
-    \hspace{2mm}
-  \begin{subfigure}[b]{0.51\textwidth}
-    \includegraphics[width=\textwidth]{Figures/duraregion}
-       \caption{ }
-    \label{fig:2}
-  \end{subfigure}
-    \vskip\baselineskip
-    \hspace{-5mm}
-  \begin{subfigure}[b]{0.51\textwidth}
-    \includegraphics[width=\textwidth]{Figures/vaspixel}
-    \caption{}
-    \label{fig:3}
-  \end{subfigure}
-  \hfill
-  \hspace{2mm}
-  \begin{subfigure}[b]{0.51\textwidth}
-    \includegraphics[width=\textwidth]{Figures/vasregion}
-       \caption{ }
-    \label{fig:4}
-  \end{subfigure}  
-  \caption{Linear correlations of pain pixels and pain duration (a), active pain regions and pain duration (b), pain pixels and pain intensity indicated in VAS (c), and active pain regions and pain intensity indicated in VAS (d).}
-  \label{fig:correlations}
-\end{tcolorbox}
-\end{figure*}
-
-\noindent
-Based on the four linear regression models, it was shown that single features, number of pain pixels or number of active pain regions, did not have a clear linear correlation with the outputs, pain duration or intensity. Hence a deep learning model may find patterns in the pain maps according morphology or location of pain in relation to either pain duration or intensity. \newpage
 
 \noindent
 \textbf{Deep learning models}\newline
