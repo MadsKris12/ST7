@@ -1,3 +1,4 @@
+
 \documentclass[12pt,a4paper]{article}
 \usepackage[latin1]{inputenc}
 \usepackage[english]{babel}
@@ -17,14 +18,14 @@
 \begin{document}
 
 %\chapter{Results of model training and testing}
-This chapter will present the results from training and testing of the three data representations. Training results support arguments to how optimization of the models were performed as well as the generalization performance of the models. Final testing shows how the trained model will generalize unseen data, displayed in a confusion matrix, along with it's calculated type 1 and type 2 errors. 
+This chapter will present the results from training and testing of the three data representations using two different outputs. Training results support arguments to how optimization of the models were performed as well as the generalization performance of the models. Final testing shows how the trained model will generalize unseen data, displayed in a confusion matrix, along with it's calculated type 1 and type 2 errors. According to the final result, optimal model will be found
 
 \section{Initial optimization and training of the models}
-Initial grid search of hyperparameters led to results that were used as an indication to initial setting of the models in order to (improve) raise or maintain performance for the different networks. The results of the grid search is shown in %\autoref{tab:gridResults}. 
+Initial grid search of hyperparameters led to results that were used as an indication to initial settings of the models in order to (improve) raise or maintain performance for the different networks. The results of the grid search is shown in %\autoref{tab:gridResults}. 
 
 
 \section{Training optimization based on validation performance}
-Further optimization was performed based the development in validation performance. These results were used to evaluate the performance of the model, in terms of the under- and overfitting of the training subset. The results of this training optimization process is shown as graphs in %\autoref{fig:}
+Further optimization was performed based the development in validation performance. These results were used to evaluate the performance of the model, in terms of the under- and overfitting of the training subset. Training were performed using 10-fold cross-validation providing the mean values of accuracy, sensitivity, specificity The results of this training optimization process is shown as graphs in %\autoref{fig:}
 
 \subsection{Simple representation training results}
 \begin{figure} [H]
@@ -39,7 +40,7 @@ Further optimization was performed based the development in validation performan
 \begin{tabular}{|p{2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2cm}|p{2cm}|}
 \hline
 \textbf{Classes}          & \textbf{Avg. Accuracy (\%)} & \textbf{Avg. Sensitvity (\%)} & \textbf{Avg. Specificity (\%)} & \textbf{Avg. PPV (\%)} & \textbf{Avg. NPV (\%)} \\ \hline
-\textbf{Symptom Duration} & $54.56\%\newline(\pm12.81\%)$ & $50.68\%\newline(\pm0.15\%)$ & $59.55\%\newline(\pm0.15\%)$ & $58.33\%\newline(\pm0.25\%)$ & $51.33\%\newline(\pm0.20\%)$ \\ \hline
+\textbf{Pain duration} & $54.56\%\newline(\pm12.81\%)$ & $50.68\%\newline(\pm0.15\%)$ & $59.55\%\newline(\pm0.15\%)$ & $58.33\%\newline(\pm0.25\%)$ & $51.33\%\newline(\pm0.20\%)$ \\ \hline
 \textbf{Pain intensity}   & $63.33\%\newline(\pm1.67\%)$ & $0.00\%\newline(\pm0.00\%)$ & $63.33\%\newline(\pm0.02\%)$ & $0.00\%\newline(\pm0.00\%)$ & $100\%\newline(\pm0.00\%)$ \\ \hline
 \end{tabular}
 \label{my-label}
@@ -59,7 +60,7 @@ Further optimization was performed based the development in validation performan
 \begin{tabular}{|p{2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2cm}|p{2cm}|}
 \hline
 Classes          & Mean Accuracy (\%) & Mean Sensitvity (\%) & Mean Specificity (\%) & Mean PPV (\%) & Mean NPV (\%) \\ \hline
-Symptom Duration & $59.51\%\newline(\pm11.20\%)$ & $62.16\%\newline(\pm21.59\%)$ & $62.20\%\newline(\pm18.13\%)$ & $54.53\%\newline(\pm27.10\%)$ & $69.10\%\newline(\pm19.47\%)$ \\ \hline
+Pain duration & $59.51\%\newline(\pm11.20\%)$ & $62.16\%\newline(\pm21.59\%)$ & $62.20\%\newline(\pm18.13\%)$ & $54.53\%\newline(\pm27.10\%)$ & $69.10\%\newline(\pm19.47\%)$ \\ \hline
 Pain intensity   & $65.04\%\newline(\pm10.83\%)$ & $48.23\%\newline(\pm0.28\%)$ & $71.02\%\newline(\pm0.12\%)$ & $44.09\%\newline(\pm0.26\%)$ & $78.65\%\newline(\pm0.14\%)$ \\ \hline
 \end{tabular}
 \label{my-label}
@@ -79,7 +80,7 @@ Pain intensity   & $65.04\%\newline(\pm10.83\%)$ & $48.23\%\newline(\pm0.28\%)$ 
 \begin{tabular}{|p{2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2cm}|p{2cm}|}
 \hline
 Classes          & Mean Accuracy (\%) & Mean Sensitvity (\%) & Mean Specificity (\%) & Mean PPV (\%) & Mean NPV (\%) \\ \hline
-Symptom Duration & $55.49\%\newline(\pm10.06\%)$ & $55.23\%\newline(\pm16.07\%)$ & $56.99\%\newline(\pm12.55\%)$ & $42.92\%\newline(\pm21.03\%)$ & $68.47\%\newline(\pm13.90\%)$ \\ \hline
+Pain duration & $55.49\%\newline(\pm10.06\%)$ & $55.23\%\newline(\pm16.07\%)$ & $56.99\%\newline(\pm12.55\%)$ & $42.92\%\newline(\pm21.03\%)$ & $68.47\%\newline(\pm13.90\%)$ \\ \hline
 Pain intensity   & $65.14\%\newline(\pm12.87\%)$ & $37.50\%\newline(\pm0.35\%)$ & $67.34\%\newline(\pm0.15\%)$ & $22.14\%\newline(\pm0.20\%)$ & $92.41\%\newline(\pm0.07\%)$ \\ \hline
 \end{tabular}
 \label{my-label}
@@ -90,7 +91,7 @@ Pain intensity   & $65.14\%\newline(\pm12.87\%)$ & $37.50\%\newline(\pm0.35\%)$ 
 
 
 \section{Testing results}
-These result reflect the generalization performance of the three representation models, to which the models classification capabilities to unseen data is shown in confusion matrices, from where a type 1 and type 2 error is calculated. 
+These results reflect the generalization performance of the three representation models, to which the models classification capabilities to unseen data is shown in confusion matrices, from where specificity, sensitivity, type 1 and type 2 errors are calculated. 
 
 
 \subsection{Simple representation training results}
@@ -98,7 +99,7 @@ These result reflect the generalization performance of the three representation 
 \begin{figure}[H]
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{figures/sdura2cla}
-    \caption{Confusion matrix for classification of symptom duration}
+    \caption{Confusion matrix for classification of pain duration}
     \label{fig:f1}
   \end{subfigure}
   \hfill
@@ -116,8 +117,8 @@ These result reflect the generalization performance of the three representation 
 \begin{tabular}{|p{2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2cm}|p{2cm}|}
 \hline
 Classes          & Accuracy (\%) & Sensitivity (\%) & Specificity (\%) & PPV (\%) & NPV (\%) \\ \hline
-Symptom Duration &                    &                      &                       &               &               \\ \hline
-Pain intensity   &                    &                      &                       &               &               \\ \hline
+Pain duration &$44.12\%$&$45.45\%$&$41.67\%$&$58.82\%$&$29.41\%$\\ \hline
+Pain intensity &$65.52\%$&$0\%$&$65.52\%$&$0\%$&$100\%$ \\ \hline
 \end{tabular}
 \label{my-label}
 \caption{My caption}
@@ -129,7 +130,7 @@ Pain intensity   &                    &                      &                  
 \begin{figure}[H]
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{figures/bdura2cla}
-    \caption{Confusion matrix for classification of symptom duration}
+    \caption{Confusion matrix for classification of pain duration}
     \label{fig:f11}
   \end{subfigure}
   \hfill
@@ -148,8 +149,8 @@ Pain intensity   &                    &                      &                  
 \begin{tabular}{|p{2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2cm}|p{2cm}|}
 \hline
 Classes          & Accuracy (\%) & Sensitivity (\%) & Specificity (\%) & PPV (\%) & NPV (\%) \\ \hline
-Symptom Duration &                    &                      &                       &               &               \\ \hline
-Pain intensity   &                    &                      &                       &               &               \\ \hline
+Pain duration &$63.89\%$&$60\%$&$66.67\%$&$57.25\%$&$70\%$\\ \hline
+Pain intensity &$70\%$&$60\%$&$72\%$&$30\%$&$90\%$ \\ \hline
 \end{tabular}
 \label{my-label}
 \caption{My caption}
@@ -162,7 +163,7 @@ Pain intensity   &                    &                      &                  
 \begin{figure}[H]
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{figures/edura2cla}
-    \caption{Confusion matrix for classification of symptom duration}
+    \caption{Confusion matrix for classification of pain duration}
     \label{fig:f1}
   \end{subfigure}
   \hfill
@@ -181,11 +182,20 @@ Pain intensity   &                    &                      &                  
 \begin{tabular}{|p{2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2cm}|p{2cm}|}
 \hline
 Classes          & Accuracy (\%) & Sensitivity (\%) & Specificity (\%) & PPV (\%) & NPV (\%) \\ \hline
-Symptom Duration &                    &                      &                       &               &               \\ \hline
-Pain intensity   &                    &                      &                       &               &               \\ \hline
+Pain duration &$52.78\%$&$50\%$&$55.56\%$&$52.94\%$&$52.63\%$ \\ \hline
+Pain intensity &$63.33\%$&$0\%$&$63.33\%$&$0\%$&$100\%$ \\ \hline
 \end{tabular}
 \label{my-label}
 \caption{My caption}
 \end{table}
 
 \end{document}
+
+\subsection{Optimal model}
+
+In order to find the optimal model with the highest generalization performance, the output of pain intensity and pain duration was compared.
+In addition (or Later), the performance of different data representations (morphology, location and combined), with gender included, was additionally evaluated to determine if form, location or combination of both, could be kept as meaningful feature while classifying pain duration and intensity. 
+Final optimal model is chosen after comparing the scores of all 6 models, presented in table /ref{final result table}. Furthermore, type 1 and type 2 errors could be seen in confusion matrices shown in figure /ref{confusionblabla}.
+
+
+
