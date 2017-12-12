@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  11 DEC 2017 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  12 DEC 2017 10:45
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -1525,7 +1525,7 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/it' in size <9> not available
 (Font)              Font shape `T1/pplx/b/it' tried instead on input line 127.
 
 (Introduction/introduction.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6608) has occurred while \output is active []
 
 
 
@@ -1539,6 +1539,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+Underfull \hbox (badness 3942) in paragraph at lines 14--20
+\T1/pplx/m/n/10 (+20) location- and combined-representation. There
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 14--20
 
  []
@@ -1559,111 +1564,139 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
  []
 
 [2 <./Figures/twoPainmaps.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
+
+ []
+
 <Figures/atlas.png, id=108, 324.0105pt x 175.857pt>
 File: Figures/atlas.png Graphic file (type png)
 <use Figures/atlas.png>
-Package pdftex.def Info: Figures/atlas.png  used on input line 24. on input lin
-e 24.
-Package pdftex.def Info: Requested size: 200.19054pt x 108.65454pt on input lin
-e 24.
+Package pdftex.def Info: Figures/atlas.png  used on input line 35. on input lin
+e 35.
+Package pdftex.def Info: Requested size: 175.17244pt x 95.07674pt on input line
+ 35.
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--36
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--41
+Underfull \vbox (badness 4556) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
 
  []
 
-<Figures/legend.png, id=113, 401.70074pt x 27.7035pt>
-File: Figures/legend.png Graphic file (type png)
-<use Figures/legend.png>
-Package pdftex.def Info: Figures/legend.png  used on input line 54. on input li
-ne 54.
-Package pdftex.def Info: Requested size: 234.59302pt x 16.1792pt on input line 
-54.
-<Figures/durapixel.png, id=114, 683.55376pt x 343.2825pt>
-File: Figures/durapixel.png Graphic file (type png)
-<use Figures/durapixel.png>
-Package pdftex.def Info: Figures/durapixel.png  used on input line 59. on input
- line 59.
-Package pdftex.def Info: Requested size: 239.2823pt x 120.16638pt on input line
- 59.
-<Figures/duraregion.png, id=115, 827.34094pt x 424.58624pt>
-File: Figures/duraregion.png Graphic file (type png)
-<use Figures/duraregion.png>
-Package pdftex.def Info: Figures/duraregion.png  used on input line 66. on inpu
-t line 66.
-Package pdftex.def Info: Requested size: 239.2823pt x 122.79643pt on input line
- 66.
 
-Overfull \hbox (7.47275pt too wide) in paragraph at lines 57--70
-[]  []    [] 
- []
-
-<Figures/vaspixel.png, id=116, 683.55376pt x 336.0555pt>
-File: Figures/vaspixel.png Graphic file (type png)
-<use Figures/vaspixel.png>
-Package pdftex.def Info: Figures/vaspixel.png  used on input line 73. on input 
-line 73.
-Package pdftex.def Info: Requested size: 239.2823pt x 117.63657pt on input line
- 73.
-<Figures/vasregion.png, id=117, 660.66824pt x 339.669pt>
-File: Figures/vasregion.png Graphic file (type png)
-<use Figures/vasregion.png>
-Package pdftex.def Info: Figures/vasregion.png  used on input line 80. on input
- line 80.
-Package pdftex.def Info: Requested size: 239.2823pt x 123.0219pt on input line 
-80.
-
-Overfull \hbox (7.47275pt too wide) in paragraph at lines 71--84
-[]  []    [] 
- []
-
-
-Underfull \vbox (badness 4492) has occurred while \output is active []
-
- [3 <./Figures/atlas.png>]
-LaTeX Font Info:    Try loading font information for OMS+pplx on input line 95.
-
-LaTeX Font Info:    No file OMSpplx.fd. on input line 95.
-
-
-LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 95.
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 92--102
-\T1/pplx/m/n/10 (+20) and the com-bined mor-phol-ogy and location-
- []
-
-
-Underfull \hbox (badness 4940) in paragraph at lines 92--102
-\T1/pplx/m/n/10 (+20) model ar-chi-tec-ture con-sist-ing of convolutional-
- []
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 92--102
-\T1/pplx/m/n/10 (+20) fol-lowed by pool-ing lay-ers and fully con-nected
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--102
+Underfull \hbox (badness 10000) in paragraph at lines 49--53
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./Figures/legend.png> <./Figures/durapixel.png> <./Figures/duraregion.png>
- <./Figures/vaspixel.png> <./Figures/vasregion.png>]) (Results/result.tex)
-(Results/discuss.tex) (Results/conclusion.tex) (Journal.bbl [5]
+ [3 <./Figures/atlas.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 54--58
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 63.
+
+LaTeX Font Info:    No file OMSpplx.fd. on input line 63.
+
+LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead on input line 63.
+
+
+Underfull \hbox (badness 6825) in paragraph at lines 60--70
+\T1/pplx/m/n/10 (+20) and the com-bined mor-phol-ogy and location-
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 60--70
+\T1/pplx/m/n/10 (+20) model ar-chi-tec-ture con-sist-ing of convolutional-
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 60--70
+\T1/pplx/m/n/10 (+20) fol-lowed by pool-ing lay-ers and fully con-nected
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--70
+
+ []
+
+
+Underfull \vbox (badness 4492) has occurred while \output is active []
+
+)
+(Results/result.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--4
+
+ []
+
+<Figures/legend.png, id=127, 401.70074pt x 27.7035pt>
+File: Figures/legend.png Graphic file (type png)
+<use Figures/legend.png>
+Package pdftex.def Info: Figures/legend.png  used on input line 9. on input lin
+e 9.
+Package pdftex.def Info: Requested size: 234.59302pt x 16.1792pt on input line 
+9.
+<Figures/durapixel.png, id=128, 683.55376pt x 343.2825pt>
+File: Figures/durapixel.png Graphic file (type png)
+<use Figures/durapixel.png>
+Package pdftex.def Info: Figures/durapixel.png  used on input line 14. on input
+ line 14.
+Package pdftex.def Info: Requested size: 239.2823pt x 120.16638pt on input line
+ 14.
+<Figures/duraregion.png, id=129, 827.34094pt x 424.58624pt>
+File: Figures/duraregion.png Graphic file (type png)
+<use Figures/duraregion.png>
+Package pdftex.def Info: Figures/duraregion.png  used on input line 21. on inpu
+t line 21.
+Package pdftex.def Info: Requested size: 239.2823pt x 122.79643pt on input line
+ 21.
+
+Overfull \hbox (7.47275pt too wide) in paragraph at lines 12--25
+[]  []    [] 
+ []
+
+<Figures/vaspixel.png, id=130, 683.55376pt x 336.0555pt>
+File: Figures/vaspixel.png Graphic file (type png)
+<use Figures/vaspixel.png>
+Package pdftex.def Info: Figures/vaspixel.png  used on input line 28. on input 
+line 28.
+Package pdftex.def Info: Requested size: 239.2823pt x 117.63657pt on input line
+ 28.
+<Figures/vasregion.png, id=131, 660.66824pt x 339.669pt>
+File: Figures/vasregion.png Graphic file (type png)
+<use Figures/vasregion.png>
+Package pdftex.def Info: Figures/vasregion.png  used on input line 35. on input
+ line 35.
+Package pdftex.def Info: Requested size: 239.2823pt x 123.0219pt on input line 
+35.
+
+Overfull \hbox (7.47275pt too wide) in paragraph at lines 26--39
+[]  []    [] 
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
+
+ []
+
+) (Results/discuss.tex) (Results/conclusion.tex) (Journal.bbl
+Underfull \vbox (badness 6173) has occurred while \output is active []
+
+ [5 <./Figures/legend.png> <./Figures/durapixel.png> <./Figures/duraregion.png>
+ <./Figures/vaspixel.png> <./Figures/vasregion.png>]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 69.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
@@ -1673,12 +1706,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
+ [6])
 
 Package natbib Warning: There were undefined citations.
 
-[6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+[7
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (Journal.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
@@ -1692,23 +1727,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
  ) 
 Here is how much of TeX's memory you used:
- 35690 strings out of 493312
- 701367 string characters out of 3138898
- 835314 words of memory out of 3000000
+ 35703 strings out of 493312
+ 701471 string characters out of 3138898
+ 833303 words of memory out of 3000000
  38402 multiletter control sequences out of 15000+200000
- 586853 words of font info for 263 fonts, out of 3000000 for 9000
+ 588033 words of font info for 273 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,15n,101p,10468b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pa
-latino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Journal.pdf (6 pages, 1913788 bytes).
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
+rw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
+lbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Journal.pdf (7 pages, 1925712 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
  47848 words of extra memory for PDF output out of 51595 (max. 10000000)
 

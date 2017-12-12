@@ -1,5 +1,5 @@
 Patellofemoral pain syndrome (PFPS) is a painful musculoskeletal condition that is presented as pain behind or around the patella \citep{Maclachlan2017, Smith2015}. PFPS affects 6-7\% of adolescents, of whom two thirds are highly physically active \citep{Rathleff2015}. Additionally the prevalence is more than twice as high for females than males \citep{Rathleff2015, Petersen2013}.
-PFPS may be present over a longer period of time where a high number of individuals experience a recurrent or chronic pain \citep{Witvrouw2014}. Chronic pain may be maintained by the phenomenon central sensitization, which may result in increased areas of pain over longer periods of time. Furthermore, PFPS may lead to osteoarthritis \citep{Petersen2013, Crossley2016}. 
+PFPS may be present over a longer period of time where a high number of individuals experience a recurrent or chronic pain \citep{Witvrouw2014}. Chronic pain may be maintained by the phenomenon central sensitization, which may result widespread pain over longer periods of time. Furthermore, PFPS may lead to osteoarthritis \citep{Petersen2013, Crossley2016}. 
 
 \noindent
 Patellofemoral pain (PFP) is often described as diffuse knee pain, that can be hard for individuals to explain and localize \citep{Witvrouw2014}. Despite the fact that individuals feel pain in the knee, there is no structural changes in the knee such as significant chondral damage. Because PFP is not caused by structural changes, no definitive clinical test may be used to diagnose PFPS and thereby often diagnosed based on exclusion criterias \citep{Petersen2013} to which PFPS is also described as an orthopaedic enigma, and is one of the most challenging pathologies to manage \citep{Dye2001}.
@@ -15,7 +15,7 @@ It is assumed that relation between pain maps and pain duration or pain intensit
 The goals of this project is to explore how accurate a deep learning model can classify pain maps according to pain duration or pain intensity. It is assumed that pain duration is a better predictor than pain intensity, because the perceived pain is subjective, and may be affected by multidimensional factors. 
 The pain maps are encoded into multiple data representations to investigate whether morphology and location are correlated to pain duration or intensity.\newline
 \noindent
-The data representations are encoded into three representations, which reflect either morphology of pain or location, and a combination of morphology and location of the pain. The data representations are refereed to as morphology-, location- and combined-representation.
+The data representations are encoded into three representations, which reflect either morphology of pain or location. It is assumed that a deep learning model will perform better with more information, thus a combination of morphology and location of the pain constitute a data representation.  The data representations are refereed to as morphology-, location- and combined-representation.
 There may be a difference in how gender reports pain intensity, where females reports more intense and frequent pain. Furthermore, there is an imbalance in prevalence between females and males, thus gender is included as a feature in the deep learning model. \newline
 
 \noindent
@@ -27,7 +27,7 @@ The aim of this study is to explore classification performance of a deep learnin
 \begin{center}
 \textit{It is hypothesized that a deep learning model that uses pain maps and gender as input parameter has a higher performance when classifying according to pain duration than pain intensity.}
 \end{center}
-\newpage
+
 \noindent
 The secondary aim is to compare the performance accuracy of deep learning models with different pain map representations (morphology-, location- and combined-representation), when predicting pain duration or pain intensity.
 \begin{center}
