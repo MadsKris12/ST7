@@ -16,18 +16,49 @@ Utilization of graphics processing unit (GPU) computation was also implemented u
 \noindent
 The neural network was created on a laptop with 4x 'Intel® Core™ i7' CPU‘s and one GPU of type 'Geforce GTX 970M' with specifications listed in table \ref{tab:Specs}.
 
-\begin{figure} [H]
+%\begin{figure} [H]
+%\centering
+%\includegraphics[width=1\textwidth]{figures/Specs}
+%\caption{Specifications of CPU‘s and GPU \citep{Intel,Nvidia}.}
+%\label{tab:Specs}
+%\end{figure}
+
+\begin{table}[H]
 \centering
-\includegraphics[width=1\textwidth]{figures/Specs}
-\caption{Specifications of CPU‘s and GPU \citep{Intel,Nvidia}.}
+\begin{tabular}{p{4cm}|p{4cm}}
+\hline
+CPU specifications &  Value \\ \hline
+Cores & 4 \\
+Clock speed & 2.6 GHz \\ 
+Cache & 6 MB SmartCache  \\ 
+Memory bandwidth & 34.1 GB/s \\ \hline
+GPU specification & Value \\ \hline
+CUDA cores & 1280  \\
+Base Clock speed & 924 MHz  \\
+Memory & 6144 MB  \\
+Memory bandwidth & 120 GB/s  \\ \hline
+\end{tabular}
 \label{tab:Specs}
-\end{figure}
+\caption{Specifications of CPU and GPU \citep{Intel,Nvidia}}
+\end{table}
 
 \subsection{Data handling and design choices of the models}
-This section presents the different models used, their architecture and implementation.
-The models will be operating on a pixel level by learning features of the pain charts.
-Each model will be using fully connected layer concept discussed in \autoref{sec:Layers}, and equal optimization methods. Convolutional layers will be used only on morphology and combined representations of data, while region representation containing labelled knee areas runs on fully connected layers.
-Instead of including all pain maps from the dataset, validation and test set were specified separately. 10-fold cross validation technique were used calculate the average accuracy, specificity and sensitivity. Each model will be used twice to independently test the generalization performance of pain duration and intensity. Supervised learning is used for training in all the models. The generic input for all of the model is gender, along with the different image representation, which are presented in figure \ref{fig:Schema1}. These inputs are trained and then compared against their respective category label. 
+This section presents the different models, their architecture and implementation used in this study.
+For classification of each representation a corresponding model was made. The classifier models for \textit{morphology-} and \textit{combined-} representation were operating on a pixel level by learning features of the pain charts, whilst the \textit{location} representation operated from the 10 element location vector. 
+The architecture of the models consist two main parts, a convolution part and a fully-connected part, except the \textit{location} model that only consist of the latter.   
+Convolution works as feature extraction of the pain maps, where convolutional and pooling layers alternates in order to extract relevant features out of the image, as described in \autoref{sec:Layers}.
+The fully-connected part works as classification, where computed feature maps gets weighted and classified to a particular class in the output layer. 
+A higher generalization performance of the classifiers, was investigated through the use of regulation and optimization methods.
+The available data was separated into a training and test subset, from which training data was used to regulate and optimize the model. 
+Supervised learning was used for training the three models. The common input for all of the model were gender, along with the different image representation
+
+%, as presented in figure \ref{fig:schema1}. 
+% These inputs are trained and then compared against their respective category label. 
+
+%From the higher point of view, the model can be architecturally split into two main parts. Feature extraction part, where convolutional and pooling layers alternates in order to extract the most important features out of the image. Second part is called classification, where computed feature maps will be assigned to particular class of the output layer. In order to obtain a higher generalization performance of deep learning classifier, methods like activation function, regulation and optimization will be used within the layers were implemented into the models.
+
+\subsubsection{Morphology representation model}
+The pain map representation of morphology works as input of the model, where the input layer is a convolution layer. This layer is set-up to receive a input shape of the dimension of the pain map, that is defined during re-scaling of the pain maps in \ref{sec:Morph}. Gender works as secondary input in the second section of the model, along with the pain maps features extracted through the convolution layers. Before the pain maps features reach the fully connected layers it is flattened from a matrix to a single row in order to merge the features with gender. The merged data passes through fully connected layers and reaches the output layer where it is given a percentage value according to which class it fits the most. Morphology model architecture is shown in figure \ref{fig:Schema1}.
 
 \begin{figure} [H]
 \centering
@@ -36,13 +67,8 @@ Instead of including all pain maps from the dataset, validation and test set wer
 \label{fig:Schema1} 
 \end{figure}
 
-From the higher point of view, the model can be architecturally split into two main parts. Feature extraction part, where convolutional and pooling layers alternates in order to extract the most important features out of the image. Second part is called classification, where computed feature maps will be assigned to particular class of the output layer. In order to obtain a higher generalization performance of deep learning classifier, methods like activation function, regulation and optimization will be used within the layers were implemented into the models.
-
-\subsubsection{Morphology - representation model}
-The pain map representation of morphology works as input of the model, where the input layer is a convolution layer. This layer is set-up to receive a input shape of the dimension of the pain map, that is defined during re-scaling of the pain maps in \ref{sec:Morph}. Gender works as secondary input in the second section of the model, along with the pain maps features extracted through the convolution layers. Before the pain maps features reach the fully connected layers it is flattened from a matrix to a single row in order to merge the features with gender. The merged data passes through fully connected layers and reaches the output layer where it is given a percentage value according to which class it fits the most. Morphology model architecture is shown in figure \ref{fig:Schema1}.
-
-\subsection{Regions-representation model}
-The architecture for this model only contains fully connected layer, since the data representation only contains 21 element vector that reflects the active pain regions and gender as described in \ref{sec:Regions}. It is evaluated that there would not be any gains in making the model more complex e.g. adding of convolution, based on the information available from vector, since the level of detail in relation to morphology is very simple. The architecture of the model is illustrated in \ref{fig:Simpleschema}.
+\subsubsection{Locations representation model}
+The architecture for this model only contains fully connected layer, since the data representation only contains 21 element vector that reflects the active pain regions and gender as described in \ref{sec:Regions}. It was evaluated that there would not be any benefits in making the model more complex by adding of convolution, based on the information available from vector, since the level of detail in relation to morphology was very simple. The architecture of the model is illustrated in \ref{fig:Simpleschema}.
 
 \begin{figure} [H]
 \centering
@@ -51,22 +77,26 @@ The architecture for this model only contains fully connected layer, since the d
 \label{fig:Simpleschema} 
 \end{figure}
 
-\subsection{Combined representation model}
-The architecture of this model is nearly identical to that of the morphology representation model.
-The main difference can only be seen in the input layer for the pain map representation, where the input shape is altered to contain 20 layers per pain chart instead of one. This is the result of the one-hot encoding done to the images as described in \ref{sec:combined}. 
+\subsubsection{Combined representation model}
+The architecture of this model is nearly identical to that of the morphology representation model. 
+The main difference can only be seen in the input layer for the pain map representation, where the input shape is altered to contain 10 image layers pr pain chart instead, which is also illustrated in \autoref{fig:Schema1}. This is the result of the one-hot encoding done to the images as described in \ref{sec:combined}. 
+
 
 \subsection{Data handling in python}
-The pre-processed data is loaded from a %\textip{.mat} 
-.mat file into python.
-Data within the file is pre-shuffled and split into a training and test sets, as described in \autoref{sec:pre-process}. The reason for shuffle the data is to improve generalisation through randomization.
-In Python the training subset is further divided into a training and validation subsets. 
-The training subset is used to find the optimal weights with the backpropagation algorithm \citep{Bengio2012}. In this project, training subset is considered to use up to 75\% of the data. The validation set makes up 15\% of the available data.
-The test set will be used to evaluate the generalization of the model, and therefore will not contain data that has been used during the training. By keeping the test set separate it will act as new unseen data, for the model. It contains 10\% of the data.
-For the morphology, and combined pain map representations, the images were reshaped from a row vector, back into a matrix to retain their 2D structure.
-Furthermore the classification labels were one-hot encoded, so they were compatible to the number of outputs in the models. This is a result of the loss function \textit{categorical\_crossentropy} used for the models, that tries to reduce loss between the categories.    
+Pre-processed data is loaded from a \textit{.mat} file into python.
+Data within the file was pre-shuffled and split into a training and test subsets, as described in \autoref{sec:pre-process}. The training subset was made up 85\% of the avalible data and test subset the remaining 15\%. Data was pre-shuffled to ensure that the training and test subset were separated at random. Furthermore the data was separated to prevent data used for training to be used for testing, to which this would give a false estimation of performance.  
+%In Python the training subset is further divided into a training and validation subsets. 
+The training subset was used to train and optimize the models, to find the optimal weights with the backpropagation algorithm \citep{Bengio2012}. 
+The test subset was used to evaluate the generalization of the model, after training and optimization.
+Morphology, and combined representations, were reshaped from a row vector, back into a matrix to retain their 2D structure of the pain map.
+Classification labels used for during supervised learning was one-hot encoded, so the number of label values were compatible to the number of outputs in the models. This was a result of the loss function \textit{categorical\_crossentropy} used for the models, that tries to reduce loss between the categories.    
+
 
 \section{Optimization}
-To try to reduce overfitting and improve generalization of the neural network different techniques are applied network models. Grid search method was used to find most optimal hyperparameters by cross-validating them 5 times and evaluating the mean values with SD. Activation function, dropout, optimizer, learning rate, type of initializer, number of neurons, batch size and number of epochs were tested using this method.  All used optimization techniques are presented in this section and table with used values is presented in FIGURE or RESULTS section (x,x)
+To reduce overfitting and improve general performace of the model, different methods was tested and implemented. 
+The performance of the models was evaluated from an average accuracy, sensitivity and specificity, that was calculated from a 10-fold cross validation on the training subset. 
+THIS IS AS FAR AS I'VE GOTTEN
+A grid search method was used to find optimal hyperparameters for the models. This allowed to run the models through different parameters, from which the parameters the resulted in the highest performance was used.  by cross-validating them 5 times and evaluating the mean values with SD. Activation function, dropout, optimizer, learning rate, type of initializer, number of neurons, batch size and number of epochs were tested using this method.  All used optimization techniques are presented in this section and table with used values is presented in FIGURE or RESULTS section (x,x)
 
 \subsubsection{Activation function}
 During this study different activation functions, such as ReLu, Softmax, Sigmoid were tested. Results were compared using grid-search and ReLu was picked as activation function for the models. Activation function was implemented in convolutional and fully-connected layers. Sigmoid activator was used for final output layer, because (NEED TO EXPLAIN).
