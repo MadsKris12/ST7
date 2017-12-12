@@ -1,5 +1,5 @@
 \textbf{Pain maps} \newline
-Data used in this study were collected beforehand from an on-going clinical trial (FOXH) which is conducted in collaboration with Danish and Australian universities. The pain maps were drawn by individuals with PFPS through the use of an application, Navigate Pain, in a clinical setting. \newline
+Data used in this study were collected from an on-going clinical trial (FOXH) which is conducted in collaboration with Danish and Australian universities. The pain maps were drawn by individuals with PFPS through the use of an application, Navigate Pain, in a clinical setting. \newline
 \noindent
 Navigate Pain is a software application that is used to visualise the location, morphology and spatial distribution of pain from individuals to healthcare personnel. The application permits individuals to draw their pain with different colors and line thickness onto a body outline, an example is shown in fig. \ref{fig:twoPainmaps}. Navigate Pain android was developed at Aalborg University.\citep{Solutions2015}
 
@@ -16,7 +16,7 @@ The total number of pain maps available was 217, but only 205 pain maps with ass
 \noindent
 \textbf{Preprocessing} \newline
 \noindent
-The pain maps were processed in MatLab, where the images were resized, since they were collected at different resolutions (screen sizes) and cropped to only include the knees. To create more pain maps is a split body approach used, where pain maps are divided into two knees. Furthermore, pain was mirrored to represent pain on right knees to minimize the variance in the images. By using split body approach it was assumable that the pain duration and pain intensity were identical for both knees if PFP was bilateral. The total number of pain maps with gender and pain duration was 333, and pain maps with gender and pain intensity was 319. \\
+The pain maps were processed in MatLab version R2017b, where the images were resized, since they were collected at different resolutions (screen sizes) and cropped to only include the knees. To create more pain maps is a split body approach used, where pain maps are divided into two knees. Furthermore, pain was mirrored to represent pain on right knees to minimize the variance in the images. By using split body approach it was assumable that the pain duration and pain intensity were identical for both knees if PFP was bilateral. The total number of pain maps with gender and pain duration was 333, and pain maps with gender and pain intensity was 319, of which 15\% was used as test data, and therefore not used to optimize and train the models. \\
 
 \noindent
 \textbf{Morphology-representation} \newline

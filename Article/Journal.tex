@@ -102,19 +102,19 @@
 
 \begin{abstract}
 \noindent
-\textbf{Introduction:} Patellofemoral pain syndrome (PFPS) is a musculoskeletal condition that presents as pain behind or around the patella without known structural changes [1]. Partial correlations between perceived size of PFP from pain maps and pain duration along with intensity has been indicated in previous studies [2], however morphology and location of PFP remains unexplored. Based on deep learnings objects detection capabilities, convolution methods can be used to detect image-features related to morphology. The aim of this study is to determine the performance of deep learning classification according to pain duration and intensity, based on morphology and location of perceived PFP from pain maps. 
+\textbf{Introduction:} Patellofemoral pain (PFP) syndrome is a musculoskeletal condition that presents as pain behind or around the patella without known structural changes [1]. Partial correlations between perceived size of PFP from pain maps and pain duration along with intensity has been indicated in previous studies [2], however morphology and location of PFP remains unexplored in terms of correlation. Based on the objects detection capabilities of deep learning, convolution methods can be used to detect image-features related to morphology. The aim of this study was to determine the performance of deep learning classification according to pain duration and intensity, based on morphology and location of perceived PFP from pain maps.
 
 \noindent
-\textbf{Methods and materials:} PFP drawings were collected on lower extremities body-schema and encoded into three different data representations in respect to morphology and location and a combination of the two. The distribution of the outputs were analyzed and used for defining the classification intervals for pain duration (<12 and >36 months) and pain intensity (<4 and >8 on VAS). 
-Estimation of generalization performance of the models was calculated through 10-fold cross validation during the training. %Type 1 and type 2 errors were computed and results were compared between the three input representations.
+\textbf{Methods and materials:} PFP drawings were collected on lower extremities body-schema and encoded into three different data representations in respect to morphology of pain and location and a combination of the two. The distribution of the outputs were analyzed and used for defining the classification intervals for pain duration, below 12 months and above 36 months, and pain intensity, below 4 and above 8 on VAS.
+Estimation of generalization performance of the models was calculated through 10-fold cross validation during the training.
 
 \noindent
-\textbf{Results:} The results showed that the combined representation performed with the highest accuracy (67\%). The location representation and morphology representation scored 63\% and 62\%, respectively, based on pain intensity. Generalization during training showed a higher accuracy for pain intensity classification (highest acc: 67\% SD: 6.78) than pain duration (highest acc: 57.85\% SD: 4.95) using combined data representation.
-%(TEST RESULT MISSING: will come later)
- 
+\textbf{Results:} The results during training showed a higher accuracy for pain intensity classification than pain duration classification using morphology-representation. Pain intensity had an accuracy on 65.04\% (SD: $10.83\%$) and pain duration had an accuracy on 59.51\% (SD: $11.20\%$).
 \noindent
-\textbf{Discussion:} Despite pain intensity being defined as multidimensional and subjective, the performance accuracy were higher than that of pain duration. The results may indicate that a combination of the morphology and the location of the pain influence the classification performance in relation to pain duration or intensity. Currently, it is unclear if deep learning methods may be a suitable approach for classifying PFPS to work as support in clinical settings, to which further investigation is necessary. Improvements could be found when more data become available to better reflect generalization patterns in PFP drawings.  
+Furthermore, the combined-representation performed with the highest accuracy on 65.14\% (SD: $12.87\%$). The location and morphology-representation scored 63.33\% (SD: $1.67$) and 65.04\% (SD: $10.83\%$), respectively, based on pain intensity. 
 
+\noindent
+\textbf{Discussion:} Despite pain intensity being defined as multidimensional and subjective, the performance accuracy were higher than that of pain duration. The results may indicate that a combination of the morphology and the location of the pain had a higher classification performance in relation to pain duration or intensity. Currently, it is unclear if deep learning methods may be a suitable approach for classifying PFPS to work as support in clinical settings, to which further investigation is necessary. Improvements could be found when more data become available to better reflect generalization patterns in PFP drawings.
 \end{abstract}
 }
 

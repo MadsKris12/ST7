@@ -6,30 +6,15 @@ Patellofemoral pain (PFP) is often described as diffuse knee pain, that can be h
 To assist diagnosis of PFPS, pain maps may be used as a helpful tool for the individuals to communicate their pain by drawing pain areas on a body outline \citep{Boudreau2016}.
 
 \noindent
-A study by \citeauthor{Boudreau2017} indicates, through the use of pain maps, that there is a correlation between the size of the pain and the pain duration as well as intensity for individuals with PFP longer than five years.\citep{Boudreau2017}\newline
-\noindent
+A study by \citeauthor{Boudreau2017} \citep{Boudreau2017} indicates, through the use of pain maps, that there is a correlation between the size of the pain (number of pain pixels) and the pain duration as well as intensity for individuals with PFP longer than five years.\citep{Boudreau2017}
 However, it is unknown whether pain duration has an influence on morphology of the pain and location, as well as  whether morphology of pain and location have an influence on pain intensity.
-It is assumed that relation between pain maps and pain duration or pain intensity is complex, because the perceived PFP is subjective, and considered as multidimensional \citep{Dansie2013}. Additionally the study by \citeauthor{Boudreau2017} did not find a fully correlation between pain maps and pain duration or pain intensity for individuals with a pain duration below 5 years. To investigate the potential nonlinear correlation, a previously unused deep learning method is used. 
-
+The relation between pain maps and pain duration or pain intensity may be complex, because the perceived PFP is subjective, and considered as multifactorial \citep{Dansie2013}. Additionally the study by \citeauthor{Boudreau2017} did not find a fully correlation between 35 pain maps and pain duration or pain intensity for individuals with a pain duration below 5 years. To investigate the potential nonlinear correlation, a deep learning method was used, which is a method that previously has not been applied on this type of data. \newline
 \noindent
-The goals of this project is to explore how accurate a deep learning model can classify pain maps according to pain duration or pain intensity. It is assumed that pain duration is a better predictor than pain intensity, because the perceived pain is subjective, and may be affected by multidimensional factors. 
+The goals of this study is to explore how accurate a deep learning model can classify pain maps according to pain duration or pain intensity. It is assumed that pain duration is a better predictor than pain intensity, because the perceived pain is subjective, and may be affected by multidimensional factors. 
 The pain maps are encoded into multiple data representations to investigate whether morphology and location are correlated to pain duration or intensity.\newline
 \noindent
 The data representations are encoded into three representations, which reflect either morphology of pain or location. It is assumed that a deep learning model will perform better with more information, thus a combination of morphology and location of the pain constitute a data representation.  The data representations are refereed to as morphology-, location- and combined-representation.
 There may be a difference in how gender reports pain intensity, where females reports more intense and frequent pain. Furthermore, there is an imbalance in prevalence between females and males, thus gender is included as a feature in the deep learning model. \newline
-
 \noindent
-\textbf{Aims}\newline
-\noindent
-The aim of this study is to explore classification performance of a deep learning model, using PFP maps and gender as input to classify according either pain duration or intensity.
-
-
-\begin{center}
-\textit{It is hypothesized that a deep learning model that uses pain maps and gender as input parameter has a higher performance when classifying according to pain duration than pain intensity.}
-\end{center}
-
-\noindent
-The secondary aim is to compare the performance accuracy of deep learning models with different pain map representations (morphology-, location- and combined-representation), when predicting pain duration or pain intensity.
-\begin{center}
-\textit{It is hypothesized that a combined-representation will have a higher performance accuracy when classifying according to pain duration or pain intensity in a deep learning model, than morphology- and location-representations.}
-\end{center}
+The aim of this study was to explore classification performance of a deep learning model, using PFP maps and gender as input to classify according either pain duration or intensity.
+Furthermore, a secondary aim was to compare the performance accuracy of deep learning models with different pain map representations (morphology-, location- and combined-representation), when predicting pain duration or pain intensity. 
