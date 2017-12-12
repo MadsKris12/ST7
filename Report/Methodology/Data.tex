@@ -12,14 +12,10 @@ Data used in this project were collected beforehand from an on-going FOXH trial 
 
 \noindent
 In addition to the pain maps a corresponding dataset was available. This contained information regarding the individuals in terms of i.a. age, gender, pain duration, and intensity and the most prominent knee for pain. However, not all of the information was present for all individuals.
-Before using the data in the deep learning models, a manual data handling was necessary. This incorporated matching the given pain maps and associated ID regarding the individuals. Furthermore, specific information like gender, pain duration, and intensity were collected. To visualise the amount of data table \ref{tab:numberofpain} is created.
+Before using the data in the deep learning models, a manual data handling was necessary. This incorporated matching the given pain maps and associated ID regarding the individuals. Furthermore, specific information like gender, pain duration, and intensity were collected.\newline
+\noindent
+To create more pain maps a split body approach was used, which contained splitting pain maps in two legs, whereafter the pain was mirrored and only visualized on the right knee. This resulted in 333 pain maps with gender and pain duration, and 319 pain maps with gender and pain intensity. 
 
-\begin{table} [H]
-\centering
-\includegraphics[width=0.5\textwidth]{figures/numberofpain}
-\caption{Number of pain maps with associated gender, pain duration and intensity available. }
-\label{tab:numberofpain}
-\end{table}
 
 
 \subsection{Software application: Navigate Pain} \label{sec:nav}
@@ -79,8 +75,7 @@ A histogram of the pain duration associated with the pain maps is illustrated in
 
 \noindent
 The pain duration is divided into some classes which the models should classify in addition to. To test the models are the data firstly divided into two extremes, since it is assumed that if the models predict badly with the extremes, the models will not predict better with multiple classifications of pain duration. 
-By considering the amount of data and the distribution shown in the histogram class intervals were chosen to be 0 to 12 months (n=), and 36 to 300 months (n=). Afterwards, the interval between is used as a third classification. 
-**** HOW MANY DATA IN EACH CLASS ****\newline
+By considering the amount of data and the distribution shown in the histogram class intervals were chosen to be 0 to 12 months (n=144), and 36 to 300 months (n=122). Afterwards, the interval between is used as a third classification. \newline
 
 \noindent
 In the appurtenant data to the pain map the individuals have stated their pain intensity as the worst pain in the last 24 hours and the last seven days.
@@ -90,12 +85,12 @@ To illustrate the distribution of the individuals’ worst pain intensity in the
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/histrogramPain}
-\caption{A histogram of the worst pain intensity in the last seven days according to the number of pain maps.  *** BIGGER NUMBERS ***}
+\caption{A histogram of the worst pain intensity in the last seven days according to the number of pain maps. }
 \label{fig:histopain}
 \end{figure}
 
 \noindent
-Likewise to the pain duration classification, the worst pain intensity is divided into the extremes, which are chosen to be intervals 1 to 4 and 8 to 10. The third classification constitute the interval between the extremes.
+Likewise to the pain duration classification, the worst pain intensity is divided into the extremes, which are chosen to be intervals 1 to 4 (n=72) and 8 to 10 (n=124). The third classification constitute the interval between the extremes.
 
 
 \subsection{Threshold selection}\label{sec:Selectthreshold}
@@ -105,13 +100,14 @@ The analysis of the threshold is tested on five random pain maps to get a genera
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.6\textwidth]{figures/colorregion}
+\includegraphics[width=0.25\textwidth]{figures/colorregion}
 \caption{Knee regions colored to easier distinguish.}
 \label{fig:colorregion}
 \end{figure}
 
 \noindent
-An example of pain maps and appurtenant bar chart are illustrated in figure \ref{fig:threshold}. The pain maps, figure \ref{fig:threshold}(a-d), are colored in the same colors as figure \ref{fig:colorregion} to indicate which regions are affected by pain according to 5, 10 and 15\% threshold. Figure (e) shows a bar chart that indicates how many and which active regions there are according to the threshold values.
+An example of pain maps and appurtenant bar chart are illustrated in figure \ref{fig:threshold}. The pain maps are colored in the same colors as figure \ref{fig:colorregion} to indicate which regions are affected by pain according to \ref{fig:colorregion}(a) no threshold, \ref{fig:colorregion}(b) 5\% threshold, \ref{fig:colorregion}(c) 10\% threshold and \ref{fig:colorregion}(d) 15\% threshold. 
+Figure (e) shows a bar chart that indicates how many and which active regions there are according to the threshold values.
 
 \begin{figure} [H]
 \centering
@@ -121,10 +117,10 @@ An example of pain maps and appurtenant bar chart are illustrated in figure \ref
 \end{figure}
 
 \noindent
-According to figure \ref{fig:threshold} (a) and (e) it is shown that the knee to the left has nine active regions and the knee to the right has six active knee regions, when the threshold is zero. In proportion to the active regions, pain regions L3, L10 and R1 are very small and thereby the first regions are discarded when the threshold is increased by 5\%, which is shown in figure (b).
+According to figure \ref{fig:threshold}(a) with no threshold, and (e) it is shown that the knee has nine active regions when no threshold is applied. In proportion to the active regions, pain regions R3 and R10 are very small and thereby the first regions are discarded when the threshold is increased by 5\%, which is shown in figure (b).
 By comparing figure (a) and (b) minor changes according to the missing regions can be seen, compared to figure (c) and (d) where greater areas disappears after increasing the threshold to 10 and 15\%.
 \noindent
-Based on analysis of the five pain maps and bar charts, in figure \ref{fig:threshold} and appendix \ref{app:thresholds}, a threshold on 5\% is chosen to avoid including minor pain areas, like region L10, as active knee regions, and to avoid discarding too many and large areas, like regions R3 and R5.
+Based on analysis of the five pain maps and bar charts, in figure \ref{fig:threshold} and appendix \ref{app:thresholds}, a threshold on 5\% is chosen to avoid including minor pain areas, like region R10, as active knee regions, and to avoid discarding too many and large areas, like regions R4 and R5.
 
 
 \subsection{Simple regression models}
@@ -136,9 +132,9 @@ To investigate if pain size has a linear correlation to pain duration, a linear 
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=1\textwidth]{figures/durationRegression}
+\includegraphics[width=1\textwidth]{figures/durapixel}
 \caption{A linear regression of the the number of pain pixels and pain duration.}
-\label{fig:durationRegression}
+\label{fig:durapixel}
 \end{figure}
 
 \noindent
@@ -148,7 +144,7 @@ A linear regression model of the number of pain pixels and pain intensity is mad
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=1\textwidth]{figures/painRegression}
+\includegraphics[width=1\textwidth]{figures/vaspixel}
 \caption{A linear regression of the number of pain pixels and pain intensity stated in VAS.}
 \label{fig:painRegression}
 \end{figure}
@@ -167,7 +163,7 @@ A linear regression between the number of active pain regions with a threshold o
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=1\textwidth]{figures/regionsRegressionDuration}
+\includegraphics[width=1\textwidth]{figures/duraregion}
 \caption{A linear regression of the number of active pain regions and pain duration.}
 \label{fig:regDuration}
 \end{figure}
@@ -178,7 +174,7 @@ Thereto, a linear correlation between the number of active pain regions and pain
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=1\textwidth]{figures/regionsRegressionPain}
+\includegraphics[width=1\textwidth]{figures/vasregion}
 \caption{A linear regression of the number active pain regions and pain intensity.}
 \label{fig:regPain}
 \end{figure}
@@ -203,7 +199,7 @@ Firstly, the image of the original pain map is gray-scaled to get a one-dimensio
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.7\textwidth]{figures/cropbin7}
+\includegraphics[width=0.5\textwidth]{figures/cropbin7}
 \caption{(a) Original pain map and (b) image consisting of a binary matrix where white color represents the pain pixels.}
 \label{fig:cropbin7}
 \end{figure}
@@ -221,24 +217,24 @@ An illustration of this morphology-representation is created to convey how the d
 
 \subsection{Regions-representation} \label{sec:Regions}
 The second representation of the data is a matrix consisting of vectors with 20 values which indicate pain in relation to the knee regions.
-An image of the knee regions as shown in figure \ref{fig:atlas} are converted into a matrix consisting of 20 values, which represent each knee regions. This matrix is superimposed on the binary image of the pain map, which results in a matrix with pain pixels represented in each knee region. 
+An image of the knee regions as shown in figure \ref{fig:atlas} are converted into a matrix consisting of 10 values, which represent each knee regions. This matrix is superimposed on the binary image of the pain map, which results in a matrix with pain pixels represented in each knee region. 
 An illustration of the knee regions and an example of a pain map with the pain divided into regions are shown in figure \ref{fig:binregions}.
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/binregions}
+\includegraphics[width=0.6\textwidth]{figures/binregions}
 \caption{(a) Knee regions and (b) an example of a pain map with pain in the specific regions.}
 \label{fig:binregions}
 \end{figure}
 
 \noindent
-After superimposing the two matrices, knee regions and pain pixels, the number of pain pixels in each active knee region is found. This number is compared to the total number of pixels that are in each knee region, so knee regions with less than 5\% pain are excluded. The threshold on 5\% is chosen based on the analysis in section \ref{sec:Selectthreshold}. As a result a vector with 20 values is created with zeros and ones, where one represent an active pain region. Region-representation is imported in the deep learning models the same way as the morphology-representation, which is illustrated in figure \ref{fig:binmatrix}. The only difference is that the length of the image-vectors respond to the 20 regions, and therefore there are only 20 values for each pain map.
+After superimposing the two matrices, knee regions and pain pixels, the number of pain pixels in each active knee region is found. This number is compared to the total number of pixels that are in each knee region, so knee regions with less than 5\% pain are excluded. The threshold on 5\% is chosen based on the analysis in section \ref{sec:Selectthreshold}. As a result a vector with 10 values is created with zeros and ones, where one represent an active pain region. Region-representation is imported in the deep learning models the same way as the morphology-representation, which is illustrated in figure \ref{fig:binmatrix}. The only difference is that the length of the image-vectors respond to the 10 regions, and therefore there are only 10 values for each pain map.
 
 
 \subsection{Combined-representation} \label{sec:combined}
 The third representation of the data is a matrix consisting the morphology of pain divided into the knee regions.
 \noindent
-In this representation the superimposed matrix from the region-representation is used. Additionally one-hot encoding is used to divide the pain into different knee regions. One-hot encoding is a way to separate categorical data into binary data \citep{Harris2012}. This means that the 20 values for each knee region do not have a correlation when analysed in the deep learning model. After one-hot encoding, the superimposed matrix consists of 20 layers where each layer represents a knee region, which is illustrated in figure \ref{fig:onehot}(a), and afterwards converted to image-vector with gender and the output as illustrated in figure \ref{fig:onehot}(b).
+In this representation the superimposed matrix from the region-representation is used. Additionally one-hot encoding is used to divide the pain into different knee regions. One-hot encoding is a way to separate categorical data into binary data \citep{Harris2012}. This means that the 10 values do not have a correlation when analysed in the deep learning model. After one-hot encoding, the superimposed matrix consists of 10 layers where each layer represents a knee region, which is illustrated in figure \ref{fig:onehot}(a), and afterwards converted to image-vector with gender and the output as illustrated in figure \ref{fig:onehot}(b).
 
 \begin{figure} [H]
 \centering
