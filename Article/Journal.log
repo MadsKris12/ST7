@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  12 DEC 2017 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  12 DEC 2017 18:27
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -1529,6 +1529,10 @@ LaTeX Font Info:    Font shape `T1/pplx/bx/it' in size <9> not available
 Package natbib Warning: Citation `Dansie2013' on page 1 undefined on input line
  11.
 
+
+Package natbib Warning: Citation `Pieh2012' on page 1 undefined on input line 1
+7.
+
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1584,10 +1588,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--53
  []
 
 
-Package natbib Warning: Citation `Harris2012' on page 3 undefined on input line
- 57.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 54--58
 
  []
@@ -1633,21 +1633,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--4
 
  []
 
-<Figures/legend.png, id=129, 401.70074pt x 27.7035pt>
+<Figures/legend.png, id=130, 401.70074pt x 27.7035pt>
 File: Figures/legend.png Graphic file (type png)
 <use Figures/legend.png>
 Package pdftex.def Info: Figures/legend.png  used on input line 9. on input lin
 e 9.
 Package pdftex.def Info: Requested size: 234.59302pt x 16.1792pt on input line 
 9.
-<Figures/durapixel.png, id=130, 683.55376pt x 343.2825pt>
+<Figures/durapixel.png, id=131, 683.55376pt x 343.2825pt>
 File: Figures/durapixel.png Graphic file (type png)
 <use Figures/durapixel.png>
 Package pdftex.def Info: Figures/durapixel.png  used on input line 14. on input
  line 14.
 Package pdftex.def Info: Requested size: 239.2823pt x 120.16638pt on input line
  14.
-<Figures/duraregion.png, id=131, 827.34094pt x 424.58624pt>
+<Figures/duraregion.png, id=132, 827.34094pt x 424.58624pt>
 File: Figures/duraregion.png Graphic file (type png)
 <use Figures/duraregion.png>
 Package pdftex.def Info: Figures/duraregion.png  used on input line 21. on inpu
@@ -1659,14 +1659,14 @@ Overfull \hbox (7.47275pt too wide) in paragraph at lines 12--25
 []  []    [] 
  []
 
-<Figures/vaspixel.png, id=132, 683.55376pt x 336.0555pt>
+<Figures/vaspixel.png, id=133, 683.55376pt x 336.0555pt>
 File: Figures/vaspixel.png Graphic file (type png)
 <use Figures/vaspixel.png>
 Package pdftex.def Info: Figures/vaspixel.png  used on input line 28. on input 
 line 28.
 Package pdftex.def Info: Requested size: 239.2823pt x 117.63657pt on input line
  28.
-<Figures/vasregion.png, id=133, 660.66824pt x 339.669pt>
+<Figures/vasregion.png, id=134, 660.66824pt x 339.669pt>
 File: Figures/vasregion.png Graphic file (type png)
 <use Figures/vasregion.png>
 Package pdftex.def Info: Figures/vasregion.png  used on input line 35. on input
@@ -1717,10 +1717,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
  ) 
 Here is how much of TeX's memory you used:
  35746 strings out of 493312
- 701937 string characters out of 3138898
- 834459 words of memory out of 3000000
- 38413 multiletter control sequences out of 15000+200000
- 592332 words of font info for 301 fonts, out of 3000000 for 9000
+ 701969 string characters out of 3138898
+ 834496 words of memory out of 3000000
+ 38416 multiletter control sequences out of 15000+200000
+ 592109 words of font info for 298 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,15n,101p,10468b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
@@ -1731,9 +1731,9 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
 rw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
 lbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Journal.pdf (7 pages, 1926900 bytes).
+Output written on Journal.pdf (7 pages, 1927362 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 243 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
  52968 words of extra memory for PDF output out of 61914 (max. 10000000)
 
