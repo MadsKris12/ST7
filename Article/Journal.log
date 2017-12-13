@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  12 DEC 2017 18:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  13 DEC 2017 15:10
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -1360,21 +1360,21 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 (Journal.aux)
 \openout1 = `Journal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Try loading font information for T1+pplx on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 125.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pplx.fd"
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
@@ -1439,7 +1439,7 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 123.
+LaTeX Info: Redefining \microtypecontext on input line 125.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1458,7 +1458,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring OFF on input line 123.
+Package hyperref Info: Link coloring OFF on input line 125.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1468,9 +1468,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count346
 )
-LaTeX Info: Redefining \ref on input line 123.
-LaTeX Info: Redefining \pageref on input line 123.
-LaTeX Info: Redefining \nameref on input line 123.
+LaTeX Info: Redefining \ref on input line 125.
+LaTeX Info: Redefining \pageref on input line 125.
+LaTeX Info: Redefining \nameref on input line 125.
 
 (Journal.out) (Journal.out)
 \@outlinefile=\write6
@@ -1479,34 +1479,34 @@ LaTeX Info: Redefining \nameref on input line 123.
  ABD: EveryShipout initializing macros
 \c@lstlisting=\count347
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 127.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 129.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 127.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 127
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 129.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 129
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pplx.fd"
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 127
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 129
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlzplm.fd"
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 127
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 129
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omszplm.fd"
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 127
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 129
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxzplm.fd"
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 127
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 129
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1zplm.fd"
@@ -1520,11 +1520,17 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 127.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 129.
 LaTeX Font Info:    Font shape `T1/pplx/bx/it' in size <9> not available
-(Font)              Font shape `T1/pplx/b/it' tried instead on input line 127.
+(Font)              Font shape `T1/pplx/b/it' tried instead on input line 129.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplx/m/sc/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
 
 (Introduction/introduction.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package natbib Warning: Citation `Dansie2013' on page 1 undefined on input line
  11.
@@ -1543,111 +1549,59 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (Introduction/method.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<Figures/twoPainmaps.png, id=99, 1601.985pt x 1746.525pt>
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 3.
+<Figures/twoPainmaps.png, id=98, 1601.985pt x 1746.525pt>
 File: Figures/twoPainmaps.png Graphic file (type png)
 <use Figures/twoPainmaps.png>
-Package pdftex.def Info: Figures/twoPainmaps.png  used on input line 8. on inpu
-t line 8.
+Package pdftex.def Info: Figures/twoPainmaps.png  used on input line 10. on inp
+ut line 10.
 Package pdftex.def Info: Requested size: 175.17244pt x 190.9724pt on input line
- 8.
+ 10.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 9.
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--23
-
- []
-
-[2 <./Figures/twoPainmaps.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
-
- []
-
-<Figures/atlas.png, id=110, 324.0105pt x 175.857pt>
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 11.
+ [2 <./Figures/twoPainmaps.png>]
+<Figures/atlas.png, id=109, 324.0105pt x 175.857pt>
 File: Figures/atlas.png Graphic file (type png)
 <use Figures/atlas.png>
-Package pdftex.def Info: Figures/atlas.png  used on input line 40. on input lin
-e 40.
+Package pdftex.def Info: Figures/atlas.png  used on input line 38. on input lin
+e 38.
 Package pdftex.def Info: Requested size: 175.17244pt x 95.07674pt on input line
- 40.
+ 38.
+ [3 <./Figures/atlas.png>]
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 61.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Font Info:    No file OMSpplx.fd. on input line 61.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--58
-
- []
-
-[3 <./Figures/atlas.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 59--63
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+pplx on input line 68.
-
-LaTeX Font Info:    No file OMSpplx.fd. on input line 68.
 
 LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 68.
+(Font)              using `OMS/cmsy/m/n' instead on input line 61.
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 65--75
-\T1/pplx/m/n/10 (+20) and the com-bined mor-phol-ogy and location-
+Underfull \hbox (badness 2126) in paragraph at lines 60--68
+\T1/pplx/m/n/10 (+20) , and the com-bined mor-phol-ogy and location-
  []
 
-
-Underfull \hbox (badness 4940) in paragraph at lines 65--75
-\T1/pplx/m/n/10 (+20) model ar-chi-tec-ture con-sist-ing of convolutional-
- []
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 65--75
-\T1/pplx/m/n/10 (+20) fol-lowed by pool-ing lay-ers and fully con-nected
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--75
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(Results/result.tex
+) (Results/result.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--4
 
  []
 
-<Figures/legend.png, id=130, 401.70074pt x 27.7035pt>
+<Figures/legend.png, id=129, 401.70074pt x 27.7035pt>
 File: Figures/legend.png Graphic file (type png)
 <use Figures/legend.png>
 Package pdftex.def Info: Figures/legend.png  used on input line 9. on input lin
 e 9.
 Package pdftex.def Info: Requested size: 234.59302pt x 16.1792pt on input line 
 9.
-<Figures/durapixel.png, id=131, 683.55376pt x 343.2825pt>
+<Figures/durapixel.png, id=130, 683.55376pt x 343.2825pt>
 File: Figures/durapixel.png Graphic file (type png)
 <use Figures/durapixel.png>
 Package pdftex.def Info: Figures/durapixel.png  used on input line 14. on input
  line 14.
 Package pdftex.def Info: Requested size: 239.2823pt x 120.16638pt on input line
  14.
-<Figures/duraregion.png, id=132, 827.34094pt x 424.58624pt>
+<Figures/duraregion.png, id=131, 827.34094pt x 424.58624pt>
 File: Figures/duraregion.png Graphic file (type png)
 <use Figures/duraregion.png>
 Package pdftex.def Info: Figures/duraregion.png  used on input line 21. on inpu
@@ -1659,14 +1613,14 @@ Overfull \hbox (7.47275pt too wide) in paragraph at lines 12--25
 []  []    [] 
  []
 
-<Figures/vaspixel.png, id=133, 683.55376pt x 336.0555pt>
+<Figures/vaspixel.png, id=132, 683.55376pt x 336.0555pt>
 File: Figures/vaspixel.png Graphic file (type png)
 <use Figures/vaspixel.png>
 Package pdftex.def Info: Figures/vaspixel.png  used on input line 28. on input 
 line 28.
 Package pdftex.def Info: Requested size: 239.2823pt x 117.63657pt on input line
  28.
-<Figures/vasregion.png, id=134, 660.66824pt x 339.669pt>
+<Figures/vasregion.png, id=133, 660.66824pt x 339.669pt>
 File: Figures/vasregion.png Graphic file (type png)
 <use Figures/vasregion.png>
 Package pdftex.def Info: Figures/vasregion.png  used on input line 35. on input
@@ -1680,6 +1634,11 @@ Overfull \hbox (7.47275pt too wide) in paragraph at lines 26--39
 
 [4]
 Underfull \hbox (badness 10000) in paragraph at lines 46--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
@@ -1699,28 +1658,28 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
 [7
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
  (Journal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
 Package rerunfilecheck Info: File `Journal.out' has not changed.
 (rerunfilecheck)             Checksum: 0776556B9BF227483756BF56B892A401;226.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 35746 strings out of 493312
- 701969 string characters out of 3138898
- 834496 words of memory out of 3000000
- 38416 multiletter control sequences out of 15000+200000
- 592109 words of font info for 298 fonts, out of 3000000 for 9000
+ 35765 strings out of 493312
+ 702218 string characters out of 3138898
+ 834511 words of memory out of 3000000
+ 38426 multiletter control sequences out of 15000+200000
+ 601413 words of font info for 309 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,15n,101p,10468b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
@@ -1731,9 +1690,9 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
 rw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
 lbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Journal.pdf (7 pages, 1927362 bytes).
+Output written on Journal.pdf (7 pages, 1927546 bytes).
 PDF statistics:
  243 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
- 52968 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 54504 words of extra memory for PDF output out of 61914 (max. 10000000)
 

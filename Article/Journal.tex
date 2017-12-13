@@ -57,15 +57,16 @@
 
 \usepackage{titlesec} % Allows customization of titles
 \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
-\renewcommand\thesubsection{\roman{subsection}} % roman numerals for subsections
-\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
-\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+%\renewcommand\thesubsection{\thesection.\alph{subsection}} % roman numerals for subsections
+%\renewcommand\thesubsubsection{\thesubsection.\alph{subsubsection}}
+\titleformat{\section}[block]{\Large\scshape\centering}{\thesection.}{2em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{0.5em}{} % Change the look of the section titles
 
 \usepackage{fancyhdr} % Headers and footers
 \pagestyle{fancy} % All pages have headers and footers
 \fancyhead{} % Blank out the default header
 \fancyfoot{} % Blank out the default footer
-\fancyhead[C]{Running title $\bullet$ December 2017 $\bullet$ Aalborg University} % Custom header text
+\fancyhead[C]{Department of health science and technology, Aalborg University} % Custom header text
 \fancyfoot[RO,LE]{\thepage} % Custom footer text
 
 \usepackage{titling} % Customizing the title section
@@ -75,6 +76,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[numbers]{natbib}	
 \usepackage[most]{tcolorbox}
+
 
 \usepackage{subcaption}
 %----------------------------------------------------------------------------------------
