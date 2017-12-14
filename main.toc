@@ -5,26 +5,26 @@
 \contentsline {section}{\numberline {2.1}Anatomy of the Knee}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Pain}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Patellofemoral pain syndrome}{6}{section.2.3}
-\contentsline {subsubsection}{Central sensitization}{6}{section*.6}
+\contentsline {subsubsection}{Central sensitization}{6}{section*.5}
 \contentsline {section}{\numberline {2.4}Identify and interpret pain}{7}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Identify pain}{7}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Pain interpretation}{7}{subsection.2.4.2}
-\contentsline {subsubsection}{Pain mapping}{8}{section*.9}
+\contentsline {subsubsection}{Pain mapping}{8}{section*.8}
 \contentsline {section}{\numberline {2.5}Knee regions}{9}{section.2.5}
 \contentsline {section}{\numberline {2.6}Machine learning}{10}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Deep Learning}{10}{subsection.2.6.1}
-\contentsline {subsubsection}{Learning scenarios}{11}{section*.13}
+\contentsline {subsubsection}{Learning scenarios}{11}{section*.12}
 \contentsline {subsection}{\numberline {2.6.2}Back-propagation}{11}{subsection.2.6.2}
-\contentsline {subsubsection}{Activation functions}{12}{section*.14}
-\contentsline {subsubsection}{Learning curves}{12}{section*.17}
-\contentsline {subsubsection}{Gradient Descent}{13}{section*.19}
+\contentsline {subsubsection}{Activation functions}{12}{section*.13}
+\contentsline {subsubsection}{Learning curves}{12}{section*.16}
+\contentsline {subsubsection}{Gradient Descent}{13}{section*.18}
 \contentsline {subsection}{\numberline {2.6.3}Regularization}{15}{subsection.2.6.3}
-\contentsline {subsubsection}{Dropout}{15}{section*.22}
-\contentsline {subsubsection}{Initializers}{16}{section*.24}
+\contentsline {subsubsection}{Dropout}{15}{section*.21}
+\contentsline {subsubsection}{Initializers}{16}{section*.23}
 \contentsline {subsection}{\numberline {2.6.4}Core Neural Network layers}{16}{subsection.2.6.4}
-\contentsline {subsubsection}{Convolutional Neural Networks}{16}{section*.25}
-\contentsline {subsubsection}{Pooling layer}{17}{section*.26}
-\contentsline {subsubsection}{Fully-connected layers}{17}{section*.28}
+\contentsline {subsubsection}{Convolutional Neural Networks}{16}{section*.24}
+\contentsline {subsubsection}{Pooling layer}{17}{section*.25}
+\contentsline {subsubsection}{Fully-connected layers}{17}{section*.27}
 \contentsline {chapter}{\chapternumberline {3}Methodology}{18}{chapter.3}
 \contentsline {section}{\numberline {3.1}Data description}{18}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Software application: Navigate Pain}{19}{subsection.3.1.1}
@@ -40,38 +40,38 @@
 \contentsline {section}{\numberline {3.4}Neural network implementation and models}{29}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Software and hardware}{29}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Data handling and design choices of the models}{30}{subsection.3.4.2}
-\contentsline {subsubsection}{Morphology representation model}{30}{section*.46}
-\contentsline {subsubsection}{Locations representation model}{31}{section*.48}
-\contentsline {subsubsection}{Combined representation model}{31}{section*.50}
+\contentsline {subsubsection}{Morphology representation model}{30}{section*.45}
+\contentsline {subsubsection}{Locations representation model}{31}{section*.47}
+\contentsline {subsubsection}{Combined representation model}{31}{section*.49}
 \contentsline {subsection}{\numberline {3.4.3}Data handling in python}{31}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Optimization}{32}{section.3.5}
-\contentsline {subsubsection}{Activation function}{32}{section*.51}
-\contentsline {subsubsection}{Dropout}{32}{section*.52}
-\contentsline {subsubsection}{Optimizer}{32}{section*.53}
-\contentsline {subsubsection}{Learning rate}{33}{section*.54}
-\contentsline {subsubsection}{Batch size and number of epochs}{33}{section*.55}
-\contentsline {subsubsection}{Weight and biases initializing}{33}{section*.56}
-\contentsline {subsubsection}{Number of neurons}{33}{section*.57}
+\contentsline {subsubsection}{Activation function}{32}{section*.50}
+\contentsline {subsubsection}{Dropout}{32}{section*.51}
+\contentsline {subsubsection}{Optimizer}{32}{section*.52}
+\contentsline {subsubsection}{Learning rate}{33}{section*.53}
+\contentsline {subsubsection}{Batch size and number of epochs}{33}{section*.54}
+\contentsline {subsubsection}{Weight and biases initializing}{33}{section*.55}
+\contentsline {subsubsection}{Number of neurons}{33}{section*.56}
 \contentsline {subsection}{\numberline {3.5.1}Training and validation}{33}{subsection.3.5.1}
-\contentsline {subsubsection}{Stratified m-folds cross-validation}{33}{section*.58}
-\contentsline {subsubsection}{Error and accuracy graphs)}{34}{section*.59}
+\contentsline {subsubsection}{Stratified m-folds cross-validation}{33}{section*.57}
+\contentsline {subsubsection}{Error and accuracy graphs)}{34}{section*.58}
 \contentsline {subsection}{\numberline {3.5.2}Testing}{34}{subsection.3.5.2}
 \contentsline {chapter}{\chapternumberline {4}Description of models}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Data handling and design choices of the models}{35}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Data handling in python}{35}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Optimization techniques}{35}{subsection.4.1.2}
-\contentsline {subsubsection}{Optimizer used for the models}{36}{section*.60}
-\contentsline {subsubsection}{Kernel-initializer}{36}{section*.61}
-\contentsline {subsubsection}{Learning rate}{36}{section*.62}
-\contentsline {subsubsection}{Batch training}{36}{section*.63}
-\contentsline {subsubsection}{Cross-validation}{36}{section*.64}
-\contentsline {subsubsection}{Dropout}{36}{section*.65}
-\contentsline {subsubsection}{Activation function}{37}{section*.66}
+\contentsline {subsubsection}{Optimizer used for the models}{36}{section*.59}
+\contentsline {subsubsection}{Kernel-initializer}{36}{section*.60}
+\contentsline {subsubsection}{Learning rate}{36}{section*.61}
+\contentsline {subsubsection}{Batch training}{36}{section*.62}
+\contentsline {subsubsection}{Cross-validation}{36}{section*.63}
+\contentsline {subsubsection}{Dropout}{36}{section*.64}
+\contentsline {subsubsection}{Activation function}{37}{section*.65}
 \contentsline {subsection}{\numberline {4.1.3}Training of the networks}{37}{subsection.4.1.3}
 \contentsline {section}{\numberline {4.2}Vector image model}{37}{section.4.2}
 \contentsline {section}{\numberline {4.3}Raw binary representation model}{37}{section.4.3}
 \contentsline {section}{\numberline {4.4}Combined representation model}{39}{section.4.4}
 \contentsline {chapter}{\chapternumberline {5}Results}{40}{chapter.5}
-\contentsline {chapter}{Bibliography}{41}{section*.70}
+\contentsline {chapter}{Bibliography}{41}{section*.69}
 \contentsline {appendix}{\chapternumberline {A}\relax \fontsize {12}{14.5}\selectfont Knee injury and Ostearthritis Outcome Score (KOOS) \citep {KOOS2016}}{45}{appendix.A}
 \contentsline {appendix}{\chapternumberline {B}\relax \fontsize {12}{14.5}\selectfont Threshold analysis}{49}{appendix.B}
