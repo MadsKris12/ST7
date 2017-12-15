@@ -2,11 +2,11 @@
 
 %"Introduction to the chapter, shouldn’t be a list of what the chapter contains. It should be more what you gain by reading the chapter"
 
-This chapter presents the background knowledge that optimizes the understanding of essential topics in this project, such as patellofemoral pain and deep learning. Regarding patellofemoral pain it is relevant to get knowledge about the anatomy of the knee as well as pain and pain measurements if a deeper understanding of the syndrome is considered necessary.  Furthermore, the chapter is essential for getting a basic understanding of some properties and optimizers in the neural network models used in this project.
+This chapter presents the background knowledge that optimizes the understanding of essential topics in this project, such as patellofemoral pain and deep learning. Regarding patellofemoral pain it is relevant to get knowledge about the anatomy of the knee as well as pain and pain measurements if a deeper understanding of the syndrome is considered necessary.  Furthermore, the chapter is essential for getting a basic understanding of some properties and optimizers in the deep learning models used in this project.
 
 
 \section{Anatomy of the Knee}
-The knee is the largest synovial joint in the body and consists of a hinge and a gliding joint. The hinge joint is placed between the lateral and medial femoral condyles and the lateral and medial tibial condyles. Between the patella and femur is the gliding joint formed. The structure of the knee is illustrated in figure \ref{fig:bonestruc}.\citep{Martini2012}
+The knee is the largest synovial joint in the body and consists of a hinge and a gliding joint. The hinge joint is placed between the lateral and medial femoral condyles and the lateral and medial tibial condyles. Between the patella and femur the gliding joint is formed. The structure of the knee is illustrated in figure \ref{fig:bonestruc}.\citep{Martini2012}
 
 \begin{figure} [H]
 \centering
@@ -61,7 +61,7 @@ Pain can be divided into two qualities; visceral and somatic pain. Examples of v
 The other type of somatic pain is deep pain, which is associated with pain from the muscles, bones, joints and connective tissue. This pain is described as a dull pain and it radiates into the surrounding tissue, which makes the exact pain area hard to point out.\citep{Schmidt1989, Schmidt2013}
 
 \section{Patellofemoral pain syndrome}
-Patellofemoral pain syndrome (PFPS) is a painful musculoskeletal condition \citep{Maclachlan2017, Smith2015}, which presents pain behind or around the patella. The patellofemoral pain (PFP) is often known as anterior knee pain and runner’s knee. The pain is often described as diffuse knee pain, which is provoked by patellofemoral loaded activities like climbing stairs, running on hard or slanted surfaces, hiking, squatting or just prolonged sitting in the same position.\citep{Smith2015, Crossley2016, Boudreau2017, Crossley2015} However, this pain is not caused by previous trauma \citep{Crossley2016}.
+Patellofemoral pain (PFP) syndrome is a painful musculoskeletal condition \citep{Maclachlan2017, Smith2015}, which presents as pain behind or around the patella. The PFP is often known as anterior knee pain and runner’s knee. The pain is often described as diffuse knee pain, which is provoked by patellofemoral loaded activities like climbing stairs, running on hard or slanted surfaces, hiking, squatting or just prolonged sitting in the same position.\citep{Smith2015, Crossley2016, Boudreau2017, Crossley2015} However, this pain is not caused by previous trauma \citep{Crossley2016}.
 Knee pain is not the only symptom of PFPS, the individuals often complain about knee stiffness, patellofemoral crepitus, swelling knee and having trouble with common daily activities \citep{Crossley2016, Martini2012}. The individuals may limit or stop physical activity because of the pain, and that can lead to an increase in weight \citep{Petersen2013, Crossley2016}.\newline
 \noindent
 Physiologically PFPS is associated with incorrect movement of the patellar, that occurs when the patella moves outside of its ordinary track, which for instance can be movement in lateral direction instead of movement in superior-inferior direction.\citep{Martini2012} \newline
@@ -70,7 +70,7 @@ PFP is mostly prevalent in adolescents and younger adults who are physically act
 \noindent
 Despite the fact that individuals feel pain in the knee, there is not any structural changes in the knee such as significant chondral damage or increased Q-angle \citep{Petersen2013}. The Q-angle, also known as the quadriceps angle, is the angle between a line that follows the longitudinal axis of femur, and a line that follows a line from the tibial tubercle through the center of patella \citep{Dahab2011}. \newline
 \noindent
-There is no definitive clinical test to diagnose PFP, but there is a test to elicit the knee pain by doing a squatting manoeuvre. The PFP is evident in 80\% of people who are tested positive in this test.\citep{Crossley2016, Crossley2015} Therefore the diagnosis PFPS is often based on exclusion \citep{Petersen2013}. After the diagnosis, evidence based treatments may reduce pain and improve function that allows individuals to maintain physical activity \citep{Crossley2015}.
+There is no definitive clinical test to diagnose PFP, but there is a test to elicit the knee pain by doing a squatting manoeuvre. The PFP is evident in 80\% of people who are tested positive in this test.\citep{Crossley2016, Crossley2015} Therefore, the diagnosis PFPS is often based on exclusion \citep{Petersen2013}. After the diagnosis, evidence based treatments may reduce pain and improve function that allows individuals to maintain physical activity \citep{Crossley2015}.
 The aetiology of PFPS still remains unclear \citep{Smith2015}.
 
 \subsubsection{Central sensitization}
@@ -85,7 +85,7 @@ CS has mainly two characteristics allodynia, which is pain occurred from a norma
 There are many ways to identify and interpret pain. To identify pain and find some physical damage that causes the knee pain, objective methods may be used. Subjective methods are used to interpret pain for collecting knowledge of the individual's pain intensity, behavior and how it is experienced.\citep{Younger2009}
 
 \subsection{Identify pain}
-An objective pain measurement is often used when an individual experiences knee pain where a clinical examination of the knee can occur. This examination involves i.a. provocative tests, such as anterior and posterior drawer test, Lachman’s test and pivot test that examines the integrity of the ACL and PCL. Furthermore is McMurray test which tests for meniscal tear.\citep{Ghosh2010} Illustrations of the tests are shown in figure \ref{fig:kneetest}.
+An objective pain measurement is often used when an individual experiences knee pain where a clinical examination of the knee can occur. This examination involves i.a. provocative tests, such as anterior and posterior drawer test, Lachman’s test and pivot test that examines the integrity of the ACL and PCL. Furthermore there is McMurray test which tests for meniscal tear.\citep{Ghosh2010} Illustrations of the tests are shown in figure \ref{fig:kneetest}.
 
 \begin{figure} [H]
 \centering
@@ -102,7 +102,7 @@ In addition to clinical tests there is some paraclinical tests such as X-ray and
 Pain is experienced and perceived subjectively \citep{IASP2012, Younger2009} and is dependent on personality and character \citep{Schmidt2013}, which is why it is important to measure the pain from the individual’s perspective.
  
 \noindent
-One of the most commonly method used to measure pain intensity is Visual Analogue Scale (VAS) \citep{Valente2011}. VAS is often used in clinical and research settings, where the individuals mark their pain on a scale from no-pain to the worst pain they can imagine.\citep{Haefeli2005} An illustration of a VAS is shown in figure \ref{fig:VAS}.
+One of the most commonly used methods to measure pain intensity is Visual Analogue Scale (VAS) \citep{Valente2011}. VAS is often used in clinical and research settings, where the individuals mark their pain on a scale from no-pain to the worst pain they can imagine.\citep{Haefeli2005} An illustration of a VAS is shown in figure \ref{fig:VAS}.
 
 \begin{figure} [H]
 \centering
@@ -112,7 +112,7 @@ One of the most commonly method used to measure pain intensity is Visual Analogu
 \end{figure}
 
 \noindent
-Additionally to mark pain on a scale is questionnaires used to define individual's pain. An example on a questionnaire is Knee injury and Osteoarthritis Outcome Score (KOOS), which contains questions about symptoms, stiffness, pain, daily living, function, sports and recreational activities and quality of life. When the individuals fill the scheme a score between zero and one hundred is achieved. A score at zero represents extreme knee problems, whereas a score at one hundred represents no knee problems.\citep{Roos2003} The KOOS questionnaire can be seen in Appendix \ref{app:KOOS}. 
+Additionally to mark pain on a scale questionnaires are used to define individual's pain. An example on a questionnaire is Knee injury and Osteoarthritis Outcome Score (KOOS), which contains questions about symptoms, stiffness, pain, daily living, function, sports and recreational activities and quality of life. When the individuals fill the scheme, a score between zero and one hundred is achieved. A score at zero represents extreme knee problems, whereas a score at one hundred represents no knee problems.\citep{Roos2003} The KOOS questionnaire can be seen in Appendix \ref{app:KOOS}. 
 \noindent 
 
 
@@ -124,7 +124,7 @@ Pain mapping is a technique, that Harold Palmer introduced in 1949 \citep{Grunne
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.3\textwidth]{figures/painmap}
-\caption{An anterior body outline of pain drawing taken from the software application Navigate Pain.}
+\caption{An anterior body outline for pain drawing taken from the software application Navigate Pain.}
 \label{fig:painmap}
 \end{figure}
 
@@ -136,12 +136,12 @@ According to \citeauthor{Schott2010}, there are some issues with the graphical r
 When looking at pain drawing samples from multiple individuals it is evident that there is a high variability in the distribution of pain patterns across different areas of the knee, which might be related to the PFP characteristics.
 
 \noindent
-To distinguish between different pain areas, the knee can be divided into various regions as seen in figure \ref{fig:atlas}, where the division of the left and right anterior knees are illustrated. 
+To distinguish between different pain locations, the knee can be divided into various regions as seen in figure \ref{fig:atlas}, where the division of the left and right anterior knees are illustrated. 
 
 \begin{figure} [H] 
 \centering
 \includegraphics[width=0.6\textwidth]{figures/atlas}
-\caption{The regions of the left and right knees, where each knee is split into ten regions. Edited \citep{Elson2010}.}
+\caption{The location of the left and right knees, where each knee is split into ten regions. Edited \citep{Elson2010}.}
 \label{fig:atlas}
 \end{figure}
 
@@ -150,6 +150,6 @@ The divisions are inspired by Photographic Knee Pain Map (PKPM) which are design
 
 \noindent
 The regions are based on the anatomical structures according to the areas where individuals often indicate pain.
-There are ten regions, where region 1 and 3 represent the superior lateral and superior medial areas for patella. Region 2 refers to quadriceps tendon. The patella is divided into lateral and medial regions, which are region 4 and 5. Region 6 and 8 are lateral and medial joint line areas. Patella tendor is region 7 and the two last regions, 9 and 10, are tibia lateral and medial.\citep{Elson2010}
+There are ten regions, where region 1 and 3 represent the superior lateral and superior medial areas for patella. Region 2 refers to quadriceps tendon. The patella is divided into lateral and medial regions, which are region 4 and 5. Region 6 and 8 are lateral and medial joint line areas. Patella tendon is region 7 and the two last regions, 9 and 10, are tibia lateral and medial.\citep{Elson2010}
 
 \newpage
