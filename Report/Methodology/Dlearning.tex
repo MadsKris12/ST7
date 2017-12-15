@@ -5,7 +5,7 @@ In this project the deep learning method is used to classify the pain maps and g
 \subsection{Software and hardware}
 The neural network developed for this study, was programmed using Python v3.6.3. Python is an object-oriented and general-purpose programming and scripting language, that may be used for e.g. programming websites, mobile applications, but also for machine learning programming applications.
 For development of deep learning application in python, different libraries are available, where some of the popular are the Theano and TensorFlow libraries.\citep{Swamynathan2017}, where the Tensorflow v1.3.0 library was used in this study. %TensorFlow is an open source library for development of machine learning applications, that has been released by Google \citep{Swamynathan2017}.  
-An additionally library, Keras v2.0.8, was imported, which runs on top of either Tensorflow or Theano, and is a high-level neural networks application programming interface (API).   
+An additional library, Keras v2.0.8, was imported, which runs on top of either Tensorflow or Theano, and is a high-level neural networks application programming interface (API).   
 Keras is a simplified version of the two libraries, which allows for fast and easier prototyping of neural network \citep{fcollet2015}. This was deemed suitable given that no previous experience with neural network were available during this study.  
 
 Utilization of graphics processing unit (GPU) computation was also implemented using CUDA drivers and cnDNN communication libraries, which allowed for faster runtimes, then through the use of the central processing unit (CPU).
@@ -57,7 +57,7 @@ Supervised learning was used for training the three models. The common input for
 
 %From the higher point of view, the model can be architecturally split into two main parts. Feature extraction part, where convolutional and pooling layers alternates in order to extract the most important features out of the image. Second part is called classification, where computed feature maps will be assigned to particular class of the output layer. In order to obtain a higher generalization performance of deep learning classifier, methods like activation function, regulation and optimization will be used within the layers were implemented into the models.
 
-\subsubsection{Morphology representation model}
+\subsubsection{Morphology-representation model}
 The pain map representation of morphology works as input of the model, where the input layer is a convolution layer. This layer is set-up to receive a input shape of the dimension of the pain map, that is defined during re-scaling of the pain maps in \ref{sec:Morph}. Gender works as secondary input in the second section of the model, along with the pain maps features extracted through the convolution layers. Before the pain maps features reach the fully connected layers it is flattened from a matrix to a single row in order to merge the features with gender. The merged data passes through fully connected layers and reaches the output layer where it is given a percentage value according to which class it fits the most. Morphology model architecture is shown in figure \ref{fig:Schema1}.
 
 \begin{figure} [H]
@@ -67,17 +67,17 @@ The pain map representation of morphology works as input of the model, where the
 \label{fig:Schema1} 
 \end{figure}
 
-\subsubsection{Locations representation model}
+\subsubsection{Location-representation model}
 The architecture for this model only contains fully connected layer, since the data representation only contains 21 element vector that reflects the active pain regions and gender as described in \ref{sec:Regions}. It was evaluated that there would not be any benefits in making the model more complex by adding of convolution, based on the information available from vector, since the level of detail in relation to morphology was very simple. The architecture of the model is illustrated in \ref{fig:Simpleschema}.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.6\textwidth]{figures/Simpleschema}
-\caption{Architecture of the regions-representation model.}
+\caption{Architecture of the location-representation model.}
 \label{fig:Simpleschema} 
 \end{figure}
 
-\subsubsection{Combined representation model}
+\subsubsection{Combined-representation model}
 The architecture of this model is nearly identical to that of the morphology representation model. 
 The main difference can only be seen in the input layer for the pain map representation, where the input shape is altered to contain 10 image layers pr pain chart instead, which is also illustrated in \autoref{fig:Schema1}. This is the result of the one-hot encoding done to the images as described in \ref{sec:combined}. 
 

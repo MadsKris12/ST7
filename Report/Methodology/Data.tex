@@ -1,12 +1,12 @@
 This chapter creates an understanding of the available data, how it is analysed and prepared before including it in deep learning models. Additionally, the program Navigate Pain and programs used to development of the deep learning models are described. Furthermore, the implementation of the deep learning model is presented consisting of hardware, software and architecture of used neural network.
 
 \section{Data description}
-Data used in this project were collected beforehand from an on-going FOXH trial which is conducted in collaboration with Danish and Australian universities. The data consists of pain maps which were drawn by individuals with PFPS through the use of an application, Navigate Pain, in a clinical setting. Navigate pain is further described in section \ref{sec:nav}. The pain maps are both from individuals with uni- and bilateral PFP. An example of a pain drawing with bilateral pain is shown in figure \ref{fig:kneepainmap}.
+Data used in this project were collected beforehand from an on-going FOXH trial which is conducted in collaboration with Danish and Australian universities. The data consists of pain maps which were drawn by individuals with PFP syndrome through the use of an application, Navigate Pain, in a clinical setting. Navigate pain is further described in section \ref{sec:nav}. The pain maps are both from individuals with uni- and bilateral PFP. An example of a pain drawing with bilateral pain is shown in figure \ref{fig:kneepainmap}.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.2\textwidth]{figures/kneepainmap}
-\caption{An example of a pain drawing from individual with PFPS. The red markings indicate the area of pain perceived by the individuals. In this case the PFP is bilateral (on both knees).}
+\caption{An example of a pain drawing from individual with PFP syndrome. The red markings indicate the area of pain perceived by the individuals. In this case the PFP is bilateral (on both knees).}
 \label{fig:kneepainmap}
 \end{figure}
 
@@ -35,10 +35,10 @@ In figure \ref{fig:Navigatepain}(a) is the main screen. By clicking on "Projects
 
 \subsection{Data representations} \label{sec:representation}
 It is presumed that different representations of the pain maps affect the performance accuracy of a deep learning models, hence different data representations were created.
-A study by \citeauthor{Boudreau2017} found a partial correlation between a prolonged pain duration and the size of the pain area. It was shown that the pain area increased for individuals that had a pain duration for longer than five years. Likewise, pain intensity had a correlation with the size of pain area for individuals with a pain duration for more than five years. Furthermore, the shape of the pain developed from a U-shape to an O-shape for individuals with a pain duration above five years.\citep{Boudreau2017} \newline
+A study by \citeauthor{Boudreau2017} \citep{Boudreau2017} found a partial correlation between a prolonged pain duration and the size of the pain area. It was shown that the pain area increased for individuals that had a pain duration for longer than five years. Likewise, pain intensity had a correlation with the size of pain area for individuals with a pain duration for more than five years. Furthermore, the shape of the pain developed from a U-shape to an O-shape for individuals with a pain duration above five years.\citep{Boudreau2017} \newline
 \noindent
 It is unknown whether the morphology or location of the pain influence either pain duration or intensity to which two data representations reflecting morphology or locations of the pain are created.
-A combination of the two data representations is created to achieve a third data representation which both include the morphology of the pain and the location, which is defined using the knee regions. The three data representations are referred to as morphology-, regions- and combined-representation.
+A combination of the two data representations is created to achieve a third data representation which both include the morphology of the pain and the location, which is defined using the knee regions. The three data representations are referred to as morphology-, location- and combined-representation.
 \noindent
 Furthermore, gender may be considered as an important parameter to use as an input, because of the difference in how females and males report their pain. Additionally, there is an imbalance in prevalence.
 
@@ -50,7 +50,7 @@ Furthermore, gender may be considered as an important parameter to use as an inp
 \end{figure}
 
 \noindent
-According to the given data the distribution is higher for females than males. The females constitute XXX of the XXX individuals, and males constituted XXXX individuals.  \newline
+According to the given data the distribution is higher for females than males. The females constitute 259 of the 333 individuals, and males constituted 74 individuals.  \newline
 
 \section{Pre-analysis}
 The pain maps and associated pain duration as well as pain intensity are analysed to get an overview of the data. The data is analysed in MatLab, where the distribution of the outputs, pain duration and intensity, are investigated whereafter intervals used for classification in the deep learning models are decided. Furthermore, different threshold values are analysed according to five pain maps to select the threshold which should define when a pain region is considered active.
@@ -109,7 +109,7 @@ Figure \ref{fig:threshold}(e) shows a bar chart that indicates how many and whic
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.95\textwidth]{figures/threshold4}
-\caption{The active knee regions when the threshold is (a) 0\%, (b) 5\%, (c) 10\% and (d) 15\%. (e) is the bar chart that indicates how many and which knee regions that are considered active.}
+\caption{The active pain regions when the threshold is (a) 0\%, (b) 5\%, (c) 10\% and (d) 15\%. (e) is the bar chart that indicates how many and which regions that are considered active.}
 \label{fig:threshold}
 \end{figure}
 
@@ -117,7 +117,7 @@ Figure \ref{fig:threshold}(e) shows a bar chart that indicates how many and whic
 According to figure \ref{fig:threshold}(a) with no threshold, and (e) it is shown that the knee has nine active regions when no threshold is applied. In proportion to the active regions, pain regions R3 and R10 are very small and thereby the first regions to be discarded when the threshold is increased by 5\%, which is shown in figure (b).
 By comparing figure (a) and (b) minor changes according to the missing regions can be seen, compared to figure (c) and (d) where greater areas disappears after increasing the threshold to 10 and 15\%.
 \noindent
-Based on analysis of the five pain maps and bar charts, in figure \ref{fig:threshold} and appendix \ref{app:thresholds}, a threshold on 5\% is chosen to avoid including minor pain areas, like region R10, as active knee regions, and to avoid discarding too many and large areas, like regions R4 and R5.
+Based on analysis of the five pain maps and bar charts, in figure \ref{fig:threshold} and appendix \ref{app:thresholds}, a threshold on 5\% is chosen to avoid including minor pain areas, like region R10, as active pain regions, and to avoid discarding too many and large areas, like regions R4 and R5.
 
 
 \subsection{Simple regression models}
@@ -183,7 +183,7 @@ Based on the four linear regression models, it is assumed that a single feature,
 
 
 \section{Pre-processing} \label{sec:prepros}
-The data is pre-processed in MatLab to prepare the three different data representations. The three data representations are morphology-, location-, and combined-representation, which are described in section \ref{sec:representation}. Common for the data representation is that the pain maps are imported as image-matrices whereafter the matrices are resized, since the given pain maps were collected at different resolutions (screen sizes). Furthermore, the matrices are cropped to sort out unnecessary data.
+The data is pre-processed in MatLab to prepare the three different data representations. The three data representations are morphology-, location-, and combined-representation, which are described in section \ref{sec:representation}. Common for the data representation is that the pain maps are imported as image-matrices whereafter the matrices are resized (pixelsize: $252 \times 118 = 29,736$), since the given pain maps were collected at different resolutions (screen sizes). Furthermore, the matrices are cropped to sort out unnecessary data.
 Before the data is used as an input in the deep learning models, each matrix which represent an image, is converted into a vector whereafter they are assembled in one matrix for each data representation. To get additional information associated with the pain maps, gender is added by including a column vector to the three matrices.
 In addition to the input, a classification label is added. The label, which is either pain duration or intensity, is added as a column vector.
 The following sections describe the pre-processing of the individual data representations.
@@ -223,7 +223,7 @@ An illustration of the knee regions and an example of a pain map with the pain d
 \end{figure}
 
 \noindent
-After superimposing the two matrices, knee regions and pain pixels, the number of pain pixels in each active knee region is found. This number is compared to the total number of pixels that are in each knee region, so knee regions with less than 5\% pain are excluded. The threshold on 5\% is chosen based on the analysis in section \ref{sec:Selectthreshold}. As a result a vector with 10 values is created with zeros and ones, where one represent an active pain region. Location-representation is imported in the deep learning models the same way as the morphology-representation, which is illustrated in figure \ref{fig:binmatrix}. The only difference is that the length of the image-vectors respond to the 10 regions, and therefore there are only 10 values for each pain map.
+After superimposing the two matrices, knee regions and pain pixels, the number of pain pixels in each active pain region is found. This number is compared to the total number of pixels that are in each knee region, so knee regions with less than 5\% pain are excluded. The threshold on 5\% is chosen based on the analysis in section \ref{sec:Selectthreshold}. As a result a vector with 10 values is created with zeros and ones, where one represent an active pain region. Location-representation is imported in the deep learning models the same way as the morphology-representation, which is illustrated in figure \ref{fig:binmatrix}. The only difference is that the length of the image-vectors respond to the 10 regions, and therefore there are only 10 values for each pain map.
 
 
 \subsection{Combined-representation} \label{sec:combined}

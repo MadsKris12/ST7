@@ -65,7 +65,7 @@ Edited \citep{Goodfellow2016}.}
 \end{figure}
 
 \subsubsection{Learning curves}
-Learning curves are used to observe the error on the training, validation and testing sets, which is increased because of randomly initialized weights and biases \citep{Duda2000}. The error is presented over time, which in deep learning is expressed as the number of epochs. Epochs defines the complete pass through a dataset. [***KILDE***]
+Learning curves are used to observe the error on the training, validation and testing sets, which is increased because of randomly initialized weights and biases. The error is presented over time, which in deep learning is expressed as the number of epochs. Epochs defines the complete pass through a dataset.\citep{Duda2000}
 During the beginning of training, the training error of the network will typically be relatively high, but during training the error decreases monotonically, as the weights are adjusted in the network \citep{Duda2000}. An illustration of how the error values are affected during training can be seen in figure \ref{fig:learningCurve}.
 
 \begin{figure} [H]
@@ -77,8 +77,7 @@ During the beginning of training, the training error of the network will typical
 
 \noindent
 From the figure it can be seen how the error value of the validation, can be used to evaluate the network. 
-Near the fifth epoch the validation and the test error starts to rise, indicating that the network is overfitting to the training data, thereby decreasing the generalization abilities. 
-Validation error can therefore be used as stop criterion for when the training is optimal, and prevent overfitting. 
+Near the fifth epoch the validation and the test error starts to rise, indicating that the network is overfitting to the training data, thereby decreasing the generalization abilities. Therefore, validation error can be used as stop criterion for when the training is optimal, and prevent overfitting. 
 Typically the validation and test error will always be higher than the training error, which is also seen in figure \ref{fig:learningCurve}.\citep{Duda2000}
 
 \subsubsection{Gradient Descent} \label{sec:optimizers}
@@ -98,7 +97,7 @@ There are three variants of gradient descent: batch gradient descent, stochastic
 Batch gradient descent computes the gradient of the loss function with regards to the parameters for the entire training dataset. Batch gradient descent has the significant deficiency, it takes a single step for one pass over the training set, meaning the larger dataset, the slower algorithm updates the weights and the longer it will take to reach global minimum.\citep{Ruder2016} 
 
 \noindent
-Stochastic gradient descent (SGD) performs a parameter update for each training example and label. It is therefore much faster and it also performs frequent updates with a high variance causing loss function to fluctuate. These fluctuations enable it to jump to new potentially better local minima, but it may complicate the convergence to reach the exact minimum because of overshooting.\citep{Zhang2014}
+Stochastic gradient descent (SGD) performs a parameter update for each training example and label. Therefore, it is much faster and it also performs frequent updates with a high variance causing loss function to fluctuate. These fluctuations enable it to jump to new potentially better local minima, but it may complicate the convergence to reach the exact minimum because of overshooting.\citep{Zhang2014}
 
 \noindent
 Mini-batch gradient descent performs the parameters update for every mini-batch of training examples, specified by a batch size. By that, the variance of the parameter updates are reduced leading to more stable convergence and fast performance.\citep{Ruder2016}

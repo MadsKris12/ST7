@@ -1,7 +1,7 @@
 This section discuss the pain maps, and how they are processed before using them as input in deep learning models. Furthermore, the multiple pain maps representations are described, whereafter the complexity of the pain maps was investigated by using linear regressions. Finally, the deep learning architectures were presented.
 
 \subsection*{\textbf{Pain maps}}
-Data used in this study were collected from an on-going clinical trial (FOXH) which is conducted in collaboration with Danish and Australian universities. The pain maps were drawn by individuals with PFPS through the use of an application, Navigate Pain, in a clinical setting. \newline
+Data used in this study were collected from an on-going clinical trial (FOXH) which is conducted in collaboration with Danish and Australian universities. The pain maps were drawn by individuals with PFP syndrome through the use of an application, Navigate Pain, in a clinical setting. \newline
 \noindent
 Navigate Pain is a software application that is used to visualise the location, morphology and spatial distribution of pain from individuals to healthcare personnel. The application permits individuals to draw their pain with different colors and line thickness onto a body outline, an example is shown in fig. \ref{fig:twoPainmaps}. Navigate Pain android was developed at Aalborg University.\citep{Solutions2015}
 
@@ -18,7 +18,7 @@ The total number of pain maps available was 217, but only 205 pain maps with ass
 
 \subsection*{\textbf{Preprocessing}}
 \noindent
-The pain maps were processed in MatLab version R2017b, where the images were resized, since they were collected at different resolutions (screen sizes) and cropped to only include the knees. To create more pain maps is a split body approach used, where pain maps are divided into two knees. Furthermore, pain was mirrored to represent pain on right knees to minimize the variance in the images. By using split body approach it was assumable that the pain duration and pain intensity were identical for both knees if PFP was bilateral. The total number of pain maps with gender and pain duration was 333, and pain maps with gender and pain intensity was 319, of which 15\% was used as test data, and therefore not used to optimize and train the models. \newline
+The pain maps were processed in MatLab version R2017b, where the images were resized to a pixelsize on $252 \times 118$, since they were collected at different resolutions (screen sizes) and cropped to only include the knees. To create more pain maps is a split body approach used, where pain maps are divided into two knees. Furthermore, pain was mirrored to represent pain on right knees to minimize the variance in the images. By using split body approach it was assumable that the pain duration and pain intensity were identical for both knees if PFP was bilateral. The total number of pain maps with gender and pain duration was 333, and pain maps with gender and pain intensity was 319, of which 15\% was used as test data, and therefore not used to optimize and train the models. \newline
 \noindent
 The models should classify pain maps according to pain duration or pain intensity divided into intervals. These intervals were created based on the extremes, which were 0 to 12 months and 36 to 300 months for pain duration, and 0 to 4 and 8 to 10 for pain intensity. It was chosen to divide into extremes, since it was assumed that
 if the models predicted badly with the extremes, the models would not have a higher predictive value with multiple classifications of the outputs.
@@ -30,13 +30,13 @@ The original pain maps reflect the morphology of the pain, and do not require fu
 
 \subsection*{\textbf{Pain location}} 
 \noindent
-The knees are divided into regions based on the underlying anatomical structures, which may have a correlation to pain duration or pain intensity.
-The locations are divided into 10 regions, which are inspired by Photographic Knee Pain Map (PKPM). The divisions are designed to categorise location of knee pain for diagnostic and research purposes. PKPM represent both knees that makes it possible to identify unilateral and bilateral pain.\citep{Elson2010} The knee regions are illustrated in fig. \ref{fig:atlas}.
+The knee is divided into regions based on the underlying anatomical structures, which may have a correlation to pain duration or pain intensity.
+The locations are divided into 10 regions, which are inspired by Photographic Knee Pain Map (PKPM). The divisions are designed to categorise location of knee pain for diagnostic and research purposes.\citep{Elson2010} The knee regions are illustrated in fig. \ref{fig:atlas}.
 
 \begin{figure} [H] 
 \centering
-\includegraphics[width=0.35\textwidth]{Figures/atlas}
-\caption{The regions of the left (L1-L10) and right (R1-R10) knees, where each knee is split into ten regions.}
+\includegraphics[width=0.2\textwidth]{Figures/atlas}
+\caption{The regions of the right knee (R1-R10).}
 \label{fig:atlas}
 \end{figure}
 
