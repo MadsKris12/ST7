@@ -86,7 +86,7 @@ The main difference can only be seen in the input layer for the pain map represe
 Pre-processed data is loaded from a \textit{.mat} file into python.
 Data within the file was pre-shuffled and split into a training and test subsets, as described in \autoref{sec:prepros}. The training subset was made up 85\% of the avalible data and test subset the remaining 15\%. Data was pre-shuffled to ensure that the training and test subset were separated at random. Furthermore the data was separated to prevent data used for training to be used for testing, to which this would give a false estimation of performance.  
 %In Python the training subset is further divided into a training and validation subsets. 
-The training subset was used to train and optimize the models, to find the optimal weights with the backpropagation algorithm \citep{Bengio2012}. 
+The training subset was used to train and optimize the models, to find the optimal weights with the back-propagation algorithm \citep{Bengio2012}. 
 The test subset was used to evaluate the generalization of the model, after training and optimization.
 Morphology, and combined representations, were reshaped from a row vector, back into a matrix to retain their 2D structure of the pain map.
 Classification labels used for during supervised learning was one-hot encoded, so the number of label values were compatible to the number of outputs in the models. This was a result of the loss function \textit{categorical\_crossentropy} used for the models, that tries to reduce loss between the categories.    

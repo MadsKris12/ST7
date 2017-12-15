@@ -5,6 +5,11 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[KOOS(2016)]{KOOS2016}
+KOOS.
+\newblock {KOOS}, 2016.
+\newblock URL \url{http://www.koos.nu/index.html}.
+
 \bibitem[Maclachlan et~al.(2017)Maclachlan, Collins, and Et.al]{Maclachlan2017}
 Liam~R. Maclachlan, Natalie~J. Collins, and Et.al.
 \newblock {The psychological features of patellofemoral pain: a systematic
@@ -411,10 +416,5 @@ Nvidia.
 \newblock {GPU specs}.
 \newblock URL
   \url{https://www.geforce.com/hardware/notebook-gpus/geforce-gtx-970m/specifications}.
-
-\bibitem[KOOS(2016)]{KOOS2016}
-KOOS.
-\newblock {KOOS}, 2016.
-\newblock URL \url{http://www.koos.nu/index.html}.
 
 \end{thebibliography}
