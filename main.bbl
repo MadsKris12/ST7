@@ -1,4 +1,4 @@
-\begin{thebibliography}{59}
+\begin{thebibliography}{58}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -347,14 +347,6 @@ M.~Patacchiola and A.~Cangelosi.
 \newblock \doi{10.1016/j.patcog.2017.06.009}.
 \newblock URL
   \url{https://ac.els-cdn.com/S0031320317302327/1-s2.0-S0031320317302327-main.pdf?{\_}tid=a09e6e8a-d356-11e7-9b28-00000aacb360{\&}acdnat=1511775647{\_}f91c81864b46ddf0becfc12de21bce48}.
-
-\bibitem[Int8(2016)]{Int82016}
-Int8.
-\newblock {Optimization techniques comparison in Julia: SGD, Momentum, Adagrad,
-  Adadelta, Adam}.
-\newblock \emph{Www}, 2016.
-\newblock URL
-  \url{http://int8.io/comparison-of-optimization-techniques-stochastic-gradient-descent-momentum-adagrad-and-adadelta/}.
 
 \bibitem[Chollet(2015)]{Chollet2015}
 Fran{\c{c}}ois Chollet.
