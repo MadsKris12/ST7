@@ -1,8 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Journal.aux
 The style file: unsrtnat.bst
 Database file #1: bib.bib
-Warning--I didn't find a database entry for "Dansie2013"
-Warning--I didn't find a database entry for "Pieh2012"
 Warning--empty journal in Maclachlan2017
 Warning--empty journal in Smith2015
 Warning--empty journal in Rathleff2015
@@ -10,5 +8,6 @@ Warning--empty journal in Witvrouw2014
 Warning--empty journal in Crossley2016
 Warning--empty journal in Boudreau2016
 Warning--empty journal in Boudreau2017
+Warning--empty journal in Dansie2013
 Warning--empty journal in Elson2010
-(There were 10 warnings)
+(There were 9 warnings)

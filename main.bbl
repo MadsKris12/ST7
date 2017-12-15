@@ -1,4 +1,4 @@
-\begin{thebibliography}{47}
+\begin{thebibliography}{59}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,7 +12,7 @@ Liam~R. Maclachlan, Natalie~J. Collins, and Et.al.
 \newblock 2017.
 \newblock \doi{10.1136-bjsports-2016-096705}.
 
-\bibitem[Smith et~al.(2015)Smith, Drew, and Et.al.]{Smith2015}
+\bibitem[Smith et~al.(2015)Smith, Drew, and Et.al]{Smith2015}
 T.O. Smith, B.T. Drew, and Et.al.
 \newblock {Knee orthoses for treating patellofemoral pain syndrome (review)}.
 \newblock 2015.
@@ -25,14 +25,18 @@ M.~S. Rathleff, B.~Vicenzino, and Et.al.
 \newblock 2015.
 \newblock \doi{10.1007/s40279-015-0364-1}.
 
-\bibitem[Petersen et~al.(2013)Petersen, Ellermann, and Et.al.]{Petersen2013}
-Wolf Petersen, Andree Ellermann, and Et.al.
+\bibitem[Haim et~al.(2006)Haim, Yaniv, and Et.al]{Petersen2013}
+Amir Haim, Moshe Yaniv, and Et.al.
 \newblock {Patellofemoral Pain Syndrome}.
-\newblock \emph{Clinical Orthopaedics and Related Research}, 2013.
-\newblock \doi{10.1097/01.blo.0000229284.45485.6c}.
+\newblock \emph{Knee Surg sports traumatol arthrose}, 451:\penalty0 223--228,
+  2006.
+\newblock ISSN 0009-921X.
+\newblock \doi{10.1007/s00167-013-2759-6}.
+\newblock URL
+  \url{http://content.wkhealth.com/linkback/openurl?sid=WKPTLP:landingpage{\&}an=00003086-200610000-00041}.
 
-\bibitem[Witvrouw et~al.(2014)Witvrouw, Callaghan, and Et.at]{Witvrouw2014}
-Erik Witvrouw, Michael~J. Callaghan, and Et.at.
+\bibitem[Witvrouw et~al.(2014)Witvrouw, Callaghan, and Et.al]{Witvrouw2014}
+Erik Witvrouw, Michael~J. Callaghan, and Et.al.
 \newblock {Patellofemoral Pain: consensus statement from the 3rd International
   Patellofemoral Pain Research Retreat held in Vancouver, September 2013}.
 \newblock 2014.
@@ -49,22 +53,28 @@ Scott~F Dye.
 \newblock {Patellofemoral Pain Current Concepts: An Overview}.
 \newblock \emph{Sports Medicine and Arthroscopy Review}, 2001.
 
-\bibitem[Boudreau and et.al Badsberg(2016)]{Boudreau2016}
-Shellie~A. Boudreau and Susanne et.al Badsberg.
+\bibitem[Boudreau et~al.(2016)Boudreau, Badsberg, and Et.al]{Boudreau2016}
+Shellie~A. Boudreau, Susanne Badsberg, and Et.al.
 \newblock {Digital pain drawings: Assessing Touch-Screen Technology and 3D Body
   Schemas}.
 \newblock 2016.
 \newblock \doi{10.1097/AJP.0000000000000230}.
 
-\bibitem[Boudreau et~al.(2017)Boudreau, Kamavuako, and Et.al.]{Boudreau2017}
+\bibitem[Boudreau et~al.(2017)Boudreau, Kamavuako, and Et.al]{Boudreau2017}
 Shellie~A. Boudreau, E.~N. Kamavuako, and Et.al.
 \newblock {Distribution and symmetrical patellofemoral pain patterns as
   revealed by high-resolution 3D body mapping: a cross-sectional study}.
 \newblock 2017.
 \newblock \doi{10.1186/s12891-017-1521-5}.
 
-\bibitem[et.~al. Martini(2012)]{Martini2012}
-Frederic~H. et.~al. Martini.
+\bibitem[Dansie and Turk(2013)]{Dansie2013}
+E.~J. Dansie and D.~C. Turk.
+\newblock {Assessment of patients with chronic pain}.
+\newblock 2013.
+\newblock \doi{10.1093/bja/aet124}.
+
+\bibitem[Martini et~al.(2012)Martini, Nath, and Et.al]{Martini2012}
+Frederic~H. Martini, Judi~L. Nath, and Et.al.
 \newblock \emph{{Anatomy {\&} Physology}}.
 \newblock 2012.
 
@@ -91,7 +101,7 @@ Emma Briggs.
 \newblock {Understanding the experience and physiology of pain}.
 \newblock 2010.
 
-\bibitem[Crossley et~al.(2015)Crossley, Callaghan, and Et.al.]{Crossley2015}
+\bibitem[Crossley et~al.(2015)Crossley, Callaghan, and Et.al]{Crossley2015}
 Kay~M. Crossley, Michael~J. Callaghan, and Et.al.
 \newblock {Patellofemoral pain}.
 \newblock 2015.
@@ -102,6 +112,41 @@ Katherine~Stabenow Dahab.
 \newblock {Q angle}.
 \newblock \emph{Enccyclopedia of Sports Medicine}, 2011.
 \newblock \doi{10.4135/9781412961165.n415}.
+
+\bibitem[Nijs et~al.(2011)Nijs, van Wilgen, and Et.al]{Nijs2011}
+Jo~Nijs, Paul van Wilgen, and Et.al.
+\newblock {How to explain central sensitization to patients with 'unexplained'
+  chronic musculoskeletal pain: Practice guidelines}.
+\newblock \emph{Elsevier}, 2011.
+\newblock \doi{10.1016/j.math.2011.04.005}.
+
+\bibitem[Matre and Knardahl(2012)]{Matre2012}
+Dagfinn Matre and Stein Knardahl.
+\newblock {'Central sensitization' in chronic neck/shoulder pain}.
+\newblock \emph{Scandinavian journal of pain}, 2012.
+\newblock \doi{10.1016/j.sjpain.2012.04.003}.
+
+\bibitem[Yunus(2007)]{Yunus2007}
+Muhammed~B. Yunus.
+\newblock {Role of central sensitization in symptoms beyond muscle pain, and
+  the evaluation of a patient with widespread pain}.
+\newblock \emph{Elsevier}, 2007.
+\newblock \doi{10.1016/j.berh.2017.03.006}.
+
+\bibitem[Oesteraas et~al.(2010)Oesteraas, Torsensen, and Et.al]{Oesteraas2010}
+Haavard Oesteraas, Tom~Arild Torsensen, and Et.al.
+\newblock {Treatment of chronic bilateral knee pain without objective clinical
+  findings: Central sensitization. A case report}.
+\newblock \emph{Advances in Physiotherapy}, \penalty0 (12:2):\penalty0 95--99,
+  2010.
+\newblock \doi{10.3109/14038191003642385}.
+
+\bibitem[Mayer et~al.(2011)Mayer, Neblett, and Et.al]{Mayer2011}
+Tom~G. Mayer, Randy Neblett, and Et.al.
+\newblock {The development and psychometric validation of the central
+  sensitization inventory}.
+\newblock \emph{World Institute of Pain}, 2011.
+\newblock \doi{10.1111/j.1533-2500.2011.00493.x}.
 
 \bibitem[Younger and Mackey(2009)]{Younger2009}
 Jarred Younger and Sean Mackey.
@@ -114,9 +159,16 @@ Kanishka~M. Ghosh and David~J. Deehan.
 \newblock In Mark Wilkinson, editor, \emph{Orthopaedic surgery: lower limb}.
   Elsevier, 2010.
 
+\bibitem[Pieh et~al.(2012)Pieh, Altmeppen, and Et.al]{Pieh2012}
+Christoph Pieh, Jurgen Altmeppen, and Et.al.
+\newblock {Gender differences in outcomes of a multimodal pain management
+  program}.
+\newblock \emph{Elsevier}, 2012.
+\newblock \doi{10.1016/j.pain.2011.10.016}.
+
 \bibitem[{Ferreira Valente} et~al.(2011){Ferreira Valente}, {Ribeiro Pais}, and
-  Al]{Valente2011}
-Maria {Ferreira Valente}, Jos{\'{e}} {Ribeiro Pais}, and Et. Al.
+  Et.al]{Valente2011}
+Maria {Ferreira Valente}, Jos{\'{e}} {Ribeiro Pais}, and Et.al.
 \newblock {Validity of four pain intensity rating scales}.
 \newblock 2011.
 \newblock \doi{10.1016/j.pain.2011.07.005}.
@@ -153,8 +205,8 @@ D.~W. Elson, S.~Jones, and Et.al.
 \newblock 2010.
 \newblock \doi{10.1016/j.knee.2010.08.012}.
 
-\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Hinton]{LeCun2015}
-Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
+\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Et.al]{LeCun2015}
+Yann LeCun, Yoshua Bengio, and Et.al.
 \newblock {Deep Learning}.
 \newblock \emph{Nature Insight Review}, pages 436--444, 2015.
 \newblock \doi{10.1038/nature14539}.
@@ -185,10 +237,9 @@ J{\"{u}}rgen Schmidhuber.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0893608014002135}.
 
-\bibitem[Acquarelli et~al.(2017)Acquarelli, van Laarhoven, Gerretzen, Tran,
-  Buydens, and Marchiori]{Acquarelli2017}
-Jacopo Acquarelli, Twan van Laarhoven, Jan Gerretzen, Thanh~N. Tran,
-  Lutgarde~M.C. Buydens, and Elena Marchiori.
+\bibitem[Acquarelli et~al.(2017)Acquarelli, van Laarhoven, and
+  Et.al]{Acquarelli2017}
+Jacopo Acquarelli, Twan van Laarhoven, and Et.al.
 \newblock {Convolutional neural networks for vibrational spectroscopic data
   analysis}.
 \newblock \emph{Analytica Chimica Acta}, 954:\penalty0 22--31, 2017.
@@ -197,8 +248,8 @@ Jacopo Acquarelli, Twan van Laarhoven, Jan Gerretzen, Thanh~N. Tran,
 \newblock URL
   \url{http://linkinghub.elsevier.com/retrieve/pii/S0003267016314842}.
 
-\bibitem[Hameed et~al.(2016)Hameed, Karlik, and Salman]{Hameed2016}
-Alaa~Ali Hameed, Bekir Karlik, and Mohammad~Shukri Salman.
+\bibitem[Hameed et~al.(2016)Hameed, Karlik, and Et.al]{Hameed2016}
+Alaa~Ali Hameed, Bekir Karlik, and Et.al.
 \newblock {Back-propagation algorithm with variable adaptive momentum}.
 \newblock \emph{Knowledge-Based Systems}, 114:\penalty0 79--87, 2016.
 \newblock ISSN 09507051.
@@ -206,15 +257,14 @@ Alaa~Ali Hameed, Bekir Karlik, and Mohammad~Shukri Salman.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0950705116303811?via{\%}3Dihub}.
 
-\bibitem[Goodfellow et~al.(2016)Goodfellow, Bengio, and
-  Courville]{Goodfellow2016}
-Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\bibitem[Goodfellow et~al.(2016)Goodfellow, Bengio, and Et.al]{Goodfellow2016}
+Ian Goodfellow, Yoshua Bengio, and Et.al.
 \newblock \emph{{Deep Learning}}.
 \newblock MIT Press, 2016.
 \newblock URL \url{http://www.deeplearningbook.org}.
 
-\bibitem[Mehryar et~al.(2012)Mehryar, Afshin, and Ameet]{Mehryar2012}
-Mohri Mehryar, Rostamizadeh Afshin, and Talwalka Ameet.
+\bibitem[Mehryar et~al.(2012)Mehryar, Afshin, and Et.al]{Mehryar2012}
+Mohri Mehryar, Rostamizadeh Afshin, and Et.al.
 \newblock \emph{{Foundations of Machine Learning}}.
 \newblock 2012.
 \newblock ISBN 9780262018258.
@@ -229,14 +279,14 @@ Yoshua Bengio.
 \newblock \doi{10.1007/978-3-642-35289-8_26}.
 \newblock URL \url{http://dx.doi.org/10.1007/978-3-642-35289-8{\_}26}.
 
-\bibitem[Duda et~al.(2000)Duda, Hart, and Stork]{Duda2000}
-Richard Duda, Peter Hart, and David Stork.
+\bibitem[Duda et~al.(2000)Duda, Hart, and Et.al]{Duda2000}
+Richard Duda, Peter Hart, and Et.al.
 \newblock \emph{{Pattern Classification}}.
 \newblock Second edi edition, 2000.
 \newblock ISBN 9780471056690.
 
-\bibitem[LeCun et~al.(1998)LeCun, Bottou, Bengio, and Haffner]{LeCun1998}
-Yann LeCun, L{\'{e}}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\bibitem[LeCun et~al.(1998)LeCun, Bottou, and Et.al]{LeCun1998}
+Yann LeCun, L{\'{e}}on Bottou, and Et.al.
 \newblock {Gradient-based learning applied to document recognition}.
 \newblock \emph{Proceedings of the IEEE}, 86\penalty0 (11):\penalty0
   2278--2323, 1998.
@@ -259,8 +309,8 @@ Sebastian Raschka.
 \newblock URL
   \url{http://sebastianraschka.com/Articles/2015{\_}singlelayer{\_}neurons.html}.
 
-\bibitem[Zhang et~al.(2014)Zhang, Choromanska, and LeCun]{Zhang2014}
-Sixin Zhang, Anna Choromanska, and Yann LeCun.
+\bibitem[Zhang et~al.(2014)Zhang, Choromanska, and Et.al]{Zhang2014}
+Sixin Zhang, Anna Choromanska, and Et.al.
 \newblock {Deep learning with Elastic Averaging SGD}.
 \newblock 2014.
 \newblock ISSN 10495258.
@@ -306,10 +356,8 @@ Fran{\c{c}}ois Chollet.
 \newblock {Keras Documentation}, 2015.
 \newblock URL \url{https://keras.io}.
 
-\bibitem[Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
-  Salakhutdinov]{Srivastava2014}
-Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
-  Salakhutdinov.
+\bibitem[Srivastava et~al.(2014)Srivastava, Hinton, and El.al]{Srivastava2014}
+Nitish Srivastava, Geoffrey Hinton, and El.al.
 \newblock {Dropout: A Simple Way to Prevent Neural Networks from Overfitting}.
 \newblock \emph{Journal of Machine Learning Research}, 15:\penalty0 1929--1958,
   2014.
@@ -317,6 +365,21 @@ Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
 \newblock \doi{10.1214/12-AOS1000}.
 \newblock URL
   \url{https://dl.acm.org/citation.cfm?id=2670313{\&}CFID=818407627{\&}CFTOKEN=74532044}.
+
+\bibitem[Gustafson(1998)]{Gustafson1998}
+Karl Gustafson.
+\newblock {Assigning Initial Weights in Feedforward Neural Networks}.
+\newblock 1998.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1474667017419380}.
+
+\bibitem[Dumoulin and Visin(2016)]{Dumoulin2016}
+Vincent Dumoulin and Francesco Visin.
+\newblock {A guide to convolution arithmetic for deep learning}.
+\newblock 2016.
+\newblock ISSN 16113349.
+\newblock \doi{10.1051/0004-6361/201527329}.
+\newblock URL \url{http://arxiv.org/abs/1603.07285}.
 
 \bibitem[Solutions(2015)]{Solutions2015}
 Aglance Solutions.
@@ -336,5 +399,22 @@ Manohar Swamynathan.
 \newblock ISBN 978-1-4842-2865-4.
 \newblock \doi{10.1007/978-1-4842-2866-1}.
 \newblock URL \url{http://link.springer.com/10.1007/978-1-4842-2866-1}.
+
+\bibitem[Intel()]{Intel}
+Intel.
+\newblock {Processor specs}.
+\newblock URL
+  \url{https://ark.intel.com/products/88967/Intel-Core-i7-6700HQ-Processor-6M-Cache-up-to-3{\_}50-GHz}.
+
+\bibitem[Nvidia()]{Nvidia}
+Nvidia.
+\newblock {GPU specs}.
+\newblock URL
+  \url{https://www.geforce.com/hardware/notebook-gpus/geforce-gtx-970m/specifications}.
+
+\bibitem[KOOS(2016)]{KOOS2016}
+KOOS.
+\newblock {KOOS}, 2016.
+\newblock URL \url{http://www.koos.nu/index.html}.
 
 \end{thebibliography}

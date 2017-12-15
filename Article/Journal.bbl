@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,7 +12,7 @@ Liam~R. Maclachlan, Natalie~J. Collins, and Et.al.
 \newblock 2017.
 \newblock \doi{10.1136-bjsports-2016-096705}.
 
-\bibitem[Smith et~al.(2015)Smith, Drew, and Et.al.]{Smith2015}
+\bibitem[Smith et~al.(2015)Smith, Drew, and Et.al]{Smith2015}
 T.O. Smith, B.T. Drew, and Et.al.
 \newblock {Knee orthoses for treating patellofemoral pain syndrome (review)}.
 \newblock 2015.
@@ -25,14 +25,18 @@ M.~S. Rathleff, B.~Vicenzino, and Et.al.
 \newblock 2015.
 \newblock \doi{10.1007/s40279-015-0364-1}.
 
-\bibitem[Petersen et~al.(2013)Petersen, Ellermann, and Et.al.]{Petersen2013}
-Wolf Petersen, Andree Ellermann, and Et.al.
+\bibitem[Haim et~al.(2006)Haim, Yaniv, and Et.al]{Petersen2013}
+Amir Haim, Moshe Yaniv, and Et.al.
 \newblock {Patellofemoral Pain Syndrome}.
-\newblock \emph{Clinical Orthopaedics and Related Research}, 2013.
-\newblock \doi{10.1097/01.blo.0000229284.45485.6c}.
+\newblock \emph{Knee Surg sports traumatol arthrose}, 451:\penalty0 223--228,
+  2006.
+\newblock ISSN 0009-921X.
+\newblock \doi{10.1007/s00167-013-2759-6}.
+\newblock URL
+  \url{http://content.wkhealth.com/linkback/openurl?sid=WKPTLP:landingpage{\&}an=00003086-200610000-00041}.
 
-\bibitem[Witvrouw et~al.(2014)Witvrouw, Callaghan, and Et.at]{Witvrouw2014}
-Erik Witvrouw, Michael~J. Callaghan, and Et.at.
+\bibitem[Witvrouw et~al.(2014)Witvrouw, Callaghan, and Et.al]{Witvrouw2014}
+Erik Witvrouw, Michael~J. Callaghan, and Et.al.
 \newblock {Patellofemoral Pain: consensus statement from the 3rd International
   Patellofemoral Pain Research Retreat held in Vancouver, September 2013}.
 \newblock 2014.
@@ -49,19 +53,32 @@ Scott~F Dye.
 \newblock {Patellofemoral Pain Current Concepts: An Overview}.
 \newblock \emph{Sports Medicine and Arthroscopy Review}, 2001.
 
-\bibitem[Boudreau and et.al Badsberg(2016)]{Boudreau2016}
-Shellie~A. Boudreau and Susanne et.al Badsberg.
+\bibitem[Boudreau et~al.(2016)Boudreau, Badsberg, and Et.al]{Boudreau2016}
+Shellie~A. Boudreau, Susanne Badsberg, and Et.al.
 \newblock {Digital pain drawings: Assessing Touch-Screen Technology and 3D Body
   Schemas}.
 \newblock 2016.
 \newblock \doi{10.1097/AJP.0000000000000230}.
 
-\bibitem[Boudreau et~al.(2017)Boudreau, Kamavuako, and Et.al.]{Boudreau2017}
+\bibitem[Boudreau et~al.(2017)Boudreau, Kamavuako, and Et.al]{Boudreau2017}
 Shellie~A. Boudreau, E.~N. Kamavuako, and Et.al.
 \newblock {Distribution and symmetrical patellofemoral pain patterns as
   revealed by high-resolution 3D body mapping: a cross-sectional study}.
 \newblock 2017.
 \newblock \doi{10.1186/s12891-017-1521-5}.
+
+\bibitem[Dansie and Turk(2013)]{Dansie2013}
+E.~J. Dansie and D.~C. Turk.
+\newblock {Assessment of patients with chronic pain}.
+\newblock 2013.
+\newblock \doi{10.1093/bja/aet124}.
+
+\bibitem[Pieh et~al.(2012)Pieh, Altmeppen, and Et.al]{Pieh2012}
+Christoph Pieh, Jurgen Altmeppen, and Et.al.
+\newblock {Gender differences in outcomes of a multimodal pain management
+  program}.
+\newblock \emph{Elsevier}, 2012.
+\newblock \doi{10.1016/j.pain.2011.10.016}.
 
 \bibitem[Solutions(2015)]{Solutions2015}
 Aglance Solutions.
@@ -81,17 +98,15 @@ David~Money Harris and Sarah~L. Harris.
 \newblock In \emph{Digital design and computer architecture}. Elsevier, 2012.
 \newblock ISBN 9780123978165.
 
-\bibitem[Goodfellow et~al.(2016)Goodfellow, Bengio, and
-  Courville]{Goodfellow2016}
-Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\bibitem[Goodfellow et~al.(2016)Goodfellow, Bengio, and Et.al]{Goodfellow2016}
+Ian Goodfellow, Yoshua Bengio, and Et.al.
 \newblock \emph{{Deep Learning}}.
 \newblock MIT Press, 2016.
 \newblock URL \url{http://www.deeplearningbook.org}.
 
-\bibitem[Acquarelli et~al.(2017)Acquarelli, van Laarhoven, Gerretzen, Tran,
-  Buydens, and Marchiori]{Acquarelli2017}
-Jacopo Acquarelli, Twan van Laarhoven, Jan Gerretzen, Thanh~N. Tran,
-  Lutgarde~M.C. Buydens, and Elena Marchiori.
+\bibitem[Acquarelli et~al.(2017)Acquarelli, van Laarhoven, and
+  Et.al]{Acquarelli2017}
+Jacopo Acquarelli, Twan van Laarhoven, and Et.al.
 \newblock {Convolutional neural networks for vibrational spectroscopic data
   analysis}.
 \newblock \emph{Analytica Chimica Acta}, 954:\penalty0 22--31, 2017.
@@ -100,8 +115,8 @@ Jacopo Acquarelli, Twan van Laarhoven, Jan Gerretzen, Thanh~N. Tran,
 \newblock URL
   \url{http://linkinghub.elsevier.com/retrieve/pii/S0003267016314842}.
 
-\bibitem[LeCun et~al.(1998)LeCun, Bottou, Bengio, and Haffner]{LeCun1998}
-Yann LeCun, L{\'{e}}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\bibitem[LeCun et~al.(1998)LeCun, Bottou, and Et.al]{LeCun1998}
+Yann LeCun, L{\'{e}}on Bottou, and Et.al.
 \newblock {Gradient-based learning applied to document recognition}.
 \newblock \emph{Proceedings of the IEEE}, 86\penalty0 (11):\penalty0
   2278--2323, 1998.

@@ -1,20 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: bib.bib
-Warning--I didn't find a database entry for "KOOS2016"
-Warning--I didn't find a database entry for "Dansie2013"
-Warning--I didn't find a database entry for "Nijs2011"
-Warning--I didn't find a database entry for "Matre2012"
-Warning--I didn't find a database entry for "Yunus2007"
-Warning--I didn't find a database entry for "Oesteraas2010"
-Warning--I didn't find a database entry for "Mayer2011"
-Warning--I didn't find a database entry for "Pieh2012"
-Warning--I didn't find a database entry for "Gustafson1998"
-Warning--I didn't find a database entry for "LeCun2"
-Warning--I didn't find a database entry for "Dumoulin2016"
-Warning--I didn't find a database entry for "fcollet2015"
-Warning--I didn't find a database entry for "Intel"
-Warning--I didn't find a database entry for "Nvidia"
 Warning--empty journal in Maclachlan2017
 Warning--empty journal in Smith2015
 Warning--empty journal in Rathleff2015
@@ -22,9 +8,11 @@ Warning--empty journal in Witvrouw2014
 Warning--empty journal in Crossley2016
 Warning--empty journal in Boudreau2016
 Warning--empty journal in Boudreau2017
+Warning--empty journal in Dansie2013
 Warning--empty publisher in Martini2012
 Warning--empty journal in Briggs2010
 Warning--empty journal in Crossley2015
+Warning--there's a number but no volume in Oesteraas2010
 Warning--empty journal in Younger2009
 Warning--empty journal in Valente2011
 Warning--empty journal in Haefeli2005
@@ -37,5 +25,9 @@ Warning--empty publisher in Duda2000
 Warning--empty journal in Ruder2016
 Warning--empty journal in Raschka2016
 Warning--empty journal in Zhang2014
+Warning--empty journal in Gustafson1998
+Warning--empty journal in Dumoulin2016
 Warning--empty publisher in Swamynathan2017
-(There were 37 warnings)
+Warning--empty year in Intel
+Warning--empty year in Nvidia
+(There were 29 warnings)

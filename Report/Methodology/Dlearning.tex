@@ -6,7 +6,7 @@ In this project the deep learning method is used to classify the pain maps and g
 The neural network developed for this study, was programmed using Python v3.6.3. Python is an object-oriented and general-purpose programming and scripting language, that may be used for e.g. programming websites, mobile applications, but also for machine learning programming applications.
 For development of deep learning application in python, different libraries are available, where some of the popular are the Theano and TensorFlow libraries.\citep{Swamynathan2017}, where the Tensorflow v1.3.0 library was used in this study. %TensorFlow is an open source library for development of machine learning applications, that has been released by Google \citep{Swamynathan2017}.  
 An additional library, Keras v2.0.8, was imported, which runs on top of either Tensorflow or Theano, and is a high-level neural networks application programming interface (API).   
-Keras is a simplified version of the two libraries, which allows for fast and easier prototyping of neural network \citep{fcollet2015}. This was deemed suitable given that no previous experience with neural network were available during this study.  
+Keras is a simplified version of the two libraries, which allows for fast and easier prototyping of neural network \citep{Chollet2015}. This was deemed suitable given that no previous experience with neural network were available during this study.  
 
 Utilization of graphics processing unit (GPU) computation was also implemented using CUDA drivers and cnDNN communication libraries, which allowed for faster runtimes, then through the use of the central processing unit (CPU).
  
@@ -38,8 +38,8 @@ Base Clock speed & 924 MHz  \\
 Memory & 6144 MB  \\
 Memory bandwidth & 120 GB/s  \\ \hline
 \end{tabular}
-\label{tab:Specs}
 \caption{Specifications of CPU and GPU \citep{Intel,Nvidia}}
+\label{tab:Specs}
 \end{table}
 
 \subsection{Data handling and design choices of the models}
@@ -84,7 +84,7 @@ The main difference can only be seen in the input layer for the pain map represe
 
 \subsection{Data handling in python}
 Pre-processed data is loaded from a \textit{.mat} file into python.
-Data within the file was pre-shuffled and split into a training and test subsets, as described in \autoref{sec:pre-process}. The training subset was made up 85\% of the avalible data and test subset the remaining 15\%. Data was pre-shuffled to ensure that the training and test subset were separated at random. Furthermore the data was separated to prevent data used for training to be used for testing, to which this would give a false estimation of performance.  
+Data within the file was pre-shuffled and split into a training and test subsets, as described in \autoref{sec:prepros}. The training subset was made up 85\% of the avalible data and test subset the remaining 15\%. Data was pre-shuffled to ensure that the training and test subset were separated at random. Furthermore the data was separated to prevent data used for training to be used for testing, to which this would give a false estimation of performance.  
 %In Python the training subset is further divided into a training and validation subsets. 
 The training subset was used to train and optimize the models, to find the optimal weights with the backpropagation algorithm \citep{Bengio2012}. 
 The test subset was used to evaluate the generalization of the model, after training and optimization.

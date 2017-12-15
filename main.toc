@@ -58,5 +58,5 @@
 \contentsline {subsection}{\numberline {3.5.2}Testing}{36}{subsection.3.5.2}
 \contentsline {chapter}{\chapternumberline {4}Results}{37}{chapter.4}
 \contentsline {chapter}{Bibliography}{38}{section*.60}
-\contentsline {appendix}{\chapternumberline {A}\relax \fontsize {12}{14.5}\selectfont Knee injury and Ostearthritis Outcome Score (KOOS) \citep {KOOS2016}}{42}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}\relax \fontsize {12}{14.5}\selectfont Threshold analysis}{46}{appendix.B}
+\contentsline {appendix}{\chapternumberline {A}\relax \fontsize {12}{14.5}\selectfont Knee injury and Ostearthritis Outcome Score (KOOS) \citep {KOOS2016}}{43}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}\relax \fontsize {12}{14.5}\selectfont Threshold analysis}{47}{appendix.B}
