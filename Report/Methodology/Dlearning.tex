@@ -1,10 +1,10 @@
 \section{Neural network implementation and models}
 Building neural network for classifying pain maps was trial and error process.
-In this project the deep learning method is used to classify the pain maps and gender by determined outputs. The data is a set of 2D-images combined with gender and the outputs are pain intensity and duration. For classification purpose supervised convolutional neural network is used followed by fully-connected layers at the end. This architecture of the model is chosen to the interest of morphology and location of the pain. The models are trained, and tested on a single computer with GPU and ran on Python programming language with Keras library and Tensorboard tool for visualizing results. Specifications of hardware and software are described in detail in section {Sofware and hardware}.
+In this project the deep learning method is used to classify the pain maps and gender by determined outputs. The data is a set of 2D-images combined with gender and the outputs are pain intensity and duration. For classification purpose supervised convolutional neural network is used followed by fully-connected layers at the end. This architecture of the model is chosen to the interest of morphology and location of the pain. The models are trained, and tested on a single computer with GPU and ran on Python programming language with Keras library. Specifications of hardware and software are described in detail in \autoref{sec:softHard}.
 
-\subsection{Software and hardware}
+\subsection{Software and hardware}\label{sec:softHard}
 The neural network developed for this study, was programmed using Python v3.6.3. Python is an object-oriented and general-purpose programming and scripting language, that may be used for e.g. programming websites, mobile applications, but also for machine learning programming applications.
-For development of deep learning application in python, different libraries are available, where some of the popular are the Theano and TensorFlow libraries.\citep{Swamynathan2017}, where the Tensorflow v1.3.0 library was used in this study. %TensorFlow is an open source library for development of machine learning applications, that has been released by Google \citep{Swamynathan2017}.  
+For development of deep learning application in python, different libraries are available, where some of the popular are the Theano and TensorFlow libraries.\citep{Swamynathan2017}. The Tensorflow v1.3.0 library was chosen for this study. %TensorFlow is an open source library for development of machine learning applications, that has been released by Google \citep{Swamynathan2017}.  
 An additional library, Keras v2.0.8, was imported, which runs on top of either Tensorflow or Theano, and is a high-level neural networks application programming interface (API).   
 Keras is a simplified version of the two libraries, which allows for fast and easier prototyping of neural network \citep{Chollet2015}. This was deemed suitable given that no previous experience with neural network were available during this study.  
 
@@ -14,7 +14,7 @@ Utilization of graphics processing unit (GPU) computation was also implemented u
 %Using CPU or GPU on this platform the most mathematical operation  is computed in a computerized and simple way \citep{Swamynathan2017}. A small example of the concept of using TensorFlow could be seen in Appendix B. The plots for this model are generated using Tensorboard visualizing tool. It allows to watch a graph during the training, gives plot quantitative metrics and shows data like images that pass through it. Besides visualizing part of this tool it is also useful for debugging as it allows to observe the graph at a present time.\citep{Abadi2016a}
 
 \noindent
-The neural network was created on a laptop with 4x 'Intel® Core™ i7' CPU‘s and one GPU of type 'Geforce GTX 970M' with specifications listed in table \ref{tab:Specs}.
+The neural network was developed on a laptop with 4x 'Intel® Core™ i7' CPU‘s and one GPU of type 'Geforce GTX 970M' with specifications listed in table \ref{tab:Specs}.
 
 %\begin{figure} [H]
 %\centering
@@ -57,18 +57,11 @@ Supervised learning was used for training the three models. The common input for
 
 %From the higher point of view, the model can be architecturally split into two main parts. Feature extraction part, where convolutional and pooling layers alternates in order to extract the most important features out of the image. Second part is called classification, where computed feature maps will be assigned to particular class of the output layer. In order to obtain a higher generalization performance of deep learning classifier, methods like activation function, regulation and optimization will be used within the layers were implemented into the models.
 
-\subsubsection{Morphology-representation model}
-The pain map representation of morphology works as input of the model, where the input layer is a convolution layer. This layer is set-up to receive a input shape of the dimension of the pain map, that is defined during re-scaling of the pain maps in \ref{sec:Morph}. Gender works as secondary input in the second section of the model, along with the pain maps features extracted through the convolution layers. Before the pain maps features reach the fully connected layers it is flattened from a matrix to a single row in order to merge the features with gender. The merged data passes through fully connected layers and reaches the output layer where it is given a percentage value according to which class it fits the most. Morphology model architecture is shown in figure \ref{fig:Schema1}.
-
-\begin{figure} [H]
-\centering
-\includegraphics[width=1.0\textwidth]{figures/Schema1}
-\caption{Architecture of the neural network model used for this study.}
-\label{fig:Schema1} 
-\end{figure}
-
 \subsubsection{Location-representation model}
-The architecture for this model only contains fully connected layer, since the data representation only contains 21 element vector that reflects the active pain regions and gender as described in \ref{sec:Regions}. It was evaluated that there would not be any benefits in making the model more complex by adding of convolution, based on the information available from vector, since the level of detail in relation to morphology was very simple. The architecture of the model is illustrated in \ref{fig:Simpleschema}.
+Given the location representations relative simplicity, in the form of a 11 element row-vector that contains both the pain maps information along with a gender value as described in \ref{sec:Regions} , the architecture of the model is also relatively simple, compared to the other models.  
+For this representation the model consists of four fully-connected layers where the last of the layers is the output layer, where the number of outputs matches the number of classes. 
+It was chosen not to use convolution layers, like in the morphology- and combined-representation, because it was believed that be no greater benefit given how convolution works, and the size of the location representation. 
+An overview of the architecture of the model for the location representation can be seen in \ref{fig:Simpleschema}.
 
 \begin{figure} [H]
 \centering
@@ -77,14 +70,32 @@ The architecture for this model only contains fully connected layer, since the d
 \label{fig:Simpleschema} 
 \end{figure}
 
+
+\subsubsection{Morphology-representation model}
+The models for the morphology representation, consists of convolution, maxpooling and fully-connected layers.  
+The models are essentially made up of two parts, where one being the extraction of image features, and another being a classification part. 
+For the extraction of image features a series of three convolution and maxpooling layer are stacked after each other, to which the first layer is specified to receive the main input of the shape $1 \times 118 \times 252$ where the 1 reflects the fact that the pain map representation is binary. 
+The classification part of the network is the same architecture as that of the model for the location representation, and thereby consists of fully-connected layers. Between these two parts of the model, a secondary input is added specifying the gender related to the given pain map. 
+Before the pain maps features reach the fully connected layers it is flattened from the shape of a matrix to that of a single row in order to merge the extracted features with gender. The merged data passes through fully connected layers and reaches the output layer where it is given a percentage value according to which class it fits the most. 
+The architecture of the morphology representation model is shown in figure \ref{fig:Schema1}.
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=1.0\textwidth]{figures/Schema1}
+\caption{Architecture of the neural network model used for this study.}
+\label{fig:Schema1} 
+\end{figure}
+
+
+
 \subsubsection{Combined-representation model}
-The architecture of this model is nearly identical to that of the morphology representation model. 
-The main difference can only be seen in the input layer for the pain map representation, where the input shape is altered to contain 10 image layers pr pain chart instead, which is also illustrated in \autoref{fig:Schema1}. This is the result of the one-hot encoding done to the images as described in \ref{sec:combined}. 
+The architecture of this model is nearly identical to that of the morphology representation model, as seen in \autoref{fig:Schema1}. 
+The main difference can only be seen in the dimension of input for the pain map representation, where the input shape is $10 \times 118 \times 252$ to which 10 is the number of image layers per. pain map. This is the result of the one-hot encoding done to the images as described in \ref{sec:combined}. 
 
 
 \subsection{Data handling in python}
 Pre-processed data is loaded from a \textit{.mat} file into python.
-Data within the file was pre-shuffled and split into a training and test subsets, as described in \autoref{sec:prepros}. The training subset was made up 85\% of the avalible data and test subset the remaining 15\%. Data was pre-shuffled to ensure that the training and test subset were separated at random. Furthermore the data was separated to prevent data used for training to be used for testing, to which this would give a false estimation of performance.  
+Data within the file was pre-shuffled and split into a training and test subsets, as described in \autoref{sec:prepros}. The training subset was made up 85\% of the available data and test subset the remaining 15\%. Data was pre-shuffled to ensure that the training and test subset were separated at random. Furthermore the data was separated to prevent data used for training to be used for testing, to which this would give a false estimation of performance.  
 %In Python the training subset is further divided into a training and validation subsets. 
 The training subset was used to train and optimize the models, to find the optimal weights with the back-propagation algorithm \citep{Bengio2012}. 
 The test subset was used to evaluate the generalization of the model, after training and optimization.
@@ -93,13 +104,14 @@ Classification labels used for during supervised learning was one-hot encoded, s
 
 
 \section{Optimization}
-To reduce overfitting and improve general performace of the model, different methods was tested and implemented. 
-The performance of the models was evaluated from an average accuracy, sensitivity and specificity, that was calculated from a 10-fold cross validation on the training subset. 
-THIS IS AS FAR AS I'VE GOTTEN
+To reduce overfitting and improve general performance of the model, different methods was tested and implemented. 
+The performance of the models was evaluated from an average accuracy, sensitivity and specificity, that was calculated from a 10-fold cross validation on the training subset. s
 A grid search method was used to find optimal hyperparameters for the models. This allowed to run the models through different parameters, from which the parameters the resulted in the highest performance was used.  by cross-validating them 5 times and evaluating the mean values with SD. Activation function, dropout, optimizer, learning rate, type of initializer, number of neurons, batch size and number of epochs were tested using this method.  All used optimization techniques are presented in this section and table with used values is presented in FIGURE or RESULTS section (x,x)
 
 \subsubsection{Activation function}
-During this study different activation functions, such as ReLu, Softmax, Sigmoid were tested. Results were compared using grid-search and ReLu was picked as activation function for the models. Activation function was implemented in convolutional and fully-connected layers. Sigmoid activator was used for final output layer, because (NEED TO EXPLAIN).
+For all models the activation function in all layers except the output layer was the ReLu function. This was chosen as this is seen as the most common activation function in more modern neural networks. The reason for it's popularity is that it prevents the problem known as the vanishing or exploding gradient, typically seen when using sigmoid activation function i the hidden layer. \citep{Goodfellow2016}    
+%During this study different activation functions, such as ReLu, Softmax, Sigmoid were tested. Results were compared using grid-search and ReLu was picked as activation function for the models. Activation function was implemented in convolutional and fully-connected layers. 
+Sigmoid activator was used for final output layer, because.
 
 \subsubsection{Dropout}
 Dropout is implemented in the models due to the benefits described in section \ref{sec:dropout}. Dropout of three different values were tested on grid-search and 0.5 were picked as it scored the highest. This regulator is only used within the hidden fully-connected layers, where it is defined to randomly drop 50 \% of the nodes. Dropout is shown in figure \ref{fig:Simpleschema} and marked as red crosses. 
