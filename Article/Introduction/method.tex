@@ -66,8 +66,10 @@ For the models containing convolutional layers, the convolution layers are follo
 Max pooling layers are used to reduce the size of the dataset, while maintaining features from the feature map. Given a reduction in the data, the computation speed may increase.\citep{Goodfellow2016,LeCun1998} 
 Max pooling layers are defined after each convolutional layer, to which all have a kernel size of $2 \times 2$ with a stride of 2. From the kernel window the highest of the 4 values is extracted to next layer, and used further through the network. 
 
-\subsubsection*{\textbf{Fully connected layer and output layer}}
-The models consist of four fully connected layers, whereas the 32 feature maps from the previous layer were flattened, and the notation for gender was included in the end of the string, which was used as input in the first fully connected layer with XX neurons. Additionally, the second and third layers consisted of XX neurons. The fourth fully connected layer, which also was the output layer, corresponded to the number of classification intervals, pain duration below 12 month, and above 36 month, or pain intensity below 4, and above 8 on VAS. 
+\subsubsection{\textbf{Fully connected layer and output layer}}
+The models consist of four fully connected layers, whereas the 32 feature maps from the previous layer were flattened, and the notation for gender was included in the end of the string, which was used as input in the first fully connected layer with XX neurons. Additionally, the second and third layers consisted of XX neurons. The fourth fully connected layer, which also was the output layer, includes a sigmoid activation function. 
+This function operates with a single output, that saturates when its input is either extremely negative or extremely positive \citep{Goodfellow2016}. It refers to the output corresponded to the number of classification intervals, pain duration below 12 month, and above 36 month, or pain intensity below 4, and above 8 on VAS. 
+
 
 \subsubsection*{\textbf{Dropout algorithm}}
 A dropout algorithm was implemented for the models in the last three hidden fully-connected layers to reduce overfitting while training. The algorithm works by randomly drop a specified faction of the nodes in the given layer, to which the nodes that drop changes during training \citep{Srivastava2014}.  Dropout reduce the nodes’ ability for co-adaptation, where multiple nodes compute the same features. For the three models the dropout fraction was set to 0.5 (50\%) based on a previous study by \citeauthor{Srivastava2014} \citep{Srivastava2014}, which considered 0.5 as optimal for a multiple range of networks.   
@@ -76,6 +78,11 @@ A dropout algorithm was implemented for the models in the last three hidden full
 Back-propagation is a learning process where the weights of the models are adjusted in order to reduce the error calculated between the predicted output, and the correct output. \citep{Duda2000} Back-propagation use a method called gradient descents, which computed gradients from the output to the input, in order to minimize the overall output error as much as possible during the learning stage. 
 After each pass of a minibatch, the inputs and weights were multiplied of separate node summed with additional coefficient called bias.\citep{Hameed2016,LeCun1998}
 Afterwards, a loss was calculated based on a loss function for every input that passed through the network to make the adjustments on the parameters to reduce the loss. As training progressed, the loss should decrease as a result of the parameter adjustments, and improve the performance of the neural network.\citep{LeCun2015, Goodfellow2016, Duda2000}. This learning process continued until optimal parameters with minimum error was reached.\citep{Hameed2016}
+
+\subsection*{\textbf{Training}}
+For training the models, a supervised learning approach was used, to which six models were trained, one for each pain map representation, and for each type of classification.  
+This process was further combined with a structured grid search on the hyperparameters, to help set the initial parameters for the models. Accuracy was used to determine the improvement of performance when testing the multiple parameters.
+Further optimization was performed by evaluating the development in loss, and accuracy during training, and the general performance estimated from an average accuracy, sensitivity and specificity, calculated from a 10-fold cross validation. After optimization, the models were trained anew using all of the training data, using the optimal hyperparameters from training and tested with a separate test subset.   
 
 %\begin{figure*} [b!]
 %\begin{tcolorbox}[colframe=black!30!black, colback=white]

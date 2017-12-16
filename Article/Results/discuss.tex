@@ -1,17 +1,23 @@
-Bullet points: 
+This section discuss complexity of pain maps, and what may optimize the performance of the models. Furthermore, the results are discussed, whereas the highest performance value of the representation of the pain maps is evaluated. Thereto, the performance according to the output, pain duration or pain intensity is discussed.
 
-\begin{itemize}
-\item results, compare them to regression
-\item accuracy, sensitivity and specificity
-\item Pain duration vs pain intensity
-\item Split body approach
-\item data amount (not large enough)
-\end{itemize}
+\subsection*{Amount of pain maps}
+In this study a total number of pain maps (n=217) was used, these pain maps were both from uni- and bilateral PFP individuals. To create more images a split body approach was used, where bilateral pain maps were split in two different pain maps. By using the split body approach and mirroring the pain to right knee, it was assumed that pain duration and pain intensity were identical for both knees. Theoretically, the bilateral PFP may have occurred on one leg, and afterwards have spreaded to the other knee, which could affect the pain duration. Furthermore, individuals with bilateral pain may feel more pain on one of the knees. This may have resulted in incorrected labeled pain maps, which could have an influence on the performance accuracy of the models. The choice to use this approach was based on the limited amount of pain maps. A supervised deep learning model should use five thousand labeled data per category to obtain an acceptable performance \citep{Goodfellow2016}. 
 
-number of pain maps and split body and Linear correlation, threshold
---> splitbody assumption according duration, intensity, independent)
---> threshold, losing pain maps 
-Classification according to output
-Classification of pain maps
-optimization of the model --> gridsearch, computerpower, input parameters (subjects activity level, age, other pain (hip pain ect.))
 
+\subsection*{Classification of pain maps}
+Generally stuff and linear regression
+\subsubsection*{Morphology-representation}
+\subsubsection*{Location-representation}
+Threshold
+\subsubsection*{combined-representation}
+
+
+
+\subsection*{Classification according to output}
+Pain duration vs pain intensity
+
+
+\subsection*{Optimization of deep learning models}
+A further optimization of the models may be found according to the input parameters, to which more physical, and psychological features may increase the performance accuracy. Physical features, such as age, height, weight, physical activity niveau, and sport activity, may influence pain duration or pain intensity. Age could be a relevant feature since the perceived pain is dependent on the individual’s personality and character. Younger individuals may feel more pain because of a new and strange pain, than older individuals which have had PFP for a longer period of time. In addition older individuals may feel more pain because of the phenomenon central sentization, which in some cases result in widespread pain. The physical activity niveau, and sport may increase the pain intensity for some individuals because of the patellofemoral loaded activity. Psychological factors are an important feature to consider, because of its influence on pain intensity. Pain is multifactorial and can be influenced of psychosocial factors \citep{Roos2003}. Furthermore, other pain as hip pain may influence the PFP. 
+It may be considered to include either pain duration or pain intensity as an input to classify according to either pain intensity or pain duration, because of the possibility that there is a correlation between the two.
+A limitation for this study was the available computational power for training of the model to which an improvement in performance may be found through more powerful systems or services. 
