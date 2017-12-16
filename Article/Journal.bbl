@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -104,17 +104,6 @@ Ian Goodfellow, Yoshua Bengio, and Et.al.
 \newblock MIT Press, 2016.
 \newblock URL \url{http://www.deeplearningbook.org}.
 
-\bibitem[Acquarelli et~al.(2017)Acquarelli, van Laarhoven, and
-  Et.al]{Acquarelli2017}
-Jacopo Acquarelli, Twan van Laarhoven, and Et.al.
-\newblock {Convolutional neural networks for vibrational spectroscopic data
-  analysis}.
-\newblock \emph{Analytica Chimica Acta}, 954:\penalty0 22--31, 2017.
-\newblock ISSN 18734324.
-\newblock \doi{10.1016/j.aca.2016.12.010}.
-\newblock URL
-  \url{http://linkinghub.elsevier.com/retrieve/pii/S0003267016314842}.
-
 \bibitem[LeCun et~al.(1998)LeCun, Bottou, and Et.al]{LeCun1998}
 Yann LeCun, L{\'{e}}on Bottou, and Et.al.
 \newblock {Gradient-based learning applied to document recognition}.
@@ -123,5 +112,38 @@ Yann LeCun, L{\'{e}}on Bottou, and Et.al.
 \newblock ISSN 00189219.
 \newblock \doi{10.1109/5.726791}.
 \newblock URL \url{http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf}.
+
+\bibitem[LeCun et~al.(2015)LeCun, Bengio, and Et.al]{LeCun2015}
+Yann LeCun, Yoshua Bengio, and Et.al.
+\newblock {Deep Learning}.
+\newblock \emph{Nature Insight Review}, pages 436--444, 2015.
+\newblock \doi{10.1038/nature14539}.
+\newblock URL
+  \url{https://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf}.
+
+\bibitem[Srivastava et~al.(2014)Srivastava, Hinton, and El.al]{Srivastava2014}
+Nitish Srivastava, Geoffrey Hinton, and El.al.
+\newblock {Dropout: A Simple Way to Prevent Neural Networks from Overfitting}.
+\newblock \emph{Journal of Machine Learning Research}, 15:\penalty0 1929--1958,
+  2014.
+\newblock ISSN 15337928.
+\newblock \doi{10.1214/12-AOS1000}.
+\newblock URL
+  \url{https://dl.acm.org/citation.cfm?id=2670313{\&}CFID=818407627{\&}CFTOKEN=74532044}.
+
+\bibitem[Duda et~al.(2000)Duda, Hart, and Et.al]{Duda2000}
+Richard Duda, Peter Hart, and Et.al.
+\newblock \emph{{Pattern Classification}}.
+\newblock Second edi edition, 2000.
+\newblock ISBN 9780471056690.
+
+\bibitem[Hameed et~al.(2016)Hameed, Karlik, and Et.al]{Hameed2016}
+Alaa~Ali Hameed, Bekir Karlik, and Et.al.
+\newblock {Back-propagation algorithm with variable adaptive momentum}.
+\newblock \emph{Knowledge-Based Systems}, 114:\penalty0 79--87, 2016.
+\newblock ISSN 09507051.
+\newblock \doi{10.1016/j.knosys.2016.10.001}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0950705116303811?via{\%}3Dihub}.
 
 \end{thebibliography}

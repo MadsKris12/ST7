@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  15 DEC 2017 10:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  16 DEC 2017 12:17
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -1548,36 +1548,30 @@ File: Figures/twoPainmaps.png Graphic file (type png)
 <use Figures/twoPainmaps.png>
 Package pdftex.def Info: Figures/twoPainmaps.png  used on input line 10. on inp
 ut line 10.
-Package pdftex.def Info: Requested size: 175.17244pt x 190.9724pt on input line
- 10.
+Package pdftex.def Info: Requested size: 160.15854pt x 174.60942pt on input lin
+e 10.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 11.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
+ [2 <./Figures/twoPainmaps.png>]
 <Figures/atlas.png, id=114, 163.812pt x 175.857pt>
 File: Figures/atlas.png Graphic file (type png)
 <use Figures/atlas.png>
-Package pdftex.def Info: Figures/atlas.png  used on input line 38. on input lin
-e 38.
+Package pdftex.def Info: Figures/atlas.png  used on input line 34. on input lin
+e 34.
 Package pdftex.def Info: Requested size: 100.09526pt x 107.45776pt on input lin
-e 38.
+e 34.
+ [3 <./Figures/atlas.png>]
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 52.
 
-[3 <./Figures/twoPainmaps.png> <./Figures/atlas.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Try loading font information for OMS+pplx on input line 61.
-
-LaTeX Font Info:    No file OMSpplx.fd. on input line 61.
+LaTeX Font Info:    No file OMSpplx.fd. on input line 52.
 
 
 LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 61.
+(Font)              using `OMS/cmsy/m/n' instead on input line 52.
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 60--68
-\T1/pplx/m/n/10 (+20) , and the com-bined mor-phol-ogy and location-
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
+
  []
 
 [4]) (Results/result.tex
@@ -1585,21 +1579,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-<Figures/legend.png, id=143, 401.70074pt x 27.7035pt>
+<Figures/legend.png, id=160, 401.70074pt x 27.7035pt>
 File: Figures/legend.png Graphic file (type png)
 <use Figures/legend.png>
 Package pdftex.def Info: Figures/legend.png  used on input line 11. on input li
 ne 11.
 Package pdftex.def Info: Requested size: 234.59302pt x 16.1792pt on input line 
 11.
-<Figures/durapixel.png, id=144, 683.55376pt x 343.2825pt>
+<Figures/durapixel.png, id=161, 683.55376pt x 343.2825pt>
 File: Figures/durapixel.png Graphic file (type png)
 <use Figures/durapixel.png>
 Package pdftex.def Info: Figures/durapixel.png  used on input line 16. on input
  line 16.
 Package pdftex.def Info: Requested size: 239.2823pt x 120.16638pt on input line
  16.
-<Figures/duraregion.png, id=145, 827.34094pt x 424.58624pt>
+<Figures/duraregion.png, id=162, 827.34094pt x 424.58624pt>
 File: Figures/duraregion.png Graphic file (type png)
 <use Figures/duraregion.png>
 Package pdftex.def Info: Figures/duraregion.png  used on input line 23. on inpu
@@ -1611,14 +1605,14 @@ Overfull \hbox (7.47275pt too wide) in paragraph at lines 14--27
 []  []    [] 
  []
 
-<Figures/vaspixel.png, id=146, 683.55376pt x 336.0555pt>
+<Figures/vaspixel.png, id=163, 683.55376pt x 336.0555pt>
 File: Figures/vaspixel.png Graphic file (type png)
 <use Figures/vaspixel.png>
 Package pdftex.def Info: Figures/vaspixel.png  used on input line 30. on input 
 line 30.
 Package pdftex.def Info: Requested size: 239.2823pt x 117.63657pt on input line
  30.
-<Figures/vasregion.png, id=147, 660.66824pt x 339.669pt>
+<Figures/vasregion.png, id=164, 660.66824pt x 339.669pt>
 File: Figures/vasregion.png Graphic file (type png)
 <use Figures/vasregion.png>
 Package pdftex.def Info: Figures/vasregion.png  used on input line 37. on input
@@ -1630,7 +1624,7 @@ Overfull \hbox (7.47275pt too wide) in paragraph at lines 28--41
 []  []    [] 
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 48--52
 
  []
@@ -1640,9 +1634,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
 
-) [5] (Results/discuss.tex) (Results/conclusion.tex) (Journal.bbl [6 <./Figures
-/legend.png> <./Figures/durapixel.png> <./Figures/duraregion.png> <./Figures/va
-spixel.png> <./Figures/vasregion.png>]
+) (Results/discuss.tex) (Results/conclusion.tex) (Journal.bbl [6 <./Figures/leg
+end.png> <./Figures/durapixel.png> <./Figures/duraregion.png> <./Figures/vaspix
+el.png> <./Figures/vasregion.png>]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 36.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
@@ -1652,11 +1646,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [7])
+ [7]) [8]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
- [8
-
-]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
  (Journal.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
@@ -1669,11 +1660,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 35774 strings out of 493312
- 702341 string characters out of 3138898
- 834507 words of memory out of 3000000
- 38430 multiletter control sequences out of 15000+200000
- 601524 words of font info for 311 fonts, out of 3000000 for 9000
+ 35801 strings out of 493312
+ 702685 string characters out of 3138898
+ 833666 words of memory out of 3000000
+ 38442 multiletter control sequences out of 15000+200000
+ 602160 words of font info for 320 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,15n,101p,10468b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\linet\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
@@ -1684,9 +1675,9 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
 rw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
 lbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Journal.pdf (8 pages, 1930553 bytes).
+Output written on Journal.pdf (8 pages, 1945569 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
  54504 words of extra memory for PDF output out of 61914 (max. 10000000)
 
