@@ -58,10 +58,27 @@ Supervised learning was used for training the three models. The common input for
 
 %From the higher point of view, the model can be architecturally split into two main parts. Feature extraction part, where convolutional and pooling layers alternates in order to extract the most important features out of the image. Second part is called classification, where computed feature maps will be assigned to particular class of the output layer. In order to obtain a higher generalization performance of deep learning classifier, methods like activation function, regulation and optimization will be used within the layers were implemented into the models.
 
-\subsubsection{Location-representation model}
-Given the location representations relative simplicity, in the form of a 11 element row-vector that contains both the pain maps information along with a gender value as described in \ref{sec:Regions} , the architecture of the model is also relatively simple, compared to the other models.  
+
+\subsubsection{Morphology-representation models}
+The models for the morphology-representation, consists of convolution, max pooling and fully-connected layers.  
+The models are essentially made up of two parts, where one being the extraction of image features, and another being a classification part. 
+For the extraction of image features a series of three convolution and max pooling layer are stacked after each other, to which the first layer is specified to receive the main input of the shape $1 \times 118 \times 252$ where the 1 reflects the fact that the pain map representation is binary. 
+The classification part of the network is the same architecture as that of the model for the location representation, and thereby consists of fully-connected layers. Between these two parts of the model, a secondary input is added specifying the gender related to the given pain map. 
+Before the pain maps features reach the fully connected layers it is flattened from the shape of a matrix to that of a single row in order to merge the extracted features with gender. The merged data passes through fully connected layers and reaches the output layer where it is given a percentage value according to which class it fits the most. 
+The architecture of the morphology representation model is shown in figure \ref{fig:Schema1}.
+
+\begin{figure} [H]
+\centering
+\includegraphics[width=1.0\textwidth]{figures/models}
+\caption{Architecture of the neural network models.}
+\label{fig:Schema1} 
+\end{figure}
+
+
+\subsubsection{Location-representation models}
+Given the location representations relative simplicity, in the form of a 11 element row-vector that contains both the pain maps information along with a gender value as described in \ref{sec:Regions}, the architecture of the model is also relatively simple, compared to the other models.  
 For this representation the model consists of four fully-connected layers where the last of the layers is the output layer, where the number of outputs matches the number of classes. 
-It was chosen not to use convolution layers, like in the morphology- and combined-representation, because it was believed that be no greater benefit given how convolution works, and the size of the location representation. 
+It was chosen not to use convolution layers, like in the morphology-, and combined-representation, because it was believed that be no greater benefit given how convolution works, and the size of the location representation. 
 An overview of the architecture of the model for the location representation can be seen in \ref{fig:Simpleschema}.
 
 \begin{figure} [H]
@@ -71,26 +88,8 @@ An overview of the architecture of the model for the location representation can
 \label{fig:Simpleschema} 
 \end{figure}
 
-
-\subsubsection{Morphology-representation model}
-The models for the morphology representation, consists of convolution, maxpooling and fully-connected layers.  
-The models are essentially made up of two parts, where one being the extraction of image features, and another being a classification part. 
-For the extraction of image features a series of three convolution and maxpooling layer are stacked after each other, to which the first layer is specified to receive the main input of the shape $1 \times 118 \times 252$ where the 1 reflects the fact that the pain map representation is binary. 
-The classification part of the network is the same architecture as that of the model for the location representation, and thereby consists of fully-connected layers. Between these two parts of the model, a secondary input is added specifying the gender related to the given pain map. 
-Before the pain maps features reach the fully connected layers it is flattened from the shape of a matrix to that of a single row in order to merge the extracted features with gender. The merged data passes through fully connected layers and reaches the output layer where it is given a percentage value according to which class it fits the most. 
-The architecture of the morphology representation model is shown in figure \ref{fig:Schema1}.
-
-\begin{figure} [H]
-\centering
-\includegraphics[width=1.0\textwidth]{figures/Schema1}
-\caption{Architecture of the neural network model used for this study.}
-\label{fig:Schema1} 
-\end{figure}
-
-
-
-\subsubsection{Combined-representation model}
-The architecture of this model is nearly identical to that of the morphology representation model, as seen in \autoref{fig:Schema1}. 
+\subsubsection{Combined-representation models}
+The architecture of this model is nearly identical to that of the morphology-representation model, as seen in \autoref{fig:Schema1}. 
 The main difference can only be seen in the dimension of input for the pain map representation, where the input shape is $10 \times 118 \times 252$ to which 10 is the number of image layers per. pain map. This is the result of the one-hot encoding done to the images as described in \ref{sec:combined}. 
 
 
@@ -102,12 +101,12 @@ The training subset was used to train and optimize the models, to find the optim
 The test subset was used to evaluate the generalization of the model, after training and optimization.
 Morphology, and combined representations, were reshaped from a row vector, back into a matrix to retain their 2D structure of the pain map.
 Classification labels used for during supervised learning was one-hot encoded, so the number of label values were compatible to the number of outputs in the models. This was a result of the loss function \textit{categorical\_crossentropy} used for the models, that tries to reduce loss between the categories.    
-
+\newpage
 
 \section{Optimization}
 To reduce overfitting and improve general performance of the model, different methods was tested and implemented. 
-The performance of the models was evaluated from an average accuracy, sensitivity and specificity, that was calculated from a 10-fold cross validation on the training subset. s
-A grid search method was used to find optimal hyperparameters for the models. This allowed to run the models through different parameters, from which the parameters the resulted in the highest performance was used.  by cross-validating them 5 times and evaluating the mean values with SD. Activation function, dropout, optimizer, learning rate, type of initializer, number of neurons, batch size and number of epochs were tested using this method.  All used optimization techniques are presented in this section and table with used values is presented in FIGURE or RESULTS section (x,x)
+The performance of the models was evaluated from an average accuracy, sensitivity and specificity, that was calculated during training. 
+A grid search method was used to find optimal hyperparameters for the models. This allowed to run the models through different parameters, from which the parameters the resulted in the highest performance was used. Activation function, dropout, optimizer, learning rate, type of initializer, number of nodes, batch size and number of epochs were tested using this method.  All used optimization techniques are presented in this section and table with used values is presented in FIGURE or RESULTS section (x,x)
 
 \subsubsection{Activation function}
 For all models the activation function in all layers except the output layer was the ReLu function. This was chosen as this is seen as the most common activation function in more modern neural networks. The reason for it's popularity is that it prevents the problem known as the vanishing or exploding gradient, typically seen when using sigmoid activation function i the hidden layer. \citep{Goodfellow2016}    
@@ -132,15 +131,15 @@ A grid search of weight initializer using \textit{uniform}, \textit{lecun\_unifo
 Biases were initialized to zeros values
 % See image - kernal_init.png 
 
-\subsubsection{Number of neurons}
-Number of neurons were chosen based on the best performance comparing 16, 32, and 64 neurons per hidden layer. 32 in convolutionals and 64 neurons in fully-connected layers scored the highest in terms of accuracy. These values were used in in the model within all data representations.
+\subsubsection{Number of nodes}
+Number of nodes were chosen based on the best performance comparing 16, 32, and 64 nodes per hidden layer. 32 in convolutionals and 64 nodes in fully-connected layers scored the highest in terms of accuracy. These values were used in in the model within all data representations.
 
 \subsection{Training and validation}
-The training was performed using mini-batches of size 10 with SGD optimizer with default learning rate, explained in section \ref{sec:optimizers}. Data was split into train(75\%), validation (15\%), and test (10\%) sets, and the models were regularized using dropout (50\%). Number of neurons in hidden layers were decided to be used as 32 for convolutional and 64 for fully-connected layers. All networks were using ReLu activation function, except output layers, which were using Sigmoid activator instead, described in Section %{activation function}.
+The training was performed using mini-batches of size 10 with SGD optimizer with default learning rate, explained in section \ref{sec:optimizers}. Data was split into train(75\%), validation (15\%), and test (10\%) sets, and the models were regularized using dropout (50\%). Number of nodes in hidden layers were decided to be used as 32 for convolutional and 64 for fully-connected layers. All networks were using ReLu activation function, except output layers, which were using Sigmoid activator instead, described in Section %{activation function}.
 The model weight parameters were initialized at random values using \textit{glorot\_normal}, biases parameters were initialized to zero values.
 
-\subsubsection{Stratified m-folds cross-validation}
-As a result of binary output, 10-fold cross-validation method were used for training the data and evaluating the performance of the models. Folds were separated 10 times randomly in relation to the distribution of the classes. Stratified m-folding prevents the fold to contain the data of one class. Accuracy, sensitivity and specificity were calculated after each fold and the mean values of these parameters were generated at the end of the training. Results are given in section %{the results}.
+%\subsubsection{Stratified m-folds cross-validation}
+%As a result of binary output, 10-fold cross-validation method were used for training the data and evaluating the performance of the models. Folds were separated 10 times randomly in relation to the distribution of the classes. Stratified m-folding prevents the fold to contain the data of one class. Accuracy, sensitivity and specificity were calculated after each fold and the mean values of these parameters were generated at the end of the training. Results are given in section %{the results}.
 
 \subsubsection{Error and accuracy graphs)}
 During each training and validating epoch, the error and accuracy is calculated and presented as graph at the end. According the error graph, the overfitting or underfitting could be determined. Model could be optimized based on these results with technique described in section \ref{sec:optimizers}.
