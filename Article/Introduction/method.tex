@@ -48,10 +48,20 @@ A combination of morphology and location of the pain is created based on compone
 \subsection*{\textbf{Nonlinearity in pain maps}} 
 Given that PFP is subjective and multifactorial it is unlikely that the pain maps and pain duration or pain intensity are linearly correlated. In order to determine if there was a linear relationship, linear regressions were done on simple features reflecting the size of the pain and number of active pain regions. The linear regressions were made in MatLab, and composed a correlation between number of pain pixels and pain duration, number of pain pixels and pain intensity, number of active pain regions and pain duration, and number of active pain regions and pain intensity.
 
+\begin{figure*} [t!]
+%\begin{tcolorbox}[colframe=black!30!black, colback=white]
+\centering
+\includegraphics[width=1\textwidth]{Figures/models}
+\caption{The architecture of the deep learning models including the morphology-, and combined-representation consist of three convolutional, three max pooling, and four fully connected layers. The last four fully connected layers, represent the models including the location-representation.}
+\label{fig:models}
+%\end{tcolorbox}
+\end{figure*}
+
 \subsection*{\textbf{Architecture of the deep learning models}}
 Deep learning models were developed on a computer with 4x ‘‘Intel® Core™ i7‘‘ CPUs and one single GPU of type "Geforce GTX 970M", using the programming language Python v3.6.3. Libraries used was Keras with a TensorFlow backend. \newline
 \noindent
-Multiple deep learning models suitable to the three data representation were created. The models used supervised learning, which is defined as a network learning to classify a given input corresponding to a specific output \citep{Goodfellow2016}. The models were designed differently according to its pain maps-representations. The architecture of the two models including morphology- or combined-representation consisted of three convolutional layers, to which a max pooling layer was designed after each convolutional layer. The last four layers were designed as fully connected layers. The final model, including the location-representation was designed with four fully connected layers. 
+Multiple deep learning models suitable to the three data representation were created. The models used supervised learning, which is defined as a network learning to classify a given input corresponding to a specific output \citep{Goodfellow2016}. The models were designed differently according to its pain maps-representations. The architecture of the two models including morphology- or combined-representation consisted of three convolutional layers, to which a max pooling layer was designed after each convolutional layer. The last four layers were designed as fully connected layers. The architecture of these models is illustrated in fig. \ref{fig:models}.
+The final model, including the location-representation was designed with four fully connected layers, which is the last part shown in fig. \ref{fig:models}.
 The models classify the input, pain maps and gender, in relation to the determined outputs, pain duration or pain intensity.\newline
 
 \subsubsection*{\textbf{The convolutional layers}}
@@ -79,10 +89,12 @@ Back-propagation is a learning process where the weights of the models are adjus
 After each pass of a minibatch, the inputs and weights were multiplied of separate node summed with additional coefficient called bias.\citep{Hameed2016,LeCun1998}
 Afterwards, a loss was calculated based on a loss function for every input that passed through the network to make the adjustments on the parameters to reduce the loss. As training progressed, the loss should decrease as a result of the parameter adjustments, and improve the performance of the neural network.\citep{LeCun2015, Goodfellow2016, Duda2000}. This learning process continued until optimal parameters with minimum error was reached.\citep{Hameed2016}
 
+
 \subsection*{\textbf{Training}}
-For training the models, a supervised learning approach was used, to which six models were trained, one for each pain map representation, and for each type of classification.  
+For training the models, a supervised learning approach was used, to which six models were trained, one for each pain map representation, and for each type of classification. 
 This process was further combined with a structured grid search on the hyperparameters, to help set the initial parameters for the models. Accuracy was used to determine the improvement of performance when testing the multiple parameters.
-Further optimization was performed by evaluating the development in loss, and accuracy during training, and the general performance estimated from an average accuracy, sensitivity and specificity, calculated from a 10-fold cross validation. After optimization, the models were trained anew using all of the training data, using the optimal hyperparameters from training and tested with a separate test subset.   
+Further manual optimization was performed by evaluating the development in loss, and accuracy during training, and the general performance estimated from an accuracy, sensitivity and specificity. After optimization, the models were trained anew using all of the training data, using the optimal hyperparameters from training and tested with a separate test subset.
+ 
 
 %\begin{figure*} [b!]
 %\begin{tcolorbox}[colframe=black!30!black, colback=white]
