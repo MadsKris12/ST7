@@ -79,13 +79,13 @@ The architecture of the morphology representation model is shown in figure \ref{
 Given the location representations relative simplicity, in the form of a 11 element row-vector that contains both the pain maps information along with a gender value as described in \ref{sec:Regions}, the architecture of the model is also relatively simple, compared to the other models.  
 For this representation the model consists of four fully-connected layers where the last of the layers is the output layer, where the number of outputs matches the number of classes. 
 It was chosen not to use convolution layers, like in the morphology-, and combined-representation, because it was believed that be no greater benefit given how convolution works, and the size of the location representation. 
-An overview of the architecture of the model for the location representation can be seen in \ref{fig:Simpleschema}.
+An overview of the architecture of the model for the location representation can be seen in \ref{fig:locationar}.
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.6\textwidth]{figures/Simpleschema}
+\includegraphics[width=0.8\textwidth]{figures/locationar}
 \caption{Architecture of the location-representation model.}
-\label{fig:Simpleschema} 
+\label{fig:locationar} 
 \end{figure}
 
 \subsubsection{Combined-representation models}
@@ -95,7 +95,7 @@ The main difference can only be seen in the dimension of input for the pain map 
 
 \subsection{Data handling in python}
 Pre-processed data is loaded from a \textit{.mat} file into python.
-Data within the file was pre-shuffled and split into a training and test subsets, as described in \autoref{sec:prepros}. The training subset was made up 85\% of the available data and test subset the remaining 15\%. Data was pre-shuffled to ensure that the training and test subset were separated at random. Furthermore the data was separated to prevent data used for training to be used for testing, to which this would give a false estimation of performance.  
+Data within the file was pre-shuffled and split into a training, and test subsets, as described in \autoref{sec:prepros}. The training subset was made up 85\% of the available data and test subset the remaining 15\%. Data was pre-shuffled to ensure that the training and test subset were separated at random. Furthermore the data was separated to prevent data used for training to be used for testing, to which this would give a false estimation of performance.  
 %In Python the training subset is further divided into a training and validation subsets. 
 The training subset was used to train and optimize the models, to find the optimal weights with the back-propagation algorithm \citep{Bengio2012}. 
 The test subset was used to evaluate the generalization of the model, after training and optimization.
