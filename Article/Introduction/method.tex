@@ -7,7 +7,7 @@ Navigate Pain is a software application that is used to visualise the location, 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.32\textwidth]{Figures/twoPainmaps}
+\includegraphics[width=0.3\textwidth]{Figures/twoPainmaps}
 \caption{Pain maps from individuals with uni- and bilateral PFP. The red markings indicate the area of pain perceived by the individuals.}
 \label{fig:twoPainmaps}
 \end{figure}
@@ -31,7 +31,7 @@ The locations are divided into 10 regions, which are inspired by Photographic Kn
 
 \begin{figure} [H] 
 \centering
-\includegraphics[width=0.2\textwidth]{Figures/atlas}
+\includegraphics[width=0.22\textwidth]{Figures/atlas}
 \caption{The regions of the right knee (R1-R10).}
 \label{fig:atlas}
 \end{figure}
@@ -52,7 +52,7 @@ Given that PFP is subjective and multifactorial it is unlikely that the pain map
 %\begin{tcolorbox}[colframe=black!30!black, colback=white]
 \centering
 \includegraphics[width=1\textwidth]{Figures/models}
-\caption{The architecture of the deep learning models including the morphology-, and combined-representation consist of three convolutional, three max pooling, and four fully connected layers. The last four fully connected layers, represent the models including the location-representation.}
+\caption{The architecture of the deep learning models including the morphology-representation consist of three convolutional, three max pooling, and four fully connected layers.}
 \label{fig:models}
 %\end{tcolorbox}
 \end{figure*}
@@ -60,7 +60,7 @@ Given that PFP is subjective and multifactorial it is unlikely that the pain map
 \subsection*{\textbf{Architecture of the deep learning models}}
 Deep learning models were developed on a computer with 4x ‘‘Intel® Core™ i7‘‘ CPUs and one single GPU of type "Geforce GTX 970M", using the programming language Python v3.6.3. Libraries used was Keras with a TensorFlow backend. \newline
 \noindent
-Multiple deep learning models suitable to the three data representation were created. The models used supervised learning, which is defined as a network learning to classify a given input corresponding to a specific output \citep{Goodfellow2016}. The models were designed differently according to its pain maps-representations. The architecture of the models including the morphology-representation is illustrated on fig. \ref{fig:models}. These models consisted of  three convolutional layers, to which a max pooling layer was designed after each convolutional layer, and ends with four fully connected layers, whereas gender was implemented. The models including the location-representation only use the four fully connected layers of the architecture shown in fig. \ref{fig:models}. The last models using the combined-representation were design similar to the fig. \ref{fig:models}, only with a difference according to the input image, which in this case included images with 10 layers. The models classified the input, pain maps and gender, in relation to the determined outputs, pain duration or pain intensity.
+Multiple deep learning models suitable to the three data representation were created. The models used supervised learning, which is defined as a network learning to classify a given input corresponding to a specific output \citep{Goodfellow2016}. The models were designed differently according to its pain maps-representations. The architecture of the models, before  optimization, including the morphology-representation is illustrated on fig. \ref{fig:models}. These models consisted of  three convolutional layers, to which a max pooling layer was designed after each convolutional layer, and ends with four fully connected layers, whereas gender was implemented. The models including the location-representation only use the four fully connected layers of the architecture shown in fig. \ref{fig:models}. The last models using the combined-representation were design similar to the fig. \ref{fig:models}, only with a difference according to the input image, which in this case included images with 10 layers. The models classified the input, pain maps and gender, in relation to the determined outputs, pain duration or pain intensity.
 
 \subsubsection*{\textbf{The convolutional layers}}
 Convolutional Neural Networks (CNNs) is a type of special neural network for processing data with a grid-like topology \citep{Goodfellow2016}. CNNs were used to the morphology- and combined-representation because of its capability to perform highly according to image classification. The purpose of the convolutional layer was to recognize the features in the input by taking the image and scan it, then split it up into the feature maps.\citep{Goodfellow2016,LeCun1998} The architecture of the first convolutional layer consisted of a kernel size on $5 \times 5$, and 32 filters. The two following convolutional layers consisted of kernel sizes on $3 \times 3$, and 32 filters. 
@@ -68,14 +68,13 @@ Convolutional Neural Networks (CNNs) is a type of special neural network for pro
 \subsubsection*{\textbf{ReLU activation function}}
 The activation function chosen for the hidden nodes in all three models were Rectified Linear Unit (ReLu), which transforms the linear output to nonlinear function by making all negative values zero. ReLu function still remains nearly linear, which means it can easily be optimized with gradient descent based methods \citep{Goodfellow2016}. In modern neural networks, ReLU is recommended to use as a default activation function and could be defined as $g(x) = max\{0, x\}$. 
 
-
 \subsubsection*{\textbf{Max pooling layers}}
-For the models containing convolutional layers, the convolution layers are followed by max pooling layers, which is a typical structure of a convolutional network \citep{LeCun2015, Goodfellow2016}.
+For the models containing convolutional layers, the convolution layers are followed by max pooling layers, which is a typical structure of a convolutional network \citep{Goodfellow2016, LeCun2015}.
 Max pooling layers are used to reduce the size of the dataset, while maintaining features from the feature map. Given a reduction in the data, the computation speed may increase.\citep{Goodfellow2016,LeCun1998} 
 Max pooling layers are defined after each convolutional layer, to which all have a kernel size of $2 \times 2$ with a stride of 2. From the kernel window the highest of the 4 values is extracted to next layer, and used further through the network. 
 
-\subsubsection{\textbf{Fully connected layer and output layer}}
-The models consist of four fully connected layers, whereas the 32 feature maps from the previous layer were flattened, and the notation for gender was included in the end of the string, which was used as input in the first fully connected layer with XX nodes. Additionally, the second and third layers consisted of XX nodes. The fourth fully connected layer, which also was the output layer, includes a sigmoid activation function. 
+\subsubsection*{\textbf{Fully connected layer and output layer}}
+The models consist of four fully connected layers, whereas the 32 feature maps from the previous layer were flattened, and the notation for gender was included in the end of the string, which was used as input in the first fully connected layer with 32 nodes. Additionally, the second and third layers consisted of 32 nodes. The fourth fully connected layer, which also was the output layer, includes a sigmoid activation function. 
 This function operates with a single output, that saturates when its input is either extremely negative or extremely positive \citep{Goodfellow2016}. It refers to the output corresponded to the number of classification intervals, pain duration below 12 month, and above 36 month, or pain intensity below 4, and above 8 on VAS. 
 
 
@@ -83,14 +82,13 @@ This function operates with a single output, that saturates when its input is ei
 A dropout algorithm was implemented for the models in the last three hidden fully-connected layers to reduce overfitting while training. The algorithm works by randomly drop a specified faction of the nodes in the given layer, to which the nodes that drop changes during training \citep{Srivastava2014}.  Dropout reduce the nodes’ ability for co-adaptation, where multiple nodes compute the same features. For the three models the dropout fraction was set to 0.5 (50\%) based on a previous study by \citeauthor{Srivastava2014} \citep{Srivastava2014}, which considered 0.5 as optimal for a multiple range of networks.   
 
 \subsubsection*{\textbf{Back-propagation algorithm}}
-Back-propagation is a learning process where the weights of the models are adjusted in order to reduce the error calculated between the predicted output, and the correct output. \citep{Duda2000} Back-propagation use a method called gradient descents, which computed gradients from the output to the input, in order to minimize the overall output error as much as possible during the learning stage. 
-After each pass of a minibatch, the inputs and weights were multiplied of separate node summed with additional coefficient called bias.\citep{Hameed2016,LeCun1998}
-Afterwards, a loss was calculated based on a loss function for every input that passed through the network to make the adjustments on the parameters to reduce the loss. As training progressed, the loss should decrease as a result of the parameter adjustments, and improve the performance of the neural network.\citep{LeCun2015, Goodfellow2016, Duda2000}. This learning process continued until optimal parameters with minimum error was reached.\citep{Hameed2016}
-
+Back-propagation is a learning process where the weights of the models are adjusted in order to reduce the error calculated between the predicted output, and the correct output.\citep{Duda2000} Back-propagation use a method called gradient descents, which computed gradients from the output to the input, in order to minimize the overall output error as much as possible during the learning stage. 
+After each pass of a minibatch, the inputs and weights were multiplied of separate node summed with additional coefficient called bias.\citep{LeCun1998, Hameed2016}
+Afterwards, a loss was calculated based on a loss function for every input that passed through the network to make the adjustments on the parameters to reduce the loss. As training progressed, the loss should decrease as a result of the parameter adjustments, and improve the performance of the neural network.\citep{Goodfellow2016, LeCun2015, Duda2000}. This learning process continued until optimal parameters with minimum error was reached.\citep{Hameed2016}
 
 \subsection*{\textbf{Training}}
 For training the models, a supervised learning approach was used, to which six models were trained, one for each pain map representation, and for each type of classification. 
-This process was further combined with a structured grid search on the hyperparameters, to help set the initial parameters for the models. Accuracy was used to determine the improvement of performance when testing the multiple parameters.
+This process was further combined with a structured grid search on the hyperparameters to help set the initial parameters for the models. These hyperparameters referrers to learning rate, kernel initializer, number of filters and nodes, and number of epochs with different batch sizes. Accuracy was used to determine the improvement of performance when testing the multiple parameters.
 Further manual optimization was performed by evaluating the development in loss, and accuracy during training, and the general performance estimated from an accuracy, sensitivity and specificity. After optimization, the models were trained anew using all of the training data, using the optimal hyperparameters from training and tested with a separate test subset.
  
 
@@ -121,4 +119,3 @@ Further manual optimization was performed by evaluating the development in loss,
 %  \caption{SÅDAN SÆTTER VI TO BILLEDER I EN}
 %\end{tcolorbox}
 %\end{figure*}
-
