@@ -11,7 +11,7 @@ Neural network is a structure of deep learning which consists of different layer
 \end{figure}
 
 \noindent
-The different layers consist of a series of nodes, where each node is connected by weights to one or several other nodes in different layers. The weights  are interconnection between two layers and they work as a set of coefficients, defining an image feature\citep{Hameed2016}. In the input-layer the nodes receive data. The second layer will then receive the output from the previous layer, and this process continues through the layers until the output-layer is reached.\citep{Schmidhuber2015} An example of how the hidden layers may affect an image in one type of neural network can be explained in the following.  
+The different layers consist of a series of nodes, where each node is connected by weights to one or several other nodes in different layers. The weights  are interconnection between two layers and they work as a set of coefficients, defining an image feature \citep{Hameed2016}. In the input-layer the nodes receive data. The second layer will then receive the output from the previous layer, and this process continues through the layers until the output-layer is reached.\citep{Schmidhuber2015} An example of how the hidden layers may affect an image in one type of neural network can be explained in the following.  
 Firstly, the system detects minor changes like edges. Secondly, the edges are compared and put together to make up different kind of shapes. In the third hidden layer, it will be further combined to make up an object that can be identified.\citep{LeCun2015}
 
 %Maybe explain a bit more to how the different nodes contain activation functions...
@@ -21,10 +21,10 @@ Firstly, the system detects minor changes like edges. Secondly, the edges are co
 % The following is already discriped in back prop, but could be used earlier or later maybe - By adjusting weights in the neural network it is possible to fit the model better to the training data, and thereby increase its accuracy and reduce error \citep{LeCun2015}.
 
 \subsubsection{Learning scenarios}
-Each neural network has to be trained and validated before used on real test data. There are different approaches for training a neural network, where the two main learning scenarios are supervised and unsupervised learning. 
+Each neural network has to be trained and validated before used on real test data. There are different approaches for training neural networks, where the two main learning scenarios are supervised and unsupervised learning. 
 
 \noindent
-Supervised learning is the most common way of training in machine learning. When applying this learning method the neural network is trained with input data that has a corresponding label. The network calculates an output through the forward pass, where the data is simply passed through the network. This output may then be compared to the label, and used to evaluate the performance of the system. As a result of the evaluation, the network may learn form the data by doing a backward pass through the network, also known as back-propagation.\citep{LeCun2015} Overall supervised learning may be described as teaching the network how to associate a given input to a specific output \citep{Goodfellow2016}, and is mostly associated with classification, regression, and ranking problems \citep{Mehryar2012}. 
+Supervised learning is the most common way of training in deep learning. When applying this learning method the neural network is trained with input data that has a corresponding label. The network calculates an output through the forward pass, where the data is simply passed through the network. This output may then be compared to the label, and used to evaluate the performance of the system. As a result of the evaluation, the network may learn from the data by doing a backward pass through the network, also known as back-propagation.\citep{LeCun2015} Overall supervised learning may be described as teaching the network how to associate a given input to a specific output \citep{Goodfellow2016}, and is mostly associated with classification, regression, and ranking problems \citep{Mehryar2012}. 
 
 \noindent
 Unsupervised learning is when training is performed with data that has no output label. Instead of learning associations between input and output, the network organizes the data by searching for common characteristics \citep{Mehryar2012}. An example of an unsupervised learning algorithm is k-mean clustering, where the unlabeled dataset goes through a classification, and splits data into clusters that are near each other \citep{Goodfellow2016}.  
@@ -34,18 +34,18 @@ Unsupervised learning is when training is performed with data that has no output
 
   
 \subsection{Back-propagation}
-Back-propagation is a popular learning algorithm in neural networks, that is based on gradient descent, and used because of its simplicity and computationally efficiency.\citep{Bengio2012, Duda2000} It is the learning process where the weights of a neural network are adjusted in order to reduce the error calculated between the calculated output of the network and the expected output. This makes back-propagation closely related to supervised learning, to which back-propagation is the most general method used.\citep{Duda2000}  
+Back-propagation is a popular learning algorithm in neural networks, that is based on gradient descent, and used because of its simplicity and computationally efficiency.\citep{Bengio2012, Duda2000} It is the learning process where the weights of a neural network are adjusted in order to reduce the error calculated between the calculated output of the network and the correct output. This makes back-propagation closely related to supervised learning, to which back-propagation is the most general method used.\citep{Duda2000}  
 
 \noindent
-The basic concept is that gradients can be computed efficiently by propagation from the output to the input in order to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as the inputs and weights multiplication of separate node summed with additional coefficient called bias.\citep{Hameed2016,LeCun1998}. When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of the training.
-During the second backward part, a loss is calculated based on a loss function for every input that passes through the network, that may be used as a part of back-propagation to make the adjustments on the weights to reduce the loss. As training progresses, the loss should decrease as a result of the weight adjustments, and improve the performance of the neural network.\citep{LeCun2015, Goodfellow2016, Duda2000}   
+The basic concept is that gradients can be computed efficiently by propagation from the output to the input in order to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as the inputs and weights multiplication of separate node summed with additional coefficient called bias.\citep{Hameed2016,LeCun1998} When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of the training.
+During the backward part, a loss is calculated based on a loss function for every input that passes through the network, that may be used as a part of back-propagation to make the adjustments on the weights to reduce the loss. As training progresses, the loss should decrease as a result of the weight adjustments, and improve the performance of the neural network.\citep{LeCun2015, Goodfellow2016, Duda2000}   
 This learning process continues until optimal weights with minimum error is reached.\citep{Hameed2016}
 \noindent
 
 \subsubsection{Activation functions}
-Deep learning networks are structures of hidden layers, and this requires to choose the activation functions for computing the hidden layer values and to decide whether a node could be considered as active or not \citep{Goodfellow2016}. The activation function is a nonlinear function which gives neural network nonlinear capabilieties \citep{Bengio2012}.\newline
+Deep learning networks are structures of hidden layers, and this requires to choose the activation functions for computing the hidden layer values and to decide whether a node can be considered as active or not \citep{Goodfellow2016}. The activation function is a nonlinear function which gives neural network nonlinear capabilities \citep{Bengio2012}.\newline
 \noindent
-Sigmoid activation function is one of the most common activation functions which monotonicaly approches at some finite values as $\pm\infty$. Most common examples would be the standard logistic function $g(x) = 1/(1 + e^{-x})$ and hyperbolic tangent $g(x) = tanh(x)$  which is shown in figure \ref{fig:Sigmoids}. Symmetric hyperbolic tangent is used more often because it converges faster then standard logistic function.\citep{Bengio2012}
+Sigmoid activation function is one of the most common activation functions which monotonically approaches at some finite values as $\pm\infty$. Most common examples would be the standard logistic function $g(x) = 1/(1 + e^{-x})$ and hyperbolic tangent $g(x) = tanh(x)$  which are shown in figure \ref{fig:Sigmoids}. Symmetric hyperbolic tangent is used more often because it converges faster then standard logistic function.\citep{Bengio2012}
 
 \begin{figure} [H]
 \centering
@@ -55,19 +55,19 @@ Sigmoid activation function is one of the most common activation functions which
 \end{figure}
 
 \noindent
-Another activation function is rectified linear unit (ReLU), which transforms the linear output to nonlinear function. However, the the function still remains nearly linear, which means it could be easily optimized with gradient descent based methods\citep{Goodfellow2016}. In modern neural networks, ReLU is recommended to use as a default activation function and could be defined as $g(x) = max\{0, x\}$ and shown in figure \ref{fig:Relu}
+Another activation function is rectified linear unit (ReLU), which transforms the linear output to nonlinear function. However, the function still remains nearly linear, which means it could be easily optimized with gradient descent based methods\citep{Goodfellow2016}. In modern neural networks, ReLU is recommended to use as a default activation function and could be defined as $g(x) = max\{0, x\}$. ReLU is shown in figure \ref{fig:Relu}.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.35\textwidth]{figures/Relu}
-\caption{Rectified linear activation function. Function g(x) is equal to zero when x is less than zero and g(x) is equal to x when x it above or equal to zero.
+\caption{Rectified linear activation function.
 Edited \citep{Goodfellow2016}.}
 \label{fig:Relu}
 \end{figure}
 
 \subsubsection{Learning curves}
-Learning curves are used to observe the error on the training, validation and testing sets, which is increased because of randomly initialized weights and biases. The error is presented over time, which in deep learning is expressed as the number of epochs. Epochs defines the complete pass through a dataset.\citep{Duda2000}
-During the beginning of training, the training error of the network will typically be relatively high, but during training the error decreases monotonically, as the weights are adjusted in the network \citep{Duda2000}. An illustration of how the error values are affected during training can be seen in figure \ref{fig:learningCurve}.
+Learning curves are used to observe the error on the training, validation and testing sets, which is increased because of randomly initialized weights and biases. The error is presented over time, which in deep learning is expressed as the number of epochs. Epochs defines the complete pass through a dataset.
+During the beginning of training, the training error of the network will typically be relatively high, but during training the error decreases monotonically, as the weights are adjusted in the network.\citep{Duda2000} An illustration of how the error values are affected during training can be seen in figure \ref{fig:learningCurve}.
 
 \begin{figure} [H]
 \centering
@@ -104,16 +104,16 @@ Stochastic gradient descent (SGD) performs a parameter update for each training 
 Mini-batch gradient descent performs the parameters update for every mini-batch of training examples, specified by a batch size. By that, the variance of the parameter updates are reduced leading to more stable convergence and fast performance.\citep{Ruder2016}
 
 \noindent
-Additionally, there could be few challenges while using gradient descent as an optimizer. It is difficult to pick a proper learning rate so few gradient descent optimization algorithms were invented. The most widely used methods are momentum, Adagrad, Adadelta and Adam.\citep{Ruder2016} 
+Additionally, there can be a few challenges while using gradient descent as an optimizer. It is difficult to pick a proper learning rate so few gradient descent optimization algorithms are invented. The most widely used methods are momentum, Adagrad, Adadelta and Adam.\citep{Ruder2016} 
 
 \noindent
-Momentum is a method for accelerating SGD in a relevant direction and for reduction of oscillations. As a result, faster convergence is obtained but there is a risk of overshooting the minimum value.\citep{Qian1999, Ruder2016}
+Momentum is a method for accelerating SGD in a relevant direction and for reduction of oscillations. As a result, faster convergence is obtained but there is a risk of overshooting the minimum value.\citep{Ruder2016, Qian1999}
 
 \noindent
 Adagrad is an algorithm for gradient descent optimization which adapts the learning rate to the parameters. It performs larger updates for frequent and smaller for infrequent features. It has one weakness if the learning rate shrinks too much, the algorithm is no longer able to adapt.\citep{Ruder2016}
 
 \noindent
-Adadelta is an adaptive learning rate method. Different to Adagrad, in Adadelta learning rate is monotonically decreasing. Using this optimizer, there is no manual tunning of the parameters of optimizer meaning that it can be applied in a variety of situations.\citep{Ruder2016}
+Adadelta is an adaptive learning rate method. Different to Adagrad, in Adadelta learning rate is monotonically decreasing. Using this optimizer, there is no manual tuning of the parameters of optimizer, meaning that it can be applied in a variety of situations.\citep{Ruder2016}
 
 \noindent
 Adam stands for Adaptive Moment Estimation. It is the most used method for computing adaptive learning rate and updating the parameters.  This optimizer calculates the learning rate for each parameter and stores momentum changes separately. This helps to reach the convergence faster with a decent learning speed.\citep{Kingma2015}\\
@@ -135,7 +135,7 @@ A study by \citeauthor{Patacchiola2017} \citep{Patacchiola2017} showed the evalu
 % Mention the mini bacthes are used in order to reduce the computation cost, and that the size of the mini-batch is often what limits the network computation. , mini-batches and optimizers
 
 \subsection{Regularization}
-Many strategies are used in deep learning to reduce the test or training error, they are known as collectivity of regularization\citep{Goodfellow2016}, mainly used to restrict a model's expressiveness in order to prevent it from overfitting, underfitting, and generalization. A few of these strategies will be presented in this section.
+Many strategies are used in deep learning to reduce the test or training error, they are known as collectivity of regularization \citep{Goodfellow2016}, mainly used to restrict a model's expressiveness in order to prevent it from overfitting, underfitting, and generalization. A few of these strategies will be presented in this section.
 
 \subsubsection{Dropout}\label{sec:dropout}
 Dropout is a regulation technique used to reduce overfitting of the neural network. In a network the dropout is applied to the individual layers, and works by randomly dropping different nodes temporarily in the given layer during training. An illustration of the principle of dropout can be seen in figure \ref{fig:Dropout}. This parameter is specified with a percentage, which defines the fraction of the nodes that drop \citep{Chollet2015}.
@@ -152,10 +152,10 @@ This reduces co-adaptation, where nodes compute the same features, to where this
 A study by \citeauthor{Srivastava2014} \citep{Srivastava2014} has tested the use of dropout in different neural networks, and indicates that the most optimal range of dropout is 20\% of the nodes in the visible layers, and 50\% in the hidden layers.\citep{Srivastava2014}
 
 \subsubsection{Initializers}
-In neural networks starting values of hyperparameters can have a significant effect on the training process \citep{Bengio2012}. Hyperparameters often define many different values that can be adjusted, to control the behavior of the algorithm, to which some parameters may affect the runtime and computational cost when training the model \citep{Goodfellow2016}. Weights, biases initializers could be used in order to take the values randomly and exclude the symmetry between nodes \citep{Gustafson1998}. 
+In neural networks starting values of hyperparameters can have a significant effect on the training process \citep{Bengio2012}. Hyperparameters often define many different values that can be adjusted to control the behaviour of the algorithm, to which some parameters may affect the runtime and computational cost when training the model \citep{Goodfellow2016}. Weights, biases initializers could be used in order to take the values randomly and exclude the symmetry between nodes \citep{Gustafson1998}. 
 
 \subsection{Core Neural Network layers}\label{sec:Layers}
-Convolutional, pooling and fully connected layers could be called as core neural network layers, where convolutional and pooling layers also act as hidden layers. In architecture of the network these layers have a specific place and functions \citep{LeCun2015,Goodfellow2016}.
+Convolutional, pooling, and fully connected layers could be called core neural network layers. In architecture of the network these layers have a specific place and functions \citep{LeCun2015,Goodfellow2016}.
 
 \subsubsection{Convolutional Neural Networks}
 Convolutional Neural Networks (CNNs) is a type of special neural network for processing data with a grid-like topology \citep{Goodfellow2016}. CNNs perform highly in several tasks, including digit recognition, image classification and face recognition. The key aspect of CNNs is to automatically learn a complex pattern by extracting visual features from the pixel-level content.\citep{Acquarelli2017,LeCun1998}
@@ -168,7 +168,7 @@ The purpose of the convolutional layer is to recognize the features in the input
 Convolution layers are typically followed by pooling layers \citep{LeCun2015, Goodfellow2016}. It consists of the same number of feature maps as the previous convolutional layer had. Each feature map is used as a new input in a pooling layer. Depending on the network's depth, the convolutional and pooling layers alternate until the last pooling layer is reached.\citep{LeCun1998}
 Pooling can be used to reduce the size of the dataset, which may increase computation speed, because the amount of data passed to the next layer is smaller. By pooling the input, a smaller representation is given, that still contains the relevant features.\citep{Goodfellow2016,LeCun1998}   
 \noindent  
-The pooling process can be defined as a window that passes over e.g. a feature map from convolution, where a value within the window is extracted. One type of pooling layer is max pooling that takes the maximum value within the window \citep{Goodfellow2016,Dumoulin2016}. A pooling layer may be defined simply by its window (Kernel) size, paddling size and a stride length, where stride length is the number of values the window jumps as shown in figure \ref{fig:Kernel}.\citep{Dumoulin2016}
+The pooling process can be defined as a window that passes over e.g. a feature map from convolution, where a value within the window is extracted. One type of pooling layer is max pooling that takes the maximum value within the window \citep{Goodfellow2016,Dumoulin2016}. A pooling layer may be defined simply by its window (kernel) size, paddling size and a stride length, where stride length is the number of values the window jumps as shown in figure \ref{fig:Kernel}.\citep{Dumoulin2016}
 
 \begin{figure} [H]
 \centering
@@ -177,9 +177,9 @@ The pooling process can be defined as a window that passes over e.g. a feature m
 \label{fig:Kernel}  
 \end{figure}
 
-\subsubsection{Fully-connected layers}
-The combination of convolutional and pooling layers defines the part of the network which performs feature extraction while the classification part is made by fully connected layers \citep{Goodfellow2016}. Fully connected layers have full connections to all activations in previous layers. The further connections to the output layer is made compared the final values in fully connected layer to specific value of the class in the output. [***no decent source***]
-A typical architecture containing core neural network layers for character recognition of the images, called LeNet-5, can be seen in figure \ref{fig:LeNet5}.
+\subsubsection{Fully connected layers}
+The combination of convolutional and pooling layers defines the part of the network which performs feature extraction while the classification part is made by fully connected layers \citep{Goodfellow2016}. Fully connected layers have full connections to all activations in previous layers. 
+A typical architecture containing core neural network layers for character recognition of the images, called LeNet-5 \citep{LeCun1998}, can be seen in figure \ref{fig:LeNet5}.
 
 \begin{figure} [H]
 \centering

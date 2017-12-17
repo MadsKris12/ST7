@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  17 DEC 2017 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  17 DEC 2017 16:34
 entering extended mode
 **./main.tex
 (main.tex
@@ -2014,7 +2014,7 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 
 ]) [2] (Report/Background/Anatomy.tex
-<figures/bonestruc.png, id=268, 492.33937pt x 437.38406pt>
+<figures/bonestruc.png, id=267, 492.33937pt x 437.38406pt>
 File: figures/bonestruc.png Graphic file (type png)
 <use figures/bonestruc.png>
 Package pdftex.def Info: figures/bonestruc.png  used on input line 13. on input
@@ -2024,7 +2024,7 @@ e 13.
  [3
 
  <./figures/bonestruc.png>]
-<figures/knee.png, id=289, 885.3075pt x 429.85594pt>
+<figures/knee.png, id=288, 885.3075pt x 429.85594pt>
 File: figures/knee.png Graphic file (type png)
 <use figures/knee.png>
 Package pdftex.def Info: figures/knee.png  used on input line 28. on input line
@@ -2041,44 +2041,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
-<figures/painpic.pdf, id=307, pagebox=cropbox, 500.87125pt x 355.3275pt>
+<figures/painpic.pdf, id=306, pagebox=cropbox, 500.87125pt x 355.3275pt>
 File: figures/painpic.pdf Graphic file (type pdf)
 <use figures/painpic.pdf>
-Package pdftex.def Info: figures/painpic.pdf  used on input line 54. on input l
-ine 54.
-Package pdftex.def Info: Requested size: 330.75pt x 234.6524pt on input line 54
+Package pdftex.def Info: figures/painpic.pdf  used on input line 53. on input l
+ine 53.
+Package pdftex.def Info: Requested size: 330.75pt x 234.6524pt on input line 53
 .
 [5 <./figures/painpic.pdf>] [6]
-<figures/kneetest.png, id=377, 403.5075pt x 307.90031pt>
+<figures/kneetest.png, id=376, 403.5075pt x 307.90031pt>
 File: figures/kneetest.png Graphic file (type png)
 <use figures/kneetest.png>
-Package pdftex.def Info: figures/kneetest.png  used on input line 92. on input 
-line 92.
+Package pdftex.def Info: figures/kneetest.png  used on input line 91. on input 
+line 91.
 Package pdftex.def Info: Requested size: 308.69865pt x 235.55705pt on input lin
-e 92.
-<figures/VAS.png, id=388, 382.42876pt x 72.27pt>
+e 91.
+<figures/VAS.png, id=387, 382.42876pt x 72.27pt>
 File: figures/VAS.png Graphic file (type png)
 <use figures/VAS.png>
-Package pdftex.def Info: figures/VAS.png  used on input line 109. on input line
- 109.
+Package pdftex.def Info: figures/VAS.png  used on input line 108. on input line
+ 108.
 Package pdftex.def Info: Requested size: 352.80135pt x 66.67445pt on input line
- 109.
+ 108.
  [7 <./figures/kneetest.png>]
-<figures/painmap.png, id=407, 779.91376pt x 1355.0625pt>
+<figures/painmap.png, id=406, 779.91376pt x 1355.0625pt>
 File: figures/painmap.png Graphic file (type png)
 <use figures/painmap.png>
-Package pdftex.def Info: figures/painmap.png  used on input line 126. on input 
-line 126.
+Package pdftex.def Info: figures/painmap.png  used on input line 125. on input 
+line 125.
 Package pdftex.def Info: Requested size: 110.25pt x 191.54767pt on input line 1
-26.
+25.
  [8 <./figures/VAS.png> <./figures/painmap.png>]
 <figures/atlas.png, id=427, 324.0105pt x 175.857pt>
 File: figures/atlas.png Graphic file (type png)
 <use figures/atlas.png>
-Package pdftex.def Info: figures/atlas.png  used on input line 143. on input li
-ne 143.
+Package pdftex.def Info: figures/atlas.png  used on input line 142. on input li
+ne 142.
 Package pdftex.def Info: Requested size: 264.60269pt x 143.61601pt on input lin
-e 143.
+e 142.
  [9 <./figures/atlas.png>])
 (Report/Background/ML.tex) (Report/Background/DL.tex
 <figures/NN_structure.png, id=449, 493.845pt x 325.215pt>
@@ -2110,14 +2110,14 @@ Package pdftex.def Info: figures/Relu.png  used on input line 62. on input line
 Package pdftex.def Info: Requested size: 154.35269pt x 130.10574pt on input lin
 e 62.
  [12 <./figures/Sigmoids.png> <./figures/Relu.png>]
-<figures/learningCurves.png, id=524, 736.25063pt x 520.94624pt>
+<figures/learningCurves.png, id=523, 736.25063pt x 520.94624pt>
 File: figures/learningCurves.png Graphic file (type png)
 <use figures/learningCurves.png>
 Package pdftex.def Info: figures/learningCurves.png  used on input line 74. on 
 input line 74.
 Package pdftex.def Info: Requested size: 308.69865pt x 218.43028pt on input lin
 e 74.
-<figures/GDgraph.png, id=532, 336.50719pt x 185.19188pt>
+<figures/GDgraph.png, id=531, 336.50719pt x 185.19188pt>
 File: figures/GDgraph.png Graphic file (type png)
 <use figures/GDgraph.png>
 Package pdftex.def Info: figures/GDgraph.png  used on input line 89. on input l
@@ -2130,14 +2130,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--120
  []
 
 [14 <./figures/GDgraph.png>]
-<figures/Graphofyrainingcost.png, id=565, 630.10406pt x 493.0922pt>
+<figures/Graphofyrainingcost.png, id=564, 630.10406pt x 493.0922pt>
 File: figures/Graphofyrainingcost.png Graphic file (type png)
 <use figures/Graphofyrainingcost.png>
 Package pdftex.def Info: figures/Graphofyrainingcost.png  used on input line 12
 6. on input line 126.
 Package pdftex.def Info: Requested size: 264.60269pt x 207.06721pt on input lin
 e 126.
-<figures/Dropout.png, id=571, 884.30376pt x 563.10374pt>
+<figures/Dropout.png, id=570, 884.30376pt x 563.10374pt>
 File: figures/Dropout.png Graphic file (type png)
 <use figures/Dropout.png>
 Package pdftex.def Info: figures/Dropout.png  used on input line 145. on input 
@@ -2145,7 +2145,7 @@ line 145.
 Package pdftex.def Info: Requested size: 220.5pt x 140.40611pt on input line 14
 5.
  [15 <./figures/Graphofyrainingcost.png>] [16 <./figures/Dropout.png>]
-<figures/Kernel.png, id=620, 234.8775pt x 229.60782pt>
+<figures/Kernel.png, id=619, 234.8775pt x 229.60782pt>
 File: figures/Kernel.png Graphic file (type png)
 <use figures/Kernel.png>
 Package pdftex.def Info: figures/Kernel.png  used on input line 175. on input l
@@ -2467,6 +2467,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  ) 
 Here is how much of TeX's memory you used:
@@ -2496,7 +2499,7 @@ lic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (54 pages, 6907265 bytes).
+Output written on main.pdf (54 pages, 6906937 bytes).
 PDF statistics:
  1604 PDF objects out of 1728 (max. 8388607)
  219 named destinations out of 1000 (max. 500000)

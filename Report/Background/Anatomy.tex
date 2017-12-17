@@ -2,7 +2,7 @@
 
 %"Introduction to the chapter, shouldn’t be a list of what the chapter contains. It should be more what you gain by reading the chapter"
 
-This chapter presents the background knowledge that optimizes the understanding of essential topics in this project, such as patellofemoral pain and deep learning. Regarding patellofemoral pain it is relevant to get knowledge about the anatomy of the knee as well as pain and pain measurements if a deeper understanding of the syndrome is considered necessary.  Furthermore, the chapter is essential for getting a basic understanding of some properties and optimizers in the deep learning models used in this project.
+This chapter presents the background knowledge that improves the understanding of essential topics in this project, such as patellofemoral pain and deep learning. Regarding patellofemoral pain it is relevant to get knowledge about the anatomy of the knee as well as pain and pain measurements. Furthermore, the chapter is essential for getting a basic understanding of some properties and optimizers in the deep learning models used in this project.
 
 
 \section{Anatomy of the Knee}
@@ -26,7 +26,7 @@ There are three separate articulations in the knee joint. The first is between t
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/knee}
-\caption{The anatomy of the knee with focus on the ligaments. Edited \citep{Martini2012}.}
+\caption{The anatomy of the knee focusing on the ligaments. Edited \citep{Martini2012}.}
 \label{fig:knee}
 \end{figure}
 
@@ -39,12 +39,11 @@ The ligaments patellar retinaculae and patellar ligament support the anterior su
 The International Association for the Study of Pain (IASP) has defined pain as being "an unpleasant sensory and emotional experience associated with actual or potential tissue damage or described in terms of such damage" \citep{IASP2012, Schmidt1989}. 
 
 \noindent
-Humans are aware of the surroundings and threats to their bodies because of the pain. The pain indicates that there might be a risk for permanent damage on the body, which refrain humans from danger and therefore increases the chances of survival. 
+Humans are aware of the surroundings and threats to their bodies because of the pain. The pain indicates that there might be a risk for permanent damage on the body, which refrain humans from danger and therefore increases the chances of survival.\citep{Schmidt1989}
 
 
 \noindent
-Pain can be either nociceptive or neuropathic. Nociceptive pain is associated with tissue damage. This type of pain is related to the nociceptors, which are receptors with a high threshold that when stimulated may give the perception of pain in tissues \citep{Schmidt2013}. Neuropathic pain occurs central from the nervous system. This pain can be caused by illness or physical damage.\citep{Schmidt2013} \\
-
+Pain can be either nociceptive or neuropathic. Nociceptive pain is associated with tissue damage. This type of pain is related to the nociceptors, which are receptors with a high threshold that when stimulated may give the perception of pain in tissues. Neuropathic pain occurs central from the nervous system. This pain can be caused by illness or physical damage.\citep{Schmidt2013} \\
 
 \noindent
 Furthermore, pain can be divided into three categories: acute pain (less than three months), persistent or chronic pain and cancer pain.\citep{Briggs2010} Additionally, the pain can be divided into qualities, which is shown in figure \ref{fig:qualities}. 
@@ -57,11 +56,11 @@ Furthermore, pain can be divided into three categories: acute pain (less than th
 \end{figure}
 
 \noindent
-Pain can be divided into two qualities; visceral and somatic pain. Examples of visceral pain include pain associated with gallstone and appendicitis. This pain can be characterised as a dull or diffuse feeling. Somatic pain is subdivided into superficial pain and deep pain. If the pain derives from the skin it is superficial pain, which furthermore is divided into initial pain and delayed pain. The initial pain is the first pain that is received, and characterised as sharp and localizable. The delayed pain, also known as the second pain, is a dull or burning pain that occur after a half to one second. This pain is more difficult to localise than the initial pain and lasts longer.\citep{Schmidt1989, Schmidt2013}
+Pain can be divided into two qualities; visceral and somatic pain. Examples of visceral pain include pain associated with gallstone and appendicitis. This pain can be characterised as dull or diffuse. Somatic pain is subdivided into superficial pain and deep pain. If the pain derives from the skin it is superficial pain, which furthermore is divided into initial pain and delayed pain. The initial pain is the first pain that is received, and characterised as sharp and localizable. The delayed pain, also known as the second pain, is a dull or burning pain that occur after a half to one second. This pain is more difficult to localize than the initial pain and lasts longer.\citep{Schmidt1989, Schmidt2013}
 The other type of somatic pain is deep pain, which is associated with pain from the muscles, bones, joints and connective tissue. This pain is described as a dull pain and it radiates into the surrounding tissue, which makes the exact pain area hard to point out.\citep{Schmidt1989, Schmidt2013}
 
 \section{Patellofemoral pain syndrome}
-Patellofemoral pain (PFP) syndrome is a painful musculoskeletal condition \citep{Maclachlan2017, Smith2015}, which presents as pain behind or around the patella. The PFP is often known as anterior knee pain and runner’s knee. The pain is often described as diffuse knee pain, which is provoked by patellofemoral loaded activities like climbing stairs, running on hard or slanted surfaces, hiking, squatting or just prolonged sitting in the same position.\citep{Smith2015, Crossley2016, Boudreau2017, Crossley2015} However, this pain is not caused by previous trauma \citep{Crossley2016}.
+Patellofemoral pain (PFP) syndrome is a painful musculoskeletal condition \citep{Maclachlan2017, Smith2015}, which presents as pain behind or around the patella. The PFP is often known as anterior knee pain or runner’s knee. The pain is often described as diffuse knee pain, which is provoked by patellofemoral loaded activities like climbing stairs, running on hard or slanted surfaces, hiking, squatting or just prolonged sitting in the same position.\citep{Smith2015, Crossley2016, Boudreau2017, Crossley2015} However, this pain is not caused by previous trauma \citep{Crossley2016}.
 Knee pain is not the only symptom of PFP syndrome, the individuals often complain about knee stiffness, patellofemoral crepitus, swelling knee and having trouble with common daily activities \citep{Crossley2016, Martini2012}. The individuals may limit or stop physical activity because of the pain, and that can lead to an increase in weight \citep{Petersen2013, Crossley2016}.\newline
 \noindent
 Physiologically PFP syndrome is associated with incorrect movement of the patellar, that occurs when the patella moves outside of its ordinary track, which for instance can be movement in lateral direction instead of movement in superior-inferior direction.\citep{Martini2012} \newline
@@ -76,7 +75,7 @@ The aetiology of PFP syndrome still remains unclear \citep{Smith2015}.
 \subsubsection{Central sensitization}
 Central sensitization (CS) may give an evidence-based explanation of PFP, which is an unexplained chronic musculoskeletal pain \citep{Nijs2011, Matre2012}. CS in not completely biological, but may further depend on psychosocial factors \citep{Yunus2007}. \newline
 \noindent
-When a peripheral injury occurs, signals are send to the central nervous system, that respond with a sensory stimuli which results in pain in the injured area. CS occurs when the central nervous system continues sending sensory stimuli despite that the injury is healed. The longer period of time the pain persists, the greater influence on the central neuroplasticity, which may lead to increased activity in the transmission cells. Thereby a longer duration may expand the area of pain, also known as widespread pain.\citep{Oesteraas2010, Mayer2011, Yunus2007}\newline
+When a peripheral injury occurs, signals are send to the central nervous system, that respond with a sensory stimuli which results in pain in the injured area. CS occurs when the central nervous system continues sending sensory stimuli despite that the injury is healed. The longer period of time the pain persists, the greater influence on the central neuroplasticity, which may lead to increased activity in the transmission cells. Thereby, a longer duration may expand the area of pain, also known as widespread pain.\citep{Oesteraas2010, Mayer2011, Yunus2007}\newline
 \noindent
 CS has mainly two characteristics allodynia, which is pain occurred from a normally nonpainful stimulus, and hyperalgesia, which is excessive sensitivity to normally painful stimulus \citep{Yunus2007, Oesteraas2010, Mayer2011}.
 \newpage
@@ -99,7 +98,7 @@ An objective pain measurement is often used when an individual experiences knee 
 In addition to clinical tests there is some paraclinical tests such as X-ray and MRI, but as mentioned PFP syndrome does not show any structural changes in the knee \citep{Petersen2013}, which makes it difficult for healthcare personnel to treat the individuals. 
 
 \subsection{Pain interpretation}
-Pain is experienced and perceived subjectively \citep{IASP2012, Younger2009} and is dependent on personality and character \citep{Schmidt2013}, which is why it is important to measure the pain from the individual’s perspective. Additionally, there may be a difference in how gender reports pain intensity, where females reports more intense and frequent pain \citep{Pieh2012}.
+Pain is experienced and perceived subjectively \citep{IASP2012, Younger2009} and is dependent on personality and character \citep{Schmidt2013}, which is why it is important to measure the pain from the individual’s perspective. Additionally, there may be a difference in how females and males reports pain intensity, where females reports more intense and frequent pain \citep{Pieh2012}.
  
 \noindent
 One of the most commonly used methods to measure pain intensity is Visual Analogue Scale (VAS) \citep{Valente2011}. VAS is often used in clinical and research settings, where the individuals mark their pain on a scale from no-pain to the worst pain they can imagine.\citep{Haefeli2005} An illustration of a VAS is shown in figure \ref{fig:VAS}.
@@ -112,12 +111,12 @@ One of the most commonly used methods to measure pain intensity is Visual Analog
 \end{figure}
 
 \noindent
-Additionally to mark pain on a scale questionnaires are used to define individual's pain. An example on a questionnaire is Knee injury and Osteoarthritis Outcome Score (KOOS), which contains questions about symptoms, stiffness, pain, daily living, function, sports and recreational activities and quality of life. When the individuals fill the scheme, a score between zero and one hundred is achieved. A score at zero represents extreme knee problems, whereas a score at one hundred represents no knee problems.\citep{Roos2003} The KOOS questionnaire can be seen in Appendix \ref{app:KOOS}. 
+Additionally, questionnaires are used to define individual's pain. An example on a questionnaire is Knee injury and Osteoarthritis Outcome Score (KOOS), which contains questions about symptoms, stiffness, pain, daily living, function, sports and recreational activities and quality of life. When the individuals fill the scheme, a score between zero and one hundred is achieved. A score at zero represents extreme knee problems, whereas a score at one hundred represents no knee problems.\citep{Roos2003} The KOOS questionnaire can be seen in Appendix \ref{app:KOOS}. 
 \noindent 
 
 
 \subsubsection{Pain mapping}
-Individuals indicate their pain by 'placing both hands over their knees', because of the PFP characteristics, which makes it hard to precisely communicate their pain. Thereby pain mapping is a method for individuals to better indicate and communicate their pain. 
+Individuals indicate PFP by 'placing both hands over their knees', apparently because of PFP characteristics, which makes it hard to precisely communicate their pain. Thereby pain mapping is a method for individuals to better indicate and communicate their pain. 
 \noindent
 Pain mapping is a technique, that Harold Palmer introduced in 1949 \citep{Grunnesjo2006}, which is used to transfer an individual's perceived pain into an objective graph or map by drawing the pain area. Pain drawings can be made by the individuals who draw their pain areas on a body outline. Pain drawings can also be made by observers who observe the individuals and then draw from the signs the individuals are showing. An example of a body outline is shown in figure \ref{fig:painmap}. Sometimes a subjective questionnaire is added to the pain drawings to get a more detailed overview of the pain to determine parameters associated with the pain. These parameters can also be useful in determining the source of the pain.\citep{Schott2010}
 
@@ -130,10 +129,10 @@ Pain mapping is a technique, that Harold Palmer introduced in 1949 \citep{Grunne
 
 \noindent
 Pain mapping are commonly used in clinical practice \citep{Schott2010}, and can be useful for individuals when they try to describe their pain. Pain maps may also be helpful in diagnosing individuals and follow-ups during or after treatment to get an indicator of the individual's response to the treatment.\citep{Boudreau2016}
-According to \citeauthor{Schott2010}, there are some issues with the graphical representations of pain, some of which are problems with drawing a three-dimensional feeling of pain on a two-dimensional surface, and distinguishing between internal and external perceived pain on a map \citep{Schott2010}.
+According to a study by \citeauthor{Schott2010} \citep{Schott2010}, there are some issues with the graphical representations of pain, some of which are problems with drawing a three-dimensional feeling of pain on a two-dimensional surface, and distinguishing between internal and external perceived pain on a map \citep{Schott2010}.
 
 \section{Knee regions}
-When looking at pain drawing samples from multiple individuals it is evident that there is a high variability in the distribution of pain patterns across different areas of the knee, which might be related to the PFP characteristics.
+When looking at pain drawing samples from multiple individuals it is evident that there is a high variability in the distribution of pain patterns across different areas of the knee, which might be related to the diffuse pain, which is hard to localize.
 
 \noindent
 To distinguish between different pain locations, the knee can be divided into various regions as seen in figure \ref{fig:atlas}, where the division of the left and right anterior knees are illustrated. 

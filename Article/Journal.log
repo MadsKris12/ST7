@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  17 DEC 2017 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  17 DEC 2017 15:23
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -1561,12 +1561,12 @@ e 34.
 Package pdftex.def Info: Requested size: 100.09526pt x 107.45776pt on input lin
 e 34.
  [3 <./Figures/atlas.png>]
-<Figures/models.png, id=131, 1008.76875pt x 221.02576pt>
+<Figures/models.png, id=131, 994.31474pt x 215.6055pt>
 File: Figures/models.png Graphic file (type png)
 <use Figures/models.png>
 Package pdftex.def Info: Figures/models.png  used on input line 54. on input li
 ne 54.
-Package pdftex.def Info: Requested size: 500.484pt x 109.65933pt on input line 
+Package pdftex.def Info: Requested size: 500.484pt x 108.52625pt on input line 
 54.
 LaTeX Font Info:    Try loading font information for OMS+pplx on input line 61.
 
@@ -1671,7 +1671,7 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
 rw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
 lbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Journal.pdf (9 pages, 2020191 bytes).
+Output written on Journal.pdf (9 pages, 2018196 bytes).
 PDF statistics:
  318 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
