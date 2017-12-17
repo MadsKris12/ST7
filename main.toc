@@ -60,3 +60,4 @@
 \contentsline {chapter}{Bibliography}{37}{section*.60}
 \contentsline {appendix}{\chapternumberline {A}\relax \fontsize {12}{14.5}\selectfont Knee injury and Ostearthritis Outcome Score (KOOS) \citep {KOOS2016}}{42}{appendix.A}
 \contentsline {appendix}{\chapternumberline {B}\relax \fontsize {12}{14.5}\selectfont Threshold analysis}{46}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}\relax \fontsize {12}{14.5}\selectfont Architecture of the deep learning models}{51}{appendix.C}
