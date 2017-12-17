@@ -36,6 +36,7 @@ Unsupervised learning is when training is performed with data that has no output
 \subsection{Back-propagation}
 Back-propagation is a popular learning algorithm in neural networks, that is based on gradient descent, and used because of its simplicity and computationally efficiency.\citep{Bengio2012, Duda2000} It is the learning process where the weights of a neural network are adjusted in order to reduce the error calculated between the calculated output of the network and the expected output. This makes back-propagation closely related to supervised learning, to which back-propagation is the most general method used.\citep{Duda2000}  
 
+\noindent
 The basic concept is that gradients can be computed efficiently by propagation from the output to the input in order to minimize the overall output error as much as possible during the learning stage. This algorithm process is divided in two main stages: forward and backward. In the first process (forward), the back-propagation architecture is described as the inputs and weights multiplication of separate node summed with additional coefficient called bias.\citep{Hameed2016,LeCun1998}. When a neural network is initialized the weight may be set with a random value, meaning that the neural network may perform very poorly through the first iterations of the training.
 During the second backward part, a loss is calculated based on a loss function for every input that passes through the network, that may be used as a part of back-propagation to make the adjustments on the weights to reduce the loss. As training progresses, the loss should decrease as a result of the weight adjustments, and improve the performance of the neural network.\citep{LeCun2015, Goodfellow2016, Duda2000}   
 This learning process continues until optimal weights with minimum error is reached.\citep{Hameed2016}
@@ -141,7 +142,7 @@ Dropout is a regulation technique used to reduce overfitting of the neural netwo
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.6\textwidth]{figures/Dropout}
+\includegraphics[width=0.5\textwidth]{figures/Dropout}
 \caption{Dropout effect: The figure on the left illustrates a fully connected network, without dropout, and the right shows a network where dropout is enabled on the first three layers. Edited \citep{Srivastava2014}.}
 \label{fig:Dropout} 
 \end{figure}

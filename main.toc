@@ -11,52 +11,52 @@
 \contentsline {subsection}{\numberline {2.4.2}Pain interpretation}{7}{subsection.2.4.2}
 \contentsline {subsubsection}{Pain mapping}{8}{section*.8}
 \contentsline {section}{\numberline {2.5}Knee regions}{9}{section.2.5}
-\contentsline {section}{\numberline {2.6}Machine learning}{11}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Deep Learning}{11}{subsection.2.6.1}
-\contentsline {subsubsection}{Learning scenarios}{12}{section*.12}
-\contentsline {subsection}{\numberline {2.6.2}Back-propagation}{12}{subsection.2.6.2}
-\contentsline {subsubsection}{Activation functions}{13}{section*.13}
-\contentsline {subsubsection}{Learning curves}{13}{section*.16}
-\contentsline {subsubsection}{Gradient Descent}{14}{section*.18}
-\contentsline {subsection}{\numberline {2.6.3}Regularization}{16}{subsection.2.6.3}
-\contentsline {subsubsection}{Dropout}{16}{section*.21}
-\contentsline {subsubsection}{Initializers}{17}{section*.23}
-\contentsline {subsection}{\numberline {2.6.4}Core Neural Network layers}{17}{subsection.2.6.4}
-\contentsline {subsubsection}{Convolutional Neural Networks}{17}{section*.24}
-\contentsline {subsubsection}{Pooling layer}{18}{section*.25}
-\contentsline {subsubsection}{Fully-connected layers}{18}{section*.27}
-\contentsline {chapter}{\chapternumberline {3}Methodology}{20}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data description}{20}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Software application: Navigate Pain}{21}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Data representations}{22}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Pre-analysis}{22}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Classification of data}{23}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Threshold selection}{24}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Simple regression models}{25}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Pre-processing}{28}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Morphology-representation}{29}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Location-representation}{30}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Combined-representation}{30}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Neural network implementation and models}{31}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Software and hardware}{31}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Data handling and design choices of the models}{32}{subsection.3.4.2}
-\contentsline {subsubsection}{Morphology-representation model}{32}{section*.45}
-\contentsline {subsubsection}{Location-representation model}{33}{section*.47}
-\contentsline {subsubsection}{Combined-representation model}{33}{section*.49}
-\contentsline {subsection}{\numberline {3.4.3}Data handling in python}{33}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Optimization}{34}{section.3.5}
-\contentsline {subsubsection}{Activation function}{34}{section*.50}
-\contentsline {subsubsection}{Dropout}{34}{section*.51}
-\contentsline {subsubsection}{Optimizer}{34}{section*.52}
-\contentsline {subsubsection}{Learning rate}{35}{section*.53}
-\contentsline {subsubsection}{Batch size and number of epochs}{35}{section*.54}
-\contentsline {subsubsection}{Weight and biases initializing}{35}{section*.55}
-\contentsline {subsubsection}{Number of neurons}{35}{section*.56}
-\contentsline {subsection}{\numberline {3.5.1}Training and validation}{35}{subsection.3.5.1}
-\contentsline {subsubsection}{Stratified m-folds cross-validation}{35}{section*.57}
-\contentsline {subsubsection}{Error and accuracy graphs)}{36}{section*.58}
-\contentsline {subsection}{\numberline {3.5.2}Testing}{36}{subsection.3.5.2}
-\contentsline {chapter}{\chapternumberline {4}Results}{37}{chapter.4}
-\contentsline {chapter}{Bibliography}{38}{section*.60}
-\contentsline {appendix}{\chapternumberline {A}\relax \fontsize {12}{14.5}\selectfont Knee injury and Ostearthritis Outcome Score (KOOS) \citep {KOOS2016}}{43}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}\relax \fontsize {12}{14.5}\selectfont Threshold analysis}{47}{appendix.B}
+\contentsline {section}{\numberline {2.6}Machine learning}{10}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Deep Learning}{10}{subsection.2.6.1}
+\contentsline {subsubsection}{Learning scenarios}{11}{section*.12}
+\contentsline {subsection}{\numberline {2.6.2}Back-propagation}{11}{subsection.2.6.2}
+\contentsline {subsubsection}{Activation functions}{12}{section*.13}
+\contentsline {subsubsection}{Learning curves}{12}{section*.16}
+\contentsline {subsubsection}{Gradient Descent}{13}{section*.18}
+\contentsline {subsection}{\numberline {2.6.3}Regularization}{15}{subsection.2.6.3}
+\contentsline {subsubsection}{Dropout}{15}{section*.21}
+\contentsline {subsubsection}{Initializers}{16}{section*.23}
+\contentsline {subsection}{\numberline {2.6.4}Core Neural Network layers}{16}{subsection.2.6.4}
+\contentsline {subsubsection}{Convolutional Neural Networks}{16}{section*.24}
+\contentsline {subsubsection}{Pooling layer}{17}{section*.25}
+\contentsline {subsubsection}{Fully-connected layers}{17}{section*.27}
+\contentsline {chapter}{\chapternumberline {3}Methodology}{18}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data description}{18}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Software application: Navigate Pain}{19}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Data representations}{20}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Pre-analysis}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Classification of data}{21}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Threshold selection}{22}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Simple regression models}{24}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Pre-processing}{27}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Morphology-representation}{27}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Location-representation}{28}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Combined-representation}{29}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Neural network implementation and models}{30}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Software and hardware}{30}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Data handling and design choices of the models}{30}{subsection.3.4.2}
+\contentsline {subsubsection}{Location-representation model}{31}{section*.45}
+\contentsline {subsubsection}{Morphology-representation model}{31}{section*.47}
+\contentsline {subsubsection}{Combined-representation model}{32}{section*.49}
+\contentsline {subsection}{\numberline {3.4.3}Data handling in python}{32}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Optimization}{33}{section.3.5}
+\contentsline {subsubsection}{Activation function}{33}{section*.50}
+\contentsline {subsubsection}{Dropout}{33}{section*.51}
+\contentsline {subsubsection}{Optimizer}{33}{section*.52}
+\contentsline {subsubsection}{Learning rate}{33}{section*.53}
+\contentsline {subsubsection}{Batch size and number of epochs}{33}{section*.54}
+\contentsline {subsubsection}{Weight and biases initializing}{34}{section*.55}
+\contentsline {subsubsection}{Number of neurons}{34}{section*.56}
+\contentsline {subsection}{\numberline {3.5.1}Training and validation}{34}{subsection.3.5.1}
+\contentsline {subsubsection}{Stratified m-folds cross-validation}{34}{section*.57}
+\contentsline {subsubsection}{Error and accuracy graphs)}{34}{section*.58}
+\contentsline {subsection}{\numberline {3.5.2}Testing}{34}{subsection.3.5.2}
+\contentsline {chapter}{\chapternumberline {4}Results}{36}{chapter.4}
+\contentsline {chapter}{Bibliography}{37}{section*.60}
+\contentsline {appendix}{\chapternumberline {A}\relax \fontsize {12}{14.5}\selectfont Knee injury and Ostearthritis Outcome Score (KOOS) \citep {KOOS2016}}{42}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}\relax \fontsize {12}{14.5}\selectfont Threshold analysis}{46}{appendix.B}
