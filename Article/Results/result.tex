@@ -38,7 +38,7 @@
 \end{tcolorbox}
 \end{figure*}
 
-This section visualize the result from the linear regressions, and performance of the deep learning models using multiple pain maps representation, and different outputs. 
+This section visualizes the results from the linear regressions, and performance of the deep learning models using multiple pain map representations, and different outputs. 
 \vspace{-0.3cm}
 
 \subsection*{Linear correlations}
@@ -63,7 +63,7 @@ Pain intensity & \hspace{0.6cm} \begin{tabular}[c]{@{}l@{}}73.33\% \end{tabular}
 & \hspace{2.7cm} \begin{tabular}[c]{@{}l@{}} 73.33\%\end{tabular}                                                               
  \\ \bottomrule
 \end{tabular}
-\caption{Generalization performance of the models, which use the morphology-, location- and combined-representation when classifying according to pain duration or pain intensity.}
+\caption{Generalization performance of the models, which use the MR, LR, and CR when classifying according to pain duration or pain intensity.}
 \label{tab:performance}
 \end{table*}
 
@@ -71,14 +71,14 @@ Pain intensity & \hspace{0.6cm} \begin{tabular}[c]{@{}l@{}}73.33\% \end{tabular}
 \begin{figure*} [b!]
 \begin{tcolorbox}[colframe=black!30!black, colback=white]
     \includegraphics[width=1\textwidth]{Figures/samcon}
-  \caption{Confusion matrices of (a) morphology-representation classified according pain duration, (b) location-representation classified according to pain intensity, and (c) combined-representation classified according to pain intensity.}
+  \caption{Confusion matrices of (a) MR classified according pain duration, (b) LR classified according to pain intensity, and (c) CR classified according to pain intensity.}
   \label{fig:confma}
 \end{tcolorbox}
 \end{figure*}
 
 \subsection*{Optimization of the models}
-During the optimization, a structured grid search resulted in different hyperparameters according to each model. This resulted in different optimizations in terms of the models with the morphology-representation. The learning rate was different according to pain duration (0.02), and pain intensity (0.1). A optimization in kernel initializer was defined as glorot\_uniform for pain duration, and glorot\_normal for pain intensity. The nodes was changed from 32 in the fully connected layers to 64 for pain duration, and 16 for pain intensity. Lastly, an optimization was found in number of epochs, and batch size, which was changed to 120 and 20 for pain duration, and 140 and 10 for pain intensity. The models including the location-representation had similar results from the optimization. A learning rate on 0.01, a glorot\_uniform kernel initializer, 16 nodes, and number of epochs and batch size on 120 and 20. 
-Results of optimization on the combined-representation was almost identical for the two classifications. Both gave best performance with a glorot\_uniform kernel initializer, 16 nodes, and with a number of epochs and batch size of 120 and 30, to which the only difference was in the learning rate that for pain duration was 0.1, and 0.001 for pain intensity.
+During the optimization, a structured grid search resulted in different hyperparameters according to each model. The learning rate was different for the models including MR according to pain duration (0.02), and pain intensity (0.1). An optimization in kernel initializer was defined as glorot\_uniform for pain duration, and glorot\_normal for pain intensity. The nodes were changed from 32 in the fully connected layers to 64 for pain duration, and 16 for pain intensity. Lastly, an optimization was made for number of epochs, and batch size, which were changed to 120 and 20 for pain duration, and 140 and 10 for pain intensity. The models including the LR had similar results from the optimization. A learning rate of 0.01, a glorot\_uniform kernel initializer, 16 nodes, and number of epochs and batch size of 120 and 20. 
+Results of optimization on the models including the CR were almost identical. Both resulted in the best performance with a glorot\_uniform kernel initializer, 16 nodes, and with a number of epochs and batch size of 120 and 30, to which the only difference was in the learning rate that for pain duration was 0.1, and 0.001 for pain intensity.
 
 \subsection*{Performance of the models}
 The average performance accuracy, sensitivity, and specificity of the models during test with new pain maps in different representations are shown in tab. \ref{tab:performance}. \newline
