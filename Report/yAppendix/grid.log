@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  17 DEC 2017 17:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  19 DEC 2017 18:07
 entering extended mode
 **grid.tex
 (C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report\yAppendix\grid.tex
@@ -162,23 +162,43 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen115
+\lightrulewidth=\dimen116
+\cmidrulewidth=\dimen117
+\belowrulesep=\dimen118
+\belowbottomsep=\dimen119
+\aboverulesep=\dimen120
+\abovetopsep=\dimen121
+\cmidrulesep=\dimen122
+\cmidrulekern=\dimen123
+\defaultaddspace=\dimen124
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen125
+\@belowrulesep=\dimen126
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen127
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
-\captionmargin=\dimen115
-\captionmargin@=\dimen116
-\captionwidth=\dimen117
-\caption@indent=\dimen118
-\caption@parindent=\dimen119
-\caption@hangindent=\dimen120
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
 )
-\c@ContinuedFloat=\count101
+\c@ContinuedFloat=\count105
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count102
+\c@float@type=\count106
 \float@exts=\toks22
 \float@box=\box28
 \@float@everytoks=\toks23
@@ -233,50 +253,50 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count103
-\Gm@cntv=\count104
-\c@Gm@tempcnt=\count105
-\Gm@bindingoffset=\dimen121
-\Gm@wd@mp=\dimen122
-\Gm@odd@mp=\dimen123
-\Gm@even@mp=\dimen124
-\Gm@layoutwidth=\dimen125
-\Gm@layoutheight=\dimen126
-\Gm@layouthoffset=\dimen127
-\Gm@layoutvoffset=\dimen128
+\Gm@cnth=\count107
+\Gm@cntv=\count108
+\c@Gm@tempcnt=\count109
+\Gm@bindingoffset=\dimen134
+\Gm@wd@mp=\dimen135
+\Gm@odd@mp=\dimen136
+\Gm@even@mp=\dimen137
+\Gm@layoutwidth=\dimen138
+\Gm@layoutheight=\dimen139
+\Gm@layouthoffset=\dimen140
+\Gm@layoutvoffset=\dimen141
 \Gm@dimlist=\toks24
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 (C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report\yAppendix\grid.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 16.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen129
+\scratchcounter=\count110
+\scratchdimen=\dimen142
 \scratchbox=\box30
-\nofMPsegments=\count107
-\nofMParguments=\count108
+\nofMPsegments=\count111
+\nofMParguments=\count112
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen130
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen143
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
 \everyMPtoPDFconversion=\toks26
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -319,7 +339,7 @@ Package caption Info: End \AtBeginDocument code.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 17.
+               Default added (so using `tbp') on input line 19.
 
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 21.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
@@ -352,25 +372,34 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+)
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 55.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 93.
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
 (C:\Users\passw\OneDrive\Documents\GitHub\ST7\Report\yAppendix\grid.aux) ) 
 Here is how much of TeX's memory you used:
- 3973 strings out of 493921
- 57721 string characters out of 3144876
- 122468 words of memory out of 3000000
- 7212 multiletter control sequences out of 15000+200000
+ 4032 strings out of 493921
+ 58527 string characters out of 3144876
+ 139223 words of memory out of 3000000
+ 7267 multiletter control sequences out of 15000+200000
  19144 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,13n,38p,352b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,13n,38p,352b,278s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program File
 s (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 lm/lmsy10.pfb>
-Output written on grid.pdf (1 page, 57764 bytes).
+Output written on grid.pdf (3 pages, 60944 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
+ 26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

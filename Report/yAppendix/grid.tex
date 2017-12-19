@@ -6,6 +6,7 @@
 \usepackage{amssymb}
 \usepackage{makeidx}
 \usepackage{graphicx}
+\usepackage{booktabs}
 
 \usepackage{caption}
 \usepackage{float}
@@ -14,10 +15,9 @@
 \author{Mads Krsitensen}
 \begin{document}
 
+
 \begin{table}[]
 \centering
-\caption{My caption}
-\label{my-label}
 \begin{tabular}{ccccccc}
 \hline
 \multicolumn{7}{c}{\textbf{Location-representation}}                                                                                                                                                                                                                                                                     \\ \hline
@@ -46,6 +46,82 @@ glorot\_uniform                                   & 56.08                       
 140, 20                                           & 56.08                                                    & 13.35    &                                                             & 63.92                                                   & 12.37    &                                                             \\
 140, 30                                           & 56.08                                                    & 13.35    &                                                             & 63.92                                                   & 12.37    &                                                             \\ \hline
 \end{tabular}
+\caption{Results from the grid search for the LR}
+\label{tab:GridLoc}
+\end{table}
+
+
+
+\begin{table}[]
+\centering
+
+\begin{tabular}{ccccccc}
+\hline
+\multicolumn{7}{c}{\textbf{Location-representation}}                                                                                                                                                                                                                                                                     \\ \hline
+\multicolumn{1}{l}{}                              & \multicolumn{3}{c}{Pain duration}                                                                                                 & \multicolumn{3}{c}{Pain intensity}                                                                                               \\ \cline{2-7} 
+\multicolumn{1}{l}{}                              & \begin{tabular}[c]{@{}c@{}}Avg. \\ Accuracy\end{tabular} & $\pm$ SD & \begin{tabular}[c]{@{}c@{}}Chosen \\ parameter\end{tabular} & \begin{tabular}[c]{@{}c@{}}Avg \\ Accuracy\end{tabular} & $\pm$ SD & \begin{tabular}[c]{@{}c@{}}Chosen \\ parameter\end{tabular} \\ \cline{2-7} 
+\multicolumn{1}{l}{\textbf{Learning rate:}}   &   &   &   &   &   &     \\
+0.1        		& 58.50     & 10.50   &        & 68.07    & 9.27    & X     \\
+0.01       		& 60.50     & 7.22   & X       & 60.24    & 10.10   &      \\
+0.001      		& 56.00     & 8.00   &         & 64.46    & 9.20    &       \\ \hline
+\multicolumn{1}{l}{\textbf{Kernal inintializer:}} &  &  &  &  &  &       \\
+normal      	& 45.00     & 7.75   &        & 62.65     & 9.74    &       \\
+glorot\_normal 	& 48.50 	& 9.50   &        & 62.65     & 9.74    &  X     \\
+glorot\_uniform & 58.50 	& 5.50   & X      & 62.04     & 7.97    &      \\ \hline
+\multicolumn{1}{l}{\textbf{Neurons:}} &  &  &  &  &  &  \\
+16        		& 54.50    	& 13.87   &        & 64.46     & 8.61    & X     \\
+32              & 60.50     & 8.20    & X      & 62.05     & 8.89    &       \\
+64              & 60.50     & 2.69    &        & 60.24     & 9.29    &       \\ \hline
+\multicolumn{1}{l}{\textbf{Epochs, Batch size:}}  &  &  &  &  &  &   \\
+100, 10         & XX     & XX   &        & 64.46     & 8.19    &       \\
+100, 20         & XX     & XX   &        & 62.65     & 9.74    &       \\
+100, 30         & XX     & XX   &        & 62.65     & 9.74    &       \\
+120, 10         & XX     & XX   &        & 65.06     & 8.81    &       \\
+120, 20         & XX     & XX   &        & 62.65     & 9.74    &       \\
+120, 30         & XX     & XX   &        & 62.65     & 9.74    &       \\
+140, 10         & XX     & XX   &        & 69.88     & 9.49    & X     \\
+140, 20         & XX     & XX   &        & 59.64     & 9.54    &       \\
+140, 30         & XX     & XX   &        & 62.65     & 9.74    &       \\ \hline
+\end{tabular}
+\caption{Results from the grid search for the MR}
+\label{tab:GridMorph}
+\end{table}
+
+
+
+
+\begin{table}[]
+\centering
+\begin{tabular}{ccccccc}
+\hline
+\multicolumn{7}{c}{\textbf{Location-representation}}                                                                                                                                                                                                                                                                     \\ \hline
+\multicolumn{1}{l}{}                              & \multicolumn{3}{c}{Pain duration}                                                                                                 & \multicolumn{3}{c}{Pain intensity}                                                                                               \\ \cline{2-7} 
+\multicolumn{1}{l}{}                              & \begin{tabular}[c]{@{}c@{}}Avg. \\ Accuracy\end{tabular} & $\pm$ SD & \begin{tabular}[c]{@{}c@{}}Chosen \\ parameter\end{tabular} & \begin{tabular}[c]{@{}c@{}}Avg \\ Accuracy\end{tabular} & $\pm$ SD & \begin{tabular}[c]{@{}c@{}}Chosen \\ parameter\end{tabular} \\ \cline{2-7} 
+\multicolumn{1}{l}{\textbf{Learning rate:}}   &   &   &   &   &   &     \\
+0.1        		& 66.16     & 8.52   & X       & 60.98    & 14.67    &       \\
+0.01       		& 52.02     & 9.79   &         & 60.98    & 15.13    &      \\
+0.001      		& 54.04     & 10.67  &         & 62.80    & 14.35    & X      \\ \hline
+\multicolumn{1}{l}{\textbf{Kernal inintializer:}} &  &  &  &  &  &       \\
+normal      	& 62.63     & 8.45   &        & 61.59     & 15.35    &       \\
+glorot\_normal 	& 63.63 	& 6.45   &        & 61.59     & 15.35    &       \\
+glorot\_uniform & 70.20 	& 8.49   & X      & 61.59     & 15.35    & X     \\ \hline
+\multicolumn{1}{l}{\textbf{Neurons:}} &  &  &  &  &  &  \\
+8        		& 67.17    	& 6.49    & X      & 61.59     & 15.35    & X     \\
+16              & 60.10     & 10.03   &        & 61.59     & 15.35    &       \\
+32              & 62.12     & 10.92   &        & 61.59     & 15.35    &       \\ \hline
+\multicolumn{1}{l}{\textbf{Epochs, Batch size:}}  &  &  &  &  &  &   \\
+100, 10         & 61.11     & 4.85   &        & 61.59     & 15.35    &       \\
+100, 20         & 58.08     & 8.81   &        & 61.59     & 15.35    &       \\
+100, 30         & 61.61     & 4.32   &        & 61.59     & 15.35    &       \\
+120, 10         & 63.13     & 5.48   &        & 61.59     & 15.35    &       \\
+120, 20         & 62.12     & 10.57  &        & 61.59     & 15.35    & X     \\
+120, 30         & 68.68     & 6.90   & X      & 61.59     & 15.35    &       \\
+140, 10         & 60.61     & 10.30  &        & 61.59     & 15.35    &       \\
+140, 20         & 64.65     & 8.75   &        & 61.59     & 15.35    &       \\
+140, 30         & 64.65     & 8.34   &        & 61.59     & 15.35    &       \\ \hline
+\end{tabular}
+\caption{Results from the grid search for the CR}
+\label{tab:GridCombined}
 \end{table}
 
 \end{document}
