@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  19 DEC 2017 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  19 DEC 2017 21:06
 entering extended mode
 **./main.tex
 (main.tex
@@ -2309,17 +2309,17 @@ Package pdftex.def Info: Requested size: 441.0pt x 208.71803pt on input line 23
 <figures/models.png, id=803, 994.31474pt x 215.6055pt>
 File: figures/models.png Graphic file (type png)
 <use figures/models.png>
-Package pdftex.def Info: figures/models.png  used on input line 71. on input li
-ne 71.
-Package pdftex.def Info: Requested size: 441.0pt x 95.62666pt on input line 71.
+Package pdftex.def Info: figures/models.png  used on input line 70. on input li
+ne 70.
+Package pdftex.def Info: Requested size: 441.0pt x 95.62666pt on input line 70.
 
 <figures/locationar.png, id=806, 625.73775pt x 408.92775pt>
 File: figures/locationar.png Graphic file (type png)
 <use figures/locationar.png>
-Package pdftex.def Info: figures/locationar.png  used on input line 85. on inpu
-t line 85.
+Package pdftex.def Info: figures/locationar.png  used on input line 84. on inpu
+t line 84.
 Package pdftex.def Info: Requested size: 352.80135pt x 230.56415pt on input lin
-e 85.
+e 84.
 
 [31 <./figures/models.png>] [32 <./figures/locationar.png>]) (main.bbl [33]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
@@ -2476,7 +2476,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
 Here is how much of TeX's memory you used:
  29972 strings out of 493312
  524952 string characters out of 3138898
- 879047 words of memory out of 3000000
+ 878047 words of memory out of 3000000
  32836 multiletter control sequences out of 15000+200000
  548548 words of font info for 66 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2500,7 +2500,7 @@ lic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (55 pages, 6904626 bytes).
+Output written on main.pdf (55 pages, 6904679 bytes).
 PDF statistics:
  1588 PDF objects out of 1728 (max. 8388607)
  213 named destinations out of 1000 (max. 500000)

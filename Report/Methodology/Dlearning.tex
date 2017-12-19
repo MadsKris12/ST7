@@ -1,4 +1,3 @@
-\newpage
 \section{Neural network implementation and models}
 Building neural network for classification of pain maps was trial and error process.
 In this project, the deep learning method is used to classify the pain maps and gender according to determined outputs. The data is a set of 2D-images combined with gender and the outputs are pain intensity and duration. For classification purpose, the supervised convolutional neural network is used followed by fully-connected layers at the end. This architecture of the model is chosen to the interest of morphology and location of the pain. The models are trained, and tested on a single computer with GPU and ran on Python programming language with Keras library. Specifications of hardware and software are described in detail in \autoref{sec:softHard}.
@@ -43,7 +42,6 @@ Memory bandwidth & 120 GB/s  \\ \hline
 \end{table}
 
 \subsection{Design choices and model architecture}
-<<<<<<< HEAD
 This section presents the different models, their architecture, and implementation used in this study.
 For classification of each pain map representation, a corresponding model was made. The classifier models for morphology- and combined-representation were operating on a pixel level by learning features of the pain charts, whilst the location-representation operated from the 10 element location vector.
 The architecture of the models consists of two main parts, a convolution part, and a fully connected part, except the location model that only consist of the latter.  
@@ -52,16 +50,6 @@ The fully connected part works as classification, where computed feature maps ge
 A higher generalization performance of the classifiers was investigated through the use of regulation and optimization methods.
 The available data was separated into a training and test subsets, from which training data was used to regulate and optimize the model.
 Supervised learning was used for training the models. The common input for all of the models was gender, along with the different pain map representations.
-=======
-This section presents the different models, their architecture and implementation used in this study.
-For classification of each pain map representation a corresponding model was made. The classifier models for morphology- and combined-representation were operating on a pixel level by learning features of the pain charts, whilst the location-representation operated from the 10 element location vector. 
-The architecture of the models consist of two main parts, a convolution part and a fully connected part, except the location model that only consist of the latter.   
-Convolution works as feature extraction of the pain maps, where convolutional and pooling layers alternates in order to extract relevant features from the image, as described in section \autoref{sec:Layers}.
-The fully-connected part works as classification, where computed feature maps gets weighted and classified to a particular class in the output layer. 
-A higher generalization performance of the classifiers, was investigated through the use of regulation and optimization methods.
-The available data was separated into a training and test subset, from which training data was used to regulate and optimize the model. 
-Supervised learning was used for training the three models. The common input for all of the model were gender, along with the different image representation
->>>>>>> 80dbbb05c2ffc73c6c9087f59ac13b0b1a029920
 
 %, as presented in figure \ref{fig:schema1}.
 % These inputs are trained and then compared against their respective category label.
@@ -105,53 +93,11 @@ The main difference can only be seen in the dimension of input for the pain map 
 
 \subsection{Data handling in python}
 Pre-processed data is loaded from a \textit{.mat} file into Python.
-<<<<<<< HEAD
 Data within the file was pre-shuffled to ensure that the pain maps separated into a training, validation and test subsets randomly. The different subsets were respectively made up of 75\%, 10\% and 15\% of the available pain maps. The data was separated to clearly distinguish between dataset and their purpose, and thereby prevent the same data from being used for training and e.g testing since this would give a wrong estimation of the model’s performance.
 The training and validation subsets were used to train and optimize the models, to find the optimal weights with the back-propagation algorithm \citep{Bengio2012}.
 The test subset was for final testing of the model, to get an estimation of the ability to generalize "unseen" pain maps.
 Additionally, the models for the morphology- and combined-representation, the data was reshaped from a row vector, back into a matrix to retain their 2D structure of the pain map.
 The true classification labels were one-hot encoded to make the number of classes compatible according to the number of outputs in the output layer.
-=======
-Data within the file was pre-shuffled to ensure that the pain maps separated into a training, validation and test subsets randomly. The different subsets was respectively made up of 75\%, 10\% and 15\% of the available pain maps. The data was separated to clearly distinct between data set and their purpose, an thereby prevent the same data from being used for training and e.g testing, since this would give a wrong estimation of the models performance.
-The training and validation subsets was used to train and optimize the models, to find the optimal weights with the back-propagation algorithm \citep{Bengio2012}. 
-The test subset was for final testing of the model, to get an estimation of the is ability to generalize "unseen" pain maps. 
-Additionally, the models for the morphology- and combined representation, the data were reshaped from a row vector, back into a matrix to retain their 2D structure of the pain map.
-The true classification labels were one-hot encoded, to make the make the number of classes compatible according to the number of outputs in the output layer. 
-
-\section{Optimization-process of the models}
-To reduce overfitting and improve general performance of the model, different methods was implemented and test. 
-A grid search method was used to used to find initial hyperparameters for the models. For this method as set of different hyperparameters were defined and test, where the hyperparameters that resulted in the highest performance were chosen, and can be seen in appendix REFERENCE!!!!. Optimizer, learning rate, type of initializer, number of nodes, batch size and number of epochs were tested using this method.  
-A additional manual optimization was then performed, where the all changes to the hyperparameters was based the behavior of the validation set during training of the deep learning models. 
-The development was visually evaluated by plotting the accuracy and loss of both the training and validation subset, from which changes to learning rate, epochs, batch size, momentum, and number of nodes were made, if needed.
-
-
-\subsubsection{Activation function}
-For all models the activation function in all layers except the output layer was the ReLu function. This was chosen as this is seen as the most common activation function in more modern neural networks. The reason for it's popularity is that it prevents the problem known as the vanishing or exploding gradient, typically seen when using sigmoid activation function i the hidden layer. \citep{Goodfellow2016}    
-All output layer activation functions was chosen as sigmoid, because was also stated as the typical activation function for output classification problem \citep{Duda2000} 
-
-\subsubsection{Dropout}
-Dropout was implemented in the models due to the benefits described in section \ref{sec:dropout}, where it written that dropout may be used reduce overfitting of the models. A dropout was then implemented within the hidden fully-connected layers of all models, except the output layer, and set to randomly drop 50 \% of the nodes.  
-
-\subsubsection{Optimizer}
-SGD 
-
-Adam, RMSprop, Adagrad and SGD, presented in section \ref{sec:optimizers}, were tested and compared. SGD scored the highest and was implemented while compiling the model.
-
-\subsubsection{Learning rate}
-In order to determine the most optimal \textit{learning\_rate} for the Adam  and SGD optimizers several different values were tested. Default value 0,001 performed higher than values of 0,01 and 0,0001. To fit the model this parameter was set to 0,001 meaning that the convergence of gradient descent is reached slower but with more accurate \textit{minima}. 
-
-\subsubsection{Batch size and number of epochs}
-Three different values of batch size and number of epochs were chosen based on computing power. Grid search on batch size were tested on 5, 10, 15 values, while number of epochs were 15, 25, 35. On every data representations these hyperparameters varied. Batch size and number of epochs were used during the fit process.
-
-\subsubsection{Weight and biases initializing}
-Weights and biases initialization was performed, since it affects the performance of the model.
-A grid search of weight initializer using \textit{uniform}, \textit{lecun\_uniform}, \textit{normal}, \textit{glorot\_normal} and \textit{glorot\_uniform} were tested and results revealed that \textit{glorot\_normal} performed the best by 3,2 \% compared to the second best. Results can be seen in \ref{pictureFromCMD}. Weight initializer was used in convolutional and fully-connected layers.
-Biases were initialized to zeros values
-% See image - kernal_init.png 
-
-\subsubsection{Number of nodes}
-Number of nodes were chosen based on the best performance comparing 16, 32, and 64 nodes per hidden layer. 32 in convolutionals and 64 nodes in fully-connected layers scored the highest in terms of accuracy. These values were used in in the model within all data representations.
->>>>>>> 80dbbb05c2ffc73c6c9087f59ac13b0b1a029920
 
 \section{Optimization-process of the models}
 To reduce overfitting and improve general performance of the model, different methods were implemented and test.

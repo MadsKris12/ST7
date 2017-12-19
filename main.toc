@@ -37,14 +37,14 @@
 \contentsline {subsection}{\numberline {3.3.1}Morphology-representation}{27}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Location-representation}{28}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Combined-representation}{29}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Neural network implementation and models}{30}{section.3.4}
+\contentsline {section}{\numberline {3.4}Neural network implementation and models}{29}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Software and hardware}{30}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Design choices and model architecture}{30}{subsection.3.4.2}
 \contentsline {subsubsection}{Morphology-representation models}{31}{section*.45}
 \contentsline {subsubsection}{Location-representation models}{31}{section*.47}
 \contentsline {subsubsection}{Combined-representation models}{32}{section*.49}
 \contentsline {subsection}{\numberline {3.4.3}Data handling in python}{32}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Optimization-process of the models}{33}{section.3.5}
+\contentsline {section}{\numberline {3.5}Optimization-process of the models}{32}{section.3.5}
 \contentsline {chapter}{Bibliography}{34}{section*.51}
 \contentsline {appendix}{\chapternumberline {A}\relax \fontsize {12}{14.5}\selectfont Knee injury and Ostearthritis Outcome Score (KOOS) \citep {KOOS2016}}{39}{appendix.A}
 \contentsline {appendix}{\chapternumberline {B}\relax \fontsize {12}{14.5}\selectfont Threshold analysis}{43}{appendix.B}
