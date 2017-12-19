@@ -16,7 +16,7 @@
 \BOOKMARK [0][-]{chapter.3}{Methodology}{}% 16
 \BOOKMARK [1][-]{section.3.1}{Data description}{chapter.3}% 17
 \BOOKMARK [2][-]{subsection.3.1.1}{Software application: Navigate Pain}{section.3.1}% 18
-\BOOKMARK [2][-]{subsection.3.1.2}{Data representations}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.2}{Pain map representations}{section.3.1}% 19
 \BOOKMARK [1][-]{section.3.2}{Pre-analysis}{chapter.3}% 20
 \BOOKMARK [2][-]{subsection.3.2.1}{Classification of data}{section.3.2}% 21
 \BOOKMARK [2][-]{subsection.3.2.2}{Threshold selection}{section.3.2}% 22
@@ -27,13 +27,11 @@
 \BOOKMARK [2][-]{subsection.3.3.3}{Combined-representation}{section.3.3}% 27
 \BOOKMARK [1][-]{section.3.4}{Neural network implementation and models}{chapter.3}% 28
 \BOOKMARK [2][-]{subsection.3.4.1}{Software and hardware}{section.3.4}% 29
-\BOOKMARK [2][-]{subsection.3.4.2}{Data handling and design choices of the models}{section.3.4}% 30
+\BOOKMARK [2][-]{subsection.3.4.2}{Design choices and model architecture}{section.3.4}% 30
 \BOOKMARK [2][-]{subsection.3.4.3}{Data handling in python}{section.3.4}% 31
-\BOOKMARK [1][-]{section.3.5}{Optimization}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.5.1}{Training and validation}{section.3.5}% 33
-\BOOKMARK [2][-]{subsection.3.5.2}{Testing}{section.3.5}% 34
-\BOOKMARK [0][-]{chapter.4}{Results}{}% 35
-\BOOKMARK [0][-]{section*.59}{Bibliography}{}% 36
-\BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\) KOOS2016}{}% 37
-\BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 38
-\BOOKMARK [0][-]{appendix.C}{Architecture of the deep learning models}{}% 39
+\BOOKMARK [1][-]{section.3.5}{Optimization-process of the models}{chapter.3}% 32
+\BOOKMARK [0][-]{section*.51}{Bibliography}{}% 33
+\BOOKMARK [0][-]{appendix.A}{Knee injury and Ostearthritis Outcome Score \(KOOS\) KOOS2016}{}% 34
+\BOOKMARK [0][-]{appendix.B}{Threshold analysis}{}% 35
+\BOOKMARK [0][-]{appendix.C}{Architecture of the deep learning models}{}% 36
+\BOOKMARK [0][-]{appendix.D}{Optimization parameters}{}% 37
