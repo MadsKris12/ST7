@@ -32,8 +32,6 @@ Amir Haim, Moshe Yaniv, and Et.al.
   2006.
 \newblock ISSN 0009-921X.
 \newblock \doi{10.1007/s00167-013-2759-6}.
-\newblock URL
-  \url{http://content.wkhealth.com/linkback/openurl?sid=WKPTLP:landingpage{\&}an=00003086-200610000-00041}.
 
 \bibitem[Witvrouw et~al.(2014)Witvrouw, Callaghan, and Et.al]{Witvrouw2014}
 Erik Witvrouw, Michael~J. Callaghan, and Et.al.
@@ -73,17 +71,17 @@ E.~J. Dansie and D.~C. Turk.
 \newblock 2013.
 \newblock \doi{10.1093/bja/aet124}.
 
+\bibitem[Solutions(2015)]{Solutions2015}
+Aglance Solutions.
+\newblock {Visual insight for clinical reasoning – Navigate Pain}, 2015.
+\newblock URL \url{http://www.navigatepain.com/}.
+
 \bibitem[Pieh et~al.(2012)Pieh, Altmeppen, and Et.al]{Pieh2012}
 Christoph Pieh, Jurgen Altmeppen, and Et.al.
 \newblock {Gender differences in outcomes of a multimodal pain management
   program}.
 \newblock \emph{Elsevier}, 2012.
 \newblock \doi{10.1016/j.pain.2011.10.016}.
-
-\bibitem[Solutions(2015)]{Solutions2015}
-Aglance Solutions.
-\newblock {Visual insight for clinical reasoning – Navigate Pain}, 2015.
-\newblock URL \url{http://www.navigatepain.com/}.
 
 \bibitem[Elson et~al.(2010)Elson, Jones, and Et.al]{Elson2010}
 D.~W. Elson, S.~Jones, and Et.al.
@@ -102,7 +100,6 @@ David~Money Harris and Sarah~L. Harris.
 Ian Goodfellow, Yoshua Bengio, and Et.al.
 \newblock \emph{{Deep Learning}}.
 \newblock MIT Press, 2016.
-\newblock URL \url{http://www.deeplearningbook.org}.
 
 \bibitem[LeCun et~al.(1998)LeCun, Bottou, and Et.al]{LeCun1998}
 Yann LeCun, L{\'{e}}on Bottou, and Et.al.
@@ -111,15 +108,12 @@ Yann LeCun, L{\'{e}}on Bottou, and Et.al.
   2278--2323, 1998.
 \newblock ISSN 00189219.
 \newblock \doi{10.1109/5.726791}.
-\newblock URL \url{http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf}.
 
 \bibitem[LeCun et~al.(2015)LeCun, Bengio, and Et.al]{LeCun2015}
 Yann LeCun, Yoshua Bengio, and Et.al.
 \newblock {Deep Learning}.
 \newblock \emph{Nature Insight Review}, pages 436--444, 2015.
 \newblock \doi{10.1038/nature14539}.
-\newblock URL
-  \url{https://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf}.
 
 \bibitem[Srivastava et~al.(2014)Srivastava, Hinton, and El.al]{Srivastava2014}
 Nitish Srivastava, Geoffrey Hinton, and El.al.
@@ -128,8 +122,6 @@ Nitish Srivastava, Geoffrey Hinton, and El.al.
   2014.
 \newblock ISSN 15337928.
 \newblock \doi{10.1214/12-AOS1000}.
-\newblock URL
-  \url{https://dl.acm.org/citation.cfm?id=2670313{\&}CFID=818407627{\&}CFTOKEN=74532044}.
 
 \bibitem[Duda et~al.(2000)Duda, Hart, and Et.al]{Duda2000}
 Richard Duda, Peter Hart, and Et.al.
@@ -143,8 +135,6 @@ Alaa~Ali Hameed, Bekir Karlik, and Et.al.
 \newblock \emph{Knowledge-Based Systems}, 114:\penalty0 79--87, 2016.
 \newblock ISSN 09507051.
 \newblock \doi{10.1016/j.knosys.2016.10.001}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S0950705116303811?via{\%}3Dihub}.
 
 \bibitem[Roos and Lohmander(2003)]{Roos2003}
 Ewa~M. Roos and L.~Stefan Lohmander.
