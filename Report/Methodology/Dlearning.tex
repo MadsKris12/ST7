@@ -103,7 +103,21 @@ The true classification labels were one-hot encoded to make the number of classe
 To reduce overfitting and improve general performance of the model, different methods were implemented and test.
 A grid search method was used to find initial hyperparameters for the models. For this method, a set of different hyperparameters were defined and tested using a 10-fold cross-validation, where the hyperparameters that resulted in the highest accuracy were chosen, and can be seen in appendix \ref{app:opti}. Learning rate, type of initializer, number of nodes, batch size and number of epochs were tested using this method. 
 An additional manual optimization was then performed, where all the changes to the hyperparameters were based on the behavior of the validation set during training of the deep learning models.
-The development was visually evaluated by plotting the accuracy and loss of both the training and validation subset, from which changes to learning rate, epochs, batch size, momentum, and a number of nodes were made if needed.
+The development of the learning process was visually evaluated by plotting the accuracy and loss of both the training and validation subset. According to number of the epoch when the models start to overfit, changes to learning rate, epochs, batch size, momentum, and a number of nodes were made if needed. The examples of the accuracy, loss plots, and overfitting could be seen in Fig. \ref{fig:Graphs}.
 
+\begin{figure} [H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/Graphs}
+\caption{Graphs of the models accuracy, loss, and overfitting on training and validation datasets: (a) model of combined-representation according to the duration, (b) model of the morphology-representation according to the duration}
+\label{fig:Graphs}
+\end{figure}
+
+
+\subsubsection{Activation function}
+For all models the activation function in all layers except the output layer was the ReLU function. This was chosen as this is seen as the most common activation function in more modern neural networks. The reason for its popularity is that it prevents the problem known as the vanishing or exploding gradient, typically seen when using sigmoid activation function in the hidden layers.\citep{Goodfellow2016}   
+All output layer activation functions were chosen as sigmoid, because it was stated as the typical activation function for output classification problem \citep{Duda2000}.
+
+\subsubsection{Dropout}
+Dropout was implemented in the models due to the benefits described in section \ref{sec:dropout}, where it is written that dropout should be used to reduce overfitting of the models. A dropout was then implemented within the hidden fully connected layers of all models, except the output layer, and set to randomly drop 50\% of the nodes. 
 
 
