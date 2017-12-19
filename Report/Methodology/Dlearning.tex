@@ -4,11 +4,11 @@ Building neural network for classifying pain maps was trial and error process.
 In this project the deep learning method is used to classify the pain maps and gender by determined outputs. The data is a set of 2D-images combined with gender and the outputs are pain intensity and duration. For classification purpose supervised convolutional neural network is used followed by fully-connected layers at the end. This architecture of the model is chosen to the interest of morphology and location of the pain. The models are trained, and tested on a single computer with GPU and ran on Python programming language with Keras library. Specifications of hardware and software are described in detail in \autoref{sec:softHard}.
 
 \subsection{Software and hardware}\label{sec:softHard}
-The neural network developed for this study, was programmed using Python v3.6.3. Python is an object-oriented and general-purpose programming and scripting language, that may be used for e.g. programming websites, mobile applications, but also for machine learning programming applications.
-For development of deep learning application in python, different libraries are available, where some of the popular are the Theano and TensorFlow libraries.\citep{Swamynathan2017}. The Tensorflow v1.3.0 library was chosen for this study. %TensorFlow is an open source library for development of machine learning applications, that has been released by Google \citep{Swamynathan2017}.  
+The neural networks developed for this study, was programmed using Python v3.6.3. Python is an object-oriented and general-purpose programming and scripting language, that may be used for e.g. programming websites, mobile applications, but also for machine learning programming applications.
+For development of deep learning application in python, different libraries are available, where some of the popular are the Theano and TensorFlow libraries\citep{Swamynathan2017}. The Tensorflow v1.3.0 library was chosen for this study. %TensorFlow is an open source library for development of machine learning applications, that has been released by Google \citep{Swamynathan2017}.  
 An additional library, Keras v2.0.8, was imported, which runs on top of either Tensorflow or Theano, and is a high-level neural networks application programming interface (API).   
 Keras is a simplified version of the two libraries, which allows for fast and easier prototyping of neural network \citep{Chollet2015}. This was deemed suitable given that no previous experience with neural network were available during this study.  
-
+\noindent
 Utilization of graphics processing unit (GPU) computation was also implemented using CUDA drivers and cnDNN communication libraries, which allowed for faster runtimes, then through the use of the central processing unit (CPU).
  
 %Keras is a simplified version of the two libraries, which makes it easier to program in Python, but still allows for building complex models. TensorFlow is an open source library for development of machine learning applications, that has been released by Google \citep{Swamynathan2017}. 
@@ -45,9 +45,9 @@ Memory bandwidth & 120 GB/s  \\ \hline
 
 \subsection{Data handling and design choices of the models}
 This section presents the different models, their architecture and implementation used in this study.
-For classification of each representation a corresponding model was made. The classifier models for \textit{morphology-} and \textit{combined-} representation were operating on a pixel level by learning features of the pain charts, whilst the \textit{location} representation operated from the 10 element location vector. 
-The architecture of the models consist two main parts, a convolution part and a fully-connected part, except the \textit{location} model that only consist of the latter.   
-Convolution works as feature extraction of the pain maps, where convolutional and pooling layers alternates in order to extract relevant features out of the image, as described in \autoref{sec:Layers}.
+For classification of each pain map representation a corresponding model was made. The classifier models for morphology- and combined-representation were operating on a pixel level by learning features of the pain charts, whilst the location-representation operated from the 10 element location vector. 
+The architecture of the models consist of two main parts, a convolution part and a fully connected part, except the location model that only consist of the latter.   
+Convolution works as feature extraction of the pain maps, where convolutional and pooling layers alternates in order to extract relevant features from the image, as described in section \autoref{sec:Layers}.
 The fully-connected part works as classification, where computed feature maps gets weighted and classified to a particular class in the output layer. 
 A higher generalization performance of the classifiers, was investigated through the use of regulation and optimization methods.
 The available data was separated into a training and test subset, from which training data was used to regulate and optimize the model. 
@@ -60,10 +60,10 @@ Supervised learning was used for training the three models. The common input for
 
 
 \subsubsection{Morphology-representation models}
-The models for the morphology-representation, consists of convolution, max pooling and fully-connected layers.  
+The models for the morphology-representation, consists of convolution, max pooling and fully connected layers.  
 The models are essentially made up of two parts, where one being the extraction of image features, and another being a classification part. 
-For the extraction of image features a series of three convolution and max pooling layer are stacked after each other, to which the first layer is specified to receive the main input of the shape $1 \times 118 \times 252$ where the 1 reflects the fact that the pain map representation is binary. 
-The classification part of the network is the same architecture as that of the model for the location representation, and thereby consists of fully-connected layers. Between these two parts of the model, a secondary input is added specifying the gender related to the given pain map. 
+For the extraction of image features a series of three convolution and max pooling layer are stacked after each other, to which the first layer is specified to receive the main input of the shape $1 \times 118 \times 252$ where 1 reflects the fact that the pain map representation is binary. 
+The classification part of the network is the same architecture as that of the model for the location-representation, and thereby consists of fully connected layers. Between these two parts of the model, a secondary input is added specifying the gender related to the given pain map. 
 Before the pain maps features reach the fully connected layers it is flattened from the shape of a matrix to that of a single row in order to merge the extracted features with gender. The merged data passes through fully connected layers and reaches the output layer where it is given a percentage value according to which class it fits the most. 
 The architecture of the morphology representation model is shown in figure \ref{fig:Schema1}.
 
@@ -76,10 +76,10 @@ The architecture of the morphology representation model is shown in figure \ref{
 
 
 \subsubsection{Location-representation models}
-Given the location representations relative simplicity, in the form of a 11 element row-vector that contains both the pain maps information along with a gender value as described in \ref{sec:Regions}, the architecture of the model is also relatively simple, compared to the other models.  
+Given the location-representation's relative simplicity, in the form of a 11 element row-vector that contains both the pain maps information along with a gender value as described in section \ref{sec:Regions}, the architecture of the model is also relatively simple, compared to the other models.  
 For this representation the model consists of four fully-connected layers where the last of the layers is the output layer, where the number of outputs matches the number of classes. 
-It was chosen not to use convolution layers, like in the morphology-, and combined-representation, because it was believed that be no greater benefit given how convolution works, and the size of the location representation. 
-An overview of the architecture of the model for the location representation can be seen in \ref{fig:locationar}.
+It was chosen not to use convolution layers, like in the morphology- and combined-representation, because it was believed that there would be no greater benefit given how convolution works, and the size of the location-representation. 
+An overview of the architecture of the model for the location-representation can be seen in figure \ref{fig:locationar}.
 
 \begin{figure} [H]
 \centering
@@ -89,18 +89,18 @@ An overview of the architecture of the model for the location representation can
 \end{figure}
 
 \subsubsection{Combined-representation models}
-The architecture of this model is nearly identical to that of the morphology-representation model, as seen in \autoref{fig:Schema1}. 
-The main difference can only be seen in the dimension of input for the pain map representation, where the input shape is $10 \times 118 \times 252$ to which 10 is the number of image layers per. pain map. This is the result of the one-hot encoding done to the images as described in \ref{sec:combined}. 
+The architecture of this model is nearly identical to that of the morphology-representation model, as seen in figure \ref{fig:Schema1}. 
+The main difference can only be seen in the dimension of input for the pain map representation, where the input shape is $10 \times 118 \times 252$ to which 10 is the number of image layers per pain map. This is the result of the one-hot encoding done to the images as described in section \ref{sec:combined}. 
 
 
 \subsection{Data handling in python}
-Pre-processed data is loaded from a \textit{.mat} file into python.
-Data within the file was pre-shuffled and split into a training, and test subsets, as described in \autoref{sec:prepros}. The training subset was made up 85\% of the available data and test subset the remaining 15\%. Data was pre-shuffled to ensure that the training and test subset were separated at random. Furthermore the data was separated to prevent data used for training to be used for testing, to which this would give a false estimation of performance.  
+Pre-processed data is loaded from a \textit{.mat} file into Python.
+Data within the file was pre-shuffled and split into a training, and test subsets. The training subset was made up 85\% of the available data and test subset the remaining 15\%. Data was pre-shuffled to ensure that the training and test subset were separated at random. Furthermore, the data was separated to prevent data used for training to be used for testing, to which this would give a false estimation of performance.  
 %In Python the training subset is further divided into a training and validation subsets. 
 The training subset was used to train and optimize the models, to find the optimal weights with the back-propagation algorithm \citep{Bengio2012}. 
 The test subset was used to evaluate the generalization of the model, after training and optimization.
-Morphology, and combined representations, were reshaped from a row vector, back into a matrix to retain their 2D structure of the pain map.
-Classification labels used for during supervised learning was one-hot encoded, so the number of label values were compatible to the number of outputs in the models. This was a result of the loss function \textit{categorical\_crossentropy} used for the models, that tries to reduce loss between the categories.    
+Morphology- and combined-representations, were reshaped from a row vector, back into a matrix to retain their 2D structure of the pain map.
+Classification labels used during supervised learning was one-hot encoded, so the number of label values were compatible to the number of outputs in the models. This was a result of the loss function \textit{categorical\_crossentropy} used for the models, that tries to reduce loss between the categories.    
 \newpage
 
 \section{Optimization}
