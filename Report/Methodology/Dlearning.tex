@@ -104,10 +104,10 @@ To reduce overfitting and improve general performance of the model, different me
 A grid search method was used to find initial hyperparameters for the models. For this method, a set of different hyperparameters were defined and tested using a 10-fold cross-validation, where the hyperparameters that resulted in the highest accuracy were chosen, and can be seen in appendix \ref{app:opti}. Learning rate, type of initializer, number of nodes, batch size and number of epochs were tested using this method. 
 An additional manual optimization was then performed, where all the changes to the hyperparameters were based on the behavior of the validation set during training of the deep learning models.
 The development of the learning process was visually evaluated by plotting the accuracy and loss of both the training and validation subset. 
+Changes to learning rate, epochs, batch size, momentum, and a number of nodes were made if needed. 
+An example would be to reduce the number of epochs to prevent models from overfitting, as shown in figure \ref{fig:graphs1}. Overfitting is presented at the 90 and the 50 epochs where the increase in accuracy stops, and loss stops to decrease. 
 
-
-
-According to number of the epoch when the models start to overfit, changes to learning rate, epochs, batch size, momentum, and a number of nodes were made if needed. The examples of the accuracy, loss plots, and overfitting is shown Fig. \ref{fig:Graphs}.
+%According to number of the epoch when the models start to overfit, changes to learning rate, epochs, batch size, momentum, and a number of nodes were made if needed. The examples of the accuracy, loss plots, and overfitting is shown Fig. \ref{fig:Graphs}.
 
 \begin{figure} [H]
 \centering
