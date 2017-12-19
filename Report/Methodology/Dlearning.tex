@@ -43,7 +43,7 @@ Memory bandwidth & 120 GB/s  \\ \hline
 \label{tab:Specs}
 \end{table}
 
-\subsection{Data handling and design choices of the models}
+\subsection{Design choices and model architecture}
 This section presents the different models, their architecture and implementation used in this study.
 For classification of each pain map representation a corresponding model was made. The classifier models for morphology- and combined-representation were operating on a pixel level by learning features of the pain charts, whilst the location-representation operated from the 10 element location vector. 
 The architecture of the models consist of two main parts, a convolution part and a fully connected part, except the location model that only consist of the latter.   
@@ -95,28 +95,29 @@ The main difference can only be seen in the dimension of input for the pain map 
 
 \subsection{Data handling in python}
 Pre-processed data is loaded from a \textit{.mat} file into Python.
-Data within the file was pre-shuffled and split into a training, and test subsets. The training subset was made up 85\% of the available data and test subset the remaining 15\%. Data was pre-shuffled to ensure that the training and test subset were separated at random. Furthermore, the data was separated to prevent data used for training to be used for testing, to which this would give a false estimation of performance.  
-%In Python the training subset is further divided into a training and validation subsets. 
-The training subset was used to train and optimize the models, to find the optimal weights with the back-propagation algorithm \citep{Bengio2012}. 
-The test subset was used to evaluate the generalization of the model, after training and optimization.
-Morphology- and combined-representations, were reshaped from a row vector, back into a matrix to retain their 2D structure of the pain map.
-Classification labels used during supervised learning was one-hot encoded, so the number of label values were compatible to the number of outputs in the models. This was a result of the loss function \textit{categorical\_crossentropy} used for the models, that tries to reduce loss between the categories.    
-\newpage
+Data within the file was pre-shuffled to ensure that the pain maps separated into a training, validation and test subsets randomly. The different subsets was respectively made up of 75\%, 10\% and 15\% of the available pain maps. The data was separated to clearly distinct between data set and their purpose, an thereby prevent the same data from being used for training and e.g testing, since this would give a wrong estimation of the models performance.
+The training and validation subsets was used to train and optimize the models, to find the optimal weights with the back-propagation algorithm \citep{Bengio2012}. 
+The test subset was for final testing of the model, to get an estimation of the is ability to generalize "unseen" pain maps. 
+Additionally, the models for the morphology- and combined representation, the data were reshaped from a row vector, back into a matrix to retain their 2D structure of the pain map.
+The true classification labels were one-hot encoded, to make the make the number of classes compatible according to the number of outputs in the output layer. 
 
-\section{Optimization}
-To reduce overfitting and improve general performance of the model, different methods was tested and implemented. 
-The performance of the models was evaluated from an average accuracy, sensitivity and specificity, that was calculated during training. 
-A grid search method was used to find optimal hyperparameters for the models. This allowed to run the models through different parameters, from which the parameters the resulted in the highest performance was used. Activation function, dropout, optimizer, learning rate, type of initializer, number of nodes, batch size and number of epochs were tested using this method.  All used optimization techniques are presented in this section and table with used values is presented in FIGURE or RESULTS section (x,x)
+\section{Optimization-process of the models}
+To reduce overfitting and improve general performance of the model, different methods was implemented and test. 
+A grid search method was used to used to find initial hyperparameters for the models. For this method as set of different hyperparameters were defined and test, where the hyperparameters that resulted in the highest performance were chosen, and can be seen in appendix REFERENCE!!!!. Optimizer, learning rate, type of initializer, number of nodes, batch size and number of epochs were tested using this method.  
+A additional manual optimization was then performed, where the all changes to the hyperparameters was based the behavior of the validation set during training of the deep learning models. 
+The development was visually evaluated by plotting the accuracy and loss of both the training and validation subset, from which changes to learning rate, epochs, batch size, momentum, and number of nodes were made, if needed.
+
 
 \subsubsection{Activation function}
 For all models the activation function in all layers except the output layer was the ReLu function. This was chosen as this is seen as the most common activation function in more modern neural networks. The reason for it's popularity is that it prevents the problem known as the vanishing or exploding gradient, typically seen when using sigmoid activation function i the hidden layer. \citep{Goodfellow2016}    
-%During this study different activation functions, such as ReLu, Softmax, Sigmoid were tested. Results were compared using grid-search and ReLu was picked as activation function for the models. Activation function was implemented in convolutional and fully-connected layers. 
-Sigmoid activator was used for final output layer, because.
+All output layer activation functions was chosen as sigmoid, because was also stated as the typical activation function for output classification problem \citep{Duda2000} 
 
 \subsubsection{Dropout}
-Dropout is implemented in the models due to the benefits described in section \ref{sec:dropout}. Dropout of three different values were tested on grid-search and 0.5 were picked as it scored the highest. This regulator is only used within the hidden fully-connected layers, where it is defined to randomly drop 50 \% of the nodes. Dropout is shown in figure \ref{fig:Simpleschema} and marked as red crosses. 
+Dropout was implemented in the models due to the benefits described in section \ref{sec:dropout}, where it written that dropout may be used reduce overfitting of the models. A dropout was then implemented within the hidden fully-connected layers of all models, except the output layer, and set to randomly drop 50 \% of the nodes.  
 
 \subsubsection{Optimizer}
+SGD 
+
 Adam, RMSprop, Adagrad and SGD, presented in section \ref{sec:optimizers}, were tested and compared. SGD scored the highest and was implemented while compiling the model.
 
 \subsubsection{Learning rate}
@@ -141,8 +142,6 @@ The model weight parameters were initialized at random values using \textit{glor
 %\subsubsection{Stratified m-folds cross-validation}
 %As a result of binary output, 10-fold cross-validation method were used for training the data and evaluating the performance of the models. Folds were separated 10 times randomly in relation to the distribution of the classes. Stratified m-folding prevents the fold to contain the data of one class. Accuracy, sensitivity and specificity were calculated after each fold and the mean values of these parameters were generated at the end of the training. Results are given in section %{the results}.
 
-\subsubsection{Error and accuracy graphs)}
-During each training and validating epoch, the error and accuracy is calculated and presented as graph at the end. According the error graph, the overfitting or underfitting could be determined. Model could be optimized based on these results with technique described in section \ref{sec:optimizers}.
 
 \subsection{Testing}
 The testing or prediction refers the generalization performance from the given classification question and is the main job for the neural network.
