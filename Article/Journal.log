@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  19 DEC 2017 01:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.27)  19 DEC 2017 01:15
 entering extended mode
 **./Journal.tex
 (Journal.tex
@@ -1627,12 +1627,12 @@ Package pdftex.def Info: Figures/samcon.png  used on input line 73. on input li
 ne 73.
 Package pdftex.def Info: Requested size: 469.18605pt x 142.46294pt on input lin
 e 73.
-<Figures/samcon1.png, id=273, 1604.394pt x 514.3215pt>
+<Figures/samcon1.png, id=273, 1604.394pt x 520.344pt>
 File: Figures/samcon1.png Graphic file (type png)
 <use Figures/samcon1.png>
 Package pdftex.def Info: Figures/samcon1.png  used on input line 81. on input l
 ine 81.
-Package pdftex.def Info: Requested size: 469.18605pt x 150.40508pt on input lin
+Package pdftex.def Info: Requested size: 469.18605pt x 152.16626pt on input lin
 e 81.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1683,9 +1683,9 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
 rw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
 lbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Journal.pdf (10 pages, 2168161 bytes).
+Output written on Journal.pdf (10 pages, 2174228 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
+ 424 PDF objects out of 1000 (max. 8388607)
  68 named destinations out of 1000 (max. 500000)
  44975 words of extra memory for PDF output out of 51595 (max. 10000000)
 
