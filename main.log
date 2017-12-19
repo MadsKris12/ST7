@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.4)  19 DEC 2017 22:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.4)  19 DEC 2017 23:21
 entering extended mode
 **./main.tex
 (main.tex
@@ -2284,11 +2284,8 @@ File: figures/locationar.png Graphic file (type png)
 <use figures/locationar.png>
 Package pdftex.def Info: figures/locationar.png used on input line 84.
 (pdftex.def)             Requested size: 352.80135pt x 230.56415pt.
- [31 <./figures/models.png>] [32 <./figures/locationar.png>]
-
-LaTeX Warning: Reference `fig:Graphs' on page 33 undefined on input line 110.
-
-<figures/graphs1.png, id=828, 417.05812pt x 527.72156pt>
+ [31 <./figures/models.png>] [32 <./figures/locationar.png>] <figures/graphs1.p
+ng, id=829, 417.05812pt x 527.72156pt>
 File: figures/graphs1.png Graphic file (type png)
 
 <use figures/graphs1.png>
@@ -2332,13 +2329,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\new@ifnextchar' on input line 77.
 
 (Report/yAppendix/appKOOS.tex
-<figures/KOOS1.png, id=910, 515.526pt x 778.107pt>
+<figures/KOOS1.png, id=911, 515.526pt x 778.107pt>
 File: figures/KOOS1.png Graphic file (type png)
  <use figures/KOOS1.png>
 Package pdftex.def Info: figures/KOOS1.png used on input line 3.
 (pdftex.def)             Requested size: 374.85269pt x 565.80501pt.
 
-<figures/KOOS2.png, id=911, 513.71925pt x 831.105pt>
+<figures/KOOS2.png, id=912, 513.71925pt x 831.105pt>
 File: figures/KOOS2.png Graphic file (type png)
  <use figures/KOOS2.png>
 Package pdftex.def Info: figures/KOOS2.png used on input line 8.
@@ -2346,14 +2343,14 @@ Package pdftex.def Info: figures/KOOS2.png used on input line 8.
 
 [40
 
- <./figures/KOOS1.png>] <figures/KOOS3.png, id=920, 516.12825pt x 843.15pt>
+ <./figures/KOOS1.png>] <figures/KOOS3.png, id=921, 516.12825pt x 843.15pt>
 File: figures/KOOS3.png Graphic file (type png)
 
 <use figures/KOOS3.png>
 Package pdftex.def Info: figures/KOOS3.png used on input line 14.
 (pdftex.def)             Requested size: 396.89731pt x 648.36552pt.
  [41 <./figures/KOOS2.png>]
-<figures/KOOS4.png, id=928, 517.935pt x 864.22874pt>
+<figures/KOOS4.png, id=929, 517.935pt x 864.22874pt>
 File: figures/KOOS4.png Graphic file (type png)
  <use figures/KOOS4.png>
 Package pdftex.def Info: figures/KOOS4.png used on input line 20.
@@ -2364,14 +2361,14 @@ Overfull \vbox (8.08485pt too high) has occurred while \output is active []
 
 
 [43 <./figures/KOOS4.png>] (Report/yAppendix/appThresholds.tex
-<figures/threshold52.png, id=943, 640.794pt x 497.4585pt>
+<figures/threshold52.png, id=944, 640.794pt x 497.4585pt>
 File: figures/threshold52.png Graphic file (type png)
 
 <use figures/threshold52.png>
 Package pdftex.def Info: figures/threshold52.png used on input line 3.
 (pdftex.def)             Requested size: 441.0pt x 342.35863pt.
 
-<figures/threshold67.png, id=944, 640.794pt x 492.6405pt>
+<figures/threshold67.png, id=945, 640.794pt x 492.6405pt>
 File: figures/threshold67.png Graphic file (type png)
 
 <use figures/threshold67.png>
@@ -2380,14 +2377,14 @@ Package pdftex.def Info: figures/threshold67.png used on input line 8.
  [44
 
  <./figures/threshold52.png>]
-<figures/threshold125.png, id=952, 625.1355pt x 499.8675pt>
+<figures/threshold125.png, id=953, 625.1355pt x 499.8675pt>
 File: figures/threshold125.png Graphic file (type png)
 
 <use figures/threshold125.png>
 Package pdftex.def Info: figures/threshold125.png used on input line 13.
 (pdftex.def)             Requested size: 441.0pt x 352.62782pt.
  [45 <./figures/threshold67.png>]
-<figures/threshold206.png, id=961, 626.94225pt x 478.1865pt>
+<figures/threshold206.png, id=962, 626.94225pt x 478.1865pt>
 File: figures/threshold206.png Graphic file (type png)
 
 <use figures/threshold206.png>
@@ -2395,7 +2392,7 @@ Package pdftex.def Info: figures/threshold206.png used on input line 18.
 (pdftex.def)             Requested size: 441.0pt x 336.36267pt.
 ) [46 <./figures/threshold125.png>] [47 <./figures/threshold206.png>] (Report/y
 Appendix/appmodels.tex
-<figures/appModels1.pdf, id=976, 845.1575pt x 597.23125pt>
+<figures/appModels1.pdf, id=977, 845.1575pt x 597.23125pt>
 File: figures/appModels1.pdf Graphic file (type pdf)
 
 <use figures/appModels1.pdf>
@@ -2434,17 +2431,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B2EFE8888D00BF216B17959B912C3830;2598.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 29934 strings out of 493323
- 523127 string characters out of 3139060
+ 29933 strings out of 493323
+ 523115 string characters out of 3139060
  880417 words of memory out of 3000000
- 32792 multiletter control sequences out of 15000+200000
+ 32791 multiletter control sequences out of 15000+200000
  548548 words of font info for 66 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,16n,92p,10483b,972s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2468,7 +2461,7 @@ fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb>
-Output written on main.pdf (56 pages, 7025669 bytes).
+Output written on main.pdf (56 pages, 7025550 bytes).
 PDF statistics:
  1608 PDF objects out of 1728 (max. 8388607)
  217 named destinations out of 1000 (max. 500000)
