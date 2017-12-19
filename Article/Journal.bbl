@@ -1,9 +1,24 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Haim et~al.(2006)Haim, Yaniv, and Et.al]{Petersen2013}
+Amir Haim, Moshe Yaniv, and Et.al.
+\newblock {Patellofemoral Pain Syndrome}.
+\newblock \emph{Knee Surg sports traumatol arthrose}, 451:\penalty0 223--228,
+  2006.
+\newblock ISSN 0009-921X.
+\newblock \doi{10.1007/s00167-013-2759-6}.
+
+\bibitem[Boudreau et~al.(2017)Boudreau, Kamavuako, and Et.al]{Boudreau2017}
+Shellie~A. Boudreau, E.~N. Kamavuako, and Et.al.
+\newblock {Distribution and symmetrical patellofemoral pain patterns as
+  revealed by high-resolution 3D body mapping: a cross-sectional study}.
+\newblock 2017.
+\newblock \doi{10.1186/s12891-017-1521-5}.
 
 \bibitem[Maclachlan et~al.(2017)Maclachlan, Collins, and Et.al]{Maclachlan2017}
 Liam~R. Maclachlan, Natalie~J. Collins, and Et.al.
@@ -24,14 +39,6 @@ M.~S. Rathleff, B.~Vicenzino, and Et.al.
   different?}
 \newblock 2015.
 \newblock \doi{10.1007/s40279-015-0364-1}.
-
-\bibitem[Haim et~al.(2006)Haim, Yaniv, and Et.al]{Petersen2013}
-Amir Haim, Moshe Yaniv, and Et.al.
-\newblock {Patellofemoral Pain Syndrome}.
-\newblock \emph{Knee Surg sports traumatol arthrose}, 451:\penalty0 223--228,
-  2006.
-\newblock ISSN 0009-921X.
-\newblock \doi{10.1007/s00167-013-2759-6}.
 
 \bibitem[Witvrouw et~al.(2014)Witvrouw, Callaghan, and Et.al]{Witvrouw2014}
 Erik Witvrouw, Michael~J. Callaghan, and Et.al.
@@ -58,23 +65,11 @@ Shellie~A. Boudreau, Susanne Badsberg, and Et.al.
 \newblock 2016.
 \newblock \doi{10.1097/AJP.0000000000000230}.
 
-\bibitem[Boudreau et~al.(2017)Boudreau, Kamavuako, and Et.al]{Boudreau2017}
-Shellie~A. Boudreau, E.~N. Kamavuako, and Et.al.
-\newblock {Distribution and symmetrical patellofemoral pain patterns as
-  revealed by high-resolution 3D body mapping: a cross-sectional study}.
-\newblock 2017.
-\newblock \doi{10.1186/s12891-017-1521-5}.
-
 \bibitem[Dansie and Turk(2013)]{Dansie2013}
 E.~J. Dansie and D.~C. Turk.
 \newblock {Assessment of patients with chronic pain}.
 \newblock 2013.
 \newblock \doi{10.1093/bja/aet124}.
-
-\bibitem[Solutions(2015)]{Solutions2015}
-Aglance Solutions.
-\newblock {Visual insight for clinical reasoning – Navigate Pain}, 2015.
-\newblock URL \url{http://www.navigatepain.com/}.
 
 \bibitem[Pieh et~al.(2012)Pieh, Altmeppen, and Et.al]{Pieh2012}
 Christoph Pieh, Jurgen Altmeppen, and Et.al.

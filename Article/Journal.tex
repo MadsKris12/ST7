@@ -87,7 +87,7 @@
 
 \pretitle{\begin{center}\Huge\bfseries} % Article title formatting
 \posttitle{\end{center}} % Article title closing formatting
-\title{\huge Prediction of pain duration and pain intensity \newline from patellofemoral pain maps using a \newline deep learning approach} % Article title
+\title{\huge Predicting pain duration or pain intensity from patellofemoral pain maps using  \newline deep learning models} % Article title
 \author{%
 \textsc{Birgithe Kleemann Rasmussen, Ignas Kupcikevičius,} \\
 \textsc{Linette Helena Poulsen, Mads Kristensen}
@@ -104,18 +104,18 @@
 
 \begin{abstract}
 \noindent
-\textbf{Introduction:} Patellofemoral pain (PFP) syndrome is a musculoskeletal condition that presents as pain behind or around the patella without known structural changes [1]. Partial correlations between perceived size of PFP from pain maps and pain duration along with pain intensity has been indicated in previous studies [2], however, morphology and location of PFP remains unexplored in terms of correlation. Based on the object detection capabilities of deep learning methods can be used to detect image-features related to morphology and location. The aim of this study was to determine the performance of deep learning models for predicting pain duration and pain intensity, based on morphology and location of perceived PFP from pain maps.
+\textbf{Introduction:} Patellofemoral pain (PFP) syndrome is a musculoskeletal condition that presents as pain behind or around the patella without known structural changes \citep{Petersen2013}. Partial correlations between perceived size of PFP from pain maps and pain duration along with pain intensity has been indicated in previous studies \citep{Boudreau2017}, however, morphology and location of PFP remains unexplored in terms of correlation. Based on the object detection capabilities of deep learning methods, they may be used to detect image-features related to morphology and location. The aim of this study was to determine the performance of deep learning models for predicting pain duration and pain intensity, based on morphology and location of perceived PFP from pain maps.
 
 \noindent
-\textbf{Methods and materials:} PFP drawings were collected on a body-schema and encoded into three different pain map representations in respect of morphology of pain, a location of pain, and a combination of morphology and location. The distribution of the outputs was analysed and used for defining the classification intervals for pain duration, to which the intervals were below 12 months and above 36 months, and pain intensity, below 4 and above 8 on VAS.
-Estimation of generalization performance of the models was calculated during the training.
+\textbf{Methods and materials:} PFP drawings were collected on a body-schema and encoded into three different pain map representations in respect of morphology of pain, a location of pain, and a combination of morphology and location. The distributions of pain duration and pain intensity were analysed and used for defining the classification intervals for pain duration, to which the intervals were 0-12 months and 36-300 months, and pain intensity, 0-4 and 8-10 on VAS.
+Estimation of generalization performance of the models was calculated during the testing.
 
 \noindent
 \textbf{Results:} The results of the test showed a higher accuracy for pain intensity classification than pain duration classification using the combined-representation. Pain intensity had an accuracy of 86.67\%, and pain duration had an accuracy of 55.56\%.
 However, the morphology-representation resulted in the highest predictive value classifying according to pain duration. The models using the location-representation had the lowest classification performance according to both pain duration and pain intensity, compared to the two other representations.
 
 \noindent
-\textbf{Discussion:} Despite pain intensity being defined as multidimensional and subjective, the performance accuracy was higher than that of pain duration. The results may indicate that a combination of the morphology and the location of the pain had a higher classification performance in relation to pain intensity. Currently, it is unclear if deep learning methods may be a suitable approach for classifying PFP syndrome to work as support in clinical settings, to which further optimization of the models is necessary. Improvements could be found when more pain maps become available to better reflect generalization patterns in PFP drawings.
+\textbf{Discussion:} Despite pain intensity being defined as multidimensional and subjective, the performance accuracy was higher than pain duration. The results may indicate that a combination of the morphology and the location of the pain had a higher classification performance in relation to pain intensity. Currently, it is unclear if deep learning methods may be a suitable approach for classifying PFP syndrome to work as support in clinical settings, to which further optimization of the models is necessary. Improvements could be found when more pain maps become available to better reflect generalization patterns in PFP drawings.
 \end{abstract}
 }
 
@@ -145,16 +145,17 @@ However, the morphology-representation resulted in the highest predictive value 
 \input{Results/result}
 
 %------------------------------------------------
-
+\vspace{-0.3cm}
 \section{Discussion}
 \input{Results/discuss}
 
 %------------------------------------------------
-
+\vspace{-0.2cm}
 \section{Conclusion}
 \input{Results/conclusion}
-
+\vspace{-0.2cm}
 \section{Acknowledgement}
+\vspace{-0.2cm}
 Thanks is given to the supervisors Shellie A. Boudreau and Lasse Riis Østergaard for their feedback and availability during this study.  
 
 %----------------------------------------------------------------------------------------
@@ -172,6 +173,7 @@ Thanks is given to the supervisors Shellie A. Boudreau and Lasse Riis Østergaar
 %\end{thebibliography}
 
 %----------------------------------------------------------------------------------------
+\vspace{-0.3cm}
 \begingroup
 \raggedright
 \begin{scriptsize}
