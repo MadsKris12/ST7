@@ -103,13 +103,17 @@ The true classification labels were one-hot encoded to make the number of classe
 To reduce overfitting and improve general performance of the model, different methods were implemented and test.
 A grid search method was used to find initial hyperparameters for the models. For this method, a set of different hyperparameters were defined and tested using a 10-fold cross-validation, where the hyperparameters that resulted in the highest accuracy were chosen, and can be seen in appendix \ref{app:opti}. Learning rate, type of initializer, number of nodes, batch size and number of epochs were tested using this method. 
 An additional manual optimization was then performed, where all the changes to the hyperparameters were based on the behavior of the validation set during training of the deep learning models.
-The development of the learning process was visually evaluated by plotting the accuracy and loss of both the training and validation subset. According to number of the epoch when the models start to overfit, changes to learning rate, epochs, batch size, momentum, and a number of nodes were made if needed. The examples of the accuracy, loss plots, and overfitting could be seen in Fig. \ref{fig:Graphs}.
+The development of the learning process was visually evaluated by plotting the accuracy and loss of both the training and validation subset. 
+
+
+
+According to number of the epoch when the models start to overfit, changes to learning rate, epochs, batch size, momentum, and a number of nodes were made if needed. The examples of the accuracy, loss plots, and overfitting is shown Fig. \ref{fig:Graphs}.
 
 \begin{figure} [H]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/Graphs}
-\caption{Graphs of the models accuracy, loss, and overfitting on training and validation datasets: (a) model of combined-representation according to the duration, (b) model of the morphology-representation according to the duration}
-\label{fig:Graphs}
+\includegraphics[width=0.8\textwidth]{figures/graphs1}
+\caption{Plots of the models accuracy, loss, and overfitting on training and validation datasets: (a) model of combined-representation according to the duration, (b) model of the morphology-representation according to the duration}
+\label{fig:graphs1}
 \end{figure}
 
 

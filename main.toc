@@ -45,8 +45,10 @@
 \contentsline {subsubsection}{Combined-representation models}{32}{section*.49}
 \contentsline {subsection}{\numberline {3.4.3}Data handling in python}{32}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Optimization-process of the models}{32}{section.3.5}
-\contentsline {chapter}{Bibliography}{34}{section*.51}
-\contentsline {appendix}{\chapternumberline {A}\relax \fontsize {12}{14.5}\selectfont Knee injury and Ostearthritis Outcome Score (KOOS) \citep {KOOS2016}}{39}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}\relax \fontsize {12}{14.5}\selectfont Threshold analysis}{43}{appendix.B}
-\contentsline {appendix}{\chapternumberline {C}\relax \fontsize {12}{14.5}\selectfont Architecture of the deep learning models}{48}{appendix.C}
-\contentsline {appendix}{\chapternumberline {D}\relax \fontsize {12}{14.5}\selectfont Optimization parameters}{49}{appendix.D}
+\contentsline {subsubsection}{Activation function}{34}{section*.51}
+\contentsline {subsubsection}{Dropout}{34}{section*.52}
+\contentsline {chapter}{Bibliography}{35}{section*.54}
+\contentsline {appendix}{\chapternumberline {A}\relax \fontsize {12}{14.5}\selectfont Knee injury and Ostearthritis Outcome Score (KOOS) \citep {KOOS2016}}{40}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}\relax \fontsize {12}{14.5}\selectfont Threshold analysis}{44}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}\relax \fontsize {12}{14.5}\selectfont Architecture of the deep learning models}{49}{appendix.C}
+\contentsline {appendix}{\chapternumberline {D}\relax \fontsize {12}{14.5}\selectfont Optimization parameters}{50}{appendix.D}
