@@ -1,7 +1,7 @@
 This chapter creates an understanding of the available data, how it is analysed and prepared before including it in the deep learning models. Additionally, the program Navigate Pain and programs used to develop the deep learning models are described. Furthermore, the architecture of the models is presented.
 
 \section{Data description}
-Data used in this project were collected beforehand from an on-going FOXH trial which is conducted in collaboration with Danish and Australian universities. The data consists of pain maps which were drawn by individuals with PFP syndrome through the use of an application, Navigate Pain, in a clinical setting. Navigate pain is further described in section \ref{sec:nav}. The pain maps are both from individuals with uni- and bilateral PFP. An example of a pain map with bilateral pain is shown in figure \ref{fig:kneepainmap}.
+Pain maps used in this study were collected beforehand from an on-going FOXH trial which is conducted in collaboration with Danish and Australian universities. The pain maps were drawn by individuals with PFP syndrome through the use of an application, Navigate Pain, in a clinical setting. Navigate pain is further described in section \ref{sec:nav}. The pain maps are both from individuals with uni- and bilateral PFP. An example of a pain map with bilateral pain is shown in figure \ref{fig:kneepainmap}.
 
 \begin{figure} [H]
 \centering
@@ -19,7 +19,7 @@ To create more pain maps, a split body approach was used, which contained splitt
 
 
 \subsection{Software application: Navigate Pain} \label{sec:nav}
-Navigate Pain is a software application that is used to visualize the location, shape and spatial distribution of pain from individuals to healthcare personnel. The application permits individuals to draw their pain into a body outline. Navigate Pain was developed at Aalborg University, and a commercial web application is available at Aglance Solutions (Denmark).\citep{Solutions2015}
+Navigate Pain is a software application that is used to visualize the location, shape, and spatial distribution of pain from individuals to healthcare personnel. The application permits individuals to draw their pain into a body outline. Navigate Pain was developed at Aalborg University, and a commercial web application is available at Aglance Solutions (Denmark).\citep{Solutions2015}
 \autoref{fig:Navigatepain} illustrates the process using the application.
 
 \begin{figure} [H]
@@ -33,12 +33,12 @@ Navigate Pain is a software application that is used to visualize the location, 
 In figure \ref{fig:Navigatepain}(a) is the main screen. By clicking on "Projects", a folder with individuals is created. For each individual, information like name, age, and height is saved. Before the individual can draw their pain areas, the body outline has to be chosen, which is illustrated in figure \ref{fig:Navigatepain}(b). The body outlines are divided into five categories: Line Drawings, 3D Drawings, Orofacial, Special Zooms and Knee Pain. In the bottom of the screen the seleceted templates are shown. When clicking on "create charts" the screen in figure \ref{fig:Navigatepain}(c) is shown. Here it is possible to draw the pain areas with different colors and line thickness, which can be seen in the left side of the screen. Afterwards, the pain map can be saved.
 
 
-\subsection{Data representations} \label{sec:representation}
-It is presumed that different representations of the pain maps affect the performance accuracy of the deep learning models, hence different pain maps representations were created.
+\subsection{Pain map representations} \label{sec:representation}
+It is presumed that different representations of the pain maps affect the performance accuracy of the deep learning models, hence different pain map representations were created.
 A study by \citeauthor{Boudreau2017} \citep{Boudreau2017} found a partial correlation between a prolonged pain duration and the size of the pain area. It was shown that the pain area increased for individuals that had a pain duration above five years. Likewise, pain intensity had a correlation with the size of pain area for individuals with a pain duration above five years. Furthermore, the shape of the pain developed from a U-shape to an O-shape for individuals with a pain duration above five years.\citep{Boudreau2017} \newline
 \noindent
-It is unknown whether the morphology or location of PFP influence either pain duration or pain intensity, to which two pain maps representations reflecting morphology or location of the pain were created.
-A combination of the two pain maps representations was created to achieve a third pain maps representation which both included the morphology of the pain and the location, which is defined using the knee regions. The three pain maps representations are referred to as morphology-, location-, and combined-representation.
+It is unknown whether the morphology or location of PFP influence either pain duration or pain intensity, to which two pain map representations reflecting morphology or location of the pain were created.
+A combination of the two pain map representations was created to achieve a third pain map representation which both included the morphology of the pain and the location, which is defined using the knee regions. The three pain map representations are referred to as morphology-, location-, and combined-representation.
 \noindent
 Furthermore, gender may be considered as an important parameter to use as an input, because of the difference in how females and males report their pain \citep{Pieh2012}. Additionally, there is an imbalance in prevalence\citep{Rathleff2015}.
 
@@ -50,7 +50,7 @@ Furthermore, gender may be considered as an important parameter to use as an inp
 \end{figure}
 
 \noindent
-According to the given data the distribution is higher for females than males. The females constitute 259 of the 333 individuals, and males constitute 74 individuals.  \newpage
+According to the given pain maps the distribution is higher for females than males. The females constitute 259 of the 333 individuals, and males constitute 74 individuals.  \newpage
 
 \section{Pre-analysis}
 The pain maps and associated pain duration as well as pain intensity are analysed to get an overview of the data. The data is analysed in MatLab, where the distribution of the outputs, pain duration and pain intensity, are investigated whereafter intervals used for classification in the deep learning models are decided. Furthermore, different threshold values are analysed according to five pain maps to select the threshold which should define when a region is considered active according to the amount of pain.
@@ -58,7 +58,7 @@ Simple linear regressions are made to investigate whether pain duration or pain 
 
 
 \subsection{Classification of data}
-The deep learning models should classify the input, pain maps and gender, in different intervals in relation to pain duration or pain intensity intervals. To help define the class intervals of both pain duration and pain intensity, histograms were created.
+The deep learning models should classify the input, pain maps and gender, in different intervals in relation to pain duration or pain intensity intervals. To help define the class intervals histograms were created.
 
 \noindent
 A histogram of the pain duration associated with the pain maps is illustrated in figure \ref{fig:histoduration}.
@@ -91,7 +91,7 @@ Likewise to the pain duration classification, the worst pain intensity is divide
 
 
 \subsection{Threshold selection}\label{sec:Selectthreshold}
-In relation to the pain maps representation that contains information about the location of the pain divided into knee regions, it is necessary to find a threshold that decides when a knee region contains enough pain pixels to be considered active. A threshold is required to increase the confidence of an active pain region by avoiding minimal contributions e.g. small pain areas in the associated regions. Simultaneously, the threshold may not be too large so that potential pain areas will not be incorporated. The threshold to indicate active pain regions is decided based on an analysis, where threshold values of 5, 10 and 15\% are explored. A 0\% threshold is used as a reference. 
+In relation to the pain map representation that contains information about the location of the pain divided into knee regions, it is necessary to find a threshold that decides when a knee region contains enough pain pixels to be considered active. A threshold is required to increase the confidence of an active pain region by avoiding minimal contributions e.g. small pain areas in the associated regions. Simultaneously, the threshold may not be too large so that potential pain areas will not be incorporated. The threshold to indicate active pain regions is decided based on an analysis, where threshold values of 5, 10 and 15\% are explored. A 0\% threshold is used as a reference. 
 The analysis of the threshold is tested on five random pain maps to get a general impression of the data. To better distinguish the regions in figure \ref{fig:atlas} different colors are used as shown in figure \ref{fig:colorregion}
 
 
@@ -121,8 +121,8 @@ Based on an analysis of the five pain maps and bar charts, in figure \ref{fig:th
 
 
 \subsection{Simple regression models}
-To verify the assumption of complexity of pain maps, linear regressions on the pain maps representations and output, pain duration or intensity, are created. 
-Other features in the morphology- and location-representation are respectively the size of the pain (number of pain pixels) and the number of active pain regions. If these simple features have a linear correlation to the pain duration or intensity,  it may not be significant to investigate morphology or location as features in the deep learning models. \newline
+To verify the assumption of complexity of pain maps, linear regressions on the pain map representations and output, pain duration or pain intensity, are created. 
+Other features in the morphology- and location-representation are respectively the size of the pain (number of pain pixels) and the number of active pain regions. If these simple features have a linear correlation to the pain duration or pain intensity,  it may not be significant to investigate morphology or location as features in the deep learning models. \newline
 \noindent
 To investigate if pain size has a linear correlation to pain duration, a linear regression i created, which is shown in figure \ref{fig:durapixel}.
 \newline
@@ -150,7 +150,7 @@ A linear regression model of the number of pain pixels and pain intensity is mad
 The result in this linear regression gives $R^2=0.0117$, which indicates that there is no any linear correlation to be found between the number of pain pixels and pain intensity.\newline
 
 \noindent
-These linear regression models are not very suitable when trying to find a correlation between the number of pain pixels and pain duration or intensity. However, they can be compared to the performance of the deep learning models.
+These linear regression models are not very suitable when trying to find a correlation between the number of pain pixels and pain duration or pain intensity. However, they can be compared to the performance of the deep learning models.
 
 
 \noindent
@@ -178,17 +178,17 @@ Thereto, a linear correlation between the number of active pain regions and pain
 The result of the linear regression between the number of active pain regions and pain intensity is $R^2=0.00833$, which once again indicates nonlinearity. 
 
 \noindent
-Based on the four linear regressions, it is assumed that a single feature, number of pain pixels or number of active pain regions with a 5\% threshold, may not have a simple correlation with the outputs, pain duration or intensity. Hence a deep learning model may find patterns in the pain maps in relation to either pain duration or intensity.\newpage
+Based on the four linear regressions, it is assumed that a single feature, number of pain pixels or number of active pain regions with a 5\% threshold, may not have a simple correlation with the outputs, pain duration or pain intensity. Hence a deep learning model may find patterns in the pain maps in relation to either pain duration or pain intensity.\newpage
 
 
 \section{Pre-processing} \label{sec:prepros}
-The data is pre-processed in MatLab to prepare the three different data representations. The three data representations are morphology-, location-, and combined-representation, which are described in section \ref{sec:representation}. Common for the data representation is that the pain maps are imported as image-matrices whereafter the matrices are resized (pixelsize: $252 \times 118 = 29,736$), since the given pain maps were collected at different resolutions (screen sizes). Furthermore, the matrices are cropped to sort out unnecessary data.
-Before the data is used as an input in the deep learning models, each matrix which represent an image, is converted into a vector whereafter they are assembled in one matrix for each data representation. To get additional information associated with the pain maps, gender is added by including a column vector to the three matrices.
-In addition to the input, a classification label is added. The label, which is either pain duration or intensity, is added as a column vector.
-The following sections describe the pre-processing of the individual data representations.
+The data is pre-processed in MatLab to prepare the three different pain map representations. The three pain map representations are morphology-, location-, and combined-representation, which are described in section \ref{sec:representation}. Common for the representations is that the pain maps are imported as image-matrices whereafter the matrices are resized (pixelsize: $252 \times 118 = 29,736$), since the given pain maps were collected at different resolutions (screen sizes). Furthermore, the matrices are cropped to sort out unnecessary data.
+Before the pain maps are used as an input in the deep learning models, each matrix which represent an image, is converted into a vector whereafter they are assembled in one matrix for each representation. To get additional information associated with the pain maps, gender is added by including a column vector to the three matrices.
+In addition to the input, a classification label is added. The label, which is either pain duration or pain intensity, is added as a column vector.
+The following sections describe the pre-processing of the individual pain map representations.
 
 \subsection{Morphology-representation} \label{sec:Morph}
-The first representation of data is a binary matrix of the original pain maps.
+The first representation of the pain maps is a binary matrix of the original pain maps.
 Firstly, the image of the original pain map is gray-scaled to get a one-dimensional matrix instead of a three-dimensional RGB-matrix. This matrix is then converted into a matrix consisting of zeroes and ones, where the pain pixels are defined with a value of one. An original pain map and a pain map consisting of a binary matrix is shown in figure \ref{fig:cropbin7}.
 
 \begin{figure} [H]
@@ -199,18 +199,17 @@ Firstly, the image of the original pain map is gray-scaled to get a one-dimensio
 \end{figure}
 
 \noindent
-An illustration of this morphology-representation is created to convey how the data is assembled and transferred to the model. The illustration is shown in figure \ref{fig:binmatrix}, where a matrix containing image-vectors for all the pain maps and appurtenant gender and either pain duration or intensity.
+An illustration of the morphology-representation is created to convey how the pain maps are assembled and transferred to the model. The illustration is shown in figure \ref{fig:binmatrix}, where a matrix containing image-vectors for all the pain maps and appurtenant gender and either pain duration or pain intensity.
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=0.8\textwidth]{figures/binaryimagematrix}
-\caption{An illustration of the matrix of the morphology-representation. The matrix consists of image-vectors for each individuals where the two last columns indicate the corresponding gender (blue column vector) and either pain duration or intensity (green column vector). The image-vectors have a length equal to the number of pixels in the pain maps.}
+\caption{An illustration of the matrix of the morphology-representation. The matrix consists of image-vectors for each individual where the two last columns indicate the corresponding gender (blue column vector) and either pain duration or pain intensity (green column vector). The image-vectors have a length equal to the number of pixels in the pain maps.}
 \label{fig:binmatrix}
 \end{figure}
 
-
 \subsection{Location-representation} \label{sec:Regions}
-The second representation of the data is a matrix consisting of vectors with 10 values which indicate location of pain in relation to the knee regions.
+The second representation of the pain maps is a matrix consisting of vectors with 10 values which indicate location of pain in relation to the knee regions.
 Figure \ref{fig:atlas} is cropped, and converted into a matrix consisting of 10 values, which represent each knee region on the right knee. This matrix is superimposed on the binary image of the pain map, which results in a matrix with pain pixels represented in each knee region. 
 An illustration of the knee regions and an example of a pain map with the pain divided into regions are shown in figure \ref{fig:binregions}.
 
@@ -226,13 +225,13 @@ After superimposing the two matrices, knee regions and pain pixels, the number o
 
 
 \subsection{Combined-representation} \label{sec:combined}
-The third representation of the data is a matrix consisting the morphology of pain divided into the knee regions.
+The third representation of the pain maps is a matrix consisting the morphology of pain divided into the knee regions.
 \noindent
 In this representation the superimposed matrix from the location-representation is used. Additionally one-hot encoding is used to divide the pain into different knee regions. One-hot encoding is a way to separate categorical data into binary data \citep{Harris2012}. This means that the 10 values do not have a correlation when analysed in the deep learning model. After one-hot encoding, the superimposed matrix consists of 10 layers where each layer represents a knee region, which is illustrated in figure \ref{fig:onehot}(a), and afterwards converted to image-vector with gender and the output as illustrated in figure \ref{fig:onehot}(b).
 
 \begin{figure} [H]
 \centering
 \includegraphics[width=1\textwidth]{figures/onehotmatrix}
-\caption{(a) An illustration of a one-hot encoded pain map and (b) shows the image-vectors in one assembled matrix with gender and either pain duration or intensity.}
+\caption{(a) An illustration of a one-hot encoded pain map and (b) shows the image-vectors in one assembled matrix with gender and either pain duration or pain intensity.}
 \label{fig:onehot}
 \end{figure}
