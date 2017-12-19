@@ -56,7 +56,7 @@
 \renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
 
 \usepackage{titlesec} % Allows customization of titles
-\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesection{\arabic{section}} % Roman numerals for the sections
 %\renewcommand\thesubsection{\thesection.\alph{subsection}} % roman numerals for subsections
 %\renewcommand\thesubsubsection{\thesubsection.\alph{subsubsection}}
 \titleformat{\section}[block]{\Large\scshape\centering}{\thesection.}{2em}{} % Change the look of the section titles
@@ -111,12 +111,11 @@
 Estimation of generalization performance of the models was calculated during the training.
 
 \noindent
-\textbf{Results:} The results during training showed a higher accuracy for pain intensity classification than pain duration classification using morphology-representation. Pain intensity had an accuracy on 65.04\%, and pain duration had an accuracy on 59.51\%.
-\noindent
-Furthermore, the combined-representation performed with the highest accuracy on 65.14\%. The location and morphology-representation scored 63.33\%, and 65.04\%, respectively, based on pain intensity. 
+\textbf{Results:} The results during the test showed a higher accuracy for pain intensity classification than pain duration classification using the combined-representation. Pain intensity had an accuracy on 86.67\%, and pain duration had an accuracy on 55.56\%.
+However, the morphology-representation resulted in the highest predictive value classifying according to pain duration. The models using the location-representation had the lowest classification performance according to both pain duration and pain intensity, compared to the two other representations.
 
 \noindent
-\textbf{Discussion:} Despite pain intensity being defined as multidimensional and subjective, the performance accuracy were higher than that of pain duration. The results may indicate that a combination of the morphology and the location of the pain had a higher classification performance in relation to pain duration or intensity. Currently, it is unclear if deep learning methods may be a suitable approach for classifying PFP syndrome to work as support in clinical settings, to which further investigation is necessary. Improvements could be found when more data become available to better reflect generalization patterns in PFP drawings.
+\textbf{Discussion:} Despite pain intensity being defined as multidimensional and subjective, the performance accuracy were higher than that of pain duration. The results may indicate that a combination of the morphology and the location of the pain had a higher classification performance in relation to pain intensity. Currently, it is unclear if deep learning methods may be a suitable approach for classifying PFP syndrome to work as support in clinical settings, to which further optimization of the models is necessary. Improvements could be found when more pain maps become available to better reflect generalization patterns in PFP drawings.
 \end{abstract}
 }
 
@@ -141,7 +140,7 @@ Furthermore, the combined-representation performed with the highest accuracy on 
 
 
 %------------------------------------------------
-
+\newpage
 \section{Results}
 \input{Results/result}
 

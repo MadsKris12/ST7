@@ -1,6 +1,28 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Methods}{}% 2
-\BOOKMARK [1][-]{section.3}{Results}{}% 3
-\BOOKMARK [1][-]{section.4}{Discussion}{}% 4
-\BOOKMARK [1][-]{section.5}{Conclusion}{}% 5
-\BOOKMARK [1][-]{section.6}{Acknowledgement}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Pain maps}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Pre-processing}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Morphology-representation}{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Pain location}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Location-representation}{subsection.2.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Combined-representation}{subsection.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{Nonlinearity in pain maps}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.4}{Architecture of the deep learning models}{section.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.4.1}{The convolutional layers}{subsection.2.4}% 11
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Max pooling layers}{subsection.2.4}% 12
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Fully connected layer and output layer}{subsection.2.4}% 13
+\BOOKMARK [3][-]{subsubsection.2.4.4}{ReLU activation function}{subsection.2.4}% 14
+\BOOKMARK [3][-]{subsubsection.2.4.5}{Dropout algorithm}{subsection.2.4}% 15
+\BOOKMARK [3][-]{subsubsection.2.4.6}{Back-propagation algorithm}{subsection.2.4}% 16
+\BOOKMARK [2][-]{subsection.2.5}{Training}{section.2}% 17
+\BOOKMARK [1][-]{section.3}{Results}{}% 18
+\BOOKMARK [2][-]{subsection.3.1}{Linear correlations}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.2}{Optimization of the models}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.3}{Performance of the models}{section.3}% 21
+\BOOKMARK [1][-]{section.4}{Discussion}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{Amount of pain maps}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.2}{Classification of pain maps}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.3}{Threshold}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.4}{Optimization of deep learning models}{section.4}% 26
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 27
+\BOOKMARK [1][-]{section.6}{Acknowledgement}{}% 28
