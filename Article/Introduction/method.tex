@@ -17,7 +17,7 @@ The number of pain maps associated with pain duration was 205, and 197 associate
 In order to improve the performance of the deep learning models, gender was included as an additional input. This was chosen because females tend to report more intense and frequent pain than males \citep{Pieh2012}. 
 
 \subsection{Pre-processing of pain maps}
-The pain maps were processed in MatLab v. R2017b, where the images were resized, since they were collected with different resolutions (screen sizes) and cropped to only include the knees. To increase the amount of pain maps, a split body approach was chosen because deep learning models may benefit while using a larger dataset. Using the split body approach, the knees in the pain maps were separated into a single knee pain image. The left knee was then mirrored to resemble the right knee to minimize the variance in the images. The final pain maps had resolutions of $252 \times 118$ pixels.
+The pain maps were processed in MatLab v. R2017b, where the images were resized, since they were collected at different resolutions (screen sizes) and cropped to only include the knees. To increase the amount of pain maps, a split body approach was chosen because deep learning models may benefit while using a larger dataset. Using the split body approach, the knees in the pain maps were separated into a single knee pain image. The left knee was then mirrored to resemble the right knee to minimize the variance in the images. The final pain maps had resolutions of $252 \times 118$ pixels.
 By using split body approach it was assumed that the pain duration and pain intensity were identical for both knees if PFP was bilateral. This resulted in an increased total number of pain maps with gender and pain duration to 333, and pain maps with gender and pain intensity to 319. \newline
 \noindent
 The models were designed to classify pain maps according to pain duration or pain intensity divided into two classes with intervals based on the extremes. The classification intervals were 0 to 12 months and 36 to 300 months for pain duration, and 0 to 4 and 8 to 10 for pain intensity measured on VAS. The reason for choosing extreme intervals, was to separate closely related patterns between the two classes, which resulted in the number of pain maps as shown in Table \ref{tab:painmaps}.
@@ -37,11 +37,11 @@ CR & 113                 & 121                  & 71                 & 123      
 \end{table}
 
 \subsubsection{Morphology-representation (MR)}
-The original pain maps reflect the morphology of the pain, which refers to its shape and distribution. The original pain maps were converted into binary matrices, where the pain was indicated with "1" and no pain as "0". This representation did not require further processing than converting the pain maps to a matrix including gender and the output, pain duration or pain intensity. 
+The original pain maps reflect the morphology of the pain, which refers to its shape and distribution. The original pain maps were converted into binary matrices, where the pain was indicated "1" and no pain as "0". This representation did not require further processing than converting the pain maps to a matrix including gender and the output, pain duration or pain intensity. 
 
 \subsubsection{Location-representation (LR)} 
 A simplified representation of the pain maps was created to investigate whether the location has patterns related to the pain duration or pain intensity. The location of the pain was reflected by the use of knee regions shown in Fig. \ref{fig:atlas}, where the regions are based on the underlying anatomical structures.
-The location were divided into ten regions, which were inspired by Photographic Knee Pain Map (PKPM). The divisions were designed to categorize location of knee pain for diagnostic and research purposes.\citep{Elson2010}
+The location was divided into ten regions, which were inspired by Photographic Knee Pain Map (PKPM). The divisions were designed to categorize location of knee pain for diagnostic and research purposes.\citep{Elson2010}
 
 \begin{figure} [H] 
 \centering
@@ -53,10 +53,10 @@ The location were divided into ten regions, which were inspired by Photographic 
 \noindent 
 There are ten regions, where regions 1 and 3 represent the superior lateral and superior medial areas for patella. Region 2 refers to quadriceps tendon. The patella is divided into lateral and medial regions, which are regions 4 and 5. Regions 6 and 8 are lateral and medial joint line areas. Patella's tendon is region 7 and the two last regions, 9 and 10, are tibia lateral and medial.\citep{Elson2010} \newline
 \noindent
-A vector consisting of ten elements was created, where each value represented either an active region (1) or a not active region (0). The values were defined by using a threshold to determine whether a region was considered active in relation to the amount of pain pixels in the specific region. The threshold was used to accommodate for the diffuse pain and the difficulty in localizing PFP. The threshold increased the confidence of an active pain region by avoiding minimal contributions. Simultaneously, the threshold should not be too high so too many or big areas were excluded. The threshold indicated which minimal percentage of pain pixels, that should be present in a specific region before it was considered as active. The threshold was decided based on an analysis of five random pain maps, where threshold values of 0, 5, 10 and 15\% were compared. Based on the analysis, a 5\% threshold was chosen.  
+A vector consisting of ten elements was created, where each value represented either an active region (1) or a not active region (0). The values were defined by using a threshold to determine whether a region was considered as active in relation to the amount of pain pixels in the specific region. The threshold was used to accommodate for the diffuse pain and the difficulty in localizing PFP. The threshold increased the confidence of an active pain region by avoiding minimal contributions. Simultaneously, the threshold should not be too high, in order to not exclude to many areas. The threshold indicated which minimal percentage of pain pixels, that should be present in a specific region before it was considered as active. The threshold was decided based on an analysis of five random pain maps, where threshold values of 0, 5, 10 and 15\% were compared, and based on the analysis, a 5\% threshold was chosen.  
 
 \subsubsection{Combined-representation (CR)}
-A combination of morphology and location of the pain was created based on components from MR and LR. The original pain maps were superimposed on the knee regions, which resulted in pain pixels reflecting the location with a number from one to ten. Before using the representation as input in the deep learning models, a one-hot encoding approach was used, which made it possible to separate categorical data into binary data \citep{Harris2012}. As a result, the ten values did not have a relation to each other when analysed in the deep learning models. 
+A combination of morphology and location of the pain was created based on components from MR and LR. The original pain maps were superimposed on the knee regions, which resulted in pain pixels reflecting the location by a number from one to ten. Before using the representation as input in the deep learning models, a one-hot encoding approach was used, which made it possible to separate categorical data into binary data \citep{Harris2012}. As a result, the ten values did not have a relation to each other when analysed in the deep learning models. 
 
 
 \begin{figure*} [t!]
@@ -94,7 +94,7 @@ A dropout algorithm was implemented for the models in the first two hidden fully
 
 \subsubsection{Back-propagation algorithm}
 Back-propagation was used for the learning process where the weights of the models were adjusted in order to reduce the error calculated between the predicted output, and the correct output \citep{Duda2000}. Back-propagation is based on gradient descents, which computes gradients from the output to the input, in order to minimize the overall output error as much as possible during the learning stage. 
-After each pass of a minibatch, the inputs and weights were multiplied for each node summed with additional coefficient bias.\citep{LeCun1998, Hameed2016}
+After each pass of a minibatch, the inputs and weights were multiplied for each node, and summed with additional coefficient bias.\citep{LeCun1998, Hameed2016}
 Afterwards, a loss was calculated based on a loss function for every input that passed through the network to make the adjustments on the parameters to reduce the loss. As training progressed, the loss should decrease as a result of the parameter updates, and improve the performance of the neural network.\citep{Goodfellow2016, LeCun2015, Duda2000} This learning process continued until optimal parameters with minimum error were reached.\citep{Hameed2016}
 
 \vspace{-0.2cm}
@@ -104,7 +104,7 @@ Further, the pain maps were divided into three subsets, a training set consistin
  
  
 \subsection{Nonlinearity in pain maps} 
-Additionally, linear regressions were made to validate whether the deep learning models used more than the simple features to predict either pain duration or pain intensity.
+Linear regressions were made to validate whether the deep learning models used more than the simple features to predict either pain duration or pain intensity.
 Given that PFP is subjective and multifactorial it is unlikely that the pain maps and pain intensity are linearly correlated. In order to determine if there was indeed a linear relationship, linear regressions were done on simple features reflecting the size of the pain and number of active pain regions. Linear regressions were made in MatLab, and composed correlations between; number of pain pixels and pain duration, number of pain pixels and pain intensity, number of active pain regions and pain duration, and number of active pain regions and pain intensity.
 
 %\begin{figure*} [b!]
